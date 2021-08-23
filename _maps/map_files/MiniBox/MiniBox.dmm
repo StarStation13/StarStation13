@@ -899,6 +899,12 @@
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/wood,
 /area/service/bar)
+"fL" = (
+/obj/structure/table,
+/obj/item/stamp,
+/obj/item/poster/random_official,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "fN" = (
 /obj/effect/spawner/lootdrop/prison_contraband,
 /obj/structure/closet/crate,
@@ -980,6 +986,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/security/prison)
+"gm" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad2"
+	},
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor2";
+	name = "supply dock loading door"
+	},
+/turf/open/floor/plating,
+/area/space)
 "go" = (
 /obj/machinery/modular_computer/console/preset/id,
 /obj/machinery/light/directional/west,
@@ -1004,6 +1021,10 @@
 	},
 /turf/open/floor/iron,
 /area/security/prison)
+"gw" = (
+/obj/effect/loot_site_spawner,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "gx" = (
 /obj/structure/table/wood,
 /obj/item/pen/red{
@@ -1068,6 +1089,14 @@
 	},
 /turf/open/floor/iron/dark,
 /area/security/courtroom)
+"gQ" = (
+/obj/structure/plasticflaps,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad2"
+	},
+/turf/open/floor/plating,
+/area/space)
 "gS" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -1137,6 +1166,11 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/hallway/primary/fore)
+"hn" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "ho" = (
 /obj/machinery/biogenerator,
 /obj/effect/decal/cleanable/dirt,
@@ -1171,6 +1205,14 @@
 	icon_state = "L7"
 	},
 /turf/open/floor/iron,
+/area/space)
+"hv" = (
+/obj/structure/plasticflaps,
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/turf/open/floor/plating,
 /area/space)
 "hw" = (
 /obj/machinery/door/firedoor,
@@ -1267,7 +1309,11 @@
 /obj/structure/window/reinforced/spawner,
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/space/basic,
-/area/space)
+/area/space/nearstation)
+"hO" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "hQ" = (
 /obj/machinery/conveyor{
 	dir = 10;
@@ -1506,6 +1552,10 @@
 /obj/machinery/door/window/eastleft,
 /turf/open/floor/iron/freezer,
 /area/security/prison)
+"jl" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "jn" = (
 /obj/machinery/computer/atmos_alert{
 	dir = 4
@@ -1949,6 +1999,10 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/security/prison)
+"lB" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/solars/port/fore)
 "lE" = (
 /obj/machinery/holopad,
 /turf/open/floor/iron/textured_large,
@@ -2265,6 +2319,11 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating/icemoon,
 /area/hallway/secondary/entry)
+"ne" = (
+/obj/structure/sign/warning/vacuum/external,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/space)
 "nk" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L1"
@@ -2285,6 +2344,17 @@
 "np" = (
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
+"nr" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor";
+	name = "supply dock loading door"
+	},
+/turf/open/floor/plating,
+/area/space)
 "nv" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -2365,6 +2435,11 @@
 	},
 /turf/open/floor/iron,
 /area/commons/storage/tools)
+"nP" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/fore)
 "nQ" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/stripes/line{
@@ -2483,6 +2558,10 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/central)
+"oA" = (
+/obj/structure/grille/broken,
+/turf/open/space/basic,
+/area/space)
 "oB" = (
 /obj/machinery/door/airlock/external{
 	name = "Escape Pod Three"
@@ -2669,6 +2748,14 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
+"pn" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/preopen{
+	id = "heads_meeting";
+	name = "privacy shutters"
+	},
+/turf/open/floor/plating,
+/area/space)
 "pp" = (
 /obj/machinery/hydroponics/soil,
 /obj/effect/turf_decal/tile/green{
@@ -2728,6 +2815,16 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"pG" = (
+/obj/structure/closet/emcloset,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plating,
+/area/maintenance/fore)
+"pJ" = (
+/obj/structure/marker_beacon/burgundy,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/solars/port/fore)
 "pL" = (
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/tile/green,
@@ -2736,6 +2833,15 @@
 	},
 /turf/open/floor/iron,
 /area/security/prison)
+"pM" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+	},
+/obj/structure/closet/cardboard,
+/obj/effect/spawner/lootdrop/maintenance/two,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron,
+/area/maintenance/fore)
 "pO" = (
 /obj/machinery/hydroponics/soil,
 /obj/effect/turf_decal/tile/green,
@@ -2855,6 +2961,10 @@
 /obj/structure/window/reinforced/spawner/east,
 /turf/open/floor/iron/cafeteria,
 /area/security/prison)
+"qm" = (
+/obj/structure/sign/warning/electricshock,
+/turf/closed/wall/r_wall,
+/area/maintenance/solars/port/fore)
 "qo" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -3006,6 +3116,14 @@
 "qO" = (
 /turf/open/floor/iron/dark,
 /area/space)
+"qP" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Port Bow Solar Access";
+	req_access_txt = "10"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/fore)
 "qS" = (
 /obj/structure/table,
 /obj/item/grenade/chem_grenade/smart_metal_foam{
@@ -3647,6 +3765,15 @@
 	},
 /turf/open/floor/iron,
 /area/construction/mining/aux_base)
+"tI" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/machinery/door/airlock/external{
+	req_access_txt = "13"
+	},
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "tK" = (
 /obj/machinery/button/flasher{
 	id = "cell4";
@@ -3673,6 +3800,10 @@
 	},
 /turf/open/floor/iron,
 /area/security/checkpoint/auxiliary)
+"tN" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "tO" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
@@ -3753,6 +3884,11 @@
 	icon_state = "platingdmg1"
 	},
 /area/maintenance/fore)
+"uf" = (
+/obj/structure/grille/broken,
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
 "ug" = (
 /obj/machinery/camera{
 	c_tag = "Courtroom South";
@@ -3832,6 +3968,10 @@
 	dir = 8
 	},
 /area/command/bridge)
+"uJ" = (
+/obj/item/paper/crumpled,
+/turf/open/floor/plating/airless,
+/area/maintenance/fore)
 "uN" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plating,
@@ -4281,6 +4421,11 @@
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/security/armory)
+"wP" = (
+/obj/structure/rack,
+/obj/item/circuitboard/machine/monkey_recycler,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "wR" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/door/airlock{
@@ -4397,6 +4542,13 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
+"xz" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/end,
+/turf/open/floor/iron,
+/area/maintenance/fore)
 "xE" = (
 /obj/structure/bed,
 /obj/item/bedsheet/dorms,
@@ -4452,6 +4604,11 @@
 	},
 /turf/open/floor/wood,
 /area/commons/dorms)
+"yc" = (
+/obj/structure/cable,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/solars/port/fore)
 "yf" = (
 /obj/machinery/light/small/directional/south,
 /obj/effect/turf_decal/tile/yellow,
@@ -4634,6 +4791,11 @@
 /obj/item/wirecutters,
 /turf/open/floor/iron,
 /area/commons/storage/primary)
+"zb" = (
+/obj/item/airlock_painter,
+/obj/structure/closet,
+/turf/open/floor/plating/airless,
+/area/maintenance/fore)
 "zd" = (
 /obj/structure/chair/office,
 /turf/open/floor/iron/grimy,
@@ -4650,6 +4812,13 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"zi" = (
+/obj/structure/sign/warning/vacuum/external{
+	pixel_y = 32
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "zm" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -4809,7 +4978,7 @@
 /obj/structure/window/reinforced/spawner,
 /obj/structure/window/reinforced/spawner/east,
 /turf/open/space/basic,
-/area/space)
+/area/space/nearstation)
 "zT" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -4844,6 +5013,12 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark,
 /area/ai_monitored/command/storage/eva)
+"Ac" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "Ad" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -4885,6 +5060,11 @@
 "Aq" = (
 /turf/open/floor/iron,
 /area/commons/storage/art)
+"Ar" = (
+/obj/structure/grille,
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
 "Au" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -4897,6 +5077,14 @@
 	},
 /turf/open/floor/plating,
 /area/security/execution/transfer)
+"Aw" = (
+/obj/machinery/power/solar{
+	id = "auxsolareast";
+	name = "Port Auxiliary Solar Array"
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/solarpanel/airless,
+/area/solars/port/fore)
 "AC" = (
 /turf/open/floor/iron/dark,
 /area/security/execution/transfer)
@@ -5130,6 +5318,15 @@
 	},
 /turf/open/floor/iron,
 /area/security/prison)
+"BW" = (
+/obj/machinery/door/airlock/external{
+	name = "Solar Maintenance";
+	req_access_txt = "10; 13"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/fore)
 "BX" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/external{
@@ -5238,6 +5435,17 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/command/heads_quarters/captain)
+"CM" = (
+/obj/machinery/door/airlock/external{
+	name = "Solar Maintenance";
+	req_access_txt = "10; 13"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/fore)
 "CN" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -5288,6 +5496,14 @@
 	},
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
+"Da" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron,
+/area/maintenance/fore)
 "Dc" = (
 /turf/closed/wall/r_wall,
 /area/command/gateway)
@@ -5410,6 +5626,10 @@
 /obj/item/storage/secure/safe/directional/west,
 /turf/open/floor/iron/grimy,
 /area/security/detectives_office)
+"DI" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/fore)
 "DK" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
@@ -5586,6 +5806,13 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/disposal)
+"Ey" = (
+/obj/structure/sign/warning/vacuum/external{
+	pixel_x = 32
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/fore)
 "Ez" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -5738,6 +5965,12 @@
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/plating,
 /area/commons/vacant_room/commissary)
+"Fu" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/security/execution/transfer)
 "Fw" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -5801,6 +6034,10 @@
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
+"FQ" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/fore)
 "FR" = (
 /obj/machinery/biogenerator,
 /turf/open/floor/iron,
@@ -6520,7 +6757,7 @@
 "JZ" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
-/area/space)
+/area/space/nearstation)
 "Kb" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
@@ -6578,6 +6815,15 @@
 /obj/item/pen,
 /turf/open/floor/iron,
 /area/command/heads_quarters/hop)
+"Ks" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	req_access_txt = "13"
+	},
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "Ku" = (
 /obj/item/radio/intercom/directional/south,
 /obj/effect/turf_decal/stripes/line,
@@ -6634,6 +6880,17 @@
 "KJ" = (
 /turf/open/floor/iron,
 /area/commons/storage/primary)
+"KK" = (
+/obj/machinery/computer/slot_machine{
+	balance = 15;
+	money = 500
+	},
+/obj/item/coin/iron,
+/obj/item/coin/diamond,
+/obj/item/coin/diamond,
+/obj/item/coin/diamond,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "KM" = (
 /obj/item/radio/intercom/directional/north,
 /obj/structure/table/glass,
@@ -6740,7 +6997,7 @@
 "Lg" = (
 /obj/structure/window/reinforced/spawner,
 /turf/open/space/basic,
-/area/space)
+/area/space/nearstation)
 "Lk" = (
 /obj/machinery/camera{
 	c_tag = "Brig Control Room"
@@ -7097,6 +7354,10 @@
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/iron,
 /area/security/checkpoint/auxiliary)
+"Nq" = (
+/obj/structure/chair/stool/directional/south,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/fore)
 "Nr" = (
 /obj/machinery/vending/coffee,
 /obj/effect/turf_decal/stripes/line{
@@ -7130,6 +7391,11 @@
 	icon_state = "L12"
 	},
 /turf/open/floor/iron,
+/area/space)
+"NB" = (
+/obj/item/stack/cable_coil,
+/obj/structure/lattice,
+/turf/open/space/basic,
 /area/space)
 "NC" = (
 /obj/machinery/airalarm/directional/south,
@@ -7265,6 +7531,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/security/execution/transfer)
+"Ov" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "Ow" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/northleft{
@@ -7298,6 +7568,10 @@
 	roundstart_template = /datum/map_template/shuttle/mining_common/meta;
 	width = 7
 	},
+/turf/open/space/basic,
+/area/space)
+"OA" = (
+/obj/structure/grille,
 /turf/open/space/basic,
 /area/space)
 "OB" = (
@@ -7353,6 +7627,10 @@
 	},
 /turf/open/floor/iron,
 /area/command/teleporter)
+"OQ" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
 "OR" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -7364,6 +7642,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/security/execution/transfer)
+"OX" = (
+/obj/item/cigbutt/cigarbutt,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "OY" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -7624,6 +7907,16 @@
 /obj/item/storage/backpack/satchel/leather/withwallet,
 /turf/open/floor/iron,
 /area/commons/locker)
+"Qe" = (
+/turf/open/floor/plating,
+/area/space)
+"Qf" = (
+/obj/item/cigbutt,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "Qi" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/bed,
@@ -7853,6 +8146,16 @@
 "Rj" = (
 /turf/closed/wall,
 /area/security/processing)
+"Rl" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	name = "Supply Dock Airlock";
+	req_access_txt = "31"
+	},
+/turf/open/floor/plating,
+/area/space)
 "Rm" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating,
@@ -8034,6 +8337,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/command/nuke_storage)
+"Sh" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/maintenance/fore)
 "Sm" = (
 /obj/machinery/gulag_teleporter,
 /turf/open/floor/plating,
@@ -8042,6 +8349,12 @@
 /obj/machinery/computer/prisoner/gulag_teleporter_computer,
 /turf/open/floor/plating,
 /area/security/processing)
+"Sp" = (
+/obj/machinery/power/terminal,
+/obj/machinery/light/small/directional/east,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/fore)
 "Sr" = (
 /obj/structure/disposaloutlet{
 	dir = 4
@@ -8071,6 +8384,17 @@
 	},
 /turf/open/floor/plating,
 /area/security/processing)
+"Sy" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 5;
+	height = 7;
+	id = "supply_home";
+	name = "Cargo Bay";
+	width = 12
+	},
+/turf/open/space/basic,
+/area/space)
 "SA" = (
 /obj/effect/landmark/start/clown,
 /obj/effect/turf_decal/tile/blue{
@@ -8190,6 +8514,10 @@
 "Td" = (
 /turf/open/floor/iron/checker,
 /area/service/theater)
+"Te" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
 "Ti" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Auxiliary Tool Storage";
@@ -8329,6 +8657,15 @@
 	},
 /turf/open/floor/iron,
 /area/security/courtroom)
+"TY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/sign/poster/random{
+	pixel_x = 32
+	},
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "Ud" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -8551,6 +8888,9 @@
 /obj/structure/sign/warning/docking,
 /turf/closed/wall/r_wall,
 /area/maintenance/port)
+"Vq" = (
+/turf/open/floor/plating/airless,
+/area/maintenance/fore)
 "Vs" = (
 /obj/structure/closet,
 /obj/machinery/light_switch/directional/east,
@@ -8578,6 +8918,16 @@
 	name = "Holodeck Projector Floor"
 	},
 /area/holodeck/rec_center)
+"Vx" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/machinery/door/airlock/external{
+	name = "Supply Dock Airlock";
+	req_access_txt = "31"
+	},
+/turf/open/floor/plating,
+/area/space)
 "Vy" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -8628,6 +8978,10 @@
 	},
 /turf/open/floor/carpet/red,
 /area/commons/vacant_room/office)
+"VR" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "VU" = (
 /obj/machinery/camera{
 	c_tag = "Brig West";
@@ -8710,6 +9064,10 @@
 "Wz" = (
 /turf/closed/wall,
 /area/ai_monitored/command/storage/eva)
+"WE" = (
+/obj/structure/chair,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "WF" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -8717,6 +9075,9 @@
 	},
 /turf/open/floor/iron,
 /area/security/brig)
+"WG" = (
+/turf/open/floor/plating,
+/area/maintenance/solars/port/fore)
 "WH" = (
 /obj/structure/closet/secure_closet/medical2,
 /turf/open/floor/iron,
@@ -8850,6 +9211,15 @@
 	},
 /turf/open/floor/iron,
 /area/security/processing)
+"Xp" = (
+/obj/machinery/power/apc/auto_name/west,
+/obj/machinery/camera{
+	c_tag = "Fore Port Solar Control";
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/fore)
 "Xq" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
@@ -8865,6 +9235,11 @@
 /obj/structure/disposalpipe/trunk,
 /turf/open/floor/iron/grimy,
 /area/security/detectives_office)
+"Xw" = (
+/obj/item/stack/rods,
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
 "Xx" = (
 /obj/machinery/computer/gateway_control,
 /turf/open/floor/iron,
@@ -8990,6 +9365,11 @@
 /obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron,
 /area/security/office)
+"XZ" = (
+/obj/machinery/power/tracker,
+/obj/structure/cable,
+/turf/open/floor/iron/solarpanel/airless,
+/area/solars/port/fore)
 "Ya" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Prisoner Processing";
@@ -8997,6 +9377,18 @@
 	},
 /turf/open/floor/iron,
 /area/security/processing)
+"Yd" = (
+/obj/effect/spawner/lootdrop/gross_decal_spawner,
+/turf/open/floor/plating,
+/area/maintenance/fore)
+"Ye" = (
+/obj/machinery/power/solar_control{
+	id = "auxsolareast";
+	name = "Port Bow Solar Control"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/fore)
 "Yf" = (
 /turf/open/floor/plating,
 /area/maintenance/fore/secondary)
@@ -9093,6 +9485,9 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"Yz" = (
+/turf/closed/wall/r_wall,
+/area/maintenance/solars/port/fore)
 "YA" = (
 /obj/machinery/door/window/brigdoor/security/cell{
 	id = "Cell 2";
@@ -9214,6 +9609,17 @@
 /obj/machinery/door/window/westleft,
 /turf/open/floor/iron/freezer,
 /area/commons/toilet)
+"Ze" = (
+/obj/machinery/atmospherics/components/trinary/filter{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron,
+/area/maintenance/fore)
 "Zf" = (
 /obj/machinery/computer/monitor{
 	dir = 4;
@@ -9226,6 +9632,11 @@
 	dir = 8
 	},
 /area/command/bridge)
+"Zh" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/maintenance/two,
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "Zj" = (
 /obj/structure/rack,
 /obj/item/tank/internals/emergency_oxygen,
@@ -26404,7 +26815,7 @@ no
 no
 no
 no
-no
+br
 br
 br
 br
@@ -26640,31 +27051,31 @@ no
 no
 no
 no
+OA
+OA
+Ar
+OA
+Ar
+OA
+Ar
+OA
+Ar
+OA
+Ar
+Ar
+uf
+Ar
+OA
 no
 no
 no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+br
+Da
+lT
+br
 lT
 br
 WH
@@ -26897,31 +27308,31 @@ no
 no
 no
 no
+OA
+no
+Te
+no
+Te
+no
+Te
+no
+NB
+no
+Te
+no
+Xw
+no
+OA
 no
 no
 no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+br
+Ze
+xz
+jW
 lT
 br
 Bb
@@ -27154,31 +27565,31 @@ no
 no
 no
 no
+Ar
+Te
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
+no
+OA
 no
 no
 no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+br
+pM
+Zh
+br
 lT
 br
 ue
@@ -27411,6 +27822,19 @@ no
 no
 no
 no
+OA
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
 no
 no
 no
@@ -27419,24 +27843,11 @@ no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-lT
+br
+br
+br
+br
+bf
 br
 br
 br
@@ -27668,6 +28079,19 @@ no
 no
 no
 no
+Ar
+Te
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
 no
 no
 no
@@ -27677,22 +28101,9 @@ no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+hO
+lT
+lT
 lT
 lT
 lT
@@ -27927,6 +28338,17 @@ no
 no
 no
 no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
 no
 no
 no
@@ -27936,25 +28358,14 @@ no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+hO
+lT
+lT
+br
+br
+br
+br
+br
 lT
 fe
 uR
@@ -28179,39 +28590,39 @@ no
 no
 no
 no
+OA
+OA
+Ar
+Te
+Te
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+FQ
+Yz
+Yz
+Yz
+Yz
+br
+br
+lT
+lT
+br
+Sh
+zb
+Vq
+br
 lT
 qw
 hl
@@ -28436,39 +28847,39 @@ no
 no
 no
 no
+OA
+no
+Te
 no
 no
 no
+yc
 no
 no
 no
+yc
 no
 no
 no
+yc
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+pJ
+FQ
+FQ
+FQ
+Ye
+Nq
+Xp
+Yz
+lT
+tN
+lT
+lT
+br
+uJ
+Sh
+Sh
+br
 lT
 qw
 gT
@@ -28693,39 +29104,39 @@ no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+Ar
+Te
+XZ
+yc
+yc
+lB
+lB
+lB
+lB
+lB
+lB
+lB
+lB
+lB
+lB
+lB
+yc
+BW
+WG
+CM
+DI
+WG
+DI
+qP
+lT
+lT
+lT
+lT
+br
+br
+hO
+br
+br
 lT
 qw
 rh
@@ -28950,39 +29361,39 @@ no
 no
 no
 no
+OA
+no
+Te
 no
 no
 no
+yc
 no
 no
 no
+yc
 no
 no
 no
+yc
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+lB
+FQ
+FQ
+FQ
+Ey
+Sp
+nP
+qm
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
 lT
 qw
 qw
@@ -29207,39 +29618,39 @@ no
 no
 no
 no
+OA
+oA
+Ar
+Te
+Te
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+FQ
+Yz
+Yz
+Yz
+Yz
+lT
+tN
+lT
+lT
+br
+br
+br
+br
+br
 lT
 lT
 lT
@@ -29469,6 +29880,17 @@ no
 no
 no
 no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
 no
 no
 no
@@ -29476,29 +29898,18 @@ no
 no
 no
 no
+br
+br
+br
+br
+jW
+br
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+br
+br
+br
 lT
 WJ
 KJ
@@ -29724,6 +30135,19 @@ no
 no
 no
 no
+Ar
+Te
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
 no
 no
 no
@@ -29731,31 +30155,18 @@ no
 no
 no
 no
+br
+KK
+br
+pG
+lT
+br
 no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+br
+ai
 lT
 ec
 MF
@@ -29981,6 +30392,19 @@ no
 no
 no
 no
+OA
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
 no
 no
 no
@@ -29988,31 +30412,18 @@ no
 no
 no
 no
+br
+br
+br
+gw
+lT
+br
 no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+br
+VR
 lT
 ec
 xg
@@ -30238,6 +30649,21 @@ no
 no
 no
 no
+OA
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
+no
+Aw
+yc
+Aw
+Te
+Ar
 no
 no
 no
@@ -30245,31 +30671,16 @@ no
 no
 no
 no
+br
+lT
+lT
+br
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+br
+br
+br
 lT
 ec
 Ko
@@ -30301,7 +30712,7 @@ no
 no
 no
 no
-no
+Sy
 no
 no
 no
@@ -30495,36 +30906,36 @@ no
 no
 no
 no
+OA
+no
+Te
+no
+Te
+no
+Te
+no
+Te
 no
 no
 no
 no
 no
+OA
 no
 no
 no
 no
 no
+hO
+hO
+br
+bf
+br
+br
+br
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+br
 lT
 lT
 lT
@@ -30554,13 +30965,13 @@ zU
 hC
 no
 no
-no
-no
-no
-no
-no
-no
-no
+ne
+gm
+Rl
+ne
+Rl
+nr
+ne
 no
 no
 no
@@ -30752,15 +31163,15 @@ no
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+OA
+OA
+Ar
+OA
+Ar
+oA
+Ar
+OA
+Ar
 xt
 Au
 Au
@@ -30772,16 +31183,16 @@ xt
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+hO
+Yd
+Ac
+lT
+WE
+fL
+br
+hO
+hO
+br
 lT
 Es
 Es
@@ -30809,15 +31220,15 @@ zU
 zU
 zU
 hC
-no
-no
-no
-no
-no
-no
-no
-no
-no
+UC
+UC
+UC
+gQ
+Qe
+UC
+Qe
+hv
+UC
 no
 no
 no
@@ -31019,9 +31430,9 @@ no
 no
 no
 xt
-AC
-AC
-AC
+Fu
+Fu
+Fu
 IR
 Mh
 Ot
@@ -31029,16 +31440,16 @@ xt
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+hO
+jl
+Qf
+lT
+lT
+lT
+jW
+lT
+lT
+lT
 lT
 Un
 no
@@ -31068,13 +31479,13 @@ zU
 hC
 no
 no
-no
-no
-no
-no
-no
-no
-no
+UC
+gm
+Vx
+UC
+Vx
+nr
+UC
 no
 no
 no
@@ -31286,16 +31697,16 @@ xt
 no
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+hO
+OX
+TY
+hn
+wP
+Ov
+br
+hO
+hO
+br
 lT
 Un
 JZ
@@ -31543,16 +31954,16 @@ xt
 no
 no
 no
+hO
+hO
+br
+hO
+br
+br
+br
 no
 no
-no
-no
-no
-no
-no
-no
-no
-no
+hO
 lT
 Un
 no
@@ -31809,7 +32220,7 @@ no
 no
 no
 no
-no
+hO
 lT
 Un
 no
@@ -32066,7 +32477,7 @@ no
 no
 no
 no
-no
+hO
 lT
 Un
 JZ
@@ -32321,9 +32732,9 @@ no
 no
 no
 no
-no
-no
-no
+OQ
+OQ
+hO
 lT
 Un
 no
@@ -32578,9 +32989,9 @@ no
 no
 no
 no
-no
-no
-no
+br
+Ks
+br
 lT
 Un
 no
@@ -32835,9 +33246,9 @@ QW
 no
 no
 no
-no
-no
-no
+br
+zi
+br
 lT
 Un
 JZ
@@ -33092,9 +33503,9 @@ tU
 Ro
 no
 no
-no
-no
-no
+br
+tI
+br
 lT
 Un
 no
@@ -33349,9 +33760,9 @@ Xe
 Ro
 no
 no
-no
-no
-no
+br
+lT
+lT
 lT
 Es
 Es
@@ -35174,16 +35585,16 @@ ms
 Ed
 qO
 UL
-no
-no
-no
-no
-no
-no
-no
-no
-no
-no
+mt
+pn
+pu
+pn
+mt
+aF
+bR
+bR
+aF
+mt
 no
 no
 no
