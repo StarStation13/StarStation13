@@ -100,6 +100,11 @@
 		CtrlClickOn(A)
 		return
 
+	//STAR EDIT ADDITION BEGIN
+	if(typing_indicator)
+		set_typing_indicator(FALSE)
+	//STAR EDIT ADDITION END
+
 	if(incapacitated(ignore_restraints = TRUE, ignore_stasis = TRUE))
 		return
 
