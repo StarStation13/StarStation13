@@ -316,6 +316,10 @@
 	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/surface/outdoors/unexplored)
+"ft" = (
+/obj/machinery/autolathe,
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors/unexplored)
 "gh" = (
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible,
 /turf/open/floor/plating/lavaland_atmos,
@@ -587,6 +591,16 @@
 "kG" = (
 /turf/open/floor/iron/dark,
 /area/engineering/main)
+"kI" = (
+/obj/machinery/door/airlock/external{
+	name = "Supply Dock Airlock";
+	req_access_txt = "48"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/lavaland/surface/outdoors/unexplored)
 "kK" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
@@ -701,6 +715,22 @@
 /obj/machinery/atmospherics/pipe/bridge_pipe/dark/hidden,
 /turf/open/floor/plating/lavaland_atmos,
 /area/engineering/atmos)
+"mc" = (
+/obj/docking_port/stationary{
+	dir = 2;
+	dwidth = 3;
+	height = 5;
+	id = "mining_home";
+	name = "mining shuttle bay";
+	roundstart_template = /datum/map_template/shuttle/mining/box;
+	width = 7
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors/unexplored)
+"mv" = (
+/obj/machinery/computer/shuttle/mining,
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors/unexplored)
 "mB" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/supply{
 	dir = 4
@@ -819,6 +849,7 @@
 /area/engineering/atmos)
 "oe" = (
 /obj/effect/turf_decal/bot,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/lavaland/surface/outdoors/unexplored)
 "og" = (
@@ -1044,9 +1075,8 @@
 /turf/open/floor/engine/plasma,
 /area/engineering/atmos)
 "ro" = (
-/obj/machinery/light/directional/south,
-/turf/open/floor/iron,
-/area/lavaland/surface/outdoors/unexplored)
+/turf/open/floor/iron/dark/textured,
+/area/engineering/main)
 "rq" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -1168,12 +1198,27 @@
 	},
 /turf/open/floor/iron/textured,
 /area/engineering/break_room)
+"tn" = (
+/obj/machinery/rnd/production/techfab/department/cargo,
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors/unexplored)
 "tw" = (
 /obj/machinery/computer/communications{
 	dir = 1
 	},
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
+"tx" = (
+/obj/docking_port/stationary{
+	dir = 4;
+	dwidth = 5;
+	height = 7;
+	id = "supply_home";
+	name = "Cargo Bay";
+	width = 12
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors/unexplored)
 "tK" = (
 /turf/closed/wall,
 /area/command/heads_quarters/captain)
@@ -1283,7 +1328,7 @@
 /area/engineering/atmos)
 "vs" = (
 /obj/structure/cable,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/textured,
 /area/engineering/main)
 "vz" = (
 /obj/machinery/computer/monitor{
@@ -1355,7 +1400,7 @@
 /area/command/heads_quarters/captain)
 "wz" = (
 /obj/effect/landmark/start/station_engineer,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/textured_half,
 /area/engineering/main)
 "wQ" = (
 /obj/machinery/conveyor{
@@ -1407,9 +1452,8 @@
 /turf/open/floor/plating/lavaland_atmos,
 /area/engineering/atmos)
 "xf" = (
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron,
-/area/lavaland/surface/outdoors/unexplored)
+/turf/open/floor/iron/dark/textured_half,
+/area/engineering/main)
 "xo" = (
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
 	dir = 4
@@ -1464,6 +1508,10 @@
 	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/engineering/supermatter/room)
+"xD" = (
+/obj/structure/closet/secure_closet/miner,
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors/unexplored)
 "xL" = (
 /turf/open/floor/iron,
 /area/lavaland/surface/outdoors/unexplored)
@@ -1713,6 +1761,16 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/smooth_large,
 /area/engineering/main)
+"Co" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	name = "Supply Dock Airlock";
+	req_access_txt = "48"
+	},
+/turf/open/floor/plating,
+/area/lavaland/surface/outdoors/unexplored)
 "CD" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/engine{
@@ -1839,6 +1897,10 @@
 	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/engineering/atmos)
+"Em" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors/unexplored)
 "Eq" = (
 /obj/structure/grille,
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
@@ -1965,6 +2027,10 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/engineering/supermatter/room)
+"FO" = (
+/obj/structure/table,
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors/unexplored)
 "FR" = (
 /obj/machinery/portable_atmospherics/canister/nitrous_oxide,
 /obj/effect/turf_decal/bot,
@@ -2065,6 +2131,13 @@
 	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/engineering/atmos)
+"HL" = (
+/obj/structure/rack,
+/obj/item/pickaxe{
+	pixel_x = 5
+	},
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors/unexplored)
 "HQ" = (
 /turf/open/floor/engine/n2,
 /area/engineering/atmos)
@@ -2166,6 +2239,10 @@
 /obj/machinery/computer/atmos_control/tank/mix_tank,
 /turf/open/floor/plating/lavaland_atmos,
 /area/engineering/atmos)
+"JL" = (
+/obj/machinery/computer/security/mining,
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors/unexplored)
 "JQ" = (
 /obj/machinery/computer/cargo{
 	dir = 4
@@ -2195,6 +2272,14 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/hop)
+"Kx" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors/unexplored)
 "KD" = (
 /turf/open/floor/engine/air,
 /area/engineering/atmos)
@@ -2408,6 +2493,10 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron,
 /area/engineering/break_room)
+"Nk" = (
+/obj/machinery/mineral/equipment_vendor,
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors/unexplored)
 "Nq" = (
 /obj/structure/closet/secure_closet/engineering_welding,
 /turf/open/floor/iron/smooth_large,
@@ -2586,6 +2675,12 @@
 "Qk" = (
 /turf/closed/wall/r_wall,
 /area/command/bridge)
+"Qn" = (
+/obj/machinery/door/airlock/mining{
+	req_access_txt = "48"
+	},
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors/unexplored)
 "Qo" = (
 /obj/structure/cable,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
@@ -2830,6 +2925,14 @@
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"Tf" = (
+/obj/machinery/requests_console/directional/west{
+	department = "Mining";
+	name = "Mining Requests Console"
+	},
+/obj/structure/table,
+/turf/open/floor/iron,
+/area/lavaland/surface/outdoors/unexplored)
 "Tq" = (
 /obj/structure/chair,
 /obj/effect/landmark/start/atmospheric_technician,
@@ -3001,6 +3104,7 @@
 /obj/machinery/modular_computer/console/preset/cargochat/cargo{
 	dir = 4
 	},
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron,
 /area/lavaland/surface/outdoors/unexplored)
 "Vy" = (
@@ -40858,7 +40962,7 @@ yK
 yK
 EL
 iY
-kG
+ro
 dg
 lw
 mT
@@ -41115,7 +41219,7 @@ yK
 yK
 EL
 RU
-kG
+xf
 dg
 uA
 mT
@@ -42933,12 +43037,12 @@ zV
 zV
 zN
 zV
-xL
-xL
-xL
-xL
-xL
-xL
+zV
+zV
+zV
+zV
+zV
+zV
 xL
 xL
 on
@@ -43186,16 +43290,16 @@ Vu
 JQ
 xL
 xL
-xL
-xL
+tn
+ft
 oe
 zV
-xL
-xL
-xL
-xL
-xL
-xL
+Tf
+FO
+xD
+xD
+xD
+zV
 xL
 on
 on
@@ -43439,20 +43543,20 @@ xL
 xL
 xL
 zV
-xf
 xL
 xL
 xL
 xL
 xL
-ro
+xL
+xL
+Qn
+xL
+xL
+xL
+xL
+xL
 zV
-xL
-xL
-xL
-xL
-xL
-xL
 on
 on
 yK
@@ -43704,10 +43808,10 @@ xL
 Jl
 Dy
 zV
-xL
-xL
-xL
-xL
+Nk
+Kx
+HL
+Em
 xL
 on
 on
@@ -43964,11 +44068,11 @@ on
 on
 on
 on
+JL
+xL
 on
-on
-on
-yK
-yK
+RH
+RH
 yK
 yK
 yK
@@ -44220,13 +44324,13 @@ RH
 yK
 yK
 yK
-yK
-yK
-yK
-yK
-yK
-yK
-yK
+RH
+mv
+xL
+kI
+eU
+Co
+mc
 yK
 yK
 yK
@@ -44477,12 +44581,12 @@ RH
 yK
 yK
 yK
-yK
-yK
-yK
-yK
-yK
-yK
+RH
+RH
+RH
+RH
+RH
+RH
 yK
 yK
 yK
@@ -44726,7 +44830,7 @@ yK
 yK
 yK
 yK
-yK
+tx
 yK
 yK
 yK
@@ -46253,34 +46357,34 @@ Zh
 Zh
 Dw
 yK
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
 Ve
 Ve
 Ve
@@ -46510,34 +46614,34 @@ Zh
 Zh
 vO
 yK
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
 Ve
 Ve
 Ve
@@ -46767,34 +46871,34 @@ Zh
 Zh
 Dw
 yK
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
 Ve
 Ve
 Ve
@@ -47024,34 +47128,34 @@ Zh
 Zh
 vO
 yK
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
 Ve
 Ve
 Ve
@@ -47281,34 +47385,34 @@ Zh
 Zh
 Dw
 yK
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
 Ve
 Ve
 Ve
@@ -47538,34 +47642,34 @@ Zh
 Zh
 vO
 yK
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
-Ve
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
+yK
 Ve
 Ve
 Ve
