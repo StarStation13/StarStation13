@@ -179,6 +179,8 @@
 			power_throw++
 		if(pulling && grab_state >= GRAB_NECK)
 			power_throw++
+		do_attack_animation(target, no_effect = 1) //STAR EDIT
+		playsound(loc, 'sound/weapons/punchmiss.ogg', 50, TRUE, -1) //STAR EDIT - I hate nonmodularity I hate nonmodularity
 		visible_message(span_danger("[src] throws [thrown_thing][power_throw ? " really hard!" : "."]"), \
 						span_danger("You throw [thrown_thing][power_throw ? " really hard!" : "."]"))
 		log_message("has thrown [thrown_thing] [power_throw ? "really hard" : ""]", LOG_ATTACK)
