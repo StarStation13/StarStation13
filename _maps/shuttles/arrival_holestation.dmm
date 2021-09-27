@@ -303,6 +303,7 @@
 	dir = 4;
 	dwidth = 11;
 	height = 18;
+	port_direction = 8;
 	width = 30
 	},
 /turf/open/floor/plating,
@@ -330,6 +331,9 @@
 /area/shuttle/arrival)
 "IU" = (
 /turf/closed/wall/mineral/titanium/interior,
+/area/shuttle/arrival)
+"Jj" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/arrival)
 "Kn" = (
 /turf/template_noop,
@@ -568,11 +572,11 @@ jv
 KM
 SU
 pC
-FF
+Jj
 FF
 Ry
 FF
-FF
+Jj
 pC
 hC
 pC
@@ -616,11 +620,11 @@ nX
 KM
 WY
 pC
-FF
+Jj
 FF
 Rn
 FF
-FF
+Jj
 pC
 HT
 pC
