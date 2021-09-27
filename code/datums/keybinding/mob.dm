@@ -72,7 +72,7 @@
 	return TRUE
 
 /datum/keybinding/mob/toggle_move_intent
-	hotkey_keys = list("Alt") //STARSTATION 13 EDIT - Make way for the CI!
+	hotkey_keys = list("C")
 	name = "toggle_move_intent"
 	full_name = "Hold to toggle move intent"
 	description = "Held down to cycle to the other move intent, release to cycle back"
