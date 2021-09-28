@@ -502,7 +502,7 @@
 /turf/open/floor/plating,
 /area/cargo/miningdock)
 "di" = (
-/obj/machinery/space_heater,
+/obj/effect/spawner/random/engineering/atmospherics_portable,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "dk" = (
@@ -742,7 +742,7 @@
 /area/tcommsat/server)
 "ek" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/space_heater,
+/obj/effect/spawner/random/engineering/atmospherics_portable,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "em" = (
@@ -958,6 +958,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet/royalblue,
 /area/command/heads_quarters/captain)
+"fi" = (
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
 "fl" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -1405,6 +1409,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/service/hydroponics)
+"hH" = (
+/obj/effect/spawner/random/engineering/tracking_beacon,
+/turf/open/floor/iron,
+/area/hallway/secondary/entry)
 "hO" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
@@ -1441,6 +1449,10 @@
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron,
 /area/security/brig)
+"hU" = (
+/obj/effect/spawner/random/engineering/tracking_beacon,
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "hV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer5,
 /turf/open/floor/plating,
@@ -3368,6 +3380,7 @@
 /obj/effect/turf_decal/siding/blue{
 	dir = 8
 	},
+/obj/effect/spawner/random/clothing/backpack,
 /turf/open/floor/iron/showroomfloor,
 /area/commons/dorms)
 "rC" = (
@@ -4880,6 +4893,7 @@
 /turf/open/floor/iron,
 /area/service/hydroponics)
 "Ab" = (
+/obj/effect/spawner/random/engineering/tracking_beacon,
 /turf/open/floor/glass/reinforced,
 /area/engineering/break_room)
 "Ac" = (
@@ -5702,6 +5716,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/dark,
 /area/service/chapel)
+"EW" = (
+/obj/effect/spawner/random/engineering/tracking_beacon,
+/turf/open/floor/glass/reinforced,
+/area/command/bridge)
 "EY" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -7040,6 +7058,7 @@
 /obj/structure/table,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/spawner/random/entertainment/dice,
 /turf/open/floor/iron,
 /area/commons/dorms)
 "NB" = (
@@ -34820,7 +34839,7 @@ KH
 KH
 KH
 KH
-KH
+hH
 KH
 KH
 KH
@@ -41220,7 +41239,7 @@ fA
 ah
 aI
 IN
-aC
+EW
 gH
 ik
 kb
@@ -45646,7 +45665,7 @@ JB
 Uf
 JB
 JB
-cc
+fi
 jV
 Ma
 Sz
@@ -45901,7 +45920,7 @@ JB
 JB
 gD
 Nx
-cc
+fi
 JB
 JB
 cT
@@ -47670,7 +47689,7 @@ NG
 LI
 LI
 LI
-LI
+hU
 LI
 LI
 LI
