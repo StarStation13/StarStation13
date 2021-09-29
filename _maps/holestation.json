@@ -3,7 +3,8 @@
     "map_name": "Hole Station",
     "map_path": "map_files/HoleStation",
 	"map_file": [
-		"holestation.dmm"
+		"holestation.dmm",
+		"lushplanetempty.dmm"
 	],
 	"space_ruin_levels": 0,
 	"space_empty_levels": 0,
@@ -16,10 +17,18 @@
 	"traits": [
 		{
 			"Mining": true,
-			"Linkage": null,
+			"Linkage": "Cross",
 			"Gravity": true,
 			"Lush Ruins": true,
 			"Baseturf": "/turf/open/floor/plating/dirt/jungle"
+		},
+		{
+			"Mining": true,
+			"Linkage": "Cross",
+			"Gravity": true,
+			"Lush Ruins": true,
+			"Baseturf": "/turf/open/floor/plating/dirt/jungle",
+			"Station": false
 		}
 	],
 	"job_changes": {
