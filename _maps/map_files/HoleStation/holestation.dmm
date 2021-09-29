@@ -9,8 +9,8 @@
 	name = "northwest of station";
 	width = 23
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/open/genturf,
+/area/lush_planet/unexplored)
 "ac" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/regular{
@@ -243,7 +243,7 @@
 /area/engineering/engine_smes)
 "bj" = (
 /obj/structure/shuttle/engine/propulsion,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "bl" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -311,8 +311,8 @@
 	dir = 10
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "bQ" = (
 /obj/structure/window/reinforced/spawner,
 /obj/machinery/shower{
@@ -379,6 +379,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"ci" = (
+/turf/open/floor/plating/dirt/jungle,
+/area/space)
 "cj" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -541,7 +544,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 8
 	},
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/engineering/supermatter/room)
 "dt" = (
 /obj/structure/chair/wood{
@@ -1113,7 +1116,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 4
 	},
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/engineering/supermatter/room)
 "gl" = (
 /obj/structure/window/reinforced/spawner/west,
@@ -1418,8 +1421,8 @@
 	dir = 4
 	},
 /obj/structure/lattice,
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "hQ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/layer_manifold/supply/visible,
@@ -1720,7 +1723,7 @@
 "jo" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/maintenance/port/aft)
 "jq" = (
 /obj/machinery/atmospherics/components/trinary/mixer/airmix/flipped/inverse{
@@ -2103,8 +2106,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
 	},
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "li" = (
 /obj/machinery/door/airlock/maintenance{
 	req_one_access_txt = "12;25"
@@ -2435,6 +2438,15 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/dark,
 /area/service/cafeteria)
+"mW" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
 "mX" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
@@ -2664,8 +2676,8 @@
 /turf/open/floor/iron,
 /area/hallway/primary/central)
 "nZ" = (
-/turf/open/space/basic,
-/area/space)
+/turf/open/genturf,
+/area/lush_planet/unexplored)
 "oc" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/east,
@@ -2791,6 +2803,16 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/atmos)
+"oY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 4
+	},
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space/nearstation)
 "pa" = (
 /obj/structure/window/reinforced/spawner,
 /obj/structure/window/reinforced/spawner/north,
@@ -3041,8 +3063,8 @@
 	dir = 5
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "qe" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Cell"
@@ -3283,7 +3305,7 @@
 /area/service/hydroponics)
 "re" = (
 /obj/structure/shuttle/engine/propulsion,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/maintenance/port/aft)
 "rf" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
@@ -3680,8 +3702,8 @@
 	name = "Holemaker, Southwest";
 	width = 35
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/open/genturf,
+/area/lush_planet/unexplored)
 "td" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -3691,8 +3713,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
 	},
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "ti" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible{
 	dir = 9
@@ -4269,8 +4291,8 @@
 	dir = 9
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "wA" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 4
@@ -4317,8 +4339,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 5
 	},
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "wP" = (
 /obj/structure/musician/piano,
 /turf/open/floor/wood/large,
@@ -4503,8 +4525,8 @@
 "yh" = (
 /obj/structure/lattice,
 /obj/structure/grille,
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "yi" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/plating,
@@ -4762,7 +4784,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 4
 	},
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "zu" = (
 /obj/machinery/vending/engivend,
@@ -4810,8 +4832,8 @@
 	roundstart_template = /datum/map_template/shuttle/arrival/holestation;
 	width = 30
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "zC" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder{
@@ -5290,8 +5312,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "CB" = (
 /obj/machinery/firealarm/directional/west,
 /obj/structure/cable,
@@ -5371,8 +5393,8 @@
 	dir = 6
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "CZ" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -5998,8 +6020,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 10
 	},
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "GS" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/siding/red,
@@ -6362,8 +6384,8 @@
 /area/maintenance/port/aft)
 "Ji" = (
 /obj/structure/lattice,
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "Jj" = (
 /obj/structure/chair,
 /obj/item/clothing/head/hardhat{
@@ -6953,7 +6975,7 @@
 	name = "Cargo Bay";
 	width = 11
 	},
-/turf/open/space/basic,
+/turf/open/floor/plating/dirt/jungle,
 /area/space)
 "MY" = (
 /obj/docking_port/stationary{
@@ -6963,7 +6985,7 @@
 	roundstart_template = /datum/map_template/shuttle/mining/holestation;
 	width = 3
 	},
-/turf/open/space/basic,
+/turf/open/floor/plating/dirt/jungle,
 /area/space)
 "Nc" = (
 /obj/structure/girder,
@@ -7422,7 +7444,7 @@
 "PI" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "PM" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -7520,8 +7542,8 @@
 	name = "NRV Holemaker emergency evac bay";
 	width = 30
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "Qm" = (
 /obj/machinery/atmospherics/components/binary/pump/on{
 	name = "Air to Distro"
@@ -7804,6 +7826,9 @@
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
+"RE" = (
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "RF" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -8020,8 +8045,8 @@
 /obj/structure/marker_beacon/burgundy{
 	name = "landing marker"
 	},
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "SO" = (
 /obj/machinery/atmospherics/components/binary/thermomachine/freezer{
 	dir = 1
@@ -8365,8 +8390,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
 	},
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "Um" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
@@ -8543,8 +8568,8 @@
 "Va" = (
 /obj/structure/lattice,
 /obj/structure/grille/broken,
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "Vb" = (
 /obj/structure/table,
 /obj/item/experi_scanner{
@@ -8652,7 +8677,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 8
 	},
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/maintenance/port/aft)
 "VB" = (
 /obj/machinery/door/airlock/mining/glass{
@@ -9196,8 +9221,8 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "Yw" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Prison Wing";
@@ -9216,8 +9241,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
 	dir = 1
 	},
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "Yz" = (
 /obj/machinery/modular_computer/console/preset/cargochat/cargo{
 	dir = 8
@@ -9279,8 +9304,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 9
 	},
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "YP" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 4
@@ -33039,9 +33064,9 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -33293,14 +33318,14 @@ nZ
 nZ
 nZ
 nZ
+RE
 nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -33549,19 +33574,19 @@ nZ
 nZ
 nZ
 nZ
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
 nZ
 nZ
 nZ
@@ -33804,21 +33829,21 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 zB
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -34061,22 +34086,22 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 WS
 Rg
 Mh
 Rg
 WS
 SM
-nZ
+RE
 SM
 WS
 Rg
 Mh
 Rg
 WS
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -34318,7 +34343,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 WS
 fM
 WS
@@ -34332,8 +34357,8 @@ fM
 WS
 nl
 WS
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -34574,8 +34599,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 oF
 Td
 YS
@@ -34589,11 +34614,11 @@ Td
 YS
 Td
 oF
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -34832,7 +34857,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 oF
 KH
 KH
@@ -34850,13 +34875,13 @@ uG
 uG
 uG
 uG
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -35088,8 +35113,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 WS
 Il
 OT
@@ -35113,13 +35138,13 @@ ME
 ME
 ME
 ME
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -35344,8 +35369,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 Ji
 oF
 oF
@@ -35376,12 +35401,12 @@ yB
 yB
 ME
 ME
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -35600,11 +35625,11 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 Ji
 Ji
-nZ
+RE
 HT
 Mo
 WQ
@@ -35638,11 +35663,11 @@ ay
 ay
 ay
 ay
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -35857,7 +35882,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 UZ
 UZ
 UZ
@@ -35899,11 +35924,11 @@ ay
 Pc
 ay
 ay
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -36104,17 +36129,17 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 UZ
 HW
 cp
@@ -36160,9 +36185,9 @@ ay
 ay
 ay
 ay
-nZ
-nZ
-nZ
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -36358,10 +36383,10 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
 iS
 iS
 iS
@@ -36419,7 +36444,7 @@ yL
 ay
 ay
 ay
-nZ
+RE
 nZ
 nZ
 nZ
@@ -36613,9 +36638,9 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
 iS
 kS
 kS
@@ -36676,7 +36701,7 @@ WW
 SF
 jo
 re
-nZ
+RE
 nZ
 nZ
 nZ
@@ -36869,8 +36894,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 bC
 bC
 bC
@@ -36933,7 +36958,7 @@ Ie
 ku
 jo
 re
-nZ
+RE
 nZ
 nZ
 nZ
@@ -37125,8 +37150,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 bC
 bC
 hS
@@ -37190,7 +37215,7 @@ Os
 SF
 jo
 re
-nZ
+RE
 nZ
 nZ
 nZ
@@ -37382,7 +37407,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 bC
 bC
 fC
@@ -37447,7 +37472,7 @@ WW
 SF
 jo
 re
-nZ
+RE
 nZ
 nZ
 nZ
@@ -37639,7 +37664,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 bG
 dH
 Gt
@@ -37704,7 +37729,7 @@ Jh
 ay
 ay
 ay
-nZ
+RE
 nZ
 nZ
 nZ
@@ -37895,8 +37920,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 bC
 dN
 fQ
@@ -37956,12 +37981,12 @@ Pc
 ay
 ay
 ay
-nZ
+RE
 VA
-nZ
+RE
 yh
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -38152,7 +38177,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 Mj
 Mj
 Mj
@@ -38217,8 +38242,8 @@ Ji
 Ji
 Ji
 yh
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -38409,7 +38434,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 Mj
 bJ
 vl
@@ -38470,12 +38495,12 @@ Cz
 hO
 Cz
 hO
-nZ
+RE
 Ji
-nZ
+RE
 yh
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -38665,8 +38690,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 Mj
 bQ
 dO
@@ -38727,12 +38752,12 @@ Yv
 Yv
 Yv
 Yv
-nZ
+RE
 Ji
-nZ
+RE
 Va
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -38922,7 +38947,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 Mj
 Mj
 au
@@ -38984,12 +39009,12 @@ Cz
 hO
 Cz
 hO
-nZ
+RE
 Ji
 Ji
 yh
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -39179,7 +39204,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 Mj
 ao
 bX
@@ -39243,10 +39268,10 @@ wx
 Yv
 gi
 Ji
-nZ
+RE
 yh
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -39436,7 +39461,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 Mj
 ar
 cf
@@ -39503,8 +39528,8 @@ qz
 qz
 qz
 qz
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -39693,7 +39718,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 Mj
 au
 wD
@@ -39761,8 +39786,8 @@ ss
 ss
 qz
 qz
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -39950,7 +39975,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 Mj
 jr
 cl
@@ -39970,12 +39995,12 @@ yE
 Al
 CO
 oU
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
+ci
+ci
 DP
 QF
 TA
@@ -40019,7 +40044,7 @@ ss
 ss
 qz
 qz
-nZ
+RE
 nZ
 nZ
 nZ
@@ -40206,8 +40231,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 Mj
 Mk
 cm
@@ -40227,12 +40252,12 @@ yI
 An
 CN
 oU
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
+ci
+ci
 DP
 QF
 Ru
@@ -40276,7 +40301,7 @@ CZ
 Vg
 Vg
 qz
-nZ
+RE
 nZ
 nZ
 nZ
@@ -40463,7 +40488,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 MN
 MN
 bD
@@ -40484,12 +40509,12 @@ oU
 oU
 CR
 oU
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
+ci
+ci
 ZZ
 QZ
 Ru
@@ -40533,7 +40558,7 @@ qK
 TY
 cG
 qz
-nZ
+RE
 nZ
 nZ
 nZ
@@ -40720,7 +40745,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 fA
 ac
 ax
@@ -40741,12 +40766,12 @@ tm
 At
 CT
 rk
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
+ci
+ci
 Oh
 Rf
 TC
@@ -40790,7 +40815,7 @@ ZS
 zd
 ca
 qz
-nZ
+RE
 nZ
 nZ
 nZ
@@ -40977,7 +41002,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 fA
 ag
 aC
@@ -40998,11 +41023,11 @@ wA
 AO
 CU
 Fa
-nZ
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
+ci
 MX
 Oi
 Ru
@@ -41047,7 +41072,7 @@ ss
 ss
 Op
 qz
-nZ
+RE
 nZ
 nZ
 nZ
@@ -41234,7 +41259,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 fA
 ah
 aI
@@ -41255,12 +41280,12 @@ wC
 AP
 Di
 rk
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
+ci
+ci
 ZZ
 Rv
 TJ
@@ -41304,7 +41329,7 @@ ss
 Dj
 uE
 qz
-nZ
+RE
 nZ
 nZ
 nZ
@@ -41491,7 +41516,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 fA
 aj
 aC
@@ -41512,12 +41537,12 @@ wJ
 AQ
 CU
 Fa
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
+ci
+ci
 Oi
 Ru
 TJ
@@ -41561,7 +41586,7 @@ ss
 ss
 QA
 qz
-nZ
+RE
 nZ
 nZ
 nZ
@@ -41748,7 +41773,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 fA
 al
 aJ
@@ -41769,12 +41794,12 @@ ke
 At
 Dn
 rk
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
+ci
+ci
 Ox
 Ry
 TT
@@ -41818,7 +41843,7 @@ qK
 Tr
 Hf
 qz
-nZ
+RE
 nZ
 nZ
 nZ
@@ -42005,7 +42030,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 MN
 MN
 bD
@@ -42026,12 +42051,12 @@ py
 py
 Dq
 py
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
+ci
+ci
 ZZ
 RA
 Ru
@@ -42075,7 +42100,7 @@ ZS
 Fk
 cG
 qz
-nZ
+RE
 nZ
 nZ
 nZ
@@ -42262,8 +42287,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 am
 aQ
 cU
@@ -42283,12 +42308,12 @@ py
 Bo
 Dr
 py
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
+ci
+ci
 DP
 Dc
 rH
@@ -42332,7 +42357,7 @@ CZ
 As
 CZ
 qz
-nZ
+RE
 nZ
 nZ
 nZ
@@ -42520,7 +42545,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 am
 aR
 cX
@@ -42540,12 +42565,12 @@ py
 Br
 DA
 py
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
+ci
+ci
 DP
 Dc
 TZ
@@ -42589,7 +42614,7 @@ ss
 ss
 qz
 qz
-nZ
+RE
 nZ
 nZ
 nZ
@@ -42777,7 +42802,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 am
 aW
 cZ
@@ -42799,10 +42824,10 @@ UU
 Fp
 Hj
 Fp
-Ji
-Ji
-Ji
-Ji
+oY
+mW
+oY
+mW
 Oz
 Oz
 Oz
@@ -42845,8 +42870,8 @@ ss
 ss
 qz
 qz
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -43034,7 +43059,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 am
 bd
 Ef
@@ -43056,10 +43081,10 @@ DI
 Fp
 Hm
 Fp
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
 Oz
 RB
 Ua
@@ -43101,8 +43126,8 @@ qz
 qz
 qz
 qz
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -43291,7 +43316,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 am
 bt
 da
@@ -43313,9 +43338,9 @@ DJ
 Ft
 Hn
 Fp
-nZ
-nZ
-nZ
+ci
+ci
+ci
 MY
 OC
 bu
@@ -43355,10 +43380,10 @@ wL
 te
 ds
 Ji
-nZ
+RE
 yh
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -43548,7 +43573,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 am
 am
 db
@@ -43570,10 +43595,10 @@ DK
 Fp
 Hp
 Fp
-nZ
-nZ
-nZ
-nZ
+ci
+ci
+ci
+ci
 Oz
 RP
 RJ
@@ -43610,11 +43635,11 @@ Cz
 Ul
 Cz
 Ul
-nZ
+RE
 Ji
 Ji
 yh
-nZ
+RE
 nZ
 nZ
 nZ
@@ -43805,8 +43830,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 am
 de
 fs
@@ -43867,11 +43892,11 @@ te
 te
 te
 te
-nZ
+RE
 Ji
-nZ
+RE
 Va
-nZ
+RE
 nZ
 nZ
 nZ
@@ -44063,7 +44088,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 am
 dm
 CS
@@ -44124,11 +44149,11 @@ Cz
 Ul
 Cz
 Ul
-nZ
+RE
 Ji
-nZ
+RE
 yh
-nZ
+RE
 nZ
 nZ
 nZ
@@ -44320,7 +44345,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 am
 am
 am
@@ -44385,7 +44410,7 @@ Ji
 Ji
 Ji
 yh
-nZ
+RE
 nZ
 nZ
 nZ
@@ -44577,8 +44602,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 dv
 fz
 hC
@@ -44638,12 +44663,12 @@ sj
 Ro
 Ro
 Ro
-nZ
+RE
 zt
-nZ
+RE
 yh
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
@@ -44835,7 +44860,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 dD
 fB
 Sm
@@ -44900,7 +44925,7 @@ Mn
 Ro
 Ro
 Ro
-nZ
+RE
 nZ
 nZ
 nZ
@@ -45092,7 +45117,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 dv
 dv
 hR
@@ -45157,7 +45182,7 @@ cT
 Nx
 PI
 bj
-nZ
+RE
 nZ
 nZ
 nZ
@@ -45349,8 +45374,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 dv
 dv
 iG
@@ -45414,7 +45439,7 @@ uO
 Nx
 PI
 bj
-nZ
+RE
 nZ
 nZ
 nZ
@@ -45607,8 +45632,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 dv
 dv
 dv
@@ -45671,7 +45696,7 @@ Ma
 Sz
 PI
 bj
-nZ
+RE
 nZ
 nZ
 nZ
@@ -45865,9 +45890,9 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
 dv
 dD
 dD
@@ -45928,7 +45953,7 @@ cT
 Nx
 PI
 bj
-nZ
+RE
 nZ
 nZ
 nZ
@@ -46124,10 +46149,10 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
 mA
 mA
 mA
@@ -46185,7 +46210,7 @@ an
 Ro
 Ro
 Ro
-nZ
+RE
 nZ
 nZ
 nZ
@@ -46384,17 +46409,17 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 HL
 IQ
 JH
@@ -46440,9 +46465,9 @@ Ro
 Ro
 Ro
 Ro
-nZ
-nZ
-nZ
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -46651,7 +46676,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 HL
 HL
 HL
@@ -46693,11 +46718,11 @@ Ro
 td
 Ro
 Ro
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -46908,11 +46933,11 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 Ji
 Ji
-nZ
+RE
 LC
 Ny
 PN
@@ -46946,11 +46971,11 @@ Ro
 Ro
 Ro
 Ro
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -47166,8 +47191,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 Ji
 Li
 Li
@@ -47198,12 +47223,12 @@ td
 td
 Ro
 Ro
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -47424,8 +47449,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 Lm
 LF
 qV
@@ -47449,13 +47474,13 @@ BL
 BL
 BL
 BL
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -47682,7 +47707,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 Li
 TX
 NG
@@ -47700,13 +47725,13 @@ Ae
 Ae
 Ae
 Ae
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -47939,7 +47964,7 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 Li
 LS
 NJ
@@ -47953,11 +47978,11 @@ Gn
 NB
 PY
 Li
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -48195,8 +48220,8 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
+RE
+RE
 Lm
 Mb
 Lm
@@ -48210,7 +48235,7 @@ Mb
 Lm
 rq
 Lm
-nZ
+RE
 nZ
 nZ
 nZ
@@ -48453,21 +48478,21 @@ nZ
 nZ
 nZ
 nZ
-nZ
+RE
 Lm
 Mf
 NR
 Qg
 Lm
 SM
-nZ
+RE
 SM
 Lm
 Qg
 NR
 Qg
 Lm
-nZ
+RE
 nZ
 nZ
 nZ
@@ -48710,21 +48735,21 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
 Ql
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -48968,19 +48993,19 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 nZ
 nZ
 nZ
@@ -49226,18 +49251,18 @@ nZ
 nZ
 nZ
 nZ
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
-nZ
+RE
 nZ
 nZ
 nZ
@@ -49484,11 +49509,11 @@ nZ
 nZ
 nZ
 nZ
+RE
 nZ
 nZ
-nZ
-nZ
-nZ
+RE
+RE
 nZ
 nZ
 nZ
