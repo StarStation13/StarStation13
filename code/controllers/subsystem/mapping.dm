@@ -18,6 +18,7 @@ SUBSYSTEM_DEF(mapping)
 	var/list/lava_ruins_templates = list()
 	var/list/ice_ruins_templates = list()
 	var/list/ice_ruins_underground_templates = list()
+	var/list/lushplanet_ruins_templates = list() //STAR EDIT ADDITION
 
 	var/datum/space_level/isolated_ruins_z //Created on demand during ruin loading.
 
@@ -111,6 +112,12 @@ SUBSYSTEM_DEF(mapping)
 		seedRuins(ice_ruins_underground, CONFIG_GET(number/icemoon_budget), list(/area/icemoon/underground/unexplored), ice_ruins_underground_templates)
 		for (var/ice_z in ice_ruins_underground)
 			spawn_rivers(ice_z, 4, level_trait(ice_z, ZTRAIT_BASETURF), /area/icemoon/underground/unexplored/rivers)
+
+//STAR EDIT BEGIN//
+	var/list/lushplanet_ruins = levels_by_trait(ZTRAIT_LUSHPLANET_RUINS)
+	if (lushplanet_ruins.len)
+		seedRuins(lushplanet_ruins, CONFIG_GET(number/lushplanet_budget), list(/area/lush_planet/unexplored), lushplanet_ruins_templates)
+//STAR EDIT END//
 
 	// Generate deep space ruins
 	var/list/space_ruins = levels_by_trait(ZTRAIT_SPACE_RUINS)

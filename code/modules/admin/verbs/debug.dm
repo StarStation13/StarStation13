@@ -736,6 +736,10 @@ But you can call procs that are of type /mob/living/carbon/human/proc/ for that 
 	names += "---- Ice Underground Ruins ----"
 	for(var/name in SSmapping.ice_ruins_underground_templates)
 		names[name] = list(SSmapping.ice_ruins_underground_templates[name], ZTRAIT_ICE_RUINS_UNDERGROUND, list(/area/icemoon/underground/unexplored))
+//STAR EDIT START//
+	for(var/name in SSmapping.lushplanet_ruins_templates)
+		names[name] = list(SSmapping.lushplanet_ruins_templates[name], ZTRAIT_LUSHPLANET_RUINS, list(/area/lush_planet/unexplored))
+//STAR EDIT END//
 
 	var/ruinname = input("Select ruin", "Spawn Ruin") as null|anything in sortList(names)
 	var/data = names[ruinname]
