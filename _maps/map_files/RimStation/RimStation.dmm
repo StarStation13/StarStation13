@@ -6,6 +6,13 @@
 	},
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"ac" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/turf/open/floor/wood/large,
+/area/commons/dorms)
+"av" = (
+/turf/open/floor/iron,
+/area/commons/dorms)
 "aY" = (
 /turf/closed/wall,
 /area/commons/vacant_room/commissary)
@@ -36,6 +43,20 @@
 	},
 /turf/open/floor/iron,
 /area/commons/storage/tools)
+"bt" = (
+/turf/closed/wall,
+/area/commons/dorms)
+"ck" = (
+/obj/structure/table/wood,
+/obj/item/coin/silver,
+/turf/open/floor/iron,
+/area/commons/dorms)
+"cl" = (
+/obj/effect/spawner/random/vending/snackvend,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/lush_planet/unexplored)
 "cn" = (
 /obj/machinery/vending/modularpc,
 /obj/machinery/door/firedoor,
@@ -98,6 +119,11 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron,
 /area/commons/locker)
+"dp" = (
+/obj/machinery/cryopod,
+/obj/structure/window/spawner/east,
+/turf/open/floor/iron/dark,
+/area/commons/dorms)
 "dJ" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -113,6 +139,29 @@
 	},
 /turf/open/floor/stone,
 /area/lush_planet)
+"eF" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/wood/large,
+/area/commons/dorms)
+"fk" = (
+/obj/structure/table/wood,
+/obj/item/storage/firstaid/regular,
+/turf/open/floor/iron,
+/area/commons/dorms)
+"fp" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Dormitory"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/commons/dorms)
+"fE" = (
+/obj/machinery/computer/cryopod{
+	pixel_y = 32
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark/textured,
+/area/commons/dorms)
 "gH" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -122,6 +171,10 @@
 "gJ" = (
 /turf/open/floor/iron,
 /area/commons/storage/art)
+"he" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/commons/dorms)
 "hf" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical{
@@ -224,6 +277,10 @@
 /obj/machinery/hydroponics/soil,
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"kN" = (
+/obj/machinery/bluespace_vendor/west,
+/turf/open/floor/iron,
+/area/commons/dorms)
 "kO" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -233,6 +290,9 @@
 	},
 /turf/open/floor/stone,
 /area/lush_planet)
+"lk" = (
+/turf/open/floor/wood/large,
+/area/commons/dorms)
 "lq" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/grimy,
@@ -253,6 +313,12 @@
 "mt" = (
 /turf/open/water/jungle,
 /area/lush_planet)
+"mO" = (
+/obj/structure/bed,
+/obj/item/bedsheet/dorms,
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/wood/large,
+/area/commons/dorms)
 "mU" = (
 /obj/structure/chair/office,
 /turf/open/floor/carpet/red,
@@ -305,6 +371,11 @@
 	},
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
+"qe" = (
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/commons/dorms)
 "qg" = (
 /obj/structure/chair/office,
 /turf/open/floor/wood,
@@ -346,8 +417,12 @@
 /turf/open/floor/iron/dark/textured,
 /area/commons/locker)
 "rq" = (
-/turf/open/floor/plating,
-/area/lush_planet/unexplored)
+/obj/machinery/requests_console/directional/north{
+	department = "Crew Quarters";
+	name = "Crew Quarters Requests Console"
+	},
+/turf/open/floor/iron,
+/area/commons/dorms)
 "rx" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -387,6 +462,10 @@
 	},
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"tj" = (
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/wood/large,
+/area/commons/vacant_room/office)
 "tU" = (
 /obj/structure/table,
 /obj/item/rcl/pre_loaded,
@@ -414,6 +493,11 @@
 	},
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
+"uy" = (
+/obj/structure/table/wood,
+/obj/item/storage/dice,
+/turf/open/floor/iron,
+/area/commons/dorms)
 "uO" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -423,6 +507,12 @@
 	},
 /turf/open/floor/stone,
 /area/lush_planet)
+"uU" = (
+/obj/effect/spawner/random/vending/colavend,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/lush_planet/unexplored)
 "vl" = (
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
@@ -465,6 +555,12 @@
 /obj/machinery/hydroponics/soil,
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"wY" = (
+/obj/structure/chair/stool/directional/north,
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/commons/dorms)
 "xe" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -548,6 +644,7 @@
 /area/commons/locker)
 "Ac" = (
 /obj/machinery/bookbinder,
+/obj/machinery/firealarm/directional/south,
 /turf/open/floor/wood,
 /area/service/library)
 "AQ" = (
@@ -578,6 +675,10 @@
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/plating,
 /area/commons/locker)
+"CA" = (
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/iron,
+/area/commons/dorms)
 "Dv" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
@@ -788,6 +889,15 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/water/jungle,
 /area/lush_planet)
+"Kf" = (
+/turf/open/floor/iron/dark/corner{
+	dir = 4
+	},
+/area/commons/dorms)
+"KH" = (
+/obj/structure/extinguisher_cabinet/directional/east,
+/turf/open/floor/iron,
+/area/commons/dorms)
 "Ln" = (
 /obj/machinery/button/door/directional/east{
 	id = "commissarydoor";
@@ -816,6 +926,13 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/service/hydroponics/garden)
+"Ng" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/structure/window/spawner/west,
+/turf/open/floor/iron/dark/textured,
+/area/commons/dorms)
 "Ny" = (
 /turf/open/floor/iron,
 /area/commons/storage/tools)
@@ -832,6 +949,16 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/commons/locker)
+"On" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/door/airlock{
+	id_tag = "Dorm3";
+	name = "Dorm 3"
+	},
+/turf/open/floor/wood/large,
+/area/commons/dorms)
 "Ou" = (
 /obj/machinery/shower{
 	pixel_y = 8
@@ -854,6 +981,9 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/commons/storage/primary)
+"Px" = (
+/turf/open/floor/iron/dark/textured,
+/area/commons/dorms)
 "Pz" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/portable_atmospherics/pump,
@@ -873,6 +1003,15 @@
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/iron,
 /area/commons/storage/art)
+"Qc" = (
+/obj/machinery/vending/clothing,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron,
+/area/commons/dorms)
+"Qg" = (
+/obj/structure/chair/stool/directional/east,
+/turf/open/floor/iron,
+/area/commons/dorms)
 "Qr" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -880,6 +1019,16 @@
 "QB" = (
 /turf/open/floor/wood,
 /area/service/library)
+"QF" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/door/airlock{
+	id_tag = "Dorm4";
+	name = "Dorm 4"
+	},
+/turf/open/floor/wood/large,
+/area/commons/dorms)
 "QQ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -892,6 +1041,10 @@
 /obj/item/taperecorder,
 /turf/open/floor/iron/grimy,
 /area/commons/vacant_room/office)
+"Rb" = (
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron,
+/area/commons/storage/tools)
 "Rq" = (
 /obj/structure/table,
 /obj/item/paper_bin/construction,
@@ -932,6 +1085,9 @@
 /obj/item/plant_analyzer,
 /turf/open/floor/plating,
 /area/service/hydroponics/garden)
+"RD" = (
+/turf/open/floor/iron/dark,
+/area/commons/dorms)
 "RE" = (
 /obj/item/stack/tile/iron,
 /turf/open/floor/plating,
@@ -950,9 +1106,19 @@
 /obj/machinery/holopad,
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
+"SH" = (
+/obj/structure/table/wood,
+/obj/item/storage/crayons,
+/turf/open/floor/iron,
+/area/commons/dorms)
 "SN" = (
 /turf/closed/wall,
 /area/commons/vacant_room/office)
+"SZ" = (
+/obj/structure/table/wood,
+/obj/item/paicard,
+/turf/open/floor/iron,
+/area/commons/dorms)
 "Td" = (
 /obj/structure/closet/toolcloset,
 /obj/effect/turf_decal/bot,
@@ -971,12 +1137,27 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
+"UB" = (
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/commons/dorms)
 "UZ" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Central Access"
 	},
 /turf/open/floor/iron,
 /area/lush_planet/unexplored)
+"Vp" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/door/airlock{
+	id_tag = "Dorm2";
+	name = "Dorm 2"
+	},
+/turf/open/floor/wood/large,
+/area/commons/dorms)
 "VC" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -1062,12 +1243,40 @@
 	},
 /turf/open/floor/carpet/red,
 /area/commons/vacant_room/office)
+"YN" = (
+/obj/item/kirbyplants/random,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/commons/dorms)
+"YQ" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/commons/dorms)
+"Zj" = (
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/commons/dorms)
 "ZD" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Art Storage"
 	},
 /turf/open/floor/iron,
 /area/commons/storage/art)
+"ZG" = (
+/obj/structure/table/wood,
+/obj/item/toy/cards/deck{
+	pixel_x = 2
+	},
+/obj/item/clothing/mask/balaclava{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/turf/open/floor/iron,
+/area/commons/dorms)
 "ZR" = (
 /obj/machinery/hydroponics/soil,
 /obj/effect/turf_decal/siding/thinplating,
@@ -27931,16 +28140,16 @@ jZ
 jE
 jE
 jE
-Iy
-Iy
-Iy
-Iy
-Iy
-Iy
-Iy
-Iy
-Iy
-Iy
+bt
+fp
+YQ
+fp
+bt
+bt
+bt
+bt
+uU
+cl
 Iy
 jE
 jE
@@ -28188,17 +28397,17 @@ jZ
 jE
 jE
 jE
-Iy
+bt
 rq
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-Iy
+av
+av
+av
+kN
+av
+bt
+bt
+bt
+bt
 jE
 jE
 jE
@@ -28445,17 +28654,17 @@ jZ
 jE
 jE
 jE
-Iy
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-Iy
+bt
+Zj
+qe
+Kf
+CA
+CA
+av
+Vp
+eF
+lk
+bt
 jE
 jE
 jE
@@ -28702,17 +28911,17 @@ jZ
 jE
 jE
 jE
-Iy
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-Iy
+bt
+dp
+Px
+UB
+uy
+SH
+av
+bt
+ac
+mO
+bt
 jE
 jE
 jE
@@ -28959,17 +29168,17 @@ jZ
 UZ
 xe
 UZ
-Iy
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-Iy
+bt
+Ng
+RD
+wY
+fk
+SZ
+he
+bt
+bt
+bt
+bt
 jE
 jE
 jE
@@ -29216,17 +29425,17 @@ jZ
 pB
 pB
 pB
-Iy
-Iy
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-Iy
+bt
+bt
+fE
+wY
+ck
+ZG
+av
+On
+eF
+lk
+bt
 jE
 jE
 jE
@@ -29474,16 +29683,16 @@ pB
 pB
 pB
 pB
-Iy
-Iy
-rq
-rq
-rq
-rq
-rq
-rq
-rq
-Iy
+bt
+bt
+UB
+av
+Qg
+av
+bt
+ac
+mO
+bt
 jE
 jE
 jE
@@ -29732,15 +29941,15 @@ kO
 kO
 cp
 pB
-Iy
-Iy
-rq
-rq
-rq
-rq
-rq
-rq
-Iy
+bt
+bt
+Qc
+av
+av
+bt
+bt
+bt
+bt
 jE
 jE
 jE
@@ -29990,14 +30199,14 @@ mt
 yP
 cp
 pB
-Iy
-Iy
-rq
-rq
-rq
-rq
-rq
-Iy
+bt
+bt
+KH
+av
+QF
+eF
+lk
+bt
 jE
 jE
 jE
@@ -30248,13 +30457,13 @@ xQ
 yP
 cp
 pB
-Iy
-Iy
-rq
-rq
-rq
-rq
-Iy
+bt
+bt
+YN
+bt
+ac
+mO
+bt
 jE
 jE
 jE
@@ -30506,12 +30715,12 @@ mt
 yP
 cp
 pB
-Iy
-Iy
-Iy
-Iy
-Iy
-Iy
+bt
+bt
+bt
+bt
+bt
+bt
 jE
 jE
 jE
@@ -33062,7 +33271,7 @@ ta
 Je
 Ip
 sC
-sp
+tj
 sp
 sp
 sp
@@ -33331,7 +33540,7 @@ jE
 Qr
 Im
 mk
-Ny
+Rb
 XF
 QB
 QB
