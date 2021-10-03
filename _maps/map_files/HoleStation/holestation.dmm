@@ -6814,17 +6814,10 @@
 /turf/closed/wall/r_wall,
 /area/maintenance/starboard/aft)
 "Mo" = (
-/obj/machinery/mecha_part_fabricator,
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/turf/open/floor/iron/showroomfloor,
+/obj/machinery/rnd/server,
+/obj/structure/lattice/catwalk,
+/obj/structure/window/reinforced/plasma/spawner/east,
+/turf/open/space/basic,
 /area/science/research)
 "Mp" = (
 /obj/machinery/atmospherics/components/trinary/filter/flipped/critical{
@@ -8894,13 +8887,11 @@
 /turf/open/floor/iron,
 /area/cargo/storage)
 "WQ" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/turf/open/floor/iron/showroomfloor,
+/obj/machinery/rnd/server/master,
+/obj/structure/lattice/catwalk,
+/obj/structure/window/reinforced/plasma/spawner,
+/obj/structure/window/reinforced/plasma/spawner/east,
+/turf/open/space/basic,
 /area/science/research)
 "WR" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -35349,8 +35340,8 @@ nZ
 Ji
 oF
 oF
-YS
-YS
+oF
+oF
 WS
 WS
 WS
