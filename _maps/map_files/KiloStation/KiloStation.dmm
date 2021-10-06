@@ -5776,13 +5776,14 @@
 /turf/open/floor/iron,
 /area/hallway/primary/fore)
 "aAF" = (
-/obj/machinery/aug_manipulator,
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/turf/open/floor/iron/showroomfloor,
 /area/science/robotics/lab)
 "aAI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -35221,10 +35222,19 @@
 /area/security/prison)
 "gfH" = (
 /obj/structure/rack,
-/obj/item/storage/crayons,
-/obj/item/storage/crayons,
 /obj/effect/turf_decal/bot,
 /obj/machinery/light/small/directional/north,
+/obj/item/stack/pipe_cleaner_coil/random,
+/obj/item/stack/pipe_cleaner_coil/random,
+/obj/item/stack/pipe_cleaner_coil/random,
+/obj/item/stack/pipe_cleaner_coil/random,
+/obj/item/stack/pipe_cleaner_coil/random,
+/obj/item/rcl/pre_loaded,
+/obj/item/storage/crayons,
+/obj/item/storage/crayons,
+/obj/structure/sign/painting/library{
+	pixel_y = 32
+	},
 /turf/open/floor/iron/dark,
 /area/service/library)
 "gfK" = (
@@ -44508,6 +44518,7 @@
 "jId" = (
 /obj/structure/easel,
 /obj/effect/turf_decal/bot,
+/obj/item/canvas/twentythree_twentythree,
 /obj/item/airlock_painter,
 /turf/open/floor/iron/dark,
 /area/service/library)
@@ -47639,6 +47650,9 @@
 /obj/effect/turf_decal/bot_white,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/item/radio/intercom/directional/east,
+/obj/structure/sign/painting/library{
+	pixel_y = 32
+	},
 /turf/open/floor/iron/dark,
 /area/service/library)
 "kLr" = (
@@ -48433,6 +48447,9 @@
 /obj/structure/table/wood,
 /obj/machinery/computer/libraryconsole{
 	pixel_y = 5
+	},
+/obj/structure/sign/painting/library{
+	pixel_y = 32
 	},
 /turf/open/floor/iron/dark,
 /area/service/library)
@@ -52302,6 +52319,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/commons/vacant_room/commissary)
+"mwX" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/turf/open/floor/iron/showroomfloor,
+/area/science/robotics/lab)
 "mwZ" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/yellow,
@@ -76021,10 +76044,8 @@
 "vtN" = (
 /obj/structure/bookcase/random/religion,
 /obj/effect/decal/cleanable/cobweb,
-/obj/structure/sign/barsign{
-	pixel_y = 32;
-	req_access = null;
-	req_access_txt = "25"
+/obj/structure/sign/painting/library{
+	pixel_y = 32
 	},
 /turf/open/floor/iron/dark,
 /area/service/library)
@@ -120075,7 +120096,7 @@ atq
 aXe
 aqU
 auk
-auk
+mwX
 xFs
 bFj
 bbQ
