@@ -68,6 +68,9 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/item/storage/secure/safe/caps_spare{
+	pixel_x = 32
+	},
 /turf/open/floor/iron/dark,
 /area/command/bridge)
 "am" = (
@@ -3342,7 +3345,6 @@
 /area/hallway/secondary/exit/departure_lounge)
 "rr" = (
 /obj/machinery/telecomms/server/presets/supply,
-/obj/machinery/firealarm/directional/south,
 /turf/open/floor/circuit/green/telecomms/mainframe,
 /area/tcommsat/server)
 "rv" = (
@@ -3604,9 +3606,9 @@
 /area/service/hydroponics)
 "sM" = (
 /obj/structure/window/reinforced/plasma/spawner/west,
-/obj/machinery/power/rad_collector/anchored,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /obj/structure/cable,
+/obj/machinery/power/tesla_coil/anchored,
 /turf/open/floor/circuit/green{
 	luminosity = 2
 	},
@@ -3981,9 +3983,9 @@
 /area/hallway/secondary/service)
 "uQ" = (
 /obj/structure/window/reinforced/plasma/spawner/east,
-/obj/machinery/power/rad_collector/anchored,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /obj/structure/cable,
+/obj/machinery/power/tesla_coil/anchored,
 /turf/open/floor/circuit/green{
 	luminosity = 2
 	},
@@ -5036,7 +5038,6 @@
 /area/maintenance/starboard/aft)
 "AY" = (
 /obj/machinery/telecomms/bus/preset_four,
-/obj/machinery/airalarm/directional/north,
 /turf/open/floor/circuit/green/telecomms/mainframe,
 /area/tcommsat/server)
 "AZ" = (
@@ -7870,6 +7871,15 @@
 	dir = 4
 	},
 /area/hallway/secondary/entry)
+"RY" = (
+/obj/structure/window/reinforced/plasma/spawner/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/structure/cable,
+/obj/machinery/power/grounding_rod/anchored,
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
+/area/engineering/supermatter)
 "RZ" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
@@ -9132,6 +9142,15 @@
 	},
 /turf/open/floor/iron/dark,
 /area/cargo/storage)
+"Yi" = (
+/obj/structure/window/reinforced/plasma/spawner/east,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/obj/structure/cable,
+/obj/machinery/power/grounding_rod/anchored,
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
+/area/engineering/supermatter)
 "Yj" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -40769,7 +40788,7 @@ vV
 vV
 bN
 uQ
-uQ
+Yi
 uQ
 vV
 ed
@@ -41797,7 +41816,7 @@ vV
 vV
 ks
 sM
-sM
+RY
 sM
 vV
 ed
