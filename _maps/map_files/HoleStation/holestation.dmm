@@ -5099,7 +5099,7 @@
 "zJ" = (
 /obj/machinery/light/small/directional/east,
 /obj/machinery/atmospherics/components/tank/air{
-	initialize_directions = 1;
+	dir = 1;
 	piping_layer = 4
 	},
 /turf/open/floor/plating,
@@ -7503,6 +7503,7 @@
 	dir = 1
 	},
 /obj/machinery/vending/coffee,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/showroomfloor,
 /area/science/research/abandoned)
 "NA" = (
