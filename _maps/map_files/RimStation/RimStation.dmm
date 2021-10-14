@@ -20,6 +20,11 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"aq" = (
+/obj/structure/table/wood,
+/obj/item/gun/ballistic/shotgun/doublebarrel,
+/turf/open/floor/carpet,
+/area/service/bar)
 "aY" = (
 /turf/closed/wall,
 /area/commons/vacant_room/commissary)
@@ -188,6 +193,14 @@
 	},
 /turf/open/floor/stone,
 /area/lush_planet)
+"eQ" = (
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood,
+/area/service/bar)
 "fa" = (
 /obj/structure/chair/stool/directional/west,
 /turf/open/floor/iron,
@@ -217,6 +230,16 @@
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron/showroomfloor,
 /area/service/kitchen/coldroom)
+"gq" = (
+/mob/living/carbon/human/species/monkey/punpun,
+/obj/structure/sink/kitchen{
+	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
+	dir = 8;
+	name = "old sink";
+	pixel_x = 12
+	},
+/turf/open/floor/wood,
+/area/service/bar)
 "gH" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -346,6 +369,22 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/service/kitchen)
+"iI" = (
+/obj/structure/table/wood,
+/obj/item/book/manual/wiki/barman_recipes{
+	pixel_x = 10;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/food/drinks/shaker{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/glass/rag,
+/obj/structure/sign/poster/official/high_class_martini{
+	pixel_y = -32
+	},
+/turf/open/floor/wood,
+/area/service/bar)
 "iL" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/closet/crate{
@@ -362,6 +401,9 @@
 /obj/item/queen_bee/bought,
 /turf/open/floor/grass,
 /area/service/hydroponics)
+"iO" = (
+/turf/closed/wall,
+/area/service/bar)
 "iP" = (
 /obj/effect/spawner/random/clothing/wardrobe_closet_colored,
 /obj/effect/turf_decal/siding/thinplating{
@@ -395,6 +437,10 @@
 	},
 /turf/open/floor/plating,
 /area/commons/storage/primary)
+"jL" = (
+/obj/machinery/vending/boozeomat,
+/turf/closed/wall,
+/area/service/bar)
 "jW" = (
 /obj/machinery/photocopier,
 /turf/open/floor/wood/large,
@@ -493,6 +539,10 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/hallway/secondary/service)
+"kW" = (
+/obj/structure/closet/secure_closet/bar,
+/turf/open/floor/wood,
+/area/service/bar)
 "lq" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/grimy,
@@ -609,6 +659,11 @@
 	dir = 4
 	},
 /area/hallway/secondary/service)
+"nJ" = (
+/obj/structure/table/wood,
+/obj/item/holosign_creator/robot_seat/bar,
+/turf/open/floor/carpet,
+/area/service/bar)
 "nT" = (
 /obj/structure/table,
 /obj/item/storage/crayons,
@@ -675,6 +730,11 @@
 	},
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
+"pd" = (
+/obj/machinery/airalarm/directional/north,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/service/bar)
 "pe" = (
 /obj/structure/table,
 /turf/open/floor/stone,
@@ -767,6 +827,16 @@
 /obj/structure/chair/office,
 /turf/open/floor/wood,
 /area/service/library)
+"qi" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/door/airlock{
+	name = "Bar Storage";
+	req_access_txt = "25"
+	},
+/turf/open/floor/wood,
+/area/service/bar)
 "ql" = (
 /obj/structure/window/spawner/north,
 /obj/machinery/hydroponics/constructable,
@@ -934,6 +1004,10 @@
 "tB" = (
 /turf/open/floor/iron/checker,
 /area/service/kitchen)
+"tJ" = (
+/obj/effect/turf_decal/siding/wood/end,
+/turf/open/floor/iron/dark/textured_large,
+/area/service/bar)
 "tU" = (
 /obj/structure/table,
 /obj/item/rcl/pre_loaded,
@@ -970,6 +1044,9 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
+"uz" = (
+/turf/open/floor/wood,
+/area/service/bar)
 "uB" = (
 /obj/machinery/chem_master/condimaster,
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -1068,6 +1145,13 @@
 	},
 /turf/open/floor/stone,
 /area/lush_planet)
+"wV" = (
+/obj/machinery/door/airlock{
+	name = "Bar Storage";
+	req_access_txt = "25"
+	},
+/turf/open/floor/wood,
+/area/service/bar)
 "xd" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/trimline/green/filled/line,
@@ -1368,6 +1452,10 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/service/kitchen/coldroom)
+"Dm" = (
+/obj/effect/landmark/start/bartender,
+/turf/open/floor/wood,
+/area/service/bar)
 "Dv" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
@@ -1384,6 +1472,14 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark/textured,
 /area/commons/dorms)
+"DD" = (
+/obj/machinery/chem_master/condimaster{
+	desc = "Looks like a knock-off chem-master. Perhaps useful for separating liquids when mixing drinks precisely. Also dispenses condiments.";
+	name = "HoochMaster Deluxe";
+	pixel_x = -4
+	},
+/turf/open/floor/wood,
+/area/service/bar)
 "DE" = (
 /obj/machinery/holopad,
 /turf/open/floor/iron,
@@ -1520,6 +1616,12 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/commons/toilet/locker)
+"Ft" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/service/bar)
 "Fx" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -1735,6 +1837,10 @@
 /obj/machinery/gibber,
 /turf/open/floor/iron/showroomfloor,
 /area/service/kitchen/coldroom)
+"Jy" = (
+/obj/structure/chair/comfy,
+/turf/open/floor/carpet,
+/area/service/bar)
 "JQ" = (
 /turf/closed/wall,
 /area/service/kitchen/coldroom)
@@ -1848,8 +1954,11 @@
 "ML" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/reinforced,
-/turf/open/floor/plating,
-/area/lush_planet/unexplored)
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/service/bar)
 "MN" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/railing,
@@ -1864,6 +1973,12 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/checker,
 /area/service/kitchen)
+"Nf" = (
+/obj/structure/table/wood,
+/obj/machinery/light/directional/east,
+/obj/machinery/reagentgrinder,
+/turf/open/floor/wood,
+/area/service/bar)
 "Ni" = (
 /turf/open/floor/iron/showroomfloor,
 /area/service/kitchen/coldroom)
@@ -2134,7 +2249,7 @@
 "Sm" = (
 /obj/machinery/smartfridge/drinks,
 /turf/closed/wall,
-/area/lush_planet/unexplored)
+/area/service/bar)
 "Ss" = (
 /obj/machinery/holopad,
 /turf/open/floor/iron,
@@ -2200,6 +2315,18 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
+"Ux" = (
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks/beer{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/wood,
+/area/service/bar)
+"UM" = (
+/obj/structure/table/wood,
+/turf/open/floor/carpet,
+/area/service/bar)
 "UZ" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Central Access"
@@ -2214,6 +2341,10 @@
 /obj/item/shovel/spade,
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"Vt" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/service/bar)
 "Vu" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -2242,6 +2373,12 @@
 	},
 /turf/open/floor/wood,
 /area/hallway/secondary/service)
+"VF" = (
+/obj/structure/sign/picture_frame/portrait/bar{
+	pixel_y = 28
+	},
+/turf/open/floor/wood,
+/area/service/bar)
 "VN" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 6
@@ -2251,6 +2388,14 @@
 	},
 /turf/open/floor/stone,
 /area/lush_planet)
+"Wb" = (
+/obj/machinery/vending/wardrobe/bar_wardrobe,
+/obj/machinery/camera{
+	c_tag = "Civilian - Bar Backroom";
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/service/bar)
 "Wf" = (
 /obj/item/kirbyplants/random,
 /obj/machinery/light/small/directional/east,
@@ -36274,14 +36419,14 @@ ET
 ET
 ET
 ET
-ET
-ET
-cD
+jE
+jE
+iO
 ML
 ML
 ML
 Sm
-cD
+iO
 CQ
 CQ
 kO
@@ -36531,14 +36676,14 @@ ET
 ET
 ET
 ET
-ET
-ET
-cD
-ET
-ET
-ET
-ET
-cD
+jE
+jE
+iO
+VF
+uz
+Dm
+iI
+iO
 vl
 vl
 vl
@@ -36788,14 +36933,14 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-cD
+jE
+jE
+iO
+pd
+Ft
+tJ
+eQ
+iO
 vl
 vl
 vl
@@ -37045,14 +37190,14 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-cD
+jE
+jE
+iO
+Vt
+uz
+gq
+Ux
+iO
 kH
 kH
 kH
@@ -37302,14 +37447,14 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-cD
+jE
+jE
+iO
+jL
+wV
+iO
+iO
+iO
 mt
 mt
 mt
@@ -37559,14 +37704,14 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-cD
+jE
+jE
+iO
+kW
+uz
+uz
+DD
+iO
 mt
 mt
 mt
@@ -37816,14 +37961,14 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-cD
+jE
+jE
+qi
+uz
+uz
+Jy
+nJ
+iO
 mt
 mt
 mt
@@ -38073,14 +38218,14 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+jE
+jE
+iO
+Wb
+Nf
+UM
+aq
+iO
 ET
 ET
 ET
@@ -38332,12 +38477,12 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
+iO
+iO
+iO
+iO
+iO
+iO
 ET
 ET
 ET
