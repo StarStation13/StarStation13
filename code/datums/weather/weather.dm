@@ -228,7 +228,7 @@
 		var/area/N = V
 		N.layer = overlay_layer
 		N.plane = overlay_plane
-		N.icon = 'icons/effects/weather_effects.dmi'
+		N.icon = 'modular_star/modules/mapping/icons/effects/weather_effects.dmi' //STAR EDIT - Rain, unfortunately, ported from Horizon, who got it from one 'World' - whomever or whatever they are.
 		N.color = weather_color
 		switch(stage)
 			if(STARTUP_STAGE)
