@@ -10,7 +10,7 @@
 	weather_message = "The rainfall begins in earnest, sending drops from the sky."
 	weather_overlay = "rain"
 	weather_duration_lower = 600
-	weather_duration_upper = 30 MINUTES //It's a jungle bruhv
+	weather_duration_upper = 30 MINUTES
 
 	end_duration = 100
 	end_message = "The rain falls still as the clouds give way to a glimmer of the sky above."
@@ -21,40 +21,8 @@
 
 	barometer_predictable = TRUE
 
-//Shamelessly Copied From Ash Storms But Weathercode Bad
+	telegraph_sound = 'sound/ambience/acidrain_start.ogg'
 
-	var/list/weak_sounds = list()
-	var/list/strong_sounds = list()
+	weather_sound = 'sound/ambience/acidrain_mid.ogg'
 
-/datum/weather/rain/telegraph()
-	var/list/eligible_areas = list()
-	for (var/z in impacted_z_levels)
-		eligible_areas += SSmapping.areas_in_z["[z]"]
-	for(var/i in 1 to eligible_areas.len)
-		var/area/place = eligible_areas[i]
-		if(place.outdoors)
-			weak_sounds[place] = /datum/looping_sound/storm/quiet
-			strong_sounds[place] = /datum/looping_sound/storm
-		else
-			weak_sounds[place] = /datum/looping_sound/storm/quieter
-			strong_sounds[place] = /datum/looping_sound/storm/quiet
-		CHECK_TICK
-
-	//We modify this list instead of setting it to weak/stron sounds in order to preserve things that hold a reference to it
-	//It's essentially a playlist for a bunch of components that chose what sound to loop based on the area a player is in
-	GLOB.rain_sounds += weak_sounds
-	return ..()
-
-/datum/weather/rain/start()
-	GLOB.rain_sounds -= weak_sounds
-	GLOB.rain_sounds += strong_sounds
-	return ..()
-
-/datum/weather/rain/wind_down()
-	GLOB.rain_sounds -= strong_sounds
-	GLOB.rain_sounds += weak_sounds
-	return ..()
-
-/datum/weather/rain/end()
-	GLOB.rain_sounds -= weak_sounds
-	return ..()
+	end_sound = 'sound/ambience/acidrain_end.ogg'
