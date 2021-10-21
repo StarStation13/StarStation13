@@ -414,6 +414,11 @@
 /obj/structure/water_source/puddle,
 /turf/open/floor/grass,
 /area/service/hydroponics)
+"fY" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/textured_large,
+/area/lush_planet)
 "ga" = (
 /obj/machinery/door/morgue{
 	name = "Confession Booth";
@@ -515,6 +520,19 @@
 /obj/machinery/holopad,
 /turf/open/floor/iron,
 /area/commons/storage/primary)
+"hn" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/machinery/power/floodlight{
+	setting = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/stone,
+/area/lush_planet)
 "hs" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical{
@@ -787,16 +805,6 @@
 "kr" = (
 /turf/open/floor/iron,
 /area/commons/locker)
-"kz" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 4
-	},
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/stone,
-/area/lush_planet)
 "kC" = (
 /obj/machinery/door/airlock{
 	id_tag = "Toilet";
@@ -824,6 +832,19 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/plating/catwalk_floor,
 /area/commons/toilet/locker)
+"kG" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/power/floodlight{
+	setting = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/stone,
+/area/lush_planet)
 "kH" = (
 /turf/closed/wall,
 /area/commons/toilet/locker)
@@ -1549,26 +1570,12 @@
 	},
 /turf/open/floor/iron,
 /area/commons/dorms)
-"so" = (
-/obj/effect/turf_decal/siding/white/corner,
-/obj/structure/railing/corner,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/stone,
-/area/lush_planet)
 "sp" = (
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron/dark/side{
 	dir = 4
 	},
 /area/commons/dorms)
-"st" = (
-/obj/effect/turf_decal/siding/white,
-/obj/structure/railing,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/stone,
-/area/lush_planet)
 "su" = (
 /obj/machinery/cryopod,
 /obj/structure/window/spawner/east,
@@ -1637,6 +1644,16 @@
 /obj/effect/spawner/random/structure/closet_maintenance,
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/dorms)
+"tv" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/stone,
+/area/lush_planet)
 "tB" = (
 /obj/structure/table,
 /obj/effect/turf_decal/bot,
@@ -1658,16 +1675,6 @@
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/iron/smooth_large,
 /area/service/janitor)
-"tR" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/stone,
-/area/lush_planet)
 "tU" = (
 /obj/machinery/light_switch/directional/north,
 /obj/effect/decal/cleanable/dirt,
@@ -1788,6 +1795,19 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/grass/fakebasalt,
 /area/maintenance/department/chapel)
+"wc" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/power/floodlight{
+	setting = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/stone,
+/area/lush_planet)
 "wn" = (
 /obj/structure/table,
 /obj/effect/turf_decal/bot,
@@ -1876,15 +1896,9 @@
 	dir = 1
 	},
 /area/commons/dorms)
-"xf" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 8
-	},
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/stone,
+"xi" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/textured_large,
 /area/lush_planet)
 "xl" = (
 /obj/effect/turf_decal/siding/white{
@@ -2089,10 +2103,6 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/service/janitor)
-"Av" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/textured_large,
-/area/lush_planet)
 "AI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2224,16 +2234,6 @@
 /obj/effect/spawner/random/trash/moisture_trap,
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
-"BZ" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/stone,
-/area/lush_planet)
 "Ca" = (
 /obj/structure/bookcase/random/reference,
 /obj/machinery/light/directional/north,
@@ -2510,12 +2510,12 @@
 "Fg" = (
 /turf/closed/wall,
 /area/service/theater)
-"Fj" = (
+"Fm" = (
 /obj/effect/turf_decal/siding/white/corner{
-	dir = 4
+	dir = 1
 	},
 /obj/structure/railing/corner{
-	dir = 4
+	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/stone,
@@ -2601,6 +2601,16 @@
 	dir = 4
 	},
 /area/service/chapel)
+"FC" = (
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone,
+/area/lush_planet)
 "FE" = (
 /obj/machinery/door/airlock/mining{
 	name = "Deliveries"
@@ -2608,16 +2618,6 @@
 /obj/effect/turf_decal/tile/brown/full,
 /turf/open/floor/iron/textured_large,
 /area/hallway/secondary/service)
-"FH" = (
-/obj/effect/turf_decal/siding/white/corner{
-	dir = 1
-	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/stone,
-/area/lush_planet)
 "FK" = (
 /obj/effect/turf_decal/tile/dark{
 	dir = 8
@@ -2761,6 +2761,13 @@
 	dir = 4
 	},
 /area/hallway/secondary/service)
+"Hg" = (
+/obj/effect/turf_decal/siding/white,
+/obj/structure/railing,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/stone,
+/area/lush_planet)
 "Hi" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass,
@@ -2946,20 +2953,20 @@
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
-"Jc" = (
-/obj/effect/turf_decal/siding/white/corner{
-	dir = 8
-	},
-/obj/structure/railing/corner{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/stone,
-/area/lush_planet)
 "Je" = (
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"Jg" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/stone,
+/area/lush_planet)
 "Jm" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/neutral,
@@ -3026,12 +3033,6 @@
 	},
 /turf/open/floor/wood,
 /area/lush_planet)
-"JY" = (
-/obj/effect/turf_decal/siding/white,
-/obj/structure/railing,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/stone,
-/area/lush_planet)
 "Kl" = (
 /obj/machinery/smartfridge,
 /turf/closed/wall,
@@ -3063,6 +3064,12 @@
 	},
 /turf/open/floor/plating,
 /area/service/hydroponics)
+"KC" = (
+/obj/effect/turf_decal/siding/white,
+/obj/structure/railing,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone,
+/area/lush_planet)
 "KF" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -3073,6 +3080,16 @@
 /obj/structure/chair{
 	dir = 4
 	},
+/turf/open/floor/stone,
+/area/lush_planet)
+"KG" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/stone,
 /area/lush_planet)
 "KJ" = (
@@ -3426,11 +3443,6 @@
 "OM" = (
 /turf/open/floor/iron/dark/textured_large,
 /area/maintenance/department/chapel)
-"OZ" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/textured_large,
-/area/lush_planet)
 "Pd" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = "12"
@@ -3623,6 +3635,16 @@
 /obj/machinery/griddle,
 /turf/open/floor/iron/checker,
 /area/service/kitchen)
+"Rs" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone,
+/area/lush_planet)
 "Rx" = (
 /obj/machinery/oven,
 /turf/open/floor/iron/checker,
@@ -3830,6 +3852,15 @@
 	dir = 8
 	},
 /area/service/hydroponics)
+"Tt" = (
+/obj/effect/turf_decal/siding/white,
+/obj/structure/railing,
+/obj/machinery/power/floodlight{
+	setting = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/stone,
+/area/lush_planet)
 "TE" = (
 /obj/structure/chair{
 	dir = 1
@@ -3883,6 +3914,16 @@
 /obj/effect/landmark/start/cook,
 /turf/open/floor/iron/checker,
 /area/service/kitchen)
+"Uk" = (
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/stone,
+/area/lush_planet)
 "Um" = (
 /obj/effect/spawner/random/structure/grille,
 /turf/open/floor/plating,
@@ -3988,10 +4029,6 @@
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/carpet,
 /area/service/bar)
-"VO" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/textured_large,
-/area/lush_planet)
 "VV" = (
 /turf/closed/wall,
 /area/maintenance/department/crew_quarters/dorms)
@@ -4343,6 +4380,13 @@
 /obj/machinery/door/window/northleft,
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
+"Zb" = (
+/obj/effect/turf_decal/siding/white/corner,
+/obj/structure/railing/corner,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/stone,
+/area/lush_planet)
 "Zg" = (
 /obj/machinery/vending/hydroseeds{
 	slogan_delay = 700
@@ -4377,6 +4421,10 @@
 /obj/effect/turf_decal/siding/thinplating,
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
+"ZJ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/textured_large,
+/area/lush_planet)
 "ZO" = (
 /obj/structure/window/spawner/east,
 /obj/structure/window/spawner/north,
@@ -18718,7 +18766,7 @@ kH
 kK
 nV
 qn
-qn
+wc
 qn
 rc
 kK
@@ -19998,7 +20046,7 @@ ai
 jI
 kK
 kK
-nY
+Tt
 pd
 pB
 pd
@@ -20008,7 +20056,7 @@ qo
 pd
 pB
 pd
-xl
+kG
 kK
 kK
 jI
@@ -21288,7 +21336,7 @@ kM
 kK
 nZ
 qs
-qs
+hn
 qs
 rE
 kK
@@ -24885,9 +24933,9 @@ xa
 xa
 xa
 Iy
-so
-kz
-Fj
+Zb
+KG
+Uk
 sd
 uh
 wM
@@ -25142,9 +25190,9 @@ qo
 qo
 ok
 HI
-JY
+KC
 pd
-BZ
+Rs
 sd
 tW
 wS
@@ -25398,10 +25446,10 @@ qo
 ok
 qo
 qo
-Av
-st
+xi
+Hg
 pd
-tR
+Jg
 sd
 uz
 wU
@@ -25655,10 +25703,10 @@ qo
 qo
 pp
 qo
-Av
+xi
 nY
 pd
-BZ
+Rs
 sd
 sd
 sd
@@ -25913,10 +25961,10 @@ qo
 qo
 ok
 HI
-JY
+KC
 pd
 xl
-OZ
+fY
 qo
 qo
 qo
@@ -26169,11 +26217,11 @@ bF
 qo
 qo
 qo
-VO
+ZJ
 nY
 pd
-BZ
-Av
+Rs
+xi
 qo
 ok
 ok
@@ -26426,11 +26474,11 @@ qo
 qo
 ok
 qo
-Av
-Jc
-xf
-FH
-Av
+xi
+FC
+tv
+Fm
+xi
 qo
 qo
 qo
@@ -26683,10 +26731,10 @@ qo
 qo
 qo
 qo
-Av
-Av
-Av
-OZ
+xi
+xi
+xi
+fY
 HI
 qo
 qo
