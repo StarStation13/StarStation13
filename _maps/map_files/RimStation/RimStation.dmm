@@ -21,10 +21,22 @@
 "aj" = (
 /turf/closed/wall,
 /area/commons/storage/primary)
+"ak" = (
+/obj/structure/flora/tree/jungle{
+	icon_state = "tree4"
+	},
+/turf/open/floor/plating/grass/jungle,
+/area/lush_planet)
 "aq" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/commons/storage/primary)
+"av" = (
+/obj/structure/flora/tree/jungle/small{
+	icon_state = "tree3"
+	},
+/turf/open/floor/plating/grass/jungle,
+/area/lush_planet)
 "aC" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 10
@@ -100,6 +112,12 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/commons/storage/art)
+"bF" = (
+/obj/structure/flora/tree/jungle/small{
+	icon_state = "tree2"
+	},
+/turf/open/floor/plating/grass/jungle,
+/area/lush_planet)
 "bG" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Art Storage"
@@ -389,6 +407,9 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/service/chapel/office)
+"gl" = (
+/turf/closed/wall/mineral/wood,
+/area/lush_planet)
 "gn" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/tile/brown{
@@ -869,6 +890,12 @@
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/open/floor/plating,
 /area/commons/locker)
+"lS" = (
+/obj/structure/flora/tree/jungle{
+	icon_state = "tree3"
+	},
+/turf/open/floor/plating/grass/jungle,
+/area/lush_planet)
 "lX" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/trash/hobo_squat,
@@ -2172,6 +2199,12 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/grass/jungle,
 /area/service/bar)
+"Dz" = (
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/grass/jungle,
+/area/lush_planet)
 "DA" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 8
@@ -2236,6 +2269,9 @@
 	dir = 8
 	},
 /obj/item/kirbyplants/random,
+/obj/structure/sign/poster/official/random{
+	pixel_y = 32
+	},
 /turf/open/floor/carpet/blue,
 /area/hallway/secondary/service)
 "DZ" = (
@@ -2608,6 +2644,9 @@
 	},
 /turf/open/floor/wood,
 /area/service/library)
+"HI" = (
+/turf/open/floor/iron/textured_large,
+/area/lush_planet)
 "HJ" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green{
@@ -3175,8 +3214,8 @@
 /turf/open/floor/wood,
 /area/service/bar)
 "OH" = (
-/obj/structure/sign/picture_frame/portrait/bar{
-	pixel_y = 28
+/obj/structure/sign/barsign{
+	pixel_y = 32
 	},
 /turf/open/floor/wood,
 /area/service/bar)
@@ -3191,7 +3230,6 @@
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "Pj" = (
-/obj/machinery/airalarm/directional/north,
 /obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/service/bar)
@@ -3217,6 +3255,10 @@
 "PD" = (
 /turf/open/floor/wood,
 /area/service/bar)
+"PH" = (
+/obj/structure/flora/tree/jungle,
+/turf/open/floor/plating/grass/jungle,
+/area/lush_planet)
 "PK" = (
 /obj/machinery/vending/wardrobe/bar_wardrobe,
 /obj/machinery/camera{
@@ -3570,6 +3612,9 @@
 /obj/structure/chair{
 	dir = 1
 	},
+/obj/structure/sign/poster/official/random{
+	pixel_y = -32
+	},
 /turf/open/floor/carpet/blue,
 /area/hallway/secondary/service)
 "TH" = (
@@ -3708,6 +3753,7 @@
 	name = "old sink";
 	pixel_x = 12
 	},
+/obj/machinery/airalarm/directional/east,
 /turf/open/floor/wood,
 /area/service/bar)
 "VF" = (
@@ -3852,6 +3898,12 @@
 /obj/item/reagent_containers/food/condiment/enzyme,
 /turf/open/floor/iron/checker,
 /area/service/kitchen)
+"WR" = (
+/obj/structure/flora/tree/jungle{
+	icon_state = "tree2"
+	},
+/turf/open/floor/plating/grass/jungle,
+/area/lush_planet)
 "Xb" = (
 /obj/structure/reagent_dispensers/cooking_oil,
 /obj/machinery/firealarm/directional/east,
@@ -4006,6 +4058,9 @@
 	dir = 1
 	},
 /obj/machinery/firealarm/directional/east,
+/obj/structure/sign/picture_frame/portrait/bar{
+	pixel_y = -28
+	},
 /turf/open/floor/wood,
 /area/service/bar)
 "YA" = (
@@ -24588,18 +24643,18 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+qo
 Iy
 xa
 xa
 xa
 Iy
-ET
-ET
-ET
+nV
+qn
+rc
 sd
 uh
 wM
@@ -24845,18 +24900,18 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+av
+qo
+qo
+qo
+ok
+HI
+nY
+pd
+xl
 sd
 tW
 wS
@@ -25102,18 +25157,18 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+PH
+qo
+qo
+qo
+ok
+qo
+qo
+HI
+nY
+pd
+xl
 sd
 uz
 wU
@@ -25359,18 +25414,18 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+lS
+qo
+qo
+qo
+pp
+qo
+HI
+nY
+pd
+xl
 sd
 sd
 sd
@@ -25616,23 +25671,23 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+WR
+qo
+qo
+qo
+ok
+HI
+nY
+pd
+xl
+HI
+qo
+qo
+qo
+qo
 ET
 ET
 ET
@@ -25873,23 +25928,23 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+qo
+bF
+qo
+qo
+qo
+HI
+nY
+pd
+xl
+HI
+qo
+ok
+ok
+qo
 ET
 ET
 ET
@@ -26130,23 +26185,23 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+lS
+qo
+qo
+qo
+qo
+qo
+ok
+qo
+HI
+nZ
+qs
+rE
+HI
+qo
+qo
+qo
+qo
 ET
 ET
 ET
@@ -26387,23 +26442,23 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+ak
+qo
+qo
+qo
+qo
+HI
+HI
+HI
+HI
+HI
+qo
+qo
+ok
+qo
 ET
 ET
 ET
@@ -26644,23 +26699,23 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+gl
+Dz
+qo
+qo
+qo
+qo
+ok
+qo
+qo
+qo
+qo
+qo
+qo
+qo
 ET
 ET
 ET
@@ -26881,43 +26936,43 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+ok
+qo
+ok
+qo
+qo
+pp
+qo
+qo
+qo
+ok
+qo
+pp
 ET
 ET
 ET
@@ -27138,43 +27193,43 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+ok
+ok
+qo
+pp
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
 ET
 ET
 ET
@@ -27395,43 +27450,43 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+ok
+qo
+qo
+qo
+qo
+ok
+qo
+qo
+qo
+qo
+ok
+qo
+qo
+qo
+ok
 ET
 ET
 ET
@@ -27675,20 +27730,20 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+gl
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
 ET
 ET
 ET
