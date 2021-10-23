@@ -49,6 +49,10 @@
 	},
 /turf/open/floor/stone,
 /area/lush_planet)
+"aF" = (
+/obj/structure/closet/secure_closet/security,
+/turf/open/floor/wood,
+/area/security/checkpoint)
 "aJ" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 10
@@ -112,6 +116,16 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/commons/storage/art)
+"bD" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/door/airlock/security{
+	name = "Security Checkpoint";
+	req_access_txt = "1"
+	},
+/turf/open/floor/wood,
+/area/security/checkpoint)
 "bF" = (
 /obj/structure/flora/tree/jungle/small{
 	icon_state = "tree2"
@@ -341,6 +355,14 @@
 /obj/effect/spawner/random/structure/girder,
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/dorms)
+"eJ" = (
+/obj/machinery/computer/security{
+	dir = 8
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/security/checkpoint)
 "eP" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = "12"
@@ -1136,6 +1158,13 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"nC" = (
+/obj/machinery/computer/secure_data{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/security/checkpoint)
 "nD" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
@@ -1493,6 +1522,9 @@
 "rd" = (
 /turf/open/floor/iron/dark,
 /area/service/chapel/office)
+"ri" = (
+/turf/open/floor/wood,
+/area/security/checkpoint)
 "rk" = (
 /obj/machinery/door/window/westright{
 	req_access_txt = "27"
@@ -1729,6 +1761,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/smooth,
 /area/service/janitor)
+"ua" = (
+/obj/machinery/vending/wardrobe/sec_wardrobe,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/security/checkpoint)
 "uh" = (
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/smooth,
@@ -1829,6 +1866,11 @@
 	},
 /turf/open/floor/plating,
 /area/commons/storage/tools)
+"vF" = (
+/obj/structure/table/wood,
+/obj/machinery/recharger,
+/turf/open/floor/wood,
+/area/security/checkpoint)
 "vK" = (
 /obj/effect/turf_decal/tile/yellow,
 /turf/open/floor/iron/textured,
@@ -1870,6 +1912,11 @@
 /obj/item/storage/toolbox/emergency,
 /turf/open/floor/plating,
 /area/commons/storage/tools)
+"wo" = (
+/obj/item/kirbyplants/random,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/security/checkpoint)
 "wr" = (
 /obj/structure/fence,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2042,6 +2089,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth_large,
 /area/service/janitor)
+"yS" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/wood,
+/area/security/checkpoint)
 "yV" = (
 /obj/machinery/door/window/westleft{
 	req_access_txt = "27"
@@ -3277,6 +3330,18 @@
 /obj/effect/turf_decal/siding/thinplating,
 /turf/open/floor/iron/smooth_large,
 /area/maintenance/radshelter/service)
+"LR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/security/checkpoint)
+"LS" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/directional/north,
+/turf/open/floor/wood,
+/area/security/checkpoint)
 "LZ" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron,
@@ -3732,6 +3797,10 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"Rn" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/security/checkpoint)
 "Rp" = (
 /obj/machinery/modular_computer/console/preset/cargochat/service{
 	dir = 8
@@ -4113,6 +4182,13 @@
 	dir = 8
 	},
 /area/hallway/secondary/service)
+"Vi" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/security/checkpoint)
 "Vj" = (
 /obj/effect/turf_decal/siding/thinplating,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -4294,6 +4370,9 @@
 	},
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"WW" = (
+/turf/closed/wall/mineral/wood,
+/area/security/checkpoint)
 "Xb" = (
 /obj/structure/reagent_dispensers/cooking_oil,
 /obj/machinery/firealarm/directional/east,
@@ -4539,6 +4618,10 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
+"ZB" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/security/checkpoint)
 "ZD" = (
 /obj/structure/window/spawner/north,
 /obj/machinery/hydroponics/constructable,
@@ -12726,7 +12809,7 @@ qo
 ok
 qo
 qo
-qo
+FP
 qo
 qo
 ET
@@ -14773,7 +14856,7 @@ ET
 ET
 ET
 qo
-qo
+ak
 qo
 VV
 yr
@@ -15786,7 +15869,7 @@ ET
 ET
 ET
 ET
-qo
+PH
 qo
 qo
 ok
@@ -22465,7 +22548,7 @@ ET
 ET
 ET
 ET
-qo
+WR
 qo
 qo
 TS
@@ -28128,14 +28211,14 @@ qo
 ok
 ok
 qo
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+WW
+WW
+bD
+WW
+Rn
+Rn
+WW
+qo
 gl
 qo
 qo
@@ -28385,14 +28468,14 @@ qo
 ok
 qo
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+WW
+vF
+ZB
+ri
+LR
+wo
+WW
+qo
 qo
 qo
 FP
@@ -28642,14 +28725,14 @@ ok
 qo
 qo
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+WW
+LS
+Vi
+ri
+ZB
+aF
+WW
+qo
 qo
 Ao
 qo
@@ -28899,14 +28982,14 @@ qo
 qo
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+WW
+yS
+eJ
+nC
+ri
+ua
+WW
+qo
 qo
 jJ
 qo
@@ -29156,14 +29239,14 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+WW
+WW
+Rn
+Rn
+Rn
+WW
+WW
+qo
 qo
 qo
 qo
@@ -29413,14 +29496,14 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
 fc
 fc
 fc
@@ -29670,12 +29753,12 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+qo
+qo
+qo
 fc
 BS
 pd
@@ -29927,11 +30010,11 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+qo
+qo
 fc
 pd
 pd
@@ -30184,10 +30267,10 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+qo
 fc
 pd
 pd
@@ -30441,10 +30524,10 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+qo
 fc
 pd
 pd
@@ -30699,8 +30782,8 @@ ET
 ET
 ET
 ET
-ET
-ET
+qo
+qo
 fc
 pd
 pd
