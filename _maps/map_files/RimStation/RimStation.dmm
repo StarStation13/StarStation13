@@ -31,6 +31,10 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/commons/storage/primary)
+"ar" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/turf/open/floor/iron/dark,
+/area/maintenance/aft)
 "av" = (
 /obj/structure/flora/tree/jungle/small{
 	icon_state = "tree3"
@@ -343,6 +347,7 @@
 "et" = (
 /obj/item/stack/tile/iron/dark,
 /obj/item/wirecutters,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "eu" = (
@@ -477,6 +482,7 @@
 	pixel_y = 12
 	},
 /obj/effect/turf_decal/tile/dark,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/showroomfloor,
 /area/commons/toilet/auxiliary)
 "gq" = (
@@ -638,9 +644,7 @@
 /obj/effect/turf_decal/tile/dark{
 	dir = 4
 	},
-/obj/structure/chair{
-	dir = 4
-	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/showroomfloor,
 /area/commons/toilet/auxiliary)
 "hB" = (
@@ -824,6 +828,10 @@
 /obj/structure/door_assembly/door_assembly_com,
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"jD" = (
+/obj/effect/spawner/random/structure/girder,
+/turf/open/floor/plating,
+/area/commons/toilet/auxiliary)
 "jE" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Central Access"
@@ -1513,6 +1521,9 @@
 /obj/machinery/cell_charger,
 /obj/item/stock_parts/cell/upgraded,
 /obj/structure/table,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/maintenance/aft)
 "qw" = (
@@ -1616,6 +1627,7 @@
 /obj/structure/sign/poster/official/random{
 	pixel_y = -32
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/cafeteria,
 /area/commons/toilet/auxiliary)
 "rx" = (
@@ -2144,8 +2156,19 @@
 	},
 /turf/open/floor/iron,
 /area/commons/storage/tools)
+"xX" = (
+/obj/structure/frame/computer{
+	anchored = 1;
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/maintenance/aft)
 "xZ" = (
-/obj/machinery/light/directional/west,
+/obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron/cafeteria,
 /area/commons/toilet/auxiliary)
 "yb" = (
@@ -2326,6 +2349,9 @@
 /obj/effect/landmark/blobstart,
 /turf/open/floor/engine/cult,
 /area/service/library)
+"Ad" = (
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "Ag" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/smooth_large,
@@ -2361,6 +2387,10 @@
 /obj/item/reagent_containers/glass/rag{
 	pixel_y = 2
 	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/maintenance/aft)
 "AQ" = (
@@ -2409,6 +2439,9 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
+"Bn" = (
+/turf/open/floor/iron,
+/area/maintenance/aft)
 "Bs" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2486,6 +2519,11 @@
 	},
 /turf/open/floor/wood,
 /area/service/library)
+"BN" = (
+/obj/effect/spawner/random/structure/grille,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "BO" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
@@ -2532,6 +2570,10 @@
 /turf/open/floor/iron/showroomfloor,
 /area/service/kitchen/coldroom)
 "Ck" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/maintenance/aft)
 "Cp" = (
@@ -2572,6 +2614,7 @@
 	pixel_y = 16
 	},
 /obj/machinery/light/small/directional/south,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/cafeteria,
 /area/commons/toilet/auxiliary)
 "CH" = (
@@ -2788,6 +2831,10 @@
 /obj/machinery/computer/bookmanagement,
 /turf/open/floor/wood,
 /area/service/library)
+"EX" = (
+/obj/item/stack/tile/iron,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "EZ" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -3148,6 +3195,7 @@
 /obj/machinery/door/airlock{
 	name = "Unisex Showers"
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/showroomfloor,
 /area/commons/toilet/auxiliary)
 "HB" = (
@@ -3174,6 +3222,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/department/crew_quarters/dorms)
+"HL" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "HT" = (
 /obj/effect/spawner/random/structure/tank_holder,
 /turf/open/floor/plating,
@@ -3431,6 +3483,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/stone,
 /area/lush_planet)
+"KD" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/cafeteria,
+/area/commons/toilet/auxiliary)
 "KF" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -3685,6 +3741,8 @@
 /obj/structure/sink{
 	pixel_y = 14
 	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/iron/cafeteria,
 /area/commons/toilet/auxiliary)
 "MU" = (
@@ -3931,7 +3989,7 @@
 /turf/open/floor/plating/dirt/jungle/dark,
 /area/lush_planet)
 "PY" = (
-/obj/machinery/light/directional/south,
+/obj/machinery/light/dim/directional/south,
 /turf/open/floor/iron/showroomfloor,
 /area/commons/toilet/auxiliary)
 "Qa" = (
@@ -4024,6 +4082,9 @@
 /obj/structure/frame/computer{
 	anchored = 1;
 	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 5
 	},
 /turf/open/floor/iron/dark,
 /area/maintenance/aft)
@@ -4135,6 +4196,7 @@
 	id_tag = "restroom_2";
 	name = "Toilet Unit"
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/cafeteria,
 /area/commons/toilet/auxiliary)
 "RM" = (
@@ -4759,6 +4821,7 @@
 /obj/effect/turf_decal/tile/dark{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/showroomfloor,
 /area/commons/toilet/auxiliary)
 "Yh" = (
@@ -32916,14 +32979,14 @@ LY
 LY
 LY
 LY
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+Ad
+Bn
+Bn
+LY
+LY
+LY
+LY
+LY
 ET
 ET
 ET
@@ -33173,14 +33236,14 @@ LY
 rK
 Ck
 LY
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+Bn
+Bn
+Ad
+HL
+Bn
+Bn
+Bn
+LY
 ET
 ET
 ET
@@ -33426,18 +33489,18 @@ ze
 BD
 nU
 FW
-tA
+BN
 qt
 et
 jq
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+Bn
+EX
+Ad
+tA
+Bn
+Bn
+Bn
+LY
 ET
 ET
 ET
@@ -33685,16 +33748,16 @@ bt
 XB
 tA
 AP
-Ck
+ar
 LY
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+Bn
+Ad
+Bn
+tA
+Bn
+Bn
+Bn
+LY
 ET
 ET
 ET
@@ -33942,16 +34005,16 @@ Pm
 iH
 LY
 QW
-QW
+xX
 LY
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+Bn
+Bn
+EX
+LY
+Bn
+Bn
+Bn
+LY
 ET
 ET
 ET
@@ -34201,14 +34264,14 @@ hV
 hV
 hV
 hV
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+Ad
+Bn
+Bn
+Bn
+Bn
+Bn
+Bn
+LY
 ET
 ET
 ET
@@ -34457,15 +34520,15 @@ rv
 hV
 da
 hA
-hV
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+jD
+Bn
+Bn
+Ad
+LY
+Bn
+Bn
+Bn
+LY
 ET
 ET
 ET
@@ -34709,20 +34772,20 @@ qo
 qo
 Iq
 Li
-Li
+KD
 Li
 Hx
 NL
 PY
 hV
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+Bn
+Ad
+Bn
+LY
+LY
+LY
+LY
+LY
 ET
 ET
 ET
@@ -34972,10 +35035,10 @@ hV
 gp
 IK
 hV
-ET
-ET
-ET
-ET
+Bn
+Bn
+Ad
+LY
 ET
 ET
 ET
@@ -35229,10 +35292,10 @@ hV
 dw
 Ya
 hV
-ET
-ET
-ET
-ET
+EX
+Bn
+Ad
+LY
 ET
 ET
 ET
@@ -35486,10 +35549,10 @@ hV
 hV
 hV
 hV
-ET
-ET
-ET
-ET
+Ad
+Bn
+Bn
+LY
 ET
 ET
 ET
