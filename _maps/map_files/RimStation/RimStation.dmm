@@ -83,6 +83,11 @@
 /obj/effect/spawner/random/structure/girder,
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
+"aT" = (
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/floor/plating/grass/jungle,
+/area/maintenance/aft)
 "aW" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood,
@@ -217,7 +222,14 @@
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating/dirt/jungle,
 /area/lush_planet)
+"cH" = (
+/obj/structure/table,
+/turf/open/floor/iron,
+/area/maintenance/aft)
 "cL" = (
+/obj/effect/spawner/random/structure/table,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/spawner/random/bureaucracy/folder,
 /turf/open/floor/wood{
 	icon_state = "wood-broken5"
 	},
@@ -316,6 +328,9 @@
 	},
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"dQ" = (
+/turf/open/floor/plating/dirt/jungle,
+/area/maintenance/aft)
 "dY" = (
 /obj/structure/fence{
 	dir = 4
@@ -326,6 +341,10 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"ef" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/floor/plating/grass/jungle,
+/area/maintenance/aft)
 "eg" = (
 /obj/structure/table,
 /turf/open/floor/stone,
@@ -373,6 +392,11 @@
 /obj/effect/spawner/random/structure/girder,
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/dorms)
+"eJ" = (
+/obj/effect/spawner/random/trash/graffiti,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "eP" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = "12"
@@ -453,6 +477,17 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
+/obj/effect/spawner/random/structure/chair_maintenance{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/maintenance/aft)
+"fD" = (
+/obj/effect/spawner/random/structure/chair_comfy{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/aft)
 "fM" = (
@@ -572,6 +607,11 @@
 	},
 /turf/open/floor/plating,
 /area/commons/storage/primary)
+"hj" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/spawner/random/structure/barricade,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "hm" = (
 /obj/machinery/firealarm/directional/south,
 /obj/machinery/holopad,
@@ -590,6 +630,10 @@
 /obj/structure/cable,
 /turf/open/floor/stone,
 /area/lush_planet)
+"ho" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/plating/grass/jungle,
+/area/maintenance/aft)
 "hs" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical{
@@ -665,6 +709,8 @@
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
 "hD" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/grimy,
 /area/maintenance/aft)
 "hF" = (
@@ -698,6 +744,17 @@
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"hM" = (
+/obj/effect/spawner/random/structure/bucket,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/maintenance/aft)
+"hO" = (
+/obj/structure/flora/ausbushes/stalkybush,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/floor/plating/grass/jungle,
+/area/maintenance/aft)
 "hV" = (
 /turf/closed/wall,
 /area/commons/toilet/auxiliary)
@@ -791,6 +848,10 @@
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
+"iQ" = (
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/turf/open/floor/plating,
+/area/maintenance/department/chapel)
 "iV" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/maintenance/three,
@@ -897,6 +958,10 @@
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron,
 /area/commons/locker)
+"kk" = (
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/turf/open/floor/plating,
+/area/maintenance/department/crew_quarters/dorms)
 "kr" = (
 /turf/open/floor/iron,
 /area/commons/locker)
@@ -1045,6 +1110,7 @@
 /turf/open/floor/iron/grimy,
 /area/service/chapel/office)
 "lz" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/aft)
 "lB" = (
@@ -1058,6 +1124,13 @@
 	},
 /turf/open/floor/carpet/red,
 /area/commons/vacant_room/office)
+"lE" = (
+/obj/structure/sign/departments/lawyer{
+	pixel_x = -32
+	},
+/obj/effect/spawner/random/trash/graffiti,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "lJ" = (
 /turf/closed/wall/r_wall,
 /area/service/chapel/office)
@@ -1137,6 +1210,10 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/commons/vacant_room/office)
+"mv" = (
+/obj/effect/spawner/random/structure/crate,
+/turf/open/floor/iron/grimy,
+/area/maintenance/aft)
 "mA" = (
 /obj/structure/sink{
 	dir = 8;
@@ -1270,6 +1347,10 @@
 /obj/structure/railing/corner,
 /turf/open/floor/stone,
 /area/lush_planet)
+"nW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/grimy,
+/area/maintenance/aft)
 "nY" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/railing,
@@ -1345,9 +1426,16 @@
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "oD" = (
+/obj/item/picket_sign,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood{
 	icon_state = "wood-broken7"
 	},
+/area/maintenance/aft)
+"oI" = (
+/obj/effect/spawner/random/trash/botanical_waste,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
 /area/maintenance/aft)
 "oK" = (
 /obj/effect/turf_decal/siding/wood,
@@ -1364,6 +1452,7 @@
 /turf/open/floor/stone,
 /area/lush_planet)
 "oU" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
 	},
@@ -1599,6 +1688,7 @@
 /area/service/chapel)
 "qO" = (
 /obj/item/wirecutters,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/maintenance/aft)
 "qQ" = (
@@ -1852,6 +1942,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/stone,
 /area/lush_planet)
+"ty" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/iron,
+/area/maintenance/aft)
 "tA" = (
 /obj/effect/spawner/random/structure/grille,
 /turf/open/floor/plating,
@@ -1893,6 +1987,9 @@
 /obj/structure/sign/poster/official/no_erp{
 	pixel_x = -32
 	},
+/obj/effect/spawner/random/structure/table_or_rack,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/spawner/random/bureaucracy/briefcase,
 /turf/open/floor/wood,
 /area/maintenance/aft)
 "tU" = (
@@ -1911,6 +2008,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/smooth,
 /area/service/janitor)
+"tY" = (
+/turf/open/floor/plating/grass/jungle,
+/area/maintenance/aft)
 "uh" = (
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/smooth,
@@ -1981,6 +2081,10 @@
 	dir = 4
 	},
 /area/commons/dorms)
+"ve" = (
+/obj/effect/spawner/random/vending/snackvend,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "vi" = (
 /obj/structure/closet/secure_closet/security,
 /turf/open/floor/wood,
@@ -2114,6 +2218,10 @@
 	dir = 4
 	},
 /area/commons/dorms)
+"wX" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "xa" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 8
@@ -2181,6 +2289,9 @@
 /area/commons/storage/tools)
 "xM" = (
 /obj/effect/decal/cleanable/cobweb,
+/obj/effect/spawner/random/structure/chair_maintenance{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/maintenance/aft)
 "xQ" = (
@@ -2197,6 +2308,12 @@
 	},
 /turf/open/floor/iron,
 /area/commons/storage/tools)
+"xW" = (
+/obj/structure/flora/tree/jungle/small{
+	icon_state = "tree6"
+	},
+/turf/open/floor/plating/grass/jungle,
+/area/maintenance/aft)
 "xX" = (
 /obj/structure/frame/computer{
 	anchored = 1;
@@ -2289,6 +2406,10 @@
 	dir = 8
 	},
 /area/service/janitor)
+"zd" = (
+/obj/structure/frame/machine,
+/turf/open/floor/iron,
+/area/maintenance/aft)
 "ze" = (
 /obj/machinery/door/airlock/maintenance/external{
 	req_access_txt = "12"
@@ -2375,6 +2496,11 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/maintenance/radshelter/service)
+"zT" = (
+/obj/effect/spawner/random/trash/mess,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/maintenance/aft)
 "zY" = (
 /obj/structure/chair/pew/right{
 	dir = 4
@@ -2402,6 +2528,11 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/smooth_large,
 /area/maintenance/radshelter/service)
+"Ai" = (
+/obj/structure/frame/machine,
+/obj/item/stack/cable_coil/five,
+/turf/open/floor/iron,
+/area/maintenance/aft)
 "Ao" = (
 /obj/structure/flora/ausbushes/fernybush,
 /turf/open/floor/plating/grass/jungle,
@@ -2415,6 +2546,13 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/service/janitor)
+"Ax" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Service Department"
+	},
+/obj/effect/mapping_helpers/airlock/abandoned,
+/turf/open/floor/iron,
+/area/maintenance/aft)
 "AI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2475,6 +2613,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/catwalk_floor,
 /area/service/janitor)
+"Bi" = (
+/obj/structure/table,
+/obj/effect/spawner/random/engineering/toolbox,
+/obj/effect/spawner/random/engineering/tool,
+/turf/open/floor/iron,
+/area/maintenance/aft)
 "Bk" = (
 /obj/structure/reagent_dispensers/watertank/high,
 /obj/structure/window/reinforced/spawner/west,
@@ -2605,12 +2749,28 @@
 	dir = 1
 	},
 /area/service/chapel)
+"Cd" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/spawner/random/engineering/tank,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "Ce" = (
 /obj/structure/chair{
 	dir = 4
 	},
 /turf/open/floor/stone,
 /area/lush_planet)
+"Cg" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 12
+	},
+/turf/open/floor/wood,
+/area/maintenance/aft)
 "Ch" = (
 /obj/machinery/icecream_vat,
 /turf/open/floor/iron/showroomfloor,
@@ -2620,12 +2780,22 @@
 	dir = 10
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/spawner/random/bureaucracy/paper,
+/obj/effect/spawner/random/bureaucracy/pen,
 /turf/open/floor/iron/dark,
 /area/maintenance/aft)
 "Cp" = (
 /obj/structure/bookcase/random/religion,
 /turf/open/floor/wood,
 /area/service/library)
+"Cq" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/spawner/random/structure/closet_maintenance,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/maintenance/aft)
 "Ct" = (
 /obj/machinery/light/small/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -2692,6 +2862,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/smooth_edge,
 /area/service/janitor)
+"CR" = (
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/turf/open/floor/iron,
+/area/maintenance/aft)
 "De" = (
 /obj/structure/janitorialcart,
 /obj/item/reagent_containers/glass/bucket,
@@ -2789,6 +2963,8 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/aft)
 "DU" = (
@@ -2875,6 +3051,10 @@
 	},
 /turf/open/floor/wood/large,
 /area/commons/dorms)
+"EO" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/open/floor/plating/grass/jungle,
+/area/maintenance/aft)
 "ET" = (
 /turf/open/genturf,
 /area/lush_planet/unexplored)
@@ -2885,6 +3065,7 @@
 /area/service/library)
 "EX" = (
 /obj/item/stack/tile/iron,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "EZ" = (
@@ -3027,6 +3208,14 @@
 /obj/effect/turf_decal/tile/brown/full,
 /turf/open/floor/iron/textured_large,
 /area/hallway/secondary/service)
+"FF" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/spawner/random/engineering/tank,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "FK" = (
 /obj/effect/turf_decal/tile/dark{
 	dir = 8
@@ -3079,8 +3268,18 @@
 /obj/structure/railing,
 /turf/open/floor/iron/dark/textured_large,
 /area/maintenance/department/chapel)
+"Gi" = (
+/obj/item/stack/cable_coil/cut,
+/turf/open/floor/iron,
+/area/maintenance/aft)
+"Gj" = (
+/obj/effect/spawner/random/structure/crate,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "Gm" = (
 /obj/effect/spawner/random/trash/food_packaging,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/aft)
 "Gn" = (
@@ -3109,6 +3308,11 @@
 /obj/structure/closet/crate/wooden/toy,
 /turf/open/floor/iron,
 /area/service/theater)
+"Gu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/vending/colavend,
+/turf/open/floor/iron,
+/area/maintenance/aft)
 "Gw" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -3163,10 +3367,18 @@
 /obj/structure/chair/stool/directional/east,
 /turf/open/floor/iron/cafeteria,
 /area/service/theater)
+"GI" = (
+/obj/item/crowbar,
+/turf/open/floor/plating/grass/jungle,
+/area/maintenance/aft)
 "GJ" = (
 /obj/structure/flora/ausbushes/sunnybush,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"GL" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/maintenance/department/chapel)
 "GO" = (
 /obj/effect/turf_decal/tile/dark{
 	dir = 8
@@ -3223,6 +3435,10 @@
 	dir = 9
 	},
 /area/service/chapel)
+"Hk" = (
+/obj/structure/flora/ausbushes/grassybush,
+/turf/open/floor/plating/grass/jungle,
+/area/maintenance/aft)
 "Hl" = (
 /turf/open/floor/wood/large,
 /area/commons/dorms)
@@ -3385,6 +3601,13 @@
 	},
 /turf/open/floor/iron,
 /area/service/theater)
+"II" = (
+/obj/effect/spawner/random/structure/table,
+/obj/effect/spawner/random/maintenance,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/maintenance/aft)
 "IJ" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -3422,6 +3645,15 @@
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"Ja" = (
+/obj/effect/turf_decal/siding/white,
+/obj/machinery/power/floodlight{
+	setting = 4
+	},
+/obj/structure/railing,
+/obj/structure/cable,
+/turf/open/floor/stone,
+/area/lush_planet)
 "Je" = (
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron,
@@ -3533,6 +3765,16 @@
 	},
 /turf/open/floor/plating,
 /area/service/hydroponics)
+"Kx" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/spawner/random/structure/chair_maintenance{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/maintenance/aft)
 "KC" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/railing,
@@ -3617,6 +3859,7 @@
 /area/commons/toilet/auxiliary)
 "Lk" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/spawner/random/engineering/atmospherics_portable,
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "Ln" = (
@@ -3627,6 +3870,12 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"Ls" = (
+/obj/structure/door_assembly/door_assembly_public{
+	glass = 1
+	},
+/turf/open/floor/iron,
+/area/maintenance/aft)
 "Lv" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -3842,6 +4091,10 @@
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron/checker,
 /area/service/kitchen)
+"Np" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/plating/grass/jungle,
+/area/maintenance/aft)
 "Ns" = (
 /turf/open/floor/iron/grimy,
 /area/service/chapel/office)
@@ -3889,6 +4142,11 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/commons/toilet/auxiliary)
+"NN" = (
+/obj/effect/spawner/random/structure/furniture_parts,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/maintenance/aft)
 "NS" = (
 /obj/machinery/vending/boozeomat/all_access,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3917,12 +4175,23 @@
 	},
 /turf/open/floor/plating/dirt/jungle,
 /area/lush_planet)
+"Of" = (
+/obj/machinery/door/airlock/maintenance{
+	req_access_txt = "12"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "Oi" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Food Court"
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"Ol" = (
+/obj/item/stack/tile/iron,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "Om" = (
 /obj/structure/chair{
 	dir = 8
@@ -3968,6 +4237,12 @@
 "OM" = (
 /turf/open/floor/iron/dark/textured_large,
 /area/maintenance/department/chapel)
+"ON" = (
+/obj/effect/spawner/random/structure/chair_flipped,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/maintenance/aft)
 "OX" = (
 /turf/closed/wall,
 /area/lush_planet/unexplored)
@@ -3978,6 +4253,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
+"Pg" = (
+/obj/effect/spawner/random/structure/table_or_rack,
+/obj/effect/spawner/random/maintenance/two,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "Pj" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
@@ -4271,6 +4553,10 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"RO" = (
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/floor/plating/grass/jungle,
+/area/maintenance/aft)
 "RS" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 8
@@ -4292,6 +4578,15 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"Sh" = (
+/obj/effect/spawner/random/structure/girder,
+/turf/open/floor/plating,
+/area/maintenance/aft)
+"Sj" = (
+/obj/structure/table,
+/obj/effect/spawner/random/engineering/flashlight,
+/turf/open/floor/iron,
+/area/maintenance/aft)
 "Sk" = (
 /obj/effect/turf_decal/siding/wood/end{
 	dir = 1
@@ -4386,6 +4681,14 @@
 	dir = 1
 	},
 /area/service/hydroponics)
+"Ta" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "Td" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
@@ -4477,6 +4780,10 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"TN" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/iron,
+/area/maintenance/aft)
 "TQ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood{
@@ -4628,12 +4935,14 @@
 /area/service/bar)
 "VI" = (
 /obj/effect/spawner/random/trash/hobo_squat,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/aft)
 "VL" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/aft)
 "VN" = (
@@ -4758,6 +5067,10 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/grass,
 /area/service/hydroponics)
+"WH" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/stone,
+/area/lush_planet)
 "WI" = (
 /obj/structure/table,
 /obj/machinery/microwave{
@@ -4781,6 +5094,10 @@
 	},
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"WW" = (
+/obj/structure/flora/ausbushes/fernybush,
+/turf/open/floor/plating/grass/jungle,
+/area/maintenance/aft)
 "Xb" = (
 /obj/structure/reagent_dispensers/cooking_oil,
 /obj/machinery/firealarm/directional/east,
@@ -4901,6 +5218,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/showroomfloor,
 /area/commons/toilet/auxiliary)
+"Ye" = (
+/obj/effect/spawner/random/trash/graffiti,
+/turf/open/floor/wood,
+/area/maintenance/aft)
 "Yh" = (
 /obj/machinery/smartfridge/drinks,
 /turf/closed/wall,
@@ -4990,6 +5311,7 @@
 /area/service/chapel)
 "YP" = (
 /obj/structure/barricade/wooden,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/aft)
 "YR" = (
@@ -5020,6 +5342,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/abandoned,
 /turf/open/floor/wood,
 /area/maintenance/aft)
 "Zb" = (
@@ -16325,7 +16648,7 @@ qo
 ok
 VV
 Zr
-Zr
+yr
 Zr
 Zr
 VV
@@ -16581,8 +16904,8 @@ qo
 qo
 qo
 mm
-Zr
-Zr
+yr
+kk
 VV
 Zr
 tq
@@ -16591,7 +16914,7 @@ lm
 JE
 SU
 VV
-Zr
+kk
 Zr
 kI
 VV
@@ -20422,7 +20745,7 @@ TS
 TS
 TS
 XU
-aS
+GL
 Iv
 XU
 Um
@@ -20672,7 +20995,7 @@ ET
 ET
 qo
 TS
-XU
+iQ
 XU
 XU
 XU
@@ -23553,7 +23876,7 @@ CH
 WE
 vw
 kK
-nY
+Ja
 qo
 nA
 pp
@@ -30494,7 +30817,7 @@ ET
 ET
 LY
 LY
-LY
+hj
 LY
 LY
 ET
@@ -30751,7 +31074,7 @@ ET
 LY
 LY
 xM
-lz
+fD
 lz
 LY
 LY
@@ -31007,17 +31330,17 @@ ET
 ET
 LY
 lz
-lz
+II
 cL
+oI
 lz
-lz
-lz
+ON
 tP
 LY
 LY
-OX
-OX
-OX
+LY
+LY
+LY
 ET
 ET
 ET
@@ -31264,21 +31587,21 @@ ET
 ET
 LY
 VL
-VL
+Kx
 fB
 Rj
-lz
+NN
 oU
-lz
+Ye
 VI
 LY
-ET
-ET
-OX
-OX
-ET
-ET
-ET
+WW
+tY
+LY
+LY
+ok
+ok
+ok
 ET
 ET
 ET
@@ -31521,21 +31844,21 @@ ET
 LY
 LY
 hD
-hD
+mv
 DO
 oD
 Gm
-lz
+zT
 lz
 YP
 LY
-ET
-ET
-ET
-OX
-OX
-OX
-OX
+tY
+xW
+ho
+LY
+Sh
+dQ
+LY
 ET
 ET
 ET
@@ -31777,24 +32100,24 @@ ET
 ET
 LY
 yo
-hD
-hD
-DO
+nW
+nW
+Cq
 lz
-lz
-lz
+Cg
+hM
 lz
 VI
 LY
-ET
-ET
-ET
-ET
-ET
-ET
-OX
-OX
-OX
+ef
+tY
+dQ
+hO
+tY
+Np
+LY
+LY
+LY
 ET
 ET
 ET
@@ -32043,16 +32366,16 @@ tA
 tA
 LY
 LY
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-OX
-OX
+LY
+ho
+tY
+dQ
+dQ
+tY
+ho
+Ad
+LY
+LY
 ET
 ET
 ET
@@ -32290,26 +32613,26 @@ ET
 ET
 LY
 LY
+Ad
 Bn
-Bn
-Bn
-Bn
-Bn
-Bn
+BD
+wX
+BD
+lE
 qO
-Bn
-Bn
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-OX
+BD
+wX
+BD
+Ad
+GI
+aT
+dQ
+Hk
+EO
+tY
+tY
+ve
+LY
 ET
 ET
 ET
@@ -32546,27 +32869,27 @@ qo
 ET
 ET
 LY
+CR
+BD
+wX
+BD
 Bn
-Bn
-Bn
-Bn
-Bn
-Bn
-Bn
-Bn
-Bn
-Bn
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-OX
+wX
+BD
+wX
+wX
+BD
+wX
+BD
+BD
+Ol
+ho
+tY
+tY
+tY
+Ad
+Gu
+LY
 ET
 ET
 ET
@@ -32803,27 +33126,27 @@ ok
 qo
 ET
 LY
+BD
+wX
+BD
+Ad
+Ad
+wX
+BD
+BD
+wX
 Bn
+Ad
 Bn
-Bn
-Bn
-Bn
-Bn
-Bn
-Bn
-Bn
-Bn
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-OX
+wX
+tY
+RO
+tY
+Ad
+wX
+Ad
+wX
+LY
 ET
 ET
 ET
@@ -33060,27 +33383,27 @@ qo
 qo
 qo
 LY
-Bn
-Bn
-Bn
+eJ
+wX
+BD
 LY
 BN
 UD
 LY
 Ad
-Bn
-Bn
+BD
+Ad
 LY
 LY
 LY
 LY
 LY
-ET
-ET
-ET
-ET
-ET
-OX
+LY
+LY
+tY
+tY
+Ad
+LY
 ET
 ET
 ET
@@ -33324,20 +33647,20 @@ LY
 rK
 Ck
 LY
+BD
 Bn
-Bn
-Ad
+wX
 HL
+Ai
 Bn
-Bn
-Bn
+Bi
 LY
-ET
-ET
-ET
-ET
-ET
-OX
+Pg
+LY
+tY
+tY
+tY
+LY
 ET
 ET
 ET
@@ -33581,22 +33904,22 @@ BN
 qt
 et
 jq
-Bn
+BD
 EX
-Ad
+wX
 tA
+zd
 Bn
-Bn
-Bn
+cH
 LY
-ET
-ET
-ET
-ET
-ET
-OX
-ET
-ET
+nU
+LY
+wX
+tY
+Ad
+LY
+ZJ
+ZJ
 ET
 ET
 ET
@@ -33839,21 +34162,21 @@ AP
 ar
 LY
 Bn
-Ad
-Bn
+wX
+BD
 tA
-Bn
-Bn
-Bn
+ty
+Gi
+Sj
 LY
-ET
-ET
-ET
-ET
-ET
-OX
-ET
-ET
+nU
+LY
+Bn
+Ad
+BD
+Ax
+WH
+HI
 ET
 ET
 ET
@@ -34096,21 +34419,21 @@ QW
 xX
 LY
 Bn
-Bn
+BD
 EX
 LY
-Bn
+TN
 Bn
 Bn
 LY
-ET
-ET
-ET
-ET
-ET
-OX
-ET
-ET
+nU
+LY
+Ad
+BD
+Bn
+hj
+kK
+ZJ
 ET
 ET
 ET
@@ -34353,21 +34676,21 @@ hV
 hV
 hV
 Ad
-Bn
-Bn
-Bn
+BD
+BD
+Ls
 Bn
 Bn
 Bn
 LY
-ET
-ET
-ET
-ET
-ET
-OX
-ET
-ET
+Ad
+Of
+RO
+Ad
+BD
+Ax
+WH
+HI
 ET
 ET
 ET
@@ -34610,21 +34933,21 @@ da
 hA
 jD
 Bn
-Bn
-Ad
+BD
+wX
 LY
-Bn
-Bn
-Bn
+Cd
+Ta
+FF
 LY
+Gj
+LY
+wX
 ET
-ET
-ET
-ET
-ET
-OX
-ET
-ET
+wX
+LY
+HI
+HI
 ET
 ET
 ET
@@ -34867,15 +35190,15 @@ NL
 PY
 hV
 Bn
-Ad
-Bn
+wX
+BD
 LY
 LY
 LY
 LY
 LY
-ET
-ET
+LY
+LY
 ET
 ET
 ET
@@ -35123,9 +35446,9 @@ hV
 gp
 IK
 hV
-Bn
-Bn
-Ad
+BD
+BD
+wX
 LY
 ET
 ET
@@ -35381,8 +35704,8 @@ dw
 Ya
 hV
 EX
-Bn
-Ad
+BD
+wX
 LY
 ET
 ET
@@ -35639,7 +35962,7 @@ hV
 hV
 Ad
 Bn
-Bn
+BD
 LY
 ET
 ET
