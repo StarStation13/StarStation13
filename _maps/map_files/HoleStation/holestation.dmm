@@ -550,15 +550,6 @@
 /obj/machinery/status_display/evac/directional/south,
 /turf/open/floor/iron/dark,
 /area/engineering/supermatter/room)
-"ds" = (
-/obj/effect/turf_decal/stripes/end{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/unary/outlet_injector/on{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/engineering/supermatter/room)
 "dt" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -1142,15 +1133,6 @@
 /obj/machinery/newscaster/directional/east,
 /turf/open/floor/wood,
 /area/service/theater)
-"gi" = (
-/obj/effect/turf_decal/stripes/end{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/outlet_injector/on{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/engineering/supermatter/room)
 "gl" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/effect/decal/cleanable/dirt,
@@ -5028,14 +5010,12 @@
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
 "zt" = (
-/obj/effect/turf_decal/stripes/end{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/components/unary/passive_vent{
 	dir = 4
 	},
-/turf/open/floor/plating/airless,
-/area/maintenance/starboard/aft)
+/turf/open/space/basic,
+/area/space/nearstation)
 "zu" = (
 /obj/machinery/vending/engivend,
 /obj/effect/turf_decal/bot,
@@ -9213,14 +9193,12 @@
 /turf/open/floor/iron/dark,
 /area/engineering/gravity_generator)
 "VA" = (
-/obj/effect/turf_decal/stripes/end{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/components/unary/passive_vent{
 	dir = 8
 	},
-/turf/open/floor/plating/airless,
-/area/maintenance/port/aft)
+/turf/open/space/basic,
+/area/space/nearstation)
 "VB" = (
 /obj/machinery/door/airlock/mining/glass{
 	name = "Mining Dock";
@@ -39873,7 +39851,7 @@ Yv
 bP
 wx
 Yv
-gi
+zt
 Ji
 nZ
 yh
@@ -43985,7 +43963,7 @@ te
 le
 wL
 te
-ds
+VA
 Ji
 nZ
 yh
