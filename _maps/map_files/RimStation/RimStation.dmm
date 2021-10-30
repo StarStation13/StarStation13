@@ -93,6 +93,12 @@
 	},
 /turf/open/floor/grass,
 /area/service/hydroponics)
+"aL" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/engineering/break_room)
 "aO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/large,
@@ -578,6 +584,12 @@
 	},
 /turf/open/floor/plating/dirt/jungle/dark,
 /area/lush_planet)
+"fq" = (
+/obj/structure/filingcabinet/chestdrawer,
+/mob/living/simple_animal/parrot/poly,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/smooth_large,
+/area/command/heads_quarters/ce)
 "fs" = (
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron,
@@ -602,6 +614,12 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/service/kitchen)
+"fA" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/engineering/break_room)
 "fB" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -734,6 +752,17 @@
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
+"gM" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron/corner{
+	dir = 8
+	},
+/area/engineering/break_room)
 "gQ" = (
 /obj/structure/window/reinforced/spawner,
 /obj/structure/window/reinforced/spawner/west,
@@ -860,6 +889,15 @@
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
+"hw" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/item/folder/yellow,
+/obj/item/stamp/ce,
+/turf/open/floor/wood,
+/area/engineering/break_room)
 "hy" = (
 /obj/item/stack/tile/iron,
 /turf/open/floor/plating,
@@ -1077,6 +1115,12 @@
 /obj/effect/spawner/random/engineering/atmospherics_portable,
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
+"iS" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/engineering/break_room)
 "iV" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/maintenance/three,
@@ -1428,6 +1472,13 @@
 "lJ" = (
 /turf/closed/wall/r_wall,
 /area/service/chapel/office)
+"lK" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood,
+/area/engineering/break_room)
 "lL" = (
 /obj/effect/turf_decal/delivery,
 /obj/structure/window,
@@ -1600,6 +1651,12 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/engineering/break_room)
+"mW" = (
+/obj/effect/turf_decal/trimline/yellow/corner{
 	dir = 8
 	},
 /turf/open/floor/iron,
@@ -1817,6 +1874,13 @@
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron/grimy,
 /area/commons/vacant_room/office)
+"oN" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/engineering/break_room)
 "oQ" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 6
@@ -1910,6 +1974,9 @@
 	dir = 1
 	},
 /turf/open/floor/iron/white/side,
+/area/engineering/break_room)
+"pt" = (
+/turf/open/floor/wood,
 /area/engineering/break_room)
 "pw" = (
 /obj/effect/spawner/random/clothing/wardrobe_closet_colored,
@@ -2187,6 +2254,13 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/service/chapel/office)
+"ro" = (
+/obj/machinery/door/airlock/command{
+	name = "Chief Engineer";
+	req_access_txt = "56"
+	},
+/turf/open/floor/iron/smooth_large,
+/area/command/heads_quarters/ce)
 "rq" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 5
@@ -2255,12 +2329,29 @@
 	},
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"rJ" = (
+/obj/machinery/door/airlock/command{
+	name = "Chief Engineer";
+	req_access_txt = "56"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_large,
+/area/command/heads_quarters/ce)
 "rK" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/item/reagent_containers/glass/bucket,
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"rO" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/wood,
+/area/engineering/break_room)
 "rQ" = (
 /obj/effect/spawner/random/trash/bin,
 /turf/open/floor/plating/dirt/jungle/dark,
@@ -2322,6 +2413,12 @@
 /obj/structure/window/spawner/west,
 /turf/open/floor/iron/dark/textured,
 /area/commons/dorms)
+"sA" = (
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/engineering/break_room)
 "sB" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood{
@@ -2905,6 +3002,16 @@
 	dir = 4
 	},
 /area/maintenance/radshelter/service)
+"xD" = (
+/obj/structure/rack,
+/obj/item/clothing/glasses/meson{
+	pixel_y = 4
+	},
+/obj/item/lighter,
+/obj/item/reagent_containers/pill/patch/aiuri,
+/obj/item/stock_parts/cell/high/plus,
+/turf/open/floor/iron/smooth_large,
+/area/command/heads_quarters/ce)
 "xF" = (
 /obj/structure/fluff/tram_rail/floor,
 /obj/effect/turf_decal/siding/thinplating,
@@ -3181,6 +3288,11 @@
 	dir = 4
 	},
 /area/engineering/break_room)
+"zL" = (
+/obj/machinery/holopad,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/smooth_large,
+/area/command/heads_quarters/ce)
 "zR" = (
 /obj/structure/chair{
 	dir = 8
@@ -3509,6 +3621,18 @@
 	planetary_atmos = 1
 	},
 /area/lush_planet)
+"BT" = (
+/obj/machinery/modular_computer/console/preset/engineering{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner,
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/item/radio/intercom/directional/east,
+/turf/open/floor/wood,
+/area/engineering/break_room)
 "BU" = (
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/floor/plating/dirt/jungle/dark,
@@ -3662,9 +3786,19 @@
 /obj/effect/spawner/random/engineering/atmospherics_portable,
 /turf/open/floor/iron,
 /area/maintenance/aft)
+"CT" = (
+/obj/effect/turf_decal/siding/yellow,
+/obj/structure/closet/secure_closet/engineering_chief,
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/iron/dark/textured_large,
+/area/command/heads_quarters/ce)
 "Db" = (
 /turf/open/floor/plating/catwalk_floor,
 /area/lush_planet)
+"Dd" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/command/heads_quarters/ce)
 "De" = (
 /obj/structure/janitorialcart,
 /obj/item/reagent_containers/glass/bucket,
@@ -3701,9 +3835,9 @@
 /turf/open/floor/iron,
 /area/commons/dorms)
 "Dx" = (
-/obj/machinery/light/directional/north,
-/turf/open/floor/plating/grass/jungle,
-/area/service/bar)
+/obj/effect/turf_decal/trimline/yellow/corner,
+/turf/open/floor/iron,
+/area/engineering/break_room)
 "Dz" = (
 /obj/structure/sign/nanotrasen{
 	pixel_y = 32
@@ -3770,6 +3904,17 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/aft)
+"DT" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/turf/open/floor/iron/corner{
+	dir = 4
+	},
+/area/engineering/break_room)
 "DU" = (
 /obj/machinery/modular_computer/console/preset/curator{
 	dir = 8
@@ -4270,6 +4415,13 @@
 /obj/structure/girder,
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
+"GM" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/obj/effect/landmark/start/chief_engineer,
+/turf/open/floor/wood,
+/area/engineering/break_room)
 "GO" = (
 /obj/effect/turf_decal/tile/dark{
 	dir = 8
@@ -4416,6 +4568,9 @@
 /obj/machinery/vending/hydronutrients,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics/garden/abandoned)
+"HW" = (
+/turf/open/floor/iron/smooth_large,
+/area/command/heads_quarters/ce)
 "HX" = (
 /obj/structure/bed/double,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
@@ -4800,6 +4955,9 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"KK" = (
+/turf/closed/wall/r_wall,
+/area/lush_planet/unexplored)
 "KL" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -4885,6 +5043,9 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"Lq" = (
+/turf/open/floor/iron,
+/area/lush_planet/unexplored)
 "Ls" = (
 /obj/structure/door_assembly/door_assembly_public{
 	glass = 1
@@ -5272,6 +5433,14 @@
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron/dark/textured,
 /area/hallway/secondary/service)
+"Ox" = (
+/obj/effect/turf_decal/siding/yellow{
+	dir = 10
+	},
+/obj/structure/window/spawner/west,
+/obj/machinery/suit_storage_unit/ce,
+/turf/open/floor/iron/dark/textured_large,
+/area/command/heads_quarters/ce)
 "OA" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/reinforced,
@@ -5280,6 +5449,10 @@
 	},
 /turf/open/floor/wood,
 /area/service/bar)
+"OC" = (
+/obj/effect/turf_decal/tile/yellow,
+/turf/open/floor/iron/corner,
+/area/engineering/break_room)
 "OE" = (
 /obj/effect/spawner/random/structure/table,
 /turf/open/floor/plating,
@@ -5332,6 +5505,12 @@
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/wood,
 /area/service/bar)
+"Pl" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth_large,
+/area/command/heads_quarters/ce)
 "Pm" = (
 /obj/item/sign,
 /turf/open/floor/iron,
@@ -5544,6 +5723,15 @@
 	},
 /turf/open/floor/iron/dark,
 /area/maintenance/aft)
+"QZ" = (
+/obj/machinery/door/window/westleft{
+	req_access_txt = "56"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/engineering/break_room)
 "Rb" = (
 /obj/structure/table/glass,
 /obj/machinery/reagentgrinder{
@@ -5836,6 +6024,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"Tc" = (
+/obj/effect/turf_decal/trimline/yellow/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/engineering/break_room)
 "Td" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
@@ -5908,6 +6102,9 @@
 /obj/structure/cable,
 /turf/open/floor/stone,
 /area/lush_planet)
+"TC" = (
+/turf/closed/wall/r_wall,
+/area/command/heads_quarters/ce)
 "TE" = (
 /obj/structure/chair{
 	dir = 1
@@ -6057,10 +6254,9 @@
 /turf/open/floor/iron/chapel,
 /area/service/chapel)
 "UX" = (
-/obj/machinery/light/directional/north,
-/obj/structure/flora/ausbushes/ppflowers,
-/turf/open/floor/plating/grass/jungle,
-/area/service/kitchen)
+/obj/effect/turf_decal/trimline/yellow/warning,
+/turf/open/floor/iron,
+/area/engineering/break_room)
 "UZ" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 10
@@ -6109,6 +6305,11 @@
 /obj/effect/landmark/start/bartender,
 /turf/open/floor/wood,
 /area/service/bar)
+"VA" = (
+/obj/machinery/computer/apc_control,
+/obj/machinery/keycard_auth/directional/west,
+/turf/open/floor/iron/smooth_large,
+/area/command/heads_quarters/ce)
 "VC" = (
 /obj/effect/turf_decal/siding/wood/end,
 /turf/open/floor/iron/dark/textured_large,
@@ -6249,6 +6450,17 @@
 	},
 /turf/open/floor/stone,
 /area/lush_planet)
+"Wz" = (
+/obj/machinery/modular_computer/console/preset/id{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/window/reinforced/spawner,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/engineering/break_room)
 "WA" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/effect/turf_decal/siding/thinplating{
@@ -6304,6 +6516,14 @@
 	},
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"WU" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/turf/open/floor/iron/corner{
+	dir = 1
+	},
+/area/engineering/break_room)
 "WW" = (
 /obj/structure/flora/ausbushes/fernybush,
 /turf/open/floor/plating/grass/jungle,
@@ -6338,6 +6558,19 @@
 /obj/effect/spawner/random/structure/furniture_parts,
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/dorms)
+"Xn" = (
+/obj/machinery/requests_console/directional/south{
+	announcementConsole = 1;
+	department = "Chief Engineer's Desk";
+	departmentType = 3;
+	name = "Chief Engineer's Request Console"
+	},
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth_large,
+/area/command/heads_quarters/ce)
 "Xo" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/checker,
@@ -23656,7 +23889,7 @@ Xc
 Nf
 fz
 KS
-UX
+Rm
 mc
 qo
 GJ
@@ -26738,7 +26971,7 @@ Sk
 VC
 Ym
 LI
-Dx
+qo
 qo
 uM
 BO
@@ -41607,19 +41840,19 @@ qo
 qo
 ok
 qo
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
+qo
 ET
 ET
 ET
@@ -41864,19 +42097,19 @@ qo
 qo
 qo
 qo
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+BZ
+BZ
+BZ
+BZ
+BZ
+BZ
+BZ
+BZ
+KK
+KK
+KK
+KK
+KK
 ET
 ET
 ET
@@ -42122,17 +42355,17 @@ qo
 qo
 BZ
 BZ
+tn
+tn
+tn
+tn
+tn
+tn
 BZ
-BZ
-BZ
-BZ
-BZ
-BZ
-ET
-ET
-ET
-ET
-ET
+Lq
+Lq
+Lq
+Lq
 ET
 ET
 ET
@@ -42384,12 +42617,12 @@ SD
 SD
 SD
 tn
+tn
 BZ
-ET
-ET
-ET
-ET
-ET
+Lq
+Lq
+Lq
+Lq
 ET
 ET
 ET
@@ -42634,19 +42867,19 @@ ET
 qo
 qo
 qo
-BZ
+Hp
 tn
 YK
 ul
 qY
 Bc
 KT
-BZ
-ET
-ET
-ET
-ET
-ET
+tn
+tn
+Lq
+Lq
+Lq
+Lq
 ET
 ET
 ET
@@ -42891,19 +43124,19 @@ qo
 qo
 qo
 qo
-BZ
+Hp
 tn
 YK
 Qq
 Bc
 Ua
 KT
+tn
 BZ
-ET
-ET
-ET
-ET
-ET
+Lq
+Lq
+Lq
+Lq
 ET
 ET
 ET
@@ -43148,19 +43381,19 @@ qo
 qo
 qo
 qo
-BZ
+Hp
 tn
 AD
 Zs
 Tp
 Zs
 KT
+tn
 BZ
-ET
-ET
-ET
-ET
-ET
+Lq
+Lq
+Lq
+Lq
 ET
 ET
 ET
@@ -43412,13 +43645,13 @@ sX
 tm
 tm
 aD
-BZ
-ET
-ET
-ET
-ET
-ET
-ET
+tn
+TC
+TC
+Dd
+Dd
+ro
+TC
 ET
 ET
 ET
@@ -43664,18 +43897,18 @@ ok
 qo
 pI
 tn
-tn
-tn
-tn
-tn
-tn
-BZ
-ET
-ET
-ET
-ET
-ET
-ET
+Dx
+aL
+aL
+Tc
+lK
+QZ
+Dd
+VA
+Pl
+HW
+HW
+TC
 ET
 ET
 ET
@@ -43921,18 +44154,18 @@ qo
 qo
 Hp
 tn
-tn
-tn
-tn
-tn
-tn
-BZ
-ET
-ET
-ET
-ET
-ET
-ET
+UX
+OC
+DT
+fA
+oN
+pt
+rJ
+HW
+HW
+zL
+Xn
+TC
 ET
 ET
 ET
@@ -44178,18 +44411,18 @@ qo
 qo
 Hp
 tn
-tn
-tn
-tn
-tn
-tn
-BZ
-ET
-ET
-ET
-ET
-ET
-ET
+UX
+gM
+WU
+fA
+oN
+GM
+Wz
+Ox
+HW
+xD
+fq
+TC
 ET
 ET
 ET
@@ -44435,18 +44668,18 @@ ok
 qo
 pI
 tn
-tn
-tn
-tn
-tn
-tn
-BZ
-ET
-ET
-ET
-ET
-ET
-ET
+mW
+iS
+iS
+sA
+hw
+rO
+BT
+CT
+HW
+HW
+HW
+TC
 ET
 ET
 ET
@@ -44697,13 +44930,13 @@ jH
 fN
 Ay
 MK
+tn
 BZ
-ET
-ET
-ET
-ET
-ET
-ET
+TC
+Dd
+Dd
+ro
+TC
 ET
 ET
 ET
@@ -44947,15 +45180,15 @@ ET
 ET
 ET
 ET
-BZ
+Hp
 tn
 vN
 mT
 Ae
 ul
 Bj
+tn
 BZ
-ET
 ET
 ET
 ET
@@ -45204,15 +45437,15 @@ ET
 ET
 ET
 ET
-BZ
+Hp
 tn
 Yo
 zJ
 XI
 Qq
 Bj
+tn
 BZ
-ET
 ET
 ET
 ET
@@ -45461,15 +45694,15 @@ ET
 ET
 ET
 ET
-BZ
+Hp
 tn
 pq
 wG
 uD
 KN
 Bj
+tn
 BZ
-ET
 ET
 ET
 ET
@@ -45725,8 +45958,8 @@ sT
 sT
 sT
 tn
+tn
 BZ
-ET
 ET
 ET
 ET
@@ -45977,13 +46210,13 @@ ET
 ET
 BZ
 BZ
+tn
+tn
+tn
+tn
+tn
+tn
 BZ
-BZ
-BZ
-BZ
-BZ
-BZ
-ET
 ET
 ET
 ET
@@ -46233,14 +46466,14 @@ ET
 ET
 ET
 ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
-ET
+BZ
+BZ
+BZ
+BZ
+BZ
+BZ
+BZ
+BZ
 ET
 ET
 ET
