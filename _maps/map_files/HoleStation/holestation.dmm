@@ -125,7 +125,7 @@
 "aB" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/commons/cryopods)
+/area/commons/dorms)
 "aC" = (
 /turf/open/floor/glass/reinforced,
 /area/command/bridge)
@@ -232,13 +232,12 @@
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/captain)
 "be" = (
-/obj/machinery/computer/cryopod{
-	pixel_y = 24
-	},
+/obj/structure/frame/computer,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 8
 	},
-/area/commons/cryopods)
+/area/commons/dorms)
 "bg" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/side{
@@ -384,11 +383,11 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "cj" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/textured_large,
-/area/commons/cryopods)
+/area/commons/dorms)
 "ck" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/open/floor/plating,
@@ -1045,11 +1044,11 @@
 /turf/open/floor/iron/checker,
 /area/service/bar)
 "fE" = (
-/obj/machinery/cryopod,
 /obj/structure/window/spawner/east,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/frame/machine,
 /turf/open/floor/iron/dark/textured_large,
-/area/commons/cryopods)
+/area/commons/dorms)
 "fF" = (
 /turf/open/floor/iron/checker,
 /area/service/bar)
@@ -2387,13 +2386,13 @@
 	name = "Cryopods"
 	},
 /obj/machinery/door/firedoor,
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/barricade/wooden/crude,
 /turf/open/floor/iron/dark/side{
 	dir = 4
 	},
-/area/commons/cryopods)
+/area/commons/dorms)
 "mm" = (
 /obj/effect/turf_decal/siding/thinplating,
 /obj/machinery/bounty_board/directional/west,
@@ -3204,12 +3203,10 @@
 /turf/open/floor/iron/dark,
 /area/security/prison)
 "qg" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
 /obj/structure/window/spawner/west,
+/obj/structure/frame/machine,
 /turf/open/floor/iron/dark/textured_large,
-/area/commons/cryopods)
+/area/commons/dorms)
 "qk" = (
 /obj/machinery/vending/wardrobe/curator_wardrobe,
 /obj/effect/turf_decal/tile/neutral,
@@ -4070,15 +4067,6 @@
 /obj/structure/flora/ausbushes/pointybush,
 /turf/open/floor/grass,
 /area/service/hydroponics)
-"uh" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
-/obj/machinery/computer/cryopod{
-	pixel_x = -32
-	},
-/turf/open/floor/iron,
-/area/security/prison)
 "ui" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -5173,9 +5161,6 @@
 	},
 /turf/open/floor/iron,
 /area/service/hydroponics)
-"Ae" = (
-/turf/closed/wall/r_wall,
-/area/commons/cryopods)
 "Ah" = (
 /obj/effect/turf_decal/box,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
@@ -5285,13 +5270,13 @@
 	},
 /area/hallway/secondary/service)
 "AR" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
 /obj/structure/window/spawner/west,
 /obj/machinery/firealarm/directional/north,
+/obj/structure/frame/machine,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/iron/dark/textured_large,
-/area/commons/cryopods)
+/area/commons/dorms)
 "AS" = (
 /obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
 	dir = 5
@@ -5434,13 +5419,12 @@
 /turf/open/floor/iron/large,
 /area/service/theater)
 "BG" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 8
 	},
-/area/commons/cryopods)
+/area/commons/dorms)
 "BH" = (
 /turf/open/floor/iron,
 /area/hallway/primary/central)
@@ -8187,15 +8171,16 @@
 /turf/open/floor/iron/dark,
 /area/engineering/break_room)
 "Re" = (
-/obj/machinery/cryopod,
 /obj/structure/window/spawner/east,
 /obj/machinery/light/directional/south,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
 /obj/machinery/airalarm/directional/south,
+/obj/structure/frame/machine,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/textured_large,
-/area/commons/cryopods)
+/area/commons/dorms)
 "Rf" = (
 /obj/machinery/conveyor{
 	dir = 10;
@@ -8516,9 +8501,6 @@
 "SF" = (
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
-"SH" = (
-/turf/closed/wall,
-/area/commons/cryopods)
 "SI" = (
 /obj/structure/table/wood,
 /obj/item/chair/wood/wings,
@@ -9600,10 +9582,9 @@
 /turf/open/floor/iron,
 /area/engineering/gravity_generator)
 "XH" = (
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/east,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/textured_large,
-/area/commons/cryopods)
+/area/commons/dorms)
 "XI" = (
 /obj/structure/table,
 /obj/machinery/light/directional/north,
@@ -9888,10 +9869,11 @@
 /turf/open/floor/plating,
 /area/engineering/main)
 "YR" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 8
 	},
-/area/commons/cryopods)
+/area/commons/dorms)
 "YS" = (
 /turf/closed/wall,
 /area/hallway/secondary/entry)
@@ -36241,7 +36223,7 @@ mY
 bZ
 FZ
 kn
-uh
+Fq
 ME
 ME
 ay
@@ -47022,7 +47004,7 @@ BH
 Zj
 ve
 cA
-oE
+zD
 cA
 QT
 cA
@@ -47277,11 +47259,11 @@ Zi
 ZT
 BH
 mb
-SH
+QN
 aB
 mh
 aB
-SH
+QN
 rA
 Sk
 cA
@@ -47534,11 +47516,11 @@ Zk
 VH
 BH
 Zj
-SH
+QN
 be
 BG
 YR
-SH
+QN
 fd
 Tw
 Xy
@@ -47795,7 +47777,7 @@ NB
 fE
 cj
 Re
-SH
+QN
 SZ
 Gx
 ju
@@ -48052,7 +48034,7 @@ NB
 AR
 XH
 qg
-Ae
+BL
 BL
 BL
 BL
@@ -48306,10 +48288,10 @@ LI
 NG
 OK
 Li
-Ae
-Ae
-Ae
-Ae
+BL
+BL
+BL
+BL
 nZ
 nZ
 nZ
