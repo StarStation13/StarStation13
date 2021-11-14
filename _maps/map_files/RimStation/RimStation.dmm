@@ -3014,15 +3014,15 @@
 	},
 /area/commons/dorms)
 "su" = (
-/obj/machinery/cryopod,
 /obj/structure/window/spawner/east,
+/obj/structure/frame/machine,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/commons/dorms)
 "sw" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
 /obj/structure/window/spawner/west,
+/obj/structure/frame/machine,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/iron/dark/textured,
 /area/commons/dorms)
 "sy" = (
@@ -3488,6 +3488,7 @@
 /turf/open/floor/iron/dark/textured,
 /area/commons/dorms)
 "vl" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/commons/dorms)
 "vo" = (
@@ -3517,10 +3518,8 @@
 /turf/open/floor/iron,
 /area/lush_planet/unexplored)
 "vA" = (
-/obj/machinery/computer/cryopod{
-	pixel_y = 32
-	},
 /obj/machinery/light/directional/east,
+/obj/structure/frame/computer,
 /turf/open/floor/iron/dark/textured,
 /area/commons/dorms)
 "vB" = (
@@ -3716,6 +3715,7 @@
 	},
 /area/service/janitor)
 "wV" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/corner{
 	dir = 4
 	},
@@ -3749,7 +3749,7 @@
 	},
 /area/commons/dorms)
 "xe" = (
-/obj/structure/chair/stool/directional/north,
+/obj/structure/chair/stool/directional/south,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
@@ -4066,7 +4066,7 @@
 	},
 /area/commons/dorms)
 "zq" = (
-/obj/structure/chair/stool/directional/west,
+/obj/structure/chair/stool/directional/east,
 /turf/open/floor/iron,
 /area/commons/dorms)
 "zr" = (
@@ -4435,7 +4435,7 @@
 /turf/open/floor/iron,
 /area/commons/dorms)
 "BF" = (
-/obj/structure/chair/stool/directional/east,
+/obj/structure/chair/stool/directional/west,
 /turf/open/floor/iron,
 /area/commons/dorms)
 "BG" = (
