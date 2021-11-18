@@ -1092,6 +1092,15 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/lobby)
+"ff" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/engine/atmos)
 "fi" = (
 /obj/machinery/door/airlock/atmos{
 	name = "Atmospherics";
@@ -1152,10 +1161,6 @@
 	},
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
-"fx" = (
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
-/turf/open/floor/iron,
-/area/maintenance/disposal/incinerator)
 "fy" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -1763,6 +1768,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics/garden/abandoned)
+"ic" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/maintenance/disposal/incinerator)
 "id" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -3265,11 +3274,6 @@
 	icon_state = "wood-broken"
 	},
 /area/maintenance/aft)
-"pa" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/fence,
-/turf/open/floor/plating/dirt,
-/area/lush_planet)
 "pb" = (
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/water/jungle,
@@ -3777,10 +3781,6 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
-"ri" = (
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
-/turf/closed/wall/r_wall,
-/area/maintenance/disposal/incinerator)
 "rj" = (
 /obj/machinery/meter,
 /obj/structure/grille,
@@ -3836,6 +3836,9 @@
 "rt" = (
 /obj/structure/transit_tube,
 /turf/open/floor/plating/grass/jungle,
+/area/lush_planet)
+"ru" = (
+/turf/open/floor/plating/dirt/dark,
 /area/lush_planet)
 "rv" = (
 /obj/structure/urinal/directional/west,
@@ -3972,15 +3975,6 @@
 "sd" = (
 /turf/closed/wall,
 /area/service/janitor)
-"se" = (
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/maintenance/department/engine/atmos)
 "sk" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Dormitory"
@@ -4186,6 +4180,11 @@
 	dir = 1
 	},
 /area/maintenance/radshelter/service)
+"tf" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/fence,
+/turf/open/floor/plating/dirt,
+/area/lush_planet)
 "tk" = (
 /turf/open/floor/engine/co2,
 /area/engineering/atmos)
@@ -4667,6 +4666,9 @@
 /area/lush_planet)
 "vv" = (
 /obj/machinery/light/directional/north,
+/obj/effect/turf_decal/trimline/yellow/filled/corner{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
 "vw" = (
@@ -4790,6 +4792,12 @@
 /obj/machinery/holopad,
 /turf/open/floor/iron/textured,
 /area/commons/storage/tools)
+"vZ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden{
+	dir = 10
+	},
+/turf/closed/wall/r_wall,
+/area/maintenance/disposal/incinerator)
 "wa" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible,
 /obj/effect/turf_decal/stripes/line{
@@ -5210,15 +5218,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics/garden/abandoned)
-"yl" = (
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
-	dir = 5
-	},
-/turf/open/floor/plating,
-/area/maintenance/department/engine/atmos)
 "yn" = (
 /obj/machinery/atmospherics/components/unary/passive_vent{
 	dir = 1
@@ -5445,6 +5444,10 @@
 /obj/item/storage/firstaid/regular,
 /turf/open/floor/iron,
 /area/commons/dorms)
+"zt" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/closed/wall/r_wall,
+/area/maintenance/disposal/incinerator)
 "zu" = (
 /obj/structure/flora/ausbushes/pointybush,
 /turf/open/floor/plating/grass/jungle,
@@ -6138,6 +6141,12 @@
 	planetary_atmos = 1
 	},
 /area/lush_planet)
+"CN" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/engine/atmos)
 "CO" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/machinery/door/firedoor/heavy,
@@ -6211,12 +6220,6 @@
 	},
 /turf/open/floor/catwalk_floor,
 /area/engineering/atmos)
-"Dh" = (
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
-	dir = 10
-	},
-/turf/open/floor/plating,
-/area/maintenance/department/engine/atmos)
 "Di" = (
 /obj/machinery/computer/secure_data{
 	dir = 8
@@ -6736,6 +6739,10 @@
 	},
 /turf/open/floor/iron,
 /area/service/theater)
+"Fw" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/maintenance/department/engine/atmos)
 "Fx" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -7069,12 +7076,6 @@
 /obj/structure/flora/ausbushes/sunnybush,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
-"GK" = (
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
-	dir = 9
-	},
-/turf/open/floor/plating/dirt,
-/area/lush_planet)
 "GL" = (
 /obj/structure/girder,
 /turf/open/floor/plating,
@@ -7286,6 +7287,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/department/crew_quarters/dorms)
+"HK" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
+	dir = 9
+	},
+/turf/open/floor/plating/dirt,
+/area/lush_planet)
 "HL" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
@@ -7591,12 +7598,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/stone,
 /area/lush_planet)
-"Jh" = (
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden{
-	dir = 10
-	},
-/turf/closed/wall/r_wall,
-/area/maintenance/disposal/incinerator)
 "Ji" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/supply/visible,
 /turf/closed/wall/r_wall,
@@ -8922,15 +8923,6 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/atmos)
-"Qh" = (
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/maintenance/department/engine/atmos)
 "Qk" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/portable_atmospherics/pump,
@@ -9097,6 +9089,9 @@
 	network = list("ss13","engineering")
 	},
 /obj/effect/decal/cleanable/cobweb,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
 "QW" = (
@@ -9164,10 +9159,6 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
-"Rn" = (
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
-/turf/open/floor/plating,
-/area/maintenance/department/engine/atmos)
 "Rp" = (
 /obj/machinery/modular_computer/console/preset/cargochat/service{
 	dir = 8
@@ -9189,6 +9180,15 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/stone,
 /area/lush_planet)
+"Rt" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "Ru" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -9438,15 +9438,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth_large,
 /area/lush_planet)
-"SA" = (
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/engineering/atmos)
 "SC" = (
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume/incinerator_atmos{
 	dir = 8
@@ -10355,9 +10346,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine/atmos)
-"WZ" = (
-/turf/open/floor/plating/dirt/dark,
-/area/lush_planet)
 "Xb" = (
 /obj/structure/reagent_dispensers/cooking_oil,
 /obj/machinery/firealarm/directional/east,
@@ -10565,6 +10553,15 @@
 	},
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
+"XR" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/engine/atmos)
 "XS" = (
 /turf/open/floor/engine/air,
 /area/engineering/atmos)
@@ -10867,6 +10864,15 @@
 /obj/machinery/door/window/northleft,
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
+"YZ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/engine/atmos)
 "Za" = (
 /obj/machinery/door/airlock/grunge,
 /obj/effect/turf_decal/siding/wood{
@@ -48815,7 +48821,7 @@ Co
 Co
 Co
 jc
-WZ
+ru
 jc
 Co
 Co
@@ -49070,10 +49076,10 @@ Co
 Co
 Co
 Co
-WZ
+ru
 jc
 So
-WZ
+ru
 jc
 Co
 Co
@@ -49569,9 +49575,9 @@ Bb
 Bb
 Bb
 gl
-pa
-pa
-pa
+tf
+tf
+tf
 gl
 Co
 Co
@@ -50076,7 +50082,7 @@ cm
 cm
 cm
 KP
-SA
+Rt
 FX
 pp
 jc
@@ -50333,7 +50339,7 @@ qb
 qb
 qb
 YE
-SA
+Rt
 FX
 jc
 mb
@@ -50824,7 +50830,7 @@ WY
 HO
 HO
 HO
-yl
+YZ
 ba
 Ec
 Md
@@ -51081,7 +51087,7 @@ FZ
 dC
 zE
 Ql
-Qh
+ff
 ba
 Zw
 JD
@@ -51338,7 +51344,7 @@ of
 of
 of
 of
-Qh
+ff
 iC
 cm
 cm
@@ -51595,7 +51601,7 @@ of
 xj
 du
 of
-Qh
+ff
 ba
 ba
 ba
@@ -51852,7 +51858,7 @@ of
 SS
 NG
 zS
-se
+XR
 BM
 BM
 KB
@@ -52366,9 +52372,9 @@ Pi
 mn
 Oh
 of
-Dh
-Rn
-Rn
+CN
+Fw
+Fw
 Ji
 gX
 cm
@@ -53417,7 +53423,7 @@ vI
 HM
 zw
 VE
-SA
+Rt
 FX
 jc
 mb
@@ -55475,7 +55481,7 @@ jc
 Vn
 jM
 ev
-ri
+zt
 uq
 oG
 jc
@@ -55734,7 +55740,7 @@ iX
 Vx
 do
 md
-Jh
+vZ
 oG
 Vn
 nX
@@ -56760,7 +56766,7 @@ bB
 CX
 up
 Ks
-fx
+ic
 vb
 Kr
 HA
@@ -57024,7 +57030,7 @@ ne
 ne
 ne
 ne
-GK
+HK
 ET
 ET
 ET
