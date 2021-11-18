@@ -680,9 +680,8 @@
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
 "dm" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/wood/large,
-/area/commons/vacant_room/office)
+/turf/closed/wall/mineral/wood,
+/area/security/checkpoint/engineering)
 "dn" = (
 /obj/machinery/hydroponics/soil,
 /obj/effect/turf_decal/siding/thinplating{
@@ -1983,9 +1982,9 @@
 /turf/open/floor/stone,
 /area/lush_planet)
 "jc" = (
-/obj/structure/ore_box,
-/turf/open/floor/plating/dirt/jungle,
-/area/lush_planet)
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/security/checkpoint/engineering)
 "jd" = (
 /obj/effect/turf_decal/box/white{
 	color = "#9FED58"
@@ -4371,6 +4370,10 @@
 /obj/machinery/portable_atmospherics/canister/plasma,
 /turf/open/floor/engine/plasma,
 /area/engineering/atmos)
+"uc" = (
+/obj/structure/ore_box,
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "ug" = (
 /obj/machinery/power/smes/engineering,
 /obj/effect/turf_decal/bot,
@@ -6256,10 +6259,8 @@
 	},
 /area/commons/dorms)
 "Dr" = (
-/obj/item/pickaxe,
-/obj/item/clothing/head/hardhat,
-/turf/open/floor/plating/dirt/jungle,
-/area/lush_planet)
+/turf/open/floor/wood,
+/area/security/checkpoint/engineering)
 "Dt" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4
@@ -9322,6 +9323,11 @@
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/open/floor/engine/co2,
 /area/engineering/atmos)
+"RV" = (
+/obj/item/pickaxe,
+/obj/item/clothing/head/hardhat,
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "RX" = (
 /obj/machinery/air_sensor/atmos/incinerator_tank{
 	pixel_x = -32;
@@ -9867,6 +9873,16 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"UE" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/door/airlock/security/glass{
+	name = "Security Office";
+	req_access_txt = "63"
+	},
+/turf/open/floor/wood,
+/area/security/checkpoint/engineering)
 "UF" = (
 /obj/structure/window/reinforced/plasma{
 	dir = 4
@@ -10328,6 +10344,10 @@
 	},
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"WT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/large,
+/area/commons/vacant_room/office)
 "WU" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -28473,9 +28493,9 @@ gJ
 iI
 cn
 lq
-dm
-dm
-dm
+WT
+WT
+WT
 kM
 kM
 kK
@@ -28730,9 +28750,9 @@ dI
 iL
 cn
 lu
-dm
-dm
-dm
+WT
+WT
+WT
 pO
 kM
 jE
@@ -28989,7 +29009,7 @@ cn
 lx
 mR
 oj
-dm
+WT
 pT
 kM
 ai
@@ -29246,7 +29266,7 @@ cn
 lB
 mU
 om
-dm
+WT
 pV
 kM
 LZ
@@ -43369,11 +43389,11 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
-qo
-qo
+dm
+dm
+jc
+dm
+dm
 qo
 fc
 pd
@@ -43626,11 +43646,11 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
-qo
-qo
+dm
+Dr
+Dr
+Dr
+dm
 qo
 fc
 pd
@@ -43883,11 +43903,11 @@ qo
 qo
 ok
 qo
-qo
-qo
-qo
-qo
-qo
+jc
+Dr
+Dr
+Dr
+jc
 qo
 qo
 fc
@@ -44140,11 +44160,11 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
-qo
-qo
+jc
+Dr
+Dr
+Dr
+jc
 qo
 qo
 qo
@@ -44397,11 +44417,11 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
-qo
-qo
+dm
+Dr
+Dr
+Dr
+dm
 qo
 qo
 qo
@@ -44654,11 +44674,11 @@ qo
 qo
 qo
 ok
-qo
-qo
-qo
-qo
-qo
+dm
+UE
+dm
+dm
+dm
 qo
 qo
 qo
@@ -54981,7 +55001,7 @@ ok
 ok
 ok
 ok
-jc
+uc
 ok
 Co
 Co
@@ -55496,7 +55516,7 @@ ok
 ok
 ok
 ok
-Dr
+RV
 ok
 ok
 Co
