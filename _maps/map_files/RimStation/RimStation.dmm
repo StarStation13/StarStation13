@@ -2079,6 +2079,17 @@
 /obj/effect/spawner/random/structure/crate,
 /turf/open/floor/plating/grass/jungle,
 /area/maintenance/aft)
+"jC" = (
+/obj/item/radio/off,
+/obj/item/screwdriver{
+	pixel_y = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/wood,
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/security/checkpoint/engineering)
 "jD" = (
 /obj/effect/spawner/random/structure/girder,
 /turf/open/floor/plating,
@@ -2148,6 +2159,12 @@
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
+"jT" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/security/checkpoint/engineering)
 "jU" = (
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/carpet/blue,
@@ -3344,6 +3361,12 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"pm" = (
+/obj/structure/chair/office,
+/obj/effect/landmark/start/depsec/engineering,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/security/checkpoint/engineering)
 "pn" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3714,6 +3737,15 @@
 /obj/machinery/suit_storage_unit/atmos,
 /turf/open/floor/iron/dark/textured_large,
 /area/engineering/atmos)
+"qN" = (
+/obj/item/paper_bin{
+	pixel_x = 1;
+	pixel_y = 9
+	},
+/obj/item/pen,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/security/checkpoint/engineering)
 "qO" = (
 /obj/item/wirecutters,
 /obj/effect/decal/cleanable/dirt,
@@ -5726,6 +5758,13 @@
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/iron/smooth_large,
 /area/service/janitor)
+"AJ" = (
+/obj/machinery/computer/security{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/security/checkpoint/engineering)
 "AL" = (
 /obj/structure/window/spawner/east,
 /obj/effect/turf_decal/bot,
@@ -6344,10 +6383,11 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "DN" = (
-/obj/structure/chair/stool/directional/west,
+/obj/machinery/recharger,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/maintenance/disposal/incinerator)
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/security/checkpoint/engineering)
 "DO" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -6396,6 +6436,10 @@
 /obj/effect/turf_decal/siding/thinplating,
 /turf/open/floor/iron/smooth_large,
 /area/engineering/break_room)
+"DX" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/security/checkpoint/engineering)
 "DY" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 8
@@ -7541,6 +7585,13 @@
 	dir = 1
 	},
 /area/service/theater)
+"IN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/directional/east,
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/security/checkpoint/engineering)
 "IR" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
@@ -7776,6 +7827,11 @@
 	},
 /turf/open/floor/wood,
 /area/lush_planet)
+"JZ" = (
+/obj/structure/closet/secure_closet/security/engine,
+/obj/item/clothing/mask/whistle,
+/turf/open/floor/wood,
+/area/security/checkpoint/engineering)
 "Kc" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/nitrous_input{
 	dir = 8
@@ -7799,6 +7855,14 @@
 /obj/machinery/smartfridge,
 /turf/closed/wall,
 /area/service/hydroponics)
+"Ko" = (
+/obj/machinery/computer/secure_data{
+	dir = 1
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/security/checkpoint/engineering)
 "Kr" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/supply/hidden,
 /turf/closed/wall/r_wall,
@@ -7847,6 +7911,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/aft)
+"Ky" = (
+/obj/machinery/newscaster/security_unit/directional/north,
+/turf/open/floor/wood,
+/area/security/checkpoint/engineering)
 "KA" = (
 /obj/machinery/rnd/production/circuit_imprinter,
 /turf/open/floor/iron/smooth_large,
@@ -9985,6 +10053,16 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"Vl" = (
+/obj/machinery/door/airlock/external{
+	name = "atmospherics external airlock";
+	req_access_txt = "24"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "atmos_tank_ext_east"
+	},
+/turf/open/floor/plating,
+/area/maintenance/disposal/incinerator)
 "Vm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -11011,13 +11089,14 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
 "ZF" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/external{
+	name = "atmospherics external airlock";
 	req_access_txt = "24"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "atmos_tank_ext_east"
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/disposal/incinerator)
 "ZG" = (
@@ -43647,9 +43726,9 @@ qo
 qo
 qo
 dm
-Dr
-Dr
-Dr
+DN
+jC
+qN
 dm
 qo
 fc
@@ -43905,8 +43984,8 @@ ok
 qo
 jc
 Dr
-Dr
-Dr
+pm
+Ko
 jc
 qo
 qo
@@ -44161,9 +44240,9 @@ qo
 qo
 qo
 jc
-Dr
-Dr
-Dr
+jT
+DX
+AJ
 jc
 qo
 qo
@@ -44418,9 +44497,9 @@ qo
 qo
 qo
 dm
-Dr
-Dr
-Dr
+Ky
+IN
+JZ
 dm
 qo
 qo
@@ -49812,7 +49891,7 @@ ET
 ET
 qo
 qo
-qo
+ok
 Hp
 tn
 pq
@@ -50839,7 +50918,7 @@ ET
 ET
 ET
 qo
-qo
+ok
 qo
 qo
 qo
@@ -52123,7 +52202,7 @@ ET
 ET
 ET
 ET
-qo
+ok
 qo
 qo
 qo
@@ -52895,7 +52974,7 @@ ET
 ET
 ET
 qo
-qo
+ok
 qo
 qo
 qo
@@ -54180,7 +54259,7 @@ ET
 ET
 ET
 qo
-qo
+ok
 qo
 qo
 qo
@@ -54438,7 +54517,7 @@ ET
 ET
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -54951,7 +55030,7 @@ ET
 ET
 ET
 qo
-qo
+ok
 qo
 qo
 qo
@@ -55723,7 +55802,7 @@ ET
 ET
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -56492,7 +56571,7 @@ ET
 ET
 ET
 ET
-qo
+ok
 qo
 qo
 qo
@@ -56752,6 +56831,10 @@ ET
 qo
 qo
 qo
+uu
+uu
+uu
+uu
 qo
 qo
 qo
@@ -56764,15 +56847,11 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
-qo
-qo
-qo
+uu
+uu
 Eo
 Eo
-DN
+Eq
 Vn
 dX
 nr
@@ -57009,6 +57088,11 @@ ET
 qo
 qo
 qo
+uu
+qo
+qo
+uu
+uu
 qo
 qo
 qo
@@ -57019,17 +57103,12 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
+uu
+uu
 qo
 qo
 Eo
-Eo
+Vl
 Vn
 Lt
 Vf
@@ -57264,29 +57343,29 @@ ET
 ET
 ET
 qo
+ok
+qo
+uu
+qo
+qo
+qo
+uu
+uu
+uu
+uu
 qo
 qo
 qo
 qo
+uu
+uu
+uu
+uu
 qo
 qo
 qo
 qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
+pD
 Vn
 Bd
 hN
@@ -57523,6 +57602,19 @@ ET
 qo
 qo
 qo
+uu
+qo
+qo
+qo
+qo
+qo
+qo
+uu
+uu
+uu
+uu
+uu
+uu
 qo
 qo
 qo
@@ -57530,20 +57622,7 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
+pD
 Vn
 Bd
 jQ
@@ -57779,6 +57858,8 @@ ET
 ET
 qo
 qo
+ok
+uu
 qo
 qo
 qo
@@ -57798,9 +57879,7 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
+pD
 Vn
 Bd
 Bd
@@ -58037,6 +58116,7 @@ ET
 qo
 qo
 qo
+uu
 qo
 qo
 qo
@@ -58056,8 +58136,7 @@ qo
 qo
 qo
 qo
-qo
-qo
+pD
 Vn
 Vn
 Hu
