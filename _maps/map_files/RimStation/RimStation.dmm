@@ -2380,6 +2380,7 @@
 /area/engineering/atmos)
 "kT" = (
 /obj/machinery/light/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/grimy,
 /area/commons/vacant_room/office)
 "kU" = (
@@ -2397,6 +2398,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/grimy,
 /area/commons/vacant_room/office)
 "kX" = (
@@ -2453,6 +2455,7 @@
 /area/maintenance/aft)
 "lq" = (
 /obj/machinery/light_switch/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/large,
 /area/commons/vacant_room/office)
 "lt" = (
@@ -2477,6 +2480,7 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/grimy,
 /area/commons/vacant_room/office)
 "ly" = (
@@ -2489,6 +2493,7 @@
 /area/maintenance/aft)
 "lB" = (
 /obj/structure/chair/office,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet/red,
 /area/commons/vacant_room/office)
 "lC" = (
@@ -2684,6 +2689,7 @@
 /obj/structure/chair/office{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/grimy,
 /area/commons/vacant_room/office)
 "mu" = (
@@ -2749,6 +2755,7 @@
 	pixel_y = 12
 	},
 /obj/item/taperecorder,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/grimy,
 /area/commons/vacant_room/office)
 "mK" = (
@@ -2791,6 +2798,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/grimy,
 /area/commons/vacant_room/office)
 "mT" = (
@@ -2817,6 +2825,7 @@
 	pixel_x = 8;
 	pixel_y = 8
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet/red,
 /area/commons/vacant_room/office)
 "mV" = (
@@ -2852,6 +2861,7 @@
 	},
 /obj/item/folder/red,
 /obj/item/newspaper,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet/red,
 /area/commons/vacant_room/office)
 "nd" = (
@@ -3076,6 +3086,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/grimy,
 /area/commons/vacant_room/office)
 "ok" = (
@@ -3096,6 +3107,7 @@
 /obj/structure/chair{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/grimy,
 /area/commons/vacant_room/office)
 "on" = (
@@ -3480,6 +3492,7 @@
 /area/engineering/atmos)
 "pO" = (
 /obj/structure/filingcabinet/chestdrawer,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/large,
 /area/commons/vacant_room/office)
 "pP" = (
@@ -3564,6 +3577,7 @@
 /area/lush_planet)
 "qf" = (
 /obj/machinery/photocopier,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/large,
 /area/commons/vacant_room/office)
 "qg" = (
@@ -5840,7 +5854,6 @@
 	},
 /area/service/janitor)
 "Bt" = (
-/obj/machinery/bluespace_vendor/directional/west,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
@@ -6235,6 +6248,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/bluespace_vendor/directional/south,
 /turf/open/floor/iron/dark/side{
 	dir = 8
 	},
@@ -8865,6 +8879,10 @@
 /obj/machinery/door/window/northleft,
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
+"PO" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/large,
+/area/commons/vacant_room/office)
 "PS" = (
 /obj/effect/turf_decal/siding/thinplating/end{
 	dir = 8
@@ -23586,8 +23604,8 @@ sk
 uB
 sk
 qT
-qT
-qT
+uB
+uB
 qT
 Gg
 He
@@ -28456,9 +28474,9 @@ gJ
 iI
 cn
 lq
-mO
-mO
-mO
+PO
+PO
+PO
 kM
 kM
 kK
@@ -28713,9 +28731,9 @@ dI
 iL
 cn
 lu
-mO
-mO
-mO
+PO
+PO
+PO
 pO
 kM
 jE
@@ -28972,7 +28990,7 @@ cn
 lx
 mR
 oj
-mO
+PO
 pT
 kM
 ai
@@ -29229,7 +29247,7 @@ cn
 lB
 mU
 om
-mO
+PO
 pV
 kM
 LZ
