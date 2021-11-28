@@ -334,13 +334,6 @@
 "bX" = (
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
-"bY" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/turf_decal/siding/thinplating,
-/turf/open/floor/iron/smooth_large,
-/area/hallway/primary/central)
 "bZ" = (
 /turf/open/floor/iron/cafeteria,
 /area/security/prison)
@@ -1912,9 +1905,8 @@
 /area/security/prison)
 "jY" = (
 /obj/machinery/light/dim/directional/west,
-/obj/effect/turf_decal/siding/thinplating,
 /obj/effect/landmark/start/hangover,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron,
 /area/hallway/primary/central)
 "ka" = (
 /turf/open/floor/iron,
@@ -2329,13 +2321,6 @@
 	dir = 1
 	},
 /turf/open/floor/grass,
-/area/hallway/primary/central)
-"lS" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/siding/thinplating{
-	dir = 1
-	},
-/turf/open/floor/iron/smooth_large,
 /area/hallway/primary/central)
 "lT" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3624,16 +3609,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
 /area/service/library)
-"rW" = (
-/obj/machinery/door/firedoor,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/turf_decal/siding/thinplating{
-	dir = 1
-	},
-/turf/open/floor/iron/smooth_large,
-/area/hallway/primary/central)
 "rX" = (
 /obj/structure/chair/comfy/brown{
 	buildstackamount = 0;
@@ -3857,7 +3832,7 @@
 "sY" = (
 /obj/machinery/rnd/production/techfab/department/service,
 /obj/machinery/firealarm/directional/north,
-/turf/open/floor/catwalk_floor,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/hallway/secondary/service)
 "sZ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible{
@@ -3971,7 +3946,7 @@
 /obj/machinery/computer/cargo/request{
 	dir = 8
 	},
-/turf/open/floor/catwalk_floor,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/hallway/secondary/service)
 "tE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible{
@@ -4199,7 +4174,7 @@
 "uP" = (
 /obj/structure/table,
 /obj/machinery/light/dim/directional/west,
-/turf/open/floor/catwalk_floor,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/hallway/secondary/service)
 "uQ" = (
 /obj/structure/window/reinforced/plasma/spawner/east,
@@ -4253,7 +4228,7 @@
 	dir = 8
 	},
 /obj/machinery/light/dim/directional/east,
-/turf/open/floor/catwalk_floor,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/hallway/secondary/service)
 "vc" = (
 /obj/effect/turf_decal/siding/wood{
@@ -5213,7 +5188,7 @@
 /turf/open/floor/plating,
 /area/engineering/supermatter/room)
 "At" = (
-/turf/open/floor/catwalk_floor,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/hallway/secondary/service)
 "Au" = (
 /obj/structure/chair/stool/directional/west,
@@ -5522,7 +5497,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor,
+/turf/open/floor/catwalk_floor/iron,
 /area/hallway/primary/central)
 "Ck" = (
 /turf/open/floor/carpet/black,
@@ -5662,7 +5637,7 @@
 	pixel_y = -32
 	},
 /obj/structure/cable,
-/turf/open/floor/catwalk_floor,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/hallway/secondary/service)
 "CU" = (
 /obj/structure/cable,
@@ -5714,7 +5689,7 @@
 "Dn" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/south,
-/turf/open/floor/catwalk_floor,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/hallway/secondary/service)
 "Do" = (
 /obj/structure/cable/layer3,
@@ -6260,7 +6235,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/floor/catwalk_floor,
+/turf/open/floor/catwalk_floor/iron,
 /area/hallway/primary/central)
 "Gs" = (
 /obj/machinery/portable_atmospherics/scrubber,
@@ -6496,7 +6471,7 @@
 /area/commons/dorms)
 "Hy" = (
 /obj/structure/cable,
-/turf/open/floor/catwalk_floor,
+/turf/open/floor/catwalk_floor/iron,
 /area/hallway/primary/central)
 "HA" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -6973,7 +6948,7 @@
 /obj/structure/frame/machine,
 /obj/item/stack/cable_coil/five,
 /obj/structure/cable,
-/turf/open/floor/catwalk_floor,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/science/research/abandoned)
 "KB" = (
 /obj/item/stack/cable_coil,
@@ -8557,7 +8532,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor,
+/turf/open/floor/catwalk_floor/iron,
 /area/hallway/primary/central)
 "SW" = (
 /obj/effect/turf_decal/siding/purple{
@@ -9256,8 +9231,7 @@
 /area/service/hydroponics)
 "VS" = (
 /obj/machinery/light/dim/directional/east,
-/obj/effect/turf_decal/siding/thinplating,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron,
 /area/hallway/primary/central)
 "VV" = (
 /obj/effect/turf_decal/siding/thinplating/light{
@@ -38767,9 +38741,9 @@ Zj
 Zj
 Yl
 Zj
-rW
+ng
 SU
-bY
+Zj
 Zj
 Yl
 Zj
@@ -39024,7 +38998,7 @@ dw
 yg
 BH
 pt
-lS
+Wx
 Gp
 VS
 BH
@@ -44678,7 +44652,7 @@ dw
 BH
 Qj
 BH
-lS
+Wx
 Hy
 jY
 PM
@@ -44935,9 +44909,9 @@ Zj
 Zj
 XX
 Zj
-rW
+ng
 Cj
-bY
+Zj
 Zj
 Zj
 XX
