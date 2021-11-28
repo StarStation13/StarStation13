@@ -1294,11 +1294,6 @@
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
-"ft" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron,
-/area/maintenance/disposal/incinerator)
 "fu" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/brown{
@@ -2688,6 +2683,11 @@
 "lj" = (
 /turf/closed/wall/r_wall,
 /area/engineering/break_room)
+"ll" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron,
+/area/maintenance/disposal/incinerator)
 "lm" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plating,
@@ -4353,11 +4353,6 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron,
 /area/engineering/atmos)
-"rT" = (
-/obj/effect/spawner/structure/window/reinforced/plasma,
-/obj/machinery/door/firedoor/heavy,
-/turf/open/floor/plating,
-/area/lush_planet)
 "rU" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
@@ -8561,11 +8556,6 @@
 "Ke" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/manifold4w,
 /turf/open/floor/plating,
-/area/lush_planet)
-"Kh" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plating/dirt/jungle,
 /area/lush_planet)
 "Ki" = (
 /obj/machinery/light/directional/east,
@@ -56287,9 +56277,9 @@ ps
 ok
 ok
 ok
-uu
-rT
-uu
+ok
+ok
+ok
 ok
 pp
 ok
@@ -56544,9 +56534,9 @@ dz
 uq
 oG
 ok
-uu
-Kh
-uu
+ok
+QL
+ok
 ok
 pp
 pp
@@ -57312,7 +57302,7 @@ QU
 iX
 IA
 au
-ft
+ll
 Qx
 SC
 yG
