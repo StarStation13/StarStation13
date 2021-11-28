@@ -23,6 +23,7 @@
 "ad" = (
 /obj/machinery/camera{
 	c_tag = "Atmospherics Tank - Air";
+	dir = 8;
 	name = "atmospherics camera";
 	network = list("ss13","engine")
 	},
@@ -77,7 +78,7 @@
 "ao" = (
 /obj/machinery/camera{
 	c_tag = "Head of Personnel's Office";
-	dir = 4;
+	dir = 1;
 	name = "command camera"
 	},
 /obj/effect/turf_decal/delivery,
@@ -266,7 +267,7 @@
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/camera{
 	c_tag = "Captain's Office";
-	dir = 8;
+	dir = 9;
 	name = "command camera"
 	},
 /turf/open/floor/iron/dark,
@@ -700,7 +701,8 @@
 "dX" = (
 /obj/machinery/telecomms/processor/preset_two,
 /obj/machinery/camera{
-	c_tag = "Telecomms - Port"
+	c_tag = "Telecomms - Port";
+	dir = 8
 	},
 /turf/open/floor/circuit/green/telecomms/mainframe,
 /area/tcommsat/server)
@@ -2420,6 +2422,7 @@
 "mq" = (
 /obj/machinery/camera{
 	c_tag = "Atmospherics Tank - N2";
+	dir = 8;
 	name = "atmospherics camera";
 	network = list("ss13","engine")
 	},
@@ -2556,7 +2559,7 @@
 /obj/machinery/washing_machine,
 /obj/machinery/camera{
 	c_tag = "Prison";
-	dir = 4;
+	dir = 1;
 	network = list("ss13","prison")
 	},
 /obj/effect/decal/cleanable/cobweb,
@@ -3170,7 +3173,7 @@
 /obj/machinery/telecomms/server/presets/security,
 /obj/machinery/camera{
 	c_tag = "Telecomms - Starboard";
-	dir = 10
+	dir = 6
 	},
 /turf/open/floor/circuit/green/telecomms/mainframe,
 /area/tcommsat/server)
@@ -3741,7 +3744,7 @@
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/camera{
 	c_tag = "Engineering SMES";
-	dir = 10
+	dir = 6
 	},
 /turf/open/floor/plating,
 /area/engineering/engine_smes)
@@ -7512,7 +7515,8 @@
 	dir = 8
 	},
 /obj/machinery/camera{
-	c_tag = "Supermatter Crystal"
+	c_tag = "Supermatter Crystal";
+	dir = 1
 	},
 /turf/open/floor/engine,
 /area/engineering/supermatter)
@@ -8597,6 +8601,7 @@
 "Tb" = (
 /obj/machinery/camera{
 	c_tag = "Atmospherics Tank - O2";
+	dir = 8;
 	name = "atmospherics camera";
 	network = list("ss13","engine")
 	},
