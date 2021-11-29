@@ -95,6 +95,10 @@
 	},
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"aw" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/white,
+/area/science/robotics/lab)
 "ax" = (
 /obj/machinery/recharge_station,
 /obj/effect/turf_decal/siding/purple{
@@ -708,12 +712,10 @@
 /obj/effect/turf_decal/siding/purple{
 	dir = 4
 	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /mob/living/carbon/human/species/monkey,
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/window/reinforced/spawner/east,
 /turf/open/floor/grass,
 /area/science/genetics)
 "cX" = (
@@ -726,10 +728,25 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
+"cZ" = (
+/obj/machinery/light/directional/north,
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/science/xenobiology)
 "da" = (
 /obj/structure/rack,
 /turf/open/floor/iron/showroomfloor,
 /area/commons/toilet/auxiliary)
+"db" = (
+/obj/effect/turf_decal/tile/purple/anticorner{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 8
+	},
+/area/science/xenobiology)
 "dc" = (
 /obj/structure/table,
 /obj/item/rcl/pre_loaded,
@@ -1957,6 +1974,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/science/robotics/lab)
 "hT" = (
@@ -1970,7 +1988,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/oil,
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white/textured,
 /area/science/robotics/lab)
 "hU" = (
 /turf/open/floor/iron/white/side{
@@ -2245,6 +2263,22 @@
 	dir = 1
 	},
 /area/science/research)
+"iU" = (
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/flora/rock/pile{
+	pixel_x = -3;
+	pixel_y = -4
+	},
+/obj/effect/turf_decal/siding/purple{
+	dir = 5
+	},
+/obj/item/toy/figure/miner{
+	pixel_x = -1;
+	pixel_y = -2
+	},
+/turf/open/floor/grass/fakebasalt,
+/area/science/xenobiology)
 "iV" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/spawner/random/structure/crate,
@@ -2370,8 +2404,9 @@
 /turf/open/floor/plating/grass/jungle,
 /area/maintenance/aft)
 "jD" = (
-/turf/open/floor/catwalk_floor/iron,
-/area/science/research)
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/lush_planet/unexplored)
 "jE" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Central Access"
@@ -3001,10 +3036,10 @@
 /turf/open/floor/iron,
 /area/maintenance/department/engine/atmos)
 "mp" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor,
-/turf/open/floor/plating,
-/area/science/robotics/lab)
+/obj/effect/turf_decal/siding/wood,
+/obj/item/kirbyplants/dead,
+/turf/open/floor/wood,
+/area/lush_planet/unexplored)
 "mr" = (
 /obj/structure/sink/kitchen{
 	desc = "A sink used for washing one's hands and face. It looks rusty and home-made.";
@@ -3770,9 +3805,8 @@
 /turf/open/floor/iron/checker,
 /area/service/kitchen)
 "pk" = (
-/obj/machinery/firealarm/directional/west,
-/turf/closed/wall/r_wall,
-/area/maintenance/disposal/incinerator)
+/turf/open/floor/iron,
+/area/lush_planet/unexplored)
 "pl" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/green/visible{
 	dir = 1
@@ -4400,7 +4434,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white/textured,
 /area/science/robotics/lab)
 "rD" = (
 /obj/machinery/door/airlock/glass_large{
@@ -5365,7 +5399,7 @@
 /area/lush_planet)
 "vx" = (
 /obj/structure/chair/stool/directional/north,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/textured,
 /area/science/robotics/lab)
 "vy" = (
 /obj/machinery/atmospherics/components/binary/pump/on{
@@ -5400,12 +5434,10 @@
 /turf/open/floor/plating,
 /area/commons/storage/tools)
 "vG" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Test Chamber Maintenance";
-	req_access_txt = "47"
+/turf/open/floor/iron/white/corner{
+	dir = 8
 	},
-/turf/open/floor/plating,
-/area/maintenance/department/science/xenobiology)
+/area/lush_planet/unexplored)
 "vH" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/donkpockets/donkpocketspicy{
@@ -6053,6 +6085,24 @@
 	planetary_atmos = 1
 	},
 /area/lush_planet)
+"yE" = (
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron,
+/area/maintenance/disposal/incinerator)
+"yF" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Test Chamber Maintenance";
+	req_access_txt = "47"
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/science/xenobiology)
 "yG" = (
 /obj/machinery/door/airlock/public/glass/incinerator/atmos_interior{
 	id_tag = "atmos_incinerator_airlock_exterior";
@@ -7523,8 +7573,9 @@
 /turf/open/floor/engine/vacuum,
 /area/engineering/atmos)
 "EW" = (
-/obj/machinery/light/directional/west,
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/white/corner{
+	dir = 4
+	},
 /area/lush_planet/unexplored)
 "EX" = (
 /obj/item/stack/tile/iron,
@@ -7740,6 +7791,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/security/checkpoint/engineering)
+"FA" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/science/xenobiology)
 "FB" = (
 /obj/structure/chair/pew{
 	dir = 1
@@ -8622,6 +8679,11 @@
 	dir = 1
 	},
 /area/service/theater)
+"IP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/iron,
+/area/maintenance/disposal/incinerator)
 "IR" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
@@ -11477,6 +11539,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible,
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
 "Vy" = (
@@ -11557,10 +11620,8 @@
 /obj/effect/turf_decal/siding/purple{
 	dir = 4
 	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/window/reinforced/spawner/east,
 /turf/open/floor/grass,
 /area/science/genetics)
 "VK" = (
@@ -11630,6 +11691,7 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/engineering/lobby)
 "Wa" = (
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/recharge_floor,
 /area/science/robotics/lab)
 "Wb" = (
@@ -11797,6 +11859,14 @@
 "WB" = (
 /turf/closed/wall,
 /area/service/kitchen/coldroom)
+"WC" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/turf_decal/siding/purple{
+	dir = 1
+	},
+/obj/structure/flora/rock,
+/turf/open/floor/grass/fakebasalt,
+/area/science/xenobiology)
 "WD" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/checker,
@@ -12362,6 +12432,7 @@
 /obj/effect/turf_decal/siding/purple{
 	dir = 4
 	},
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/science/xenobiology)
 "YM" = (
@@ -57328,8 +57399,8 @@ ok
 ok
 ok
 ok
-pk
-iX
+Vn
+yE
 Vx
 do
 md
@@ -59376,7 +59447,7 @@ Hq
 Jf
 nf
 Hq
-Bd
+IP
 Bd
 Bd
 Bd
@@ -59634,11 +59705,11 @@ Ex
 od
 Hq
 Vn
-Hu
-Hu
-Hu
-Hu
-Hu
+Vn
+Vn
+Vn
+Vn
+Vn
 Vn
 Vn
 Co
@@ -59888,7 +59959,7 @@ mS
 mS
 Hq
 Hq
-nf
+eC
 mQ
 ET
 ET
@@ -60143,9 +60214,9 @@ bD
 ZT
 bD
 bD
-bD
+WC
 Hq
-vG
+nf
 mQ
 ET
 ET
@@ -60400,10 +60471,10 @@ wl
 ZT
 bD
 bD
-bD
-bD
-bD
-bD
+iU
+Hq
+yF
+mQ
 ET
 ET
 ET
@@ -60655,12 +60726,12 @@ oY
 oY
 oY
 oY
+cZ
 bD
 bD
 bD
 bD
-bD
-bD
+mS
 ET
 ET
 ET
@@ -60911,13 +60982,13 @@ Ib
 bU
 xN
 JU
-yN
+oY
+db
+FA
 bD
 bD
 bD
-bD
-bD
-bD
+mS
 ET
 ET
 ET
@@ -61156,7 +61227,7 @@ qo
 dW
 Sv
 Sv
-jD
+Sv
 Sv
 NE
 cI
@@ -61168,13 +61239,13 @@ KO
 Wd
 xN
 xN
-yN
-yN
-yN
-mp
-mp
-yN
-yN
+oY
+oY
+oY
+ZT
+ZT
+oY
+oY
 yN
 xN
 ET
@@ -62184,7 +62255,7 @@ qo
 dW
 Sv
 Sv
-jD
+Sv
 Sv
 Un
 cI
@@ -62953,17 +63024,17 @@ ET
 ET
 ET
 DN
-hg
-hg
-hg
-hg
+jD
+EW
+pk
+vG
 hg
 EW
-ET
-ET
-ET
-ET
-ET
+pk
+vG
+hg
+EW
+pk
 ET
 xN
 xN
@@ -63210,17 +63281,17 @@ ET
 ET
 ET
 DN
+mp
 hg
+EW
+pk
+vG
 hg
+EW
+pk
+vG
 hg
-hg
-hg
-hg
-ET
-ET
-ET
-ET
-ET
+EW
 ET
 ET
 ET
@@ -63230,7 +63301,7 @@ xN
 Jd
 MU
 MU
-MU
+aw
 MU
 xN
 Co
