@@ -2,12 +2,6 @@
 "aa" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/radshelter/service)
-"ab" = (
-/obj/structure/transit_tube/crossing,
-/turf/open/floor/plating/beach/sand{
-	planetary_atmos = 1
-	},
-/area/lush_planet)
 "ad" = (
 /obj/machinery/rnd/production/protolathe/department/science,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
@@ -1426,7 +1420,11 @@
 /obj/structure/transit_tube/station/dispenser/reverse{
 	dir = 8
 	},
-/turf/open/floor/plating/grass/jungle,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/structure/railing,
+/turf/open/floor/wood/large,
 /area/lush_planet)
 "eZ" = (
 /obj/structure/table/wood,
@@ -3205,7 +3203,10 @@
 /obj/structure/transit_tube/curved/flipped{
 	dir = 4
 	},
-/turf/open/water/jungle,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
 /area/lush_planet)
 "kZ" = (
 /obj/machinery/status_display/ai,
@@ -3916,7 +3917,13 @@
 /area/science/xenobiology)
 "nn" = (
 /obj/structure/transit_tube/station/dispenser/reverse/flipped,
-/turf/open/floor/plating/grass/jungle,
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/wood/large,
 /area/lush_planet)
 "np" = (
 /obj/effect/turf_decal/stripes/line,
@@ -4254,12 +4261,6 @@
 	icon_state = "wood-broken7"
 	},
 /area/maintenance/aft)
-"oE" = (
-/obj/structure/transit_tube/horizontal,
-/turf/open/floor/plating/beach/sand{
-	planetary_atmos = 1
-	},
-/area/lush_planet)
 "oF" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 10
@@ -5077,10 +5078,6 @@
 "rs" = (
 /turf/open/floor/grass/fakebasalt,
 /area/maintenance/department/chapel)
-"rt" = (
-/obj/structure/transit_tube,
-/turf/open/floor/plating/grass/jungle,
-/area/lush_planet)
 "rv" = (
 /obj/structure/urinal/directional/west,
 /obj/structure/sign/poster/official/random{
@@ -5116,12 +5113,6 @@
 	dir = 9
 	},
 /turf/open/floor/stone,
-/area/lush_planet)
-"rA" = (
-/obj/structure/transit_tube,
-/turf/open/floor/plating/beach/sand{
-	planetary_atmos = 1
-	},
 /area/lush_planet)
 "rB" = (
 /obj/effect/turf_decal/tile/purple{
@@ -6229,7 +6220,10 @@
 /area/engineering/atmos)
 "vd" = (
 /obj/structure/transit_tube/horizontal,
-/turf/open/water/jungle,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
 /area/lush_planet)
 "ve" = (
 /obj/effect/spawner/random/vending/snackvend,
@@ -7225,10 +7219,6 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
-"yT" = (
-/obj/structure/transit_tube/crossing/horizontal,
-/turf/open/water/jungle,
-/area/lush_planet)
 "yV" = (
 /obj/machinery/door/window/westleft{
 	req_access_txt = "27"
@@ -10808,10 +10798,6 @@
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
-"LQ" = (
-/obj/structure/transit_tube/crossing,
-/turf/open/water/jungle,
-/area/lush_planet)
 "LR" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/nitrous_output{
 	dir = 8
@@ -11096,7 +11082,10 @@
 /area/maintenance/disposal/incinerator)
 "MR" = (
 /obj/structure/transit_tube/curved,
-/turf/open/water/jungle,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/large,
 /area/lush_planet)
 "MS" = (
 /obj/machinery/light/directional/west,
@@ -11222,7 +11211,10 @@
 /area/maintenance/aft)
 "Nq" = (
 /obj/structure/transit_tube/crossing/horizontal,
-/turf/open/floor/plating/grass/jungle,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
 /area/lush_planet)
 "Nr" = (
 /obj/structure/fluff/tram_rail{
@@ -11542,7 +11534,10 @@
 /area/engineering/lobby)
 "OD" = (
 /obj/structure/transit_tube,
-/turf/open/water/jungle,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/large,
 /area/lush_planet)
 "OE" = (
 /obj/effect/spawner/random/structure/table,
@@ -13181,7 +13176,10 @@
 /area/service/chapel/office)
 "UL" = (
 /obj/structure/transit_tube/crossing,
-/turf/open/floor/plating/grass/jungle,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/large,
 /area/lush_planet)
 "UM" = (
 /obj/effect/landmark/event_spawn,
@@ -46289,8 +46287,8 @@ pd
 pd
 fc
 qo
-qo
-qo
+ok
+ok
 qo
 qo
 qo
@@ -46536,15 +46534,15 @@ pd
 pd
 pd
 pd
-pd
+Sa
 MR
-LQ
+UL
 OD
-LQ
+UL
 OD
-rA
-ab
-rt
+OD
+UL
+OD
 UL
 eX
 qo
@@ -47050,7 +47048,7 @@ pd
 pd
 pd
 pd
-yT
+Nq
 cb
 vr
 oy
@@ -47564,7 +47562,7 @@ pd
 pd
 pd
 pd
-yT
+Nq
 cb
 vr
 oy
@@ -47821,7 +47819,7 @@ fc
 fc
 fc
 fc
-oE
+vd
 cb
 fH
 oy
@@ -48334,7 +48332,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 nn
 cb
 fH
@@ -49355,7 +49353,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
