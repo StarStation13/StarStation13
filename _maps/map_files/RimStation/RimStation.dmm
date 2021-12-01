@@ -10559,6 +10559,9 @@
 /area/science/mixing)
 "KA" = (
 /obj/machinery/rnd/production/circuit_imprinter,
+/obj/structure/sign/poster/official/moth_delam{
+	pixel_y = 32
+	},
 /turf/open/floor/iron/smooth_large,
 /area/engineering/break_room)
 "KB" = (
@@ -11927,6 +11930,12 @@
 /obj/machinery/door/window/northleft,
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
+"PR" = (
+/obj/structure/sign/poster/official/moth_piping{
+	pixel_y = 32
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "PS" = (
 /obj/effect/turf_decal/siding/thinplating/end{
 	dir = 8
@@ -12717,6 +12726,12 @@
 	},
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"SB" = (
+/obj/structure/sign/poster/official/moth_hardhat{
+	pixel_y = -32
+	},
+/turf/open/floor/iron,
+/area/engineering/lobby)
 "SC" = (
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume/incinerator_atmos{
 	dir = 8
@@ -51532,7 +51547,7 @@ sX
 tm
 tm
 aD
-cx
+SB
 TC
 TC
 Dd
@@ -55654,7 +55669,7 @@ wq
 Fr
 CY
 ba
-cm
+PR
 vU
 ps
 Dt
