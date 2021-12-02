@@ -3,19 +3,11 @@
 /turf/closed/wall/r_wall,
 /area/maintenance/radshelter/service)
 "ac" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
+/obj/structure/fence/post{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
-/area/maintenance/department/science)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "ad" = (
 /obj/machinery/rnd/production/protolathe/department/science,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
@@ -149,19 +141,11 @@
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "az" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 10
 	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/broken/directional/west,
-/turf/open/floor/iron,
+/obj/effect/spawner/random/trash/botanical_waste,
+/turf/open/floor/plating/dirt/jungle,
 /area/maintenance/department/science)
 "aA" = (
 /obj/structure/table/glass,
@@ -3844,12 +3828,6 @@
 	},
 /area/maintenance/department/science)
 "mr" = (
-/obj/structure/sink/kitchen{
-	desc = "A sink used for washing one's hands and face. It looks rusty and home-made.";
-	dir = 4;
-	name = "old sink";
-	pixel_x = -12
-	},
 /turf/open/floor/iron/dark,
 /area/science/genetics)
 "ms" = (
@@ -4277,6 +4255,13 @@
 /obj/effect/landmark/observer_start,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"nL" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Genetics Maintenance";
+	req_access_txt = "9, 30"
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/science)
 "nM" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
@@ -7777,6 +7762,12 @@
 /obj/effect/landmark/start/janitor,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/service/janitor)
+"zi" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/science)
 "zj" = (
 /obj/effect/spawner/random/structure/crate,
 /obj/effect/decal/cleanable/dirt,
@@ -12635,15 +12626,12 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
 "PR" = (
-/obj/machinery/door/airlock/maintenance{
-	req_access_txt = "12"
+/obj/structure/fence,
+/obj/structure/sign/warning/fire{
+	pixel_y = -32
 	},
-/obj/effect/turf_decal/siding/thinplating{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/maintenance/department/science)
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "PS" = (
 /obj/effect/turf_decal/siding/thinplating/end{
 	dir = 8
@@ -12987,20 +12975,8 @@
 /turf/open/floor/iron/dark,
 /area/maintenance/aft)
 "QX" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/structure/table/wood,
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
+/obj/effect/turf_decal/siding/thinplating,
+/turf/open/floor/plating/dirt/jungle,
 /area/maintenance/department/science)
 "QY" = (
 /obj/effect/turf_decal/bot,
@@ -13951,21 +13927,16 @@
 /turf/open/floor/iron/dark/corner,
 /area/service/kitchen)
 "TW" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
+/obj/structure/sink/kitchen{
+	desc = "A sink used for washing one's hands and face. It looks rusty and home-made.";
+	dir = 4;
+	name = "old sink";
+	pixel_x = -12
 	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
+/turf/open/floor/iron/white/side{
+	dir = 10
 	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/structure/table/wood,
-/obj/item/melee/skateboard,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
-/area/maintenance/department/science)
+/area/science/genetics)
 "TY" = (
 /turf/open/floor/iron/white/side{
 	dir = 6
@@ -14191,19 +14162,11 @@
 /turf/open/floor/wood/large,
 /area/lush_planet)
 "UR" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/siding/thinplating/corner{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/machinery/vending/autodrobe/all_access,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
+/obj/effect/spawner/random/trash/grime,
+/turf/open/floor/plating/dirt/jungle,
 /area/maintenance/department/science)
 "US" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -61249,8 +61212,8 @@ qo
 ls
 ZF
 ZF
-ZF
-PR
+zi
+sv
 ZF
 Kd
 ZF
@@ -61507,7 +61470,7 @@ ki
 ZF
 UR
 az
-ac
+sv
 ZF
 wg
 ZF
@@ -61764,7 +61727,7 @@ rR
 ZF
 ZF
 QX
-TW
+sv
 ZF
 Bf
 Nk
@@ -62021,7 +61984,7 @@ VJ
 cW
 ZF
 ZF
-ZF
+nL
 ZF
 Rd
 RY
@@ -62275,7 +62238,7 @@ qo
 vm
 jr
 rY
-KQ
+TW
 SL
 Ri
 mr
@@ -70258,17 +70221,17 @@ WQ
 gl
 Co
 Co
-Co
-Co
+ok
+ok
 Co
 Co
 Co
 gl
 Co
 Co
-Co
-Co
-Co
+ok
+ok
+ok
 Co
 Co
 Co
@@ -70523,7 +70486,7 @@ ok
 ok
 ok
 pp
-pp
+ok
 pp
 pp
 ok
@@ -70750,11 +70713,11 @@ Co
 Co
 Co
 Co
-Co
-ok
-ok
-ok
-Co
+gl
+kJ
+ac
+PR
+gl
 Co
 Co
 AN
@@ -71276,36 +71239,36 @@ ok
 ok
 ok
 Iu
+ok
+ok
+ok
+ok
+ok
+ok
+ok
+gl
 Co
 Co
-Co
-Co
-Co
+ok
+ok
+ok
 Co
 Co
 gl
 Co
-Co
-Co
-Co
-Co
-Co
-Co
-gl
-Co
-Co
-Co
-Co
-Co
-Co
-Co
+ok
+ok
+ok
+ok
+ok
+ok
 Co
 gl
 Co
 Co
-Co
-Co
-Co
+ok
+ok
+ok
 Co
 Co
 gl
@@ -71533,12 +71496,12 @@ ok
 ok
 ok
 ok
-Co
-Co
-Co
-Co
-Co
-Co
+ok
+ok
+ok
+ok
+ok
+ok
 Co
 Co
 Co
@@ -71791,10 +71754,10 @@ ok
 ok
 Co
 Co
-Co
-Co
-Co
-Co
+ok
+ok
+ok
+ok
 Co
 Co
 Co
