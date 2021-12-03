@@ -2,6 +2,9 @@
 "aa" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/radshelter/service)
+"ab" = (
+/turf/open/floor/plating/dirt/jungle,
+/area/maintenance/department/medical/morgue)
 "ac" = (
 /obj/structure/fence/post{
 	dir = 1
@@ -83,11 +86,16 @@
 /turf/open/floor/plating,
 /area/science/test_area)
 "ap" = (
-/obj/structure/sign/departments/medbay/alt{
-	pixel_y = 32
+/obj/effect/turf_decal/siding/thinplating/light,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
 	},
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
+/obj/structure/window/spawner/west,
+/obj/machinery/stasis{
+	dir = 1
+	},
+/turf/open/floor/iron/textured,
+/area/lush_planet)
 "aq" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -193,9 +201,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/dirt/jungle,
 /area/lush_planet)
-"aF" = (
-/turf/closed/wall,
-/area/medical/morgue)
 "aG" = (
 /obj/effect/landmark/blobstart,
 /turf/open/floor/iron,
@@ -234,6 +239,16 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/lobby)
+"aN" = (
+/obj/machinery/door/airlock/maintenance{
+	req_one_access_txt = "5;6;27"
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/maintenance/department/medical/morgue)
 "aO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/large,
@@ -358,17 +373,6 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
-"bh" = (
-/obj/item/radio/intercom/directional/west,
-/obj/structure/table,
-/obj/item/reagent_containers/glass/bottle/ethanol{
-	pixel_x = 4
-	},
-/obj/item/reagent_containers/glass/bottle/ethanol{
-	pixel_x = -4
-	},
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
 "bi" = (
 /obj/item/circuitboard/machine/hydroponics,
 /obj/effect/turf_decal/siding/thinplating{
@@ -507,11 +511,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/service/hydroponics/garden)
-"bL" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/trimline/blue/filled/warning,
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
 "bM" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -903,6 +902,10 @@
 	},
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
+"cO" = (
+/obj/structure/table/optable,
+/turf/open/floor/iron/white/textured_large,
+/area/lush_planet)
 "cP" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 4
@@ -944,6 +947,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/lab)
+"cV" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/dirt/jungle,
+/area/maintenance/department/medical/morgue)
 "cW" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 4
@@ -990,12 +997,6 @@
 /obj/structure/rack,
 /turf/open/floor/iron/showroomfloor,
 /area/commons/toilet/auxiliary)
-"db" = (
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 1
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "dc" = (
 /obj/structure/table,
 /obj/item/rcl/pre_loaded,
@@ -1035,10 +1036,6 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/engineering/main)
-"dj" = (
-/obj/machinery/light/small/directional/east,
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "dk" = (
 /obj/structure/table/wood,
 /obj/item/nullrod,
@@ -1093,6 +1090,13 @@
 /obj/effect/turf_decal/siding/purple,
 /turf/open/floor/iron,
 /area/science/genetics)
+"ds" = (
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "du" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table,
@@ -1111,6 +1115,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/smooth_large,
 /area/maintenance/radshelter/service)
+"dy" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 12
+	},
+/turf/open/floor/plating,
+/area/lush_planet)
 "dz" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /turf/closed/wall/r_wall,
@@ -1275,16 +1287,6 @@
 	},
 /turf/open/floor/plating/dirt/jungle,
 /area/lush_planet)
-"dZ" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/curtain/cloth/fancy/mechanical{
-	color = "#ACD1E9";
-	icon_state = "bathroom-open";
-	icon_type = "bathroom";
-	id = "surgerya"
-	},
-/turf/open/floor/plating,
-/area/lush_planet)
 "ea" = (
 /obj/machinery/door/airlock/command{
 	name = "Chief Engineer";
@@ -1302,16 +1304,10 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
-"ec" = (
-/obj/effect/turf_decal/trimline/blue/filled/corner{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "ed" = (
-/obj/machinery/door/airlock/medical{
-	name = "Surgery Unit C";
-	req_access_txt = "5"
+/obj/machinery/door/airlock/medical/glass{
+	name = "Chemistry";
+	req_access_txt = "33"
 	},
 /turf/open/floor/iron/white,
 /area/lush_planet)
@@ -1387,6 +1383,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
+"es" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "et" = (
 /obj/item/stack/tile/iron/dark,
 /obj/item/wirecutters,
@@ -1511,6 +1513,9 @@
 /turf/closed/wall/r_wall,
 /area/science/mixing/chamber)
 "eN" = (
+/obj/item/stack/sheet/rglass{
+	amount = 2
+	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
@@ -1742,10 +1747,6 @@
 	},
 /turf/open/floor/iron,
 /area/commons/vacant_room/commissary)
-"fv" = (
-/obj/machinery/holopad,
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
 "fx" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -1828,9 +1829,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
 /area/engineering/atmos)
-"fJ" = (
-/turf/open/floor/iron/white/smooth_corner,
-/area/lush_planet)
 "fM" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
@@ -1944,11 +1942,12 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/service/chapel/office)
-"gc" = (
-/obj/structure/door_assembly/door_assembly_extmai,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
-/area/maintenance/department/medical/morgue)
+"gb" = (
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "ge" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/door/airlock/research{
@@ -1966,16 +1965,6 @@
 /obj/effect/turf_decal/stripes/asteroid/line,
 /turf/open/floor/plating/asteroid,
 /area/science/test_area)
-"gi" = (
-/obj/machinery/button/curtain{
-	id = "surgeryd";
-	pixel_x = 24
-	},
-/obj/structure/frame/computer{
-	dir = 1
-	},
-/turf/open/floor/iron/white/textured_large,
-/area/lush_planet)
 "gk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /obj/item/radio/intercom/directional/north,
@@ -2050,6 +2039,12 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
+"gw" = (
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 8
+	},
+/area/lush_planet)
 "gz" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/effect/turf_decal/siding/white{
@@ -2068,16 +2063,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
-"gC" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/curtain/cloth/fancy/mechanical{
-	color = "#ACD1E9";
-	icon_state = "bathroom-open";
-	icon_type = "bathroom";
-	id = "surgeryd"
-	},
-/turf/open/floor/plating,
-/area/lush_planet)
 "gD" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
@@ -2105,12 +2090,11 @@
 /turf/open/floor/iron,
 /area/commons/storage/art)
 "gI" = (
-/obj/machinery/button/curtain{
-	id = "surgeryb";
-	pixel_x = -24
+/obj/structure/table_frame,
+/obj/item/stack/sheet/glass,
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 8
 	},
-/obj/machinery/computer/operating,
-/turf/open/floor/iron/white/textured_large,
 /area/lush_planet)
 "gJ" = (
 /obj/machinery/light_switch/directional/west,
@@ -2161,8 +2145,13 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/medical/morgue)
 "gR" = (
-/turf/closed/wall,
-/area/maintenance/department/medical/morgue)
+/obj/structure/table/glass,
+/obj/item/reagent_containers/glass/bottle/epinephrine{
+	pixel_y = 12
+	},
+/obj/item/reagent_containers/syringe/epinephrine,
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "gS" = (
 /obj/machinery/atmospherics/components/binary/pump/off/yellow{
 	dir = 1;
@@ -2223,6 +2212,10 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/iron/dark/textured_large,
 /area/engineering/main)
+"ha" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "hb" = (
 /obj/machinery/holopad,
 /turf/open/floor/iron/textured,
@@ -2445,6 +2438,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/grimy,
 /area/maintenance/aft)
+"hE" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "hF" = (
 /obj/machinery/button/door/directional/east{
 	id = "commissarydoor";
@@ -2634,6 +2632,10 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"if" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/maintenance/department/medical/morgue)
 "ig" = (
 /obj/structure/table,
 /obj/item/hand_labeler,
@@ -2707,21 +2709,6 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/engineering/lobby)
-"io" = (
-/obj/effect/turf_decal/siding/thinplating/light{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/thinplating/light{
-	dir = 8
-	},
-/obj/machinery/door/window/eastleft{
-	name = "Morgue Press Outlet"
-	},
-/obj/machinery/door/window/brigdoor/westright{
-	name = "Morgue Press Outlet"
-	},
-/turf/open/floor/plating,
-/area/lush_planet)
 "ip" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/built/directional/north,
@@ -2879,6 +2866,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
+"iN" = (
+/obj/machinery/door/window/eastleft{
+	name = "Secure Morgue";
+	req_access_txt = "5;6"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/medical/morgue)
 "iO" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
@@ -2920,6 +2914,11 @@
 /obj/effect/spawner/random/structure/crate,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"iW" = (
+/obj/effect/spawner/random/structure/grille,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/maintenance/department/medical/morgue)
 "iX" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
 	dir = 4
@@ -2938,6 +2937,15 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
+/area/lush_planet)
+"ja" = (
+/obj/effect/turf_decal/siding/thinplating/light,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/obj/structure/window/spawner/east,
+/obj/machinery/stasis,
+/turf/open/floor/iron/textured,
 /area/lush_planet)
 "jb" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
@@ -2990,6 +2998,14 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"ji" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/glass,
+/obj/item/reagent_containers/glass/bottle/epinephrine{
+	pixel_y = 12
+	},
+/turf/open/floor/plating,
+/area/lush_planet)
 "jk" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/machinery/disposal/bin,
@@ -3079,6 +3095,12 @@
 "jw" = (
 /turf/open/floor/catwalk_floor/iron,
 /area/hallway/secondary/service)
+"jx" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "jy" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/window/reinforced/spawner/east,
@@ -3196,10 +3218,6 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
-"jR" = (
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "jS" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -3224,6 +3242,13 @@
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/plating,
 /area/commons/locker)
+"jX" = (
+/obj/structure/bodycontainer/morgue{
+	dir = 1
+	},
+/obj/structure/window/spawner,
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "jY" = (
 /obj/machinery/space_heater,
 /obj/effect/turf_decal/stripes/line,
@@ -3411,6 +3436,12 @@
 	},
 /turf/open/floor/engine/plasma,
 /area/engineering/atmos)
+"kA" = (
+/obj/structure/sign/departments/mait{
+	pixel_x = 32
+	},
+/turf/open/floor/plating/dirt/jungle,
+/area/lush_planet)
 "kB" = (
 /obj/machinery/light/small/directional/east,
 /obj/machinery/camera/directional/east{
@@ -3573,20 +3604,26 @@
 /turf/open/floor/plating,
 /area/science/research)
 "ld" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
+/obj/machinery/light/directional/west,
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 8
 	},
-/obj/machinery/door/airlock/hatch{
-	name = "Morgue";
-	req_one_access_txt = "5;6;27"
-	},
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "le" = (
 /obj/machinery/light/directional/south,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/engine,
 /area/science/research)
+"lf" = (
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/light/end{
+	dir = 4
+	},
+/turf/open/floor/iron/textured,
+/area/lush_planet)
 "lg" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -3630,23 +3667,6 @@
 "lj" = (
 /turf/closed/wall/r_wall,
 /area/engineering/break_room)
-"lk" = (
-/obj/structure/table_frame,
-/obj/item/stack/sheet/glass,
-/turf/open/floor/iron/white/smooth_corner{
-	dir = 8
-	},
-/area/lush_planet)
-"ll" = (
-/obj/effect/turf_decal/siding/thinplating/dark,
-/obj/machinery/door/airlock/grunge{
-	name = "Morgue";
-	req_access_txt = "5;6"
-	},
-/turf/open/floor/iron/white/side{
-	dir = 1
-	},
-/area/medical/morgue)
 "lm" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plating,
@@ -3837,6 +3857,15 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"lR" = (
+/obj/structure/table/glass,
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_y = 6
+	},
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 4
+	},
+/area/lush_planet)
 "lS" = (
 /obj/structure/flora/tree/jungle{
 	icon_state = "tree3"
@@ -3846,6 +3875,15 @@
 "lT" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/large,
+/area/lush_planet)
+"lU" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 12
+	},
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 8
+	},
 /area/lush_planet)
 "lV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4032,6 +4070,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/lab)
+"my" = (
+/obj/machinery/door/window/eastright{
+	name = "Secure Morgue";
+	req_access_txt = "5;6"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/medical/morgue)
 "mz" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 1
@@ -4243,6 +4288,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet/red,
 /area/commons/vacant_room/office)
+"nb" = (
+/obj/effect/turf_decal/loading_area/white{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "nc" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -4385,6 +4436,12 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"nB" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/spawner/random/structure/chair_flipped,
+/turf/open/floor/plating/dirt/jungle,
+/area/maintenance/department/medical/morgue)
 "nC" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/hidden{
 	dir = 5
@@ -4414,12 +4471,6 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
-"nH" = (
-/obj/effect/decal/cleanable/cobweb,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/smartfridge/organ,
-/turf/open/floor/iron/white/smooth_corner,
-/area/lush_planet)
 "nJ" = (
 /obj/machinery/holopad,
 /turf/open/floor/iron,
@@ -4544,12 +4595,6 @@
 	icon_state = "wood-broken7"
 	},
 /area/security/checkpoint/engineering)
-"oh" = (
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 9
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "oi" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -4654,11 +4699,13 @@
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "ow" = (
-/obj/machinery/computer/operating{
-	dir = 8
+/obj/machinery/button/curtain{
+	id = "surgeryc";
+	pixel_x = 24
 	},
-/turf/open/floor/iron/dark/textured_large,
-/area/medical/morgue)
+/obj/machinery/computer/operating,
+/turf/open/floor/iron/white/textured_large,
+/area/lush_planet)
 "ox" = (
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible{
 	dir = 4
@@ -4840,16 +4887,26 @@
 /obj/machinery/processor/slime,
 /turf/open/floor/iron/white,
 /area/science/xenobiology)
+"pa" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "pb" = (
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/water/jungle,
 /area/lush_planet)
 "pc" = (
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 6
+/obj/structure/bodycontainer/morgue{
+	dir = 1
 	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
+/obj/structure/window/reinforced/spawner,
+/obj/structure/window/reinforced/spawner/east,
+/turf/open/floor/iron/dark/textured_large,
+/area/medical/morgue)
 "pd" = (
 /turf/open/water/jungle,
 /area/lush_planet)
@@ -4981,16 +5038,6 @@
 	},
 /turf/open/floor/iron/white/textured_large,
 /area/science/lab)
-"pv" = (
-/obj/machinery/door/airlock/maintenance{
-	req_one_access_txt = "5;6;27"
-	},
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
-/area/maintenance/department/medical/morgue)
 "pw" = (
 /obj/effect/spawner/random/clothing/wardrobe_closet_colored,
 /obj/effect/turf_decal/siding/thinplating{
@@ -5094,6 +5141,22 @@
 /obj/structure/grille,
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
+"pM" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/window/southleft{
+	name = "Treatment Centre Press Outlet";
+	req_access_txt = "5"
+	},
+/obj/machinery/door/window/northleft{
+	name = "Treatment Centre Press Outlet";
+	req_access_txt = "5"
+	},
+/turf/open/floor/plating,
+/area/lush_planet)
 "pN" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -5226,20 +5289,10 @@
 /obj/structure/flora/rock/pile,
 /turf/open/water/jungle,
 /area/lush_planet)
-"qh" = (
-/turf/open/floor/plating,
-/area/maintenance/department/medical/morgue)
 "qi" = (
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
-"qj" = (
-/obj/machinery/door/airlock/medical{
-	name = "Surgery Unit B";
-	req_access_txt = "5"
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "qk" = (
 /turf/closed/wall,
 /area/science/test_area)
@@ -5313,10 +5366,6 @@
 /obj/effect/turf_decal/tile/yellow,
 /turf/open/floor/iron,
 /area/engineering/atmos)
-"qv" = (
-/obj/machinery/light/directional/west,
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "qw" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -5329,11 +5378,6 @@
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
-"qy" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/table/optable,
-/turf/open/floor/iron/white/textured_large,
-/area/lush_planet)
 "qz" = (
 /obj/effect/turf_decal/siding/white,
 /obj/effect/turf_decal/siding/white{
@@ -5483,18 +5527,6 @@
 	},
 /turf/open/floor/iron,
 /area/science/storage)
-"qV" = (
-/obj/effect/decal/cleanable/cobweb,
-/obj/structure/table,
-/obj/item/paper_bin{
-	pixel_x = 6;
-	pixel_y = 4
-	},
-/obj/item/paper/guides/jobs/medical/morgue{
-	pixel_x = -4
-	},
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
 "qW" = (
 /turf/open/floor/wood,
 /area/maintenance/department/crew_quarters/dorms)
@@ -5557,6 +5589,28 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"rf" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/window/southright{
+	name = "Treatment Centre Press Outlet";
+	req_access_txt = "5"
+	},
+/obj/machinery/door/window/northright{
+	name = "Treatment Centre Press Outlet";
+	req_access_txt = "5"
+	},
+/turf/open/floor/plating,
+/area/lush_planet)
+"rh" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 10
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "ri" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/effect/turf_decal/stripes/line{
@@ -5606,13 +5660,6 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/command/heads_quarters/ce)
-"rp" = (
-/obj/machinery/door/window/eastright{
-	name = "Secure Morgue";
-	req_access_txt = "5;6"
-	},
-/turf/open/floor/iron/dark/textured_large,
-/area/medical/morgue)
 "rq" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 5
@@ -5625,12 +5672,6 @@
 "rs" = (
 /turf/open/floor/grass/fakebasalt,
 /area/maintenance/department/chapel)
-"rt" = (
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "ru" = (
 /obj/structure/railing,
 /turf/open/floor/plating/grass/jungle,
@@ -5754,6 +5795,10 @@
 /obj/structure/window/spawner,
 /turf/open/floor/wood,
 /area/command/heads_quarters/rd)
+"rM" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/lush_planet)
 "rN" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
@@ -5818,6 +5863,9 @@
 	},
 /turf/open/floor/iron,
 /area/science/mixing)
+"sa" = (
+/turf/open/floor/plating,
+/area/maintenance/department/medical/morgue)
 "sb" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
@@ -5841,6 +5889,12 @@
 /obj/effect/landmark/start/station_engineer,
 /turf/open/floor/iron,
 /area/engineering/main)
+"sf" = (
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 1
+	},
+/area/lush_planet)
 "sh" = (
 /obj/structure/chair/office/light{
 	dir = 4
@@ -5908,6 +5962,16 @@
 	},
 /turf/open/floor/iron,
 /area/commons/dorms)
+"sn" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/curtain/cloth/fancy/mechanical{
+	color = "#ACD1E9";
+	icon_state = "bathroom-open";
+	icon_type = "bathroom";
+	id = "surgeryd"
+	},
+/turf/open/floor/plating,
+/area/lush_planet)
 "so" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/hidden{
 	dir = 4
@@ -5988,12 +6052,6 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/engineering/main)
-"sz" = (
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 10
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "sA" = (
 /obj/effect/turf_decal/trimline/yellow/corner{
 	dir = 1
@@ -6192,6 +6250,16 @@
 /obj/structure/cable,
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"tc" = (
+/obj/machinery/door/airlock/medical{
+	name = "Surgery Unit C";
+	req_access_txt = "5"
+	},
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "td" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -6222,14 +6290,10 @@
 /turf/open/floor/iron/dark,
 /area/science/server)
 "tj" = (
-/obj/machinery/computer/med_data{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/thinplating/light,
-/obj/effect/turf_decal/siding/thinplating/light{
+/obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
 	},
-/turf/open/floor/iron,
+/turf/open/floor/iron/white,
 /area/lush_planet)
 "tk" = (
 /turf/open/floor/engine/co2,
@@ -6264,17 +6328,6 @@
 /obj/effect/turf_decal/siding/yellow,
 /turf/open/floor/iron/dark/textured_large,
 /area/engineering/lobby)
-"to" = (
-/obj/structure/sign/departments/chemistry{
-	pixel_x = -32
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
-"tp" = (
-/obj/effect/spawner/random/structure/grille,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
-/area/maintenance/department/medical/morgue)
 "tq" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
 /turf/open/floor/plating,
@@ -6314,6 +6367,16 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/stone,
+/area/lush_planet)
+"tw" = (
+/obj/machinery/button/curtain{
+	id = "surgeryd";
+	pixel_x = 24
+	},
+/obj/structure/frame/computer{
+	dir = 1
+	},
+/turf/open/floor/iron/white/textured_large,
 /area/lush_planet)
 "tx" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -6765,6 +6828,16 @@
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"uN" = (
+/obj/machinery/button/curtain{
+	id = "surgerya";
+	pixel_x = -24
+	},
+/obj/machinery/computer/operating{
+	dir = 1
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/lush_planet)
 "uO" = (
 /turf/open/floor/iron,
 /area/commons/dorms)
@@ -6869,6 +6942,12 @@
 /obj/effect/spawner/random/vending/snackvend,
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"vf" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 5
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "vg" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -6932,30 +7011,10 @@
 	},
 /turf/open/floor/plating,
 /area/lush_planet)
-"vs" = (
-/obj/machinery/smartfridge/organ,
-/turf/open/floor/iron/white/smooth_corner{
-	dir = 1
-	},
-/area/lush_planet)
 "vt" = (
-/obj/machinery/button/curtain{
-	id = "surgerya";
-	pixel_x = -24
-	},
-/obj/machinery/computer/operating{
-	dir = 1
-	},
-/turf/open/floor/iron/white/textured_large,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/turf/open/floor/iron/white,
 /area/lush_planet)
-"vu" = (
-/obj/structure/bodycontainer/morgue{
-	dir = 1
-	},
-/obj/structure/window/reinforced/spawner,
-/obj/structure/window/reinforced/spawner/east,
-/turf/open/floor/iron/dark/textured_large,
-/area/medical/morgue)
 "vv" = (
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
@@ -7024,12 +7083,6 @@
 	},
 /turf/open/floor/plating,
 /area/commons/storage/tools)
-"vF" = (
-/obj/effect/turf_decal/loading_area/white{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
 "vG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
@@ -7059,6 +7112,12 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"vJ" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 6
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "vK" = (
 /obj/effect/turf_decal/tile/yellow,
 /turf/open/floor/iron/textured,
@@ -7133,6 +7192,14 @@
 /obj/effect/mapping_helpers/airlock/locked,
 /turf/open/floor/engine,
 /area/science/mixing/chamber)
+"vX" = (
+/obj/effect/turf_decal/siding/thinplating/light/end{
+	dir = 8
+	},
+/obj/structure/window/spawner/east,
+/obj/machinery/stasis,
+/turf/open/floor/iron/textured,
+/area/lush_planet)
 "vY" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -7273,12 +7340,6 @@
 "wo" = (
 /turf/open/floor/catwalk_floor/iron,
 /area/science/mixing)
-"wp" = (
-/obj/effect/turf_decal/trimline/blue/filled/warning{
-	dir = 1
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "wq" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible,
@@ -7307,6 +7368,13 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/engineering/lobby)
+"wz" = (
+/obj/structure/table/glass,
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_y = 6
+	},
+/turf/open/floor/iron/white/smooth_corner,
+/area/lush_planet)
 "wA" = (
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/iron,
@@ -7389,13 +7457,6 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/service/janitor)
-"wL" = (
-/obj/machinery/door/airlock/medical{
-	name = "Surgery Unit A";
-	req_access_txt = "5"
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "wM" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/smooth_corner,
@@ -7561,11 +7622,6 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/science/storage)
-"xn" = (
-/turf/open/floor/iron/white/smooth_corner{
-	dir = 4
-	},
-/area/lush_planet)
 "xo" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -7620,6 +7676,17 @@
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
+"xw" = (
+/obj/machinery/computer/crew{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/light,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/obj/structure/window/spawner/east,
+/turf/open/floor/iron/textured,
+/area/lush_planet)
 "xx" = (
 /obj/structure/destructible/cult/tome,
 /obj/item/book/codex_gigas,
@@ -7747,14 +7814,6 @@
 	},
 /turf/open/floor/iron,
 /area/commons/storage/tools)
-"xT" = (
-/obj/machinery/door/airlock/maintenance{
-	req_access_txt = "12"
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
-/area/maintenance/department/medical/morgue)
 "xU" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 4;
@@ -7795,6 +7854,16 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/maintenance/aft)
+"xY" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/curtain/cloth/fancy/mechanical{
+	color = "#ACD1E9";
+	icon_state = "bathroom-open";
+	icon_type = "bathroom";
+	id = "surgerya"
+	},
+/turf/open/floor/plating,
+/area/lush_planet)
 "xZ" = (
 /obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron/cafeteria,
@@ -7862,12 +7931,7 @@
 /turf/open/floor/iron/dark,
 /area/service/hydroponics/garden/abandoned)
 "yk" = (
-/obj/effect/turf_decal/trimline/blue/corner{
-	dir = 8
-	},
-/obj/structure/sign/departments/holy{
-	pixel_y = -32
-	},
+/obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron/dark,
 /area/medical/morgue)
 "yl" = (
@@ -7896,6 +7960,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/dorms)
+"ys" = (
+/obj/machinery/button/curtain{
+	id = "surgeryb";
+	pixel_x = -24
+	},
+/obj/machinery/computer/operating,
+/turf/open/floor/iron/white/textured_large,
+/area/lush_planet)
 "yt" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/hazardvest,
@@ -7946,11 +8018,6 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/medical/morgue)
-"yB" = (
-/turf/open/floor/iron/white/smooth_corner{
-	dir = 8
-	},
-/area/lush_planet)
 "yC" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/air_input{
 	dir = 1
@@ -7966,14 +8033,11 @@
 	},
 /area/lush_planet)
 "yE" = (
-/obj/machinery/light/directional/west,
-/obj/structure/bodycontainer/morgue{
-	dir = 2
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 9
 	},
-/obj/structure/window/reinforced/spawner/north,
-/obj/structure/window/reinforced/spawner/east,
-/turf/open/floor/iron/dark/textured_large,
-/area/medical/morgue)
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "yF" = (
 /obj/effect/spawner/random/engineering/tank,
 /turf/open/floor/iron/dark/textured_large,
@@ -8014,6 +8078,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/textured,
 /area/science/misc_lab)
+"yK" = (
+/turf/closed/wall/r_wall,
+/area/medical/morgue)
 "yL" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 6
@@ -8032,9 +8099,6 @@
 	dir = 8
 	},
 /area/science/research)
-"yO" = (
-/turf/closed/wall/r_wall,
-/area/maintenance/department/medical/morgue)
 "yP" = (
 /obj/structure/window/spawner/east,
 /obj/machinery/portable_atmospherics/canister/water_vapor,
@@ -8042,15 +8106,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth_large,
 /area/service/janitor)
-"yQ" = (
-/obj/structure/table/glass,
-/obj/item/storage/backpack/duffelbag/med/surgery{
-	pixel_y = 6
-	},
-/turf/open/floor/iron/white/smooth_corner{
-	dir = 1
-	},
-/area/lush_planet)
 "yR" = (
 /obj/effect/spawner/random/structure/crate,
 /turf/open/floor/plating/dirt/jungle,
@@ -8171,11 +8226,6 @@
 	dir = 4
 	},
 /area/service/janitor)
-"zn" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/table/glass,
-/turf/open/floor/plating,
-/area/lush_planet)
 "zo" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -8185,6 +8235,9 @@
 	dir = 8
 	},
 /area/commons/dorms)
+"zp" = (
+/turf/closed/wall,
+/area/maintenance/department/medical/morgue)
 "zq" = (
 /obj/structure/chair/stool/directional/east,
 /turf/open/floor/iron,
@@ -8301,17 +8354,28 @@
 	dir = 4
 	},
 /area/engineering/lobby)
-"zK" = (
-/obj/machinery/smartfridge/organ,
-/turf/open/floor/iron/white/smooth_corner{
-	dir = 8
-	},
-/area/lush_planet)
 "zL" = (
 /obj/machinery/holopad,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/smooth_large,
 /area/command/heads_quarters/ce)
+"zM" = (
+/obj/machinery/door/airlock/medical{
+	name = "Surgery Unit D";
+	req_access_txt = "5"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
+"zN" = (
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "zO" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 1
@@ -8355,6 +8419,14 @@
 /obj/effect/landmark/start/scientist,
 /turf/open/floor/iron/white,
 /area/science/research)
+"zW" = (
+/obj/machinery/door/airlock/maintenance{
+	req_access_txt = "12"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/maintenance/department/medical/morgue)
 "zY" = (
 /obj/structure/chair/pew/right{
 	dir = 4
@@ -8576,6 +8648,12 @@
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/iron/smooth_large,
 /area/service/janitor)
+"AJ" = (
+/obj/structure/table,
+/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/mask/surgical,
+/turf/open/floor/iron/dark/textured_large,
+/area/medical/morgue)
 "AL" = (
 /obj/structure/window/spawner/east,
 /obj/effect/turf_decal/bot,
@@ -8685,12 +8763,6 @@
 	},
 /turf/open/floor/wood,
 /area/security/checkpoint)
-"Ba" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/effect/spawner/random/structure/chair_flipped,
-/turf/open/floor/plating/dirt/jungle,
-/area/maintenance/department/medical/morgue)
 "Bb" = (
 /turf/closed/wall/r_wall,
 /area/engineering/supermatter/room)
@@ -8748,6 +8820,30 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
+"Bl" = (
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 8
+	},
+/obj/machinery/door/window/eastleft{
+	name = "Morgue Press Outlet";
+	req_access_txt = "5"
+	},
+/obj/machinery/door/window/brigdoor/westright{
+	name = "Morgue Press Outlet";
+	req_access_txt = "33"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/lush_planet)
 "Bm" = (
 /obj/structure/firelock_frame,
 /turf/open/floor/plating,
@@ -8936,11 +9032,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/robotics/lab)
-"BR" = (
-/obj/effect/turf_decal/loading_area/white,
-/obj/effect/mapping_helpers/dead_body_placer,
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
 "BS" = (
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/floor/plating/beach/sand{
@@ -8981,12 +9072,11 @@
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "BY" = (
-/obj/structure/bodycontainer/morgue{
-	dir = 1
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 4
 	},
-/obj/structure/window/spawner,
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "BZ" = (
 /turf/closed/wall/r_wall,
 /area/engineering/lobby)
@@ -9061,6 +9151,12 @@
 /obj/effect/spawner/random/bureaucracy/pen,
 /turf/open/floor/iron/dark,
 /area/maintenance/aft)
+"Cl" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "Cm" = (
 /obj/machinery/rnd/experimentor,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -9100,11 +9196,14 @@
 /turf/open/floor/iron/smooth_large,
 /area/service/janitor)
 "Cu" = (
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 5
+/obj/machinery/light/directional/west,
+/obj/structure/bodycontainer/morgue{
+	dir = 2
 	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/window/reinforced/spawner/east,
+/turf/open/floor/iron/dark/textured_large,
+/area/medical/morgue)
 "Cv" = (
 /obj/structure/window/spawner/east,
 /obj/effect/turf_decal/bot,
@@ -9147,10 +9246,6 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
-"CD" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating/dirt/jungle,
-/area/maintenance/department/medical/morgue)
 "CE" = (
 /obj/machinery/button/door/directional/east{
 	id = "restroom_1";
@@ -9166,11 +9261,9 @@
 /turf/open/floor/iron/cafeteria,
 /area/commons/toilet/auxiliary)
 "CF" = (
-/obj/effect/turf_decal/trimline/blue/filled/corner{
-	dir = 8
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
+/obj/effect/turf_decal/trimline/blue/corner,
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "CG" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 8;
@@ -9223,11 +9316,15 @@
 /turf/open/floor/iron,
 /area/science/xenobiology)
 "CN" = (
-/obj/machinery/smartfridge/organ,
-/turf/open/floor/iron/white/smooth_corner{
-	dir = 4
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/door/airlock/grunge{
+	name = "Morgue";
+	req_access_txt = "5;6"
 	},
-/area/lush_planet)
+/turf/open/floor/iron/white/side{
+	dir = 1
+	},
+/area/medical/morgue)
 "CO" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/machinery/door/firedoor/heavy,
@@ -9426,10 +9523,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/engineering/atmos)
-"Du" = (
-/obj/structure/girder,
-/turf/open/floor/plating,
-/area/maintenance/department/medical/morgue)
 "Dv" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
@@ -9508,6 +9601,13 @@
 /obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"DI" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -12
+	},
+/turf/open/floor/iron/white/smooth_corner,
+/area/lush_planet)
 "DJ" = (
 /obj/structure/fence/door/opened,
 /turf/open/floor/plating/dirt/jungle,
@@ -9623,6 +9723,12 @@
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/plating,
 /area/engineering/atmos)
+"Ed" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "Ee" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -9659,10 +9765,19 @@
 /obj/structure/window/spawner/north,
 /turf/open/floor/iron/dark,
 /area/medical/morgue)
+"Ej" = (
+/turf/open/floor/iron/white/smooth_large,
+/area/lush_planet)
 "Ek" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/engineering/atmos)
+"El" = (
+/obj/machinery/computer/operating{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/medical/morgue)
 "Em" = (
 /obj/structure/water_source/puddle,
 /turf/open/floor/plating/dirt/jungle,
@@ -9823,15 +9938,6 @@
 	},
 /turf/open/floor/wood/large,
 /area/commons/dorms)
-"EM" = (
-/obj/effect/turf_decal/trimline/blue/filled/warning{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
-"EN" = (
-/turf/closed/wall/r_wall,
-/area/medical/morgue)
 "EO" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/plating/grass/jungle,
@@ -10084,6 +10190,12 @@
 	},
 /turf/open/floor/iron,
 /area/service/theater)
+"Fu" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 5
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "Fw" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/modular_computer/console/preset/civilian{
@@ -10219,6 +10331,18 @@
 	},
 /turf/open/floor/iron/white/side,
 /area/science/research)
+"FM" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/structure/table,
+/obj/item/paper_bin{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/paper/guides/jobs/medical/morgue{
+	pixel_x = -4
+	},
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "FN" = (
 /obj/machinery/button/door/directional/east{
 	id = "restroom_2";
@@ -10325,6 +10449,10 @@
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
+"Ge" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "Gf" = (
 /turf/open/floor/iron/white/corner{
 	dir = 4
@@ -10371,12 +10499,6 @@
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/wood/large,
 /area/commons/dorms)
-"Gp" = (
-/obj/structure/sign/departments/mait{
-	pixel_x = 32
-	},
-/turf/open/floor/plating/dirt/jungle,
-/area/lush_planet)
 "Gq" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -10483,6 +10605,11 @@
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/iron/cafeteria,
 /area/service/theater)
+"GD" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/stack/tile/iron/white/smooth_large,
+/turf/open/floor/plating,
+/area/lush_planet)
 "GE" = (
 /turf/open/floor/iron/white/corner{
 	dir = 8
@@ -10715,6 +10842,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/rd)
+"Ho" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 10
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "Hp" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -10792,13 +10925,6 @@
 "HB" = (
 /turf/open/floor/wood/large,
 /area/lush_planet)
-"HC" = (
-/obj/structure/table/glass,
-/obj/item/storage/backpack/duffelbag/med/surgery{
-	pixel_y = 6
-	},
-/turf/open/floor/iron/white/smooth_corner,
-/area/lush_planet)
 "HD" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/wood,
@@ -10845,10 +10971,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/department/crew_quarters/dorms)
-"HK" = (
-/obj/effect/turf_decal/trimline/blue/corner,
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
 "HL" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
@@ -10857,6 +10979,12 @@
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible,
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"HN" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "HO" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
 	dir = 4
@@ -11036,6 +11164,12 @@
 /obj/structure/closet/secure_closet/freezer/cream_pie,
 /turf/open/floor/iron,
 /area/service/theater)
+"In" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "Io" = (
 /obj/machinery/recharge_station,
 /obj/effect/turf_decal/siding/purple,
@@ -11190,6 +11324,11 @@
 	dir = 1
 	},
 /area/service/theater)
+"IN" = (
+/obj/effect/turf_decal/loading_area/white,
+/obj/effect/mapping_helpers/dead_body_placer,
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "IO" = (
 /obj/structure/fence,
 /obj/structure/sign/warning/explosives/alt{
@@ -11197,30 +11336,16 @@
 	},
 /turf/open/floor/plating/dirt/jungle,
 /area/lush_planet)
-"IP" = (
-/obj/structure/sign/departments/holy{
-	pixel_y = 32
-	},
-/turf/open/floor/iron,
-/area/hallway/secondary/service)
-"IQ" = (
-/obj/machinery/computer/crew{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/thinplating/light,
-/obj/effect/turf_decal/siding/thinplating/light{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/lush_planet)
 "IR" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
 "IS" = (
-/obj/effect/landmark/event_spawn,
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
+/obj/structure/sign/departments/holy{
+	pixel_y = 32
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/service)
 "IT" = (
 /obj/structure/table/wood,
 /turf/open/floor/iron/grimy,
@@ -11310,14 +11435,6 @@
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/rd)
-"Jl" = (
-/obj/machinery/button/curtain{
-	id = "surgeryc";
-	pixel_x = 24
-	},
-/obj/machinery/computer/operating,
-/turf/open/floor/iron/white/textured_large,
-/area/lush_planet)
 "Jm" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/neutral,
@@ -11352,14 +11469,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
-"Js" = (
-/obj/machinery/door/airlock/medical{
-	name = "Surgery Unit D";
-	req_access_txt = "5"
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "Ju" = (
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
 /obj/machinery/atmospherics/pipe/bridge_pipe/green/visible{
@@ -11395,13 +11504,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/service/hydroponics/garden/abandoned)
-"JC" = (
-/obj/item/stack/sheet/rglass{
-	amount = 2
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
-/area/maintenance/department/medical/morgue)
 "JD" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 8
@@ -11430,13 +11532,6 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
-"JI" = (
-/obj/machinery/door/window/eastleft{
-	name = "Secure Morgue";
-	req_access_txt = "5;6"
-	},
-/turf/open/floor/iron/dark/textured_large,
-/area/medical/morgue)
 "JJ" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
@@ -11450,13 +11545,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/robotics/lab)
-"JL" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/trimline/blue/filled/warning{
-	dir = 1
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "JM" = (
 /obj/structure/fluff/tram_rail/floor{
 	dir = 1
@@ -11550,10 +11638,6 @@
 /obj/structure/displaycase/labcage,
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/rd)
-"Ka" = (
-/obj/effect/turf_decal/trimline/blue/filled/warning,
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "Kc" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/nitrous_input{
 	dir = 8
@@ -11574,9 +11658,14 @@
 /obj/effect/landmark/start/scientist,
 /turf/open/floor/iron/dark,
 /area/science/mixing)
+"Kg" = (
+/turf/closed/wall/r_wall,
+/area/maintenance/department/medical/morgue)
 "Kh" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron/white,
 /area/lush_planet)
 "Ki" = (
 /obj/machinery/light/directional/east,
@@ -11609,10 +11698,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/science/research)
-"Kp" = (
-/obj/machinery/light/directional/east,
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "Kq" = (
 /turf/closed/indestructible/riveted{
 	desc = "A wall impregnated with Fixium, able to withstand massive explosions with ease";
@@ -11661,6 +11746,10 @@
 /obj/effect/turf_decal/tile/purple/half,
 /turf/open/floor/iron/white/smooth_edge,
 /area/science/robotics/lab)
+"Kw" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "Kx" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -11879,10 +11968,6 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron,
 /area/science/mixing)
-"Lg" = (
-/obj/structure/table/glass,
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "Lh" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -11900,11 +11985,6 @@
 /obj/effect/spawner/random/engineering/atmospherics_portable,
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
-"Ll" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/trimline/blue/filled/warning,
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "Lm" = (
 /obj/structure/fluff/tram_rail/floor,
 /obj/effect/turf_decal/siding/thinplating,
@@ -12034,15 +12114,6 @@
 /obj/machinery/mecha_part_fabricator,
 /turf/open/floor/iron/textured_large,
 /area/science/robotics/lab)
-"LM" = (
-/obj/structure/table/glass,
-/obj/item/storage/backpack/duffelbag/med/surgery{
-	pixel_y = 6
-	},
-/turf/open/floor/iron/white/smooth_corner{
-	dir = 4
-	},
-/area/lush_planet)
 "LN" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 9
@@ -12059,10 +12130,6 @@
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
-"LP" = (
-/obj/structure/table/optable,
-/turf/open/floor/iron/white/textured_large,
-/area/lush_planet)
 "LR" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/nitrous_output{
 	dir = 8
@@ -12091,6 +12158,16 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/lab)
+"LV" = (
+/obj/machinery/door/airlock/medical{
+	name = "Surgery Unit A";
+	req_access_txt = "5"
+	},
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "LW" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -12193,10 +12270,6 @@
 /obj/effect/turf_decal/siding/yellow,
 /turf/open/floor/iron/dark/textured_large,
 /area/engineering/main)
-"Mo" = (
-/obj/machinery/firealarm/directional/west,
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
 "Mp" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
@@ -12214,10 +12287,6 @@
 "Mq" = (
 /turf/open/floor/iron,
 /area/service/hydroponics)
-"Ms" = (
-/obj/effect/turf_decal/trimline/blue/filled/warning,
-/turf/open/floor/iron/dark,
-/area/medical/morgue)
 "Mt" = (
 /obj/machinery/requests_console/directional/north{
 	name = "Botany Requests Console"
@@ -12227,12 +12296,6 @@
 "Mu" = (
 /turf/open/floor/iron/white,
 /area/science/lab)
-"Mv" = (
-/obj/effect/turf_decal/trimline/blue/filled/corner{
-	dir = 1
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "Mw" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
@@ -12852,6 +12915,12 @@
 	},
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"Oq" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "Or" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/textured,
@@ -12867,11 +12936,9 @@
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/rd)
 "Ot" = (
-/obj/effect/turf_decal/trimline/blue/filled/line{
-	dir = 8
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
+/obj/machinery/holopad,
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "Ou" = (
 /obj/effect/turf_decal/trimline/red/arrow_cw{
 	dir = 5
@@ -12886,6 +12953,16 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/engine/air,
 /area/engineering/atmos)
+"Ow" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/curtain/cloth/fancy/mechanical{
+	color = "#ACD1E9";
+	icon_state = "bathroom-open";
+	icon_type = "bathroom";
+	id = "surgeryb"
+	},
+/turf/open/floor/plating,
+/area/lush_planet)
 "Ox" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 10
@@ -12997,14 +13074,25 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/engineering/lobby)
-"OU" = (
-/obj/structure/chair/office/light{
-	dir = 8
-	},
+"OR" = (
 /obj/effect/turf_decal/siding/thinplating/light/end{
 	dir = 4
 	},
-/turf/open/floor/iron,
+/obj/structure/window/spawner/west,
+/obj/machinery/stasis{
+	dir = 1
+	},
+/turf/open/floor/iron/textured,
+/area/lush_planet)
+"OS" = (
+/obj/structure/door_assembly/door_assembly_extmai,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/maintenance/department/medical/morgue)
+"OU" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/optable,
+/turf/open/floor/iron/white/textured_large,
 /area/lush_planet)
 "OV" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
@@ -13021,6 +13109,15 @@
 "OX" = (
 /turf/closed/wall,
 /area/service/hydroponics/garden/abandoned)
+"OY" = (
+/obj/structure/table/glass,
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_y = 6
+	},
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 1
+	},
+/area/lush_planet)
 "OZ" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
@@ -13177,6 +13274,17 @@
 	},
 /turf/open/floor/wood/large,
 /area/lush_planet)
+"Pv" = (
+/obj/item/radio/intercom/directional/west,
+/obj/structure/table,
+/obj/item/reagent_containers/glass/bottle/ethanol{
+	pixel_x = 4
+	},
+/obj/item/reagent_containers/glass/bottle/ethanol{
+	pixel_x = -4
+	},
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "Pw" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/window/reinforced/spawner,
@@ -13195,6 +13303,14 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/command/heads_quarters/ce)
+"Py" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "Pz" = (
 /obj/machinery/vending/boozeomat,
 /turf/closed/wall,
@@ -13261,16 +13377,10 @@
 /obj/machinery/door/window/northleft,
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
-"PO" = (
+"PQ" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/structure/curtain/cloth/fancy/mechanical{
-	color = "#ACD1E9";
-	icon_state = "bathroom-open";
-	icon_type = "bathroom";
-	id = "surgeryb"
-	},
 /turf/open/floor/plating,
-/area/lush_planet)
+/area/maintenance/department/medical/morgue)
 "PR" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/siding/yellow,
@@ -13443,6 +13553,10 @@
 	dir = 4
 	},
 /area/service/hydroponics)
+"Qs" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/maintenance/department/medical/morgue)
 "Qt" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/engine/o2,
@@ -13471,10 +13585,6 @@
 /obj/structure/cable,
 /turf/open/floor/engine,
 /area/maintenance/disposal/incinerator)
-"Qz" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "QA" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 8
@@ -13517,6 +13627,17 @@
 	},
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
+"QG" = (
+/obj/machinery/computer/med_data{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/light,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/obj/structure/window/spawner/west,
+/turf/open/floor/iron/textured,
+/area/lush_planet)
 "QH" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
@@ -13533,6 +13654,15 @@
 	},
 /turf/open/floor/plating,
 /area/lush_planet)
+"QJ" = (
+/obj/effect/turf_decal/trimline/blue/corner{
+	dir = 8
+	},
+/obj/structure/sign/departments/holy{
+	pixel_y = -32
+	},
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "QK" = (
 /obj/machinery/camera{
 	c_tag = "Science - Toxins Burn Chamber";
@@ -13687,11 +13817,6 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/command/heads_quarters/rd)
-"Rg" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/stack/tile/iron/white/smooth_large,
-/turf/open/floor/plating,
-/area/lush_planet)
 "Rh" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -13739,21 +13864,6 @@
 /obj/machinery/griddle,
 /turf/open/floor/iron/checker,
 /area/service/kitchen)
-"Rr" = (
-/obj/effect/turf_decal/siding/thinplating/light{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/thinplating/light{
-	dir = 8
-	},
-/obj/machinery/door/window/eastright{
-	name = "Morgue Press Outlet"
-	},
-/obj/machinery/door/window/brigdoor/westleft{
-	name = "Morgue Press Outlet"
-	},
-/turf/open/floor/plating,
-/area/lush_planet)
 "Rs" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -13879,9 +13989,14 @@
 /turf/open/floor/iron/dark,
 /area/science/server)
 "RG" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/maintenance/department/medical/morgue)
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -12
+	},
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 4
+	},
+/area/lush_planet)
 "RI" = (
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 1
@@ -13963,13 +14078,6 @@
 /obj/item/pickaxe,
 /obj/item/clothing/head/hardhat,
 /turf/open/floor/plating/dirt/jungle,
-/area/lush_planet)
-"RW" = (
-/obj/structure/chair/office/light,
-/obj/effect/turf_decal/siding/thinplating/light/end{
-	dir = 8
-	},
-/turf/open/floor/iron,
 /area/lush_planet)
 "RX" = (
 /obj/machinery/air_sensor/atmos/incinerator_tank{
@@ -14184,13 +14292,6 @@
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
 /turf/open/floor/plating,
 /area/engineering/atmos)
-"SI" = (
-/obj/machinery/door/airlock/medical/glass{
-	name = "Chemistry";
-	req_access_txt = "33"
-	},
-/turf/open/floor/iron/white,
-/area/lush_planet)
 "SJ" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
@@ -14417,6 +14518,12 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
+"Tr" = (
+/obj/structure/sign/departments/medbay/alt{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "Ts" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 8
@@ -14441,6 +14548,16 @@
 /obj/structure/cable,
 /turf/open/floor/stone,
 /area/lush_planet)
+"Tu" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "Morgue";
+	req_one_access_txt = "5;6;27"
+	},
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "Tv" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/engine/n2,
@@ -14558,11 +14675,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
-"TL" = (
-/obj/structure/table/optable,
-/obj/item/storage/backpack/duffelbag/med/surgery,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/medical/morgue)
 "TM" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
@@ -14633,8 +14745,11 @@
 	},
 /area/command/heads_quarters/rd)
 "TZ" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
+/obj/structure/chair/office/light,
+/obj/effect/turf_decal/siding/thinplating/light/end{
+	dir = 8
+	},
+/turf/open/floor/iron/textured,
 /area/lush_planet)
 "Ua" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -14655,16 +14770,6 @@
 	},
 /turf/open/floor/iron,
 /area/science/research)
-"Uc" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/curtain/cloth/fancy/mechanical{
-	color = "#ACD1E9";
-	icon_state = "bathroom-open";
-	icon_type = "bathroom";
-	id = "surgeryc"
-	},
-/turf/open/floor/plating,
-/area/lush_planet)
 "Ud" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
@@ -14692,6 +14797,13 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/white,
 /area/science/xenobiology)
+"Uk" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/obj/structure/noticeboard/directional/north,
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "Um" = (
 /obj/effect/spawner/random/structure/grille,
 /turf/open/floor/plating,
@@ -14891,6 +15003,9 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/chapel,
 /area/service/chapel)
+"UW" = (
+/turf/closed/wall,
+/area/medical/morgue)
 "UX" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
 /turf/open/floor/iron,
@@ -14925,6 +15040,12 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/science/research)
+"Vd" = (
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 4
+	},
+/area/lush_planet)
 "Ve" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
@@ -14948,6 +15069,30 @@
 /area/engineering/supermatter/room)
 "Vh" = (
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/lush_planet)
+"Vi" = (
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 8
+	},
+/obj/machinery/door/window/eastright{
+	name = "Morgue Press Outlet";
+	req_access_txt = "5"
+	},
+/obj/machinery/door/window/brigdoor/westleft{
+	name = "Morgue Press Outlet";
+	req_access_txt = "33"
+	},
+/obj/machinery/door/firedoor,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -15261,9 +15406,6 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/service/hydroponics)
-"Wh" = (
-/turf/open/floor/iron/white/smooth_large,
-/area/lush_planet)
 "Wi" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/closet/crate{
@@ -15326,6 +15468,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
+"Wt" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/smartfridge/organ,
+/turf/open/floor/iron/white/smooth_corner,
+/area/lush_planet)
 "Wu" = (
 /obj/machinery/rnd/production/circuit_imprinter/department/science,
 /obj/effect/turf_decal/stripes/line{
@@ -15429,6 +15577,12 @@
 	},
 /turf/open/floor/iron,
 /area/science/robotics/lab)
+"WM" = (
+/obj/structure/sign/departments/chemistry{
+	pixel_x = -32
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "WN" = (
 /turf/open/floor/iron,
 /area/science/mixing)
@@ -15523,11 +15677,15 @@
 /turf/open/floor/iron/checker,
 /area/service/kitchen)
 "Xd" = (
-/obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/mask/surgical,
-/turf/open/floor/iron/dark/textured_large,
-/area/medical/morgue)
+/obj/machinery/door/airlock/medical{
+	name = "Surgery Unit B";
+	req_access_txt = "5"
+	},
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "Xe" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -15699,6 +15857,11 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"XH" = (
+/obj/structure/table/optable,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/medical/morgue)
 "XI" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -15786,6 +15949,10 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/supermatter)
+"XW" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "XX" = (
 /obj/machinery/vending/wardrobe/atmos_wardrobe,
 /obj/effect/turf_decal/box,
@@ -15979,6 +16146,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/department/engine/atmos)
+"Yq" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/curtain/cloth/fancy/mechanical{
+	color = "#ACD1E9";
+	icon_state = "bathroom-open";
+	icon_type = "bathroom";
+	id = "surgeryc"
+	},
+/turf/open/floor/plating,
+/area/lush_planet)
 "Yr" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 8
@@ -16214,8 +16391,9 @@
 /turf/open/floor/plating,
 /area/maintenance/department/engine/atmos)
 "YZ" = (
-/turf/open/floor/plating/dirt/jungle,
-/area/maintenance/department/medical/morgue)
+/obj/effect/landmark/event_spawn,
+/turf/open/floor/iron/dark,
+/area/medical/morgue)
 "Za" = (
 /obj/machinery/door/airlock/grunge,
 /obj/effect/turf_decal/siding/wood{
@@ -26971,10 +27149,10 @@ qo
 qo
 qo
 qo
-gR
-RG
-tp
-gR
+zp
+PQ
+iW
+zp
 qo
 qo
 qo
@@ -27227,12 +27405,12 @@ qo
 qo
 qo
 qo
-gR
-gR
-CD
-JC
-gR
-gR
+zp
+zp
+cV
+eN
+zp
+zp
 qo
 qo
 qo
@@ -27476,21 +27654,21 @@ oA
 oA
 oA
 oA
-aF
-aF
-aF
-aF
-aF
-aF
-aF
-aF
-gR
-Ba
-CD
-CD
-eN
-gR
-Du
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+zp
+nB
+cV
+cV
+Qs
+zp
+if
 qo
 qo
 qo
@@ -27716,11 +27894,6 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
-qo
-qo
 uu
 uu
 uu
@@ -27728,26 +27901,31 @@ uu
 uu
 uu
 uu
-SI
 uu
-Kh
-io
-Rr
-aF
-qV
-bh
-yE
-JI
-rp
-vu
+uu
+uu
+uu
+uu
+ed
+uu
+rM
+Bl
+Vi
+UW
+FM
+Pv
+Cu
+iN
+my
+pc
 rd
-gR
-gR
-YZ
-CD
-CD
-qh
-eN
+zp
+zp
+ab
+cV
+cV
+sa
+Qs
 ok
 qo
 qo
@@ -27973,7 +28151,7 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 oA
 oA
@@ -27986,11 +28164,11 @@ oA
 oA
 oA
 oA
-to
+WM
 oA
 oA
 oA
-aF
+UW
 rd
 rd
 SK
@@ -27998,14 +28176,14 @@ rd
 SK
 rd
 rd
-Mo
-pv
-eN
-eN
-eN
-eN
-gc
-Gp
+yk
+aN
+Qs
+Qs
+Qs
+Qs
+OS
+kA
 qo
 qo
 qo
@@ -28230,38 +28408,38 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 Ag
-rt
-rt
-rt
-rt
-rt
-rt
-rt
-rt
-rt
-rt
-rt
-ec
+jx
+jx
+jx
+jx
+jx
+jx
+jx
+jx
+jx
+jx
+jx
+BY
 oA
 oA
-ll
+CN
 rd
 rd
 Ei
 SK
 rd
 qQ
-HK
-EM
-yO
-yO
-yO
-xT
-yO
-gR
+CF
+es
+Kg
+Kg
+Kg
+zW
+Kg
+zp
 Iy
 jI
 jI
@@ -28487,32 +28665,32 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 Om
 uu
 uu
-PO
-PO
+Ow
+Ow
 uu
 uu
 uu
-dZ
-dZ
+xY
+xY
 uu
 uu
-db
+tj
 oA
 oA
-aF
-ap
-fv
+UW
+Tr
+Ot
 Ei
-BR
-vF
-BY
-Ms
-Xd
+IN
+nb
+jX
+Ge
+AJ
 lJ
 aa
 oi
@@ -28744,31 +28922,31 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 Om
 uu
-gI
-fJ
+ys
+DI
 oA
-LM
+lR
 uu
-HC
+wz
 oA
-xn
-vt
+RG
+uN
 uu
-db
+tj
 oA
 oA
-aF
+UW
 Ax
 rd
 Ei
 SK
 Ax
 qQ
-bL
+hE
 UK
 UK
 aa
@@ -29001,33 +29179,33 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 Om
 uu
-LP
-dj
-Wh
-Lg
+cO
+Kw
+Ej
+gR
 uu
-Lg
-Wh
-dj
-LP
+gR
+Ej
+Kw
+cO
 uu
-db
+tj
 oA
 oA
-aF
+UW
 yA
 rd
 tx
-IS
+YZ
 SK
 rd
-Ms
-ow
-TL
+Ge
+El
+XH
 aa
 zR
 te
@@ -29258,33 +29436,33 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 Om
 uu
 uu
 uu
 oA
-vs
+sf
 uu
-zK
+gw
 oA
 uu
 uu
 uu
-db
+tj
 oA
 oA
-aF
+UW
 aJ
 rd
 LA
 rk
 yV
 gQ
-yk
-aF
-EN
+QJ
+UW
+yK
 aa
 aa
 aa
@@ -29515,32 +29693,32 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
-CF
-Ot
-sz
+zN
+Cl
+Ho
 uu
-qj
+Xd
 uu
 uu
 uu
-wL
+LV
 uu
-oh
-Ot
-Mv
+Kh
+Cl
+gb
 oA
 xR
-aF
-aF
+UW
+UW
 pJ
-aF
-aF
-aF
-aF
-ld
-aF
+UW
+UW
+UW
+UW
+Tu
+UW
 XD
 Hj
 ni
@@ -29772,19 +29950,19 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 oA
 oA
 Om
-Kh
-oA
-oA
-qv
-oA
-oA
-Kh
-db
+pM
+yE
+In
+ld
+In
+rh
+pM
+tj
 oA
 oA
 oA
@@ -30029,19 +30207,19 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
-oA
-Ka
+uu
+uu
 uu
 oA
-oA
-RW
-oA
-oA
+vt
 uu
-wp
+Uk
+TZ
+oA
+vX
+vt
+uu
+HN
 oA
 xR
 xR
@@ -30288,17 +30466,17 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
-Ka
-JL
+vt
+Py
+HN
+xw
 oA
-oA
-IQ
-oA
-oA
-Ll
-wp
+ap
+vt
+pa
+HN
 oA
 xR
 kN
@@ -30545,17 +30723,17 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
-Ka
-JL
+vt
+Py
+HN
+QG
 oA
-oA
-tj
-oA
-oA
-Ll
-wp
+ja
+vt
+pa
+HN
 oA
 xR
 Xt
@@ -30800,19 +30978,19 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
-oA
-Ka
+uu
+uu
 uu
 oA
-oA
-OU
-oA
-oA
+vt
 uu
-wp
+HN
+lf
+oA
+OR
+vt
+uu
+HN
 oA
 xR
 xR
@@ -31057,19 +31235,19 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 oA
 oA
 Om
-Kh
-oA
-oA
-Kp
-oA
-oA
-Kh
-db
+rf
+Fu
+Ed
+ds
+Ed
+vJ
+rf
+tj
 oA
 oA
 oA
@@ -31088,7 +31266,7 @@ Cb
 LJ
 Hs
 Wm
-IP
+IS
 ai
 bp
 cD
@@ -31314,21 +31492,21 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 Ag
-rt
-pc
+jx
+Oq
 uu
-ed
+tc
 uu
 uu
 uu
-Js
+zM
 uu
-Cu
-rt
-ec
+vf
+jx
+BY
 oA
 xR
 TS
@@ -31571,21 +31749,21 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 Om
 uu
 uu
 uu
 oA
-CN
+Vd
 uu
-nH
-Qz
+Wt
+ha
 uu
 uu
 uu
-db
+tj
 oA
 oA
 TS
@@ -31828,21 +32006,21 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 Om
 uu
-LP
-jR
-Wh
-Lg
+cO
+XW
+Ej
+gR
 uu
-zn
-Rg
-jR
-qy
+ji
+GD
+XW
+OU
 uu
-db
+tj
 oA
 oA
 TS
@@ -32085,21 +32263,21 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 Om
 uu
-Jl
-yB
+ow
+lU
 oA
-yQ
+OY
 uu
-lk
-Qz
-TZ
-gi
+gI
+ha
+dy
+tw
 uu
-db
+tj
 oA
 oA
 TS
@@ -32342,21 +32520,21 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 Om
 uu
 uu
-Uc
-Uc
+Yq
+Yq
 uu
 uu
 uu
-gC
-gC
+sn
+sn
 uu
 uu
-db
+tj
 oA
 oA
 TS
@@ -32599,24 +32777,24 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
-CF
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Mv
+zN
+Cl
+Cl
+Cl
+Cl
+Cl
+Cl
+Cl
+Cl
+Cl
+Cl
+Cl
+gb
 oA
 oA
-qo
+uu
 qo
 ok
 ok
@@ -32856,7 +33034,7 @@ qo
 qo
 qo
 qo
-qo
+uu
 oA
 oA
 oA
@@ -32873,7 +33051,7 @@ oA
 oA
 oA
 oA
-ok
+uu
 qo
 ok
 qo
@@ -33113,24 +33291,24 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
-qo
+uu
+uu
+uu
+uu
+uu
+uu
+uu
+uu
+uu
+uu
+uu
+uu
+uu
+uu
+uu
+uu
+uu
+uu
 qo
 qo
 qo
