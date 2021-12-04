@@ -39,7 +39,7 @@
 /obj/machinery/computer/atmos_control/tank/carbon_tank{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden{
 	dir = 10
 	},
 /turf/open/floor/iron/dark/side{
@@ -2175,10 +2175,10 @@
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
 "gV" = (
-/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
+/obj/machinery/atmospherics/components/binary/pump/off/violet,
+/obj/machinery/atmospherics/pipe/bridge_pipe/yellow/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/components/binary/pump/off/violet,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "gW" = (
@@ -2222,10 +2222,10 @@
 /turf/open/floor/iron/textured,
 /area/service/hydroponics/garden)
 "hc" = (
-/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+/obj/machinery/atmospherics/pipe/smart/simple/dark/hidden,
+/obj/machinery/atmospherics/pipe/bridge_pipe/cyan/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/bridge_pipe/dark/hidden,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "hd" = (
@@ -2313,7 +2313,7 @@
 /turf/open/floor/plating/grass/jungle,
 /area/maintenance/aft)
 "hp" = (
-/obj/machinery/atmospherics/pipe/smart/simple/dark/hidden,
+/obj/machinery/atmospherics/pipe/smart/simple/violet/hidden,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "hq" = (
