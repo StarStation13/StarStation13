@@ -239,6 +239,18 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/lobby)
+"aM" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 9
+	},
+/obj/machinery/modular_computer/console/preset/cargochat/medical{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/lush_planet)
 "aN" = (
 /obj/machinery/door/airlock/maintenance{
 	req_one_access_txt = "5;6;27"
@@ -987,6 +999,7 @@
 /area/lush_planet)
 "cO" = (
 /obj/structure/table/optable,
+/obj/machinery/defibrillator_mount/directional/north,
 /turf/open/floor/iron/white/textured_large,
 /area/medical/surgery/room_b)
 "cP" = (
@@ -1216,6 +1229,7 @@
 	dir = 8;
 	pixel_x = 12
 	},
+/obj/machinery/iv_drip,
 /turf/open/floor/plating,
 /area/medical/surgery/room_d)
 "dz" = (
@@ -1942,6 +1956,18 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/aft)
+"fE" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/warning{
+	dir = 1
+	},
+/obj/machinery/computer/department_orders/medical{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/lush_planet)
 "fF" = (
 /obj/machinery/modular_computer/console/preset/civilian{
 	dir = 4
@@ -4179,6 +4205,7 @@
 	dir = 8;
 	pixel_x = 12
 	},
+/obj/machinery/iv_drip,
 /turf/open/floor/iron/white/smooth_corner{
 	dir = 8
 	},
@@ -4795,6 +4822,7 @@
 /area/medical/surgery/room_c)
 "nH" = (
 /obj/structure/table/optable,
+/obj/machinery/defibrillator_mount/directional/north,
 /turf/open/floor/iron/white/textured_large,
 /area/medical/surgery/room_c)
 "nJ" = (
@@ -10296,6 +10324,7 @@
 	dir = 4;
 	pixel_x = -12
 	},
+/obj/machinery/iv_drip,
 /turf/open/floor/iron/white/smooth_corner,
 /area/medical/surgery/room_b)
 "DJ" = (
@@ -10654,6 +10683,16 @@
 /area/commons/dorms)
 "EM" = (
 /obj/machinery/airalarm/directional/north,
+/obj/item/roller{
+	pixel_y = 5
+	},
+/obj/item/roller{
+	pixel_y = 11
+	},
+/obj/item/roller{
+	pixel_y = 16
+	},
+/obj/structure/table/glass,
 /turf/open/floor/iron/white,
 /area/medical/storage)
 "EO" = (
@@ -14038,6 +14077,7 @@
 "OU" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/optable,
+/obj/machinery/defibrillator_mount/directional/south,
 /turf/open/floor/iron/white/textured_large,
 /area/medical/surgery/room_d)
 "OV" = (
@@ -14295,6 +14335,7 @@
 /area/lush_planet)
 "PJ" = (
 /obj/structure/table/optable,
+/obj/machinery/defibrillator_mount/directional/south,
 /turf/open/floor/iron/white/textured_large,
 /area/medical/surgery)
 "PK" = (
@@ -14974,6 +15015,7 @@
 	dir = 4;
 	pixel_x = -12
 	},
+/obj/machinery/iv_drip,
 /turf/open/floor/iron/white/smooth_corner{
 	dir = 4
 	},
@@ -16162,6 +16204,13 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"Vl" = (
+/obj/effect/turf_decal/bot,
+/obj/vehicle/ridden/wheelchair{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/lush_planet)
 "Vm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -30341,7 +30390,7 @@ PJ
 gy
 tj
 oA
-oA
+aM
 UW
 yA
 rd
@@ -30598,7 +30647,7 @@ gy
 gy
 EB
 oA
-oA
+fE
 UW
 aJ
 rd
@@ -32911,7 +32960,7 @@ Sr
 Sr
 EB
 oA
-oA
+Vl
 TS
 eW
 TS
@@ -33168,7 +33217,7 @@ OU
 Sr
 tj
 oA
-oA
+Vl
 TS
 Um
 TS
