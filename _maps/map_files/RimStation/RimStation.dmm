@@ -52,6 +52,12 @@
 "aj" = (
 /turf/closed/wall,
 /area/commons/storage/primary)
+"ak" = (
+/obj/machinery/newscaster/directional/north,
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/commons/dorms)
 "al" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -1450,6 +1456,7 @@
 	name = "Chemistry";
 	req_access_txt = "33"
 	},
+/obj/machinery/navbeacon/wayfinding/chemfactory,
 /turf/open/floor/iron/white,
 /area/medical/medbay/central)
 "ee" = (
@@ -1851,6 +1858,10 @@
 /obj/machinery/door/firedoor/heavy,
 /turf/open/floor/iron/smooth_large,
 /area/engineering/break_room)
+"fj" = (
+/obj/machinery/navbeacon/wayfinding/dorms,
+/turf/open/floor/iron,
+/area/commons/dorms)
 "fk" = (
 /obj/structure/sign/poster/contraband/random{
 	pixel_y = 32
@@ -2212,6 +2223,7 @@
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/newscaster/directional/west,
 /turf/open/floor/wood/large,
 /area/medical/virology)
 "gk" = (
@@ -4074,6 +4086,13 @@
 	},
 /turf/open/floor/iron,
 /area/medical/pharmacy)
+"ll" = (
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/obj/machinery/newscaster/directional/north,
+/turf/open/floor/iron/white,
+/area/medical/exam_room)
 "lm" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plating,
@@ -4613,6 +4632,7 @@
 /obj/machinery/door/firedoor/heavy,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/navbeacon/wayfinding/atmos,
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "mO" = (
@@ -6099,6 +6119,7 @@
 /obj/machinery/door/airlock/glass_large{
 	name = "Chapel"
 	},
+/obj/machinery/navbeacon/wayfinding/chapel,
 /turf/open/floor/wood,
 /area/service/chapel)
 "qS" = (
@@ -7175,6 +7196,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/ash,
+/obj/machinery/navbeacon/wayfinding/janitor,
 /turf/open/floor/iron/smooth_large,
 /area/service/janitor)
 "tK" = (
@@ -8164,6 +8186,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/dirt/jungle,
 /area/lush_planet)
+"ws" = (
+/obj/machinery/navbeacon/wayfinding/research,
+/turf/open/floor/iron,
+/area/science/research)
 "wt" = (
 /turf/open/floor/iron/white,
 /area/medical/pharmacy)
@@ -10814,6 +10840,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Library"
 	},
+/obj/machinery/navbeacon/wayfinding/library,
 /turf/open/floor/wood,
 /area/service/library)
 "Ef" = (
@@ -12100,6 +12127,7 @@
 	req_one_access_txt = "10;24"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/machinery/navbeacon/wayfinding/engineering,
 /turf/open/floor/iron,
 /area/engineering/main)
 "HA" = (
@@ -12906,6 +12934,7 @@
 	name = "Hydroponics";
 	req_one_access_txt = "35;28"
 	},
+/obj/machinery/navbeacon/wayfinding/hydro,
 /turf/open/floor/iron,
 /area/service/hydroponics)
 "JX" = (
@@ -13024,6 +13053,10 @@
 	dir = 8
 	},
 /area/science/lab)
+"Kn" = (
+/obj/machinery/navbeacon/wayfinding/kitchen,
+/turf/open/floor/iron/checker,
+/area/service/kitchen)
 "Ko" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/siding/purple{
@@ -13632,6 +13665,7 @@
 "Mg" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
+/obj/machinery/newscaster/directional/north,
 /turf/open/floor/carpet/black,
 /area/service/chapel/office)
 "Mh" = (
@@ -14869,6 +14903,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/storage)
+"PP" = (
+/obj/machinery/navbeacon/wayfinding/med,
+/turf/open/floor/iron/white,
+/area/medical/medbay/lobby)
 "PQ" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -15102,6 +15140,11 @@
 /obj/structure/cable,
 /turf/open/floor/engine,
 /area/maintenance/disposal/incinerator)
+"Qy" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/navbeacon/wayfinding/tools,
+/turf/open/floor/iron,
+/area/commons/storage/primary)
 "Qz" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -15401,6 +15444,21 @@
 /obj/machinery/griddle,
 /turf/open/floor/iron/checker,
 /area/service/kitchen)
+"Rr" = (
+/obj/structure/sign/directions/science{
+	dir = 4;
+	pixel_y = 7
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 4;
+	pixel_y = 1
+	},
+/obj/structure/sign/directions/medical{
+	dir = 1;
+	pixel_y = -5
+	},
+/turf/closed/wall/mineral/wood,
+/area/lush_planet)
 "Rs" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -15721,6 +15779,7 @@
 	name = "Bar Storage";
 	req_access_txt = "25"
 	},
+/obj/machinery/navbeacon/wayfinding/bar,
 /turf/open/floor/wood,
 /area/service/bar)
 "Sn" = (
@@ -31298,7 +31357,7 @@ jF
 ai
 qT
 sm
-uO
+fj
 uO
 zo
 Bt
@@ -31796,7 +31855,7 @@ Hs
 Wm
 ai
 ai
-aY
+Qy
 cp
 cp
 ht
@@ -32584,7 +32643,7 @@ kK
 kK
 qT
 qT
-xd
+ak
 uO
 BF
 uO
@@ -32797,7 +32856,7 @@ JI
 jP
 vt
 go
-yT
+ll
 lf
 rl
 OR
@@ -34909,7 +34968,7 @@ ai
 ai
 SR
 Nf
-Nf
+Kn
 UM
 Nf
 Nf
@@ -35634,10 +35693,10 @@ qo
 qo
 qo
 qo
+PH
 qo
 qo
-qo
-qo
+iA
 qo
 ok
 qo
@@ -36146,7 +36205,7 @@ fm
 qo
 qo
 qo
-qo
+PH
 qo
 qo
 qo
@@ -36405,7 +36464,7 @@ qo
 qo
 qo
 qo
-qo
+PH
 qo
 qo
 qo
@@ -36915,13 +36974,13 @@ qo
 qo
 qo
 qo
+PH
 qo
 qo
 qo
 qo
 qo
-qo
-qo
+PH
 qo
 qo
 qo
@@ -37163,7 +37222,7 @@ qo
 rC
 AE
 Uw
-Uw
+PP
 Uw
 kj
 rC
@@ -37432,10 +37491,10 @@ qo
 qo
 qo
 qo
+PH
 qo
 qo
-qo
-qo
+iA
 qo
 qo
 qo
@@ -37685,6 +37744,7 @@ qo
 qo
 qo
 qo
+iA
 qo
 qo
 qo
@@ -37693,8 +37753,7 @@ qo
 qo
 qo
 qo
-qo
-qo
+PH
 qo
 qo
 TS
@@ -37939,6 +37998,7 @@ qo
 qo
 qo
 qo
+PH
 qo
 qo
 qo
@@ -37946,8 +38006,7 @@ qo
 qo
 qo
 qo
-qo
-qo
+PH
 qo
 qo
 qo
@@ -38190,6 +38249,7 @@ qo
 qo
 qo
 qo
+ok
 qo
 qo
 qo
@@ -38208,8 +38268,7 @@ qo
 qo
 qo
 qo
-qo
-qo
+iA
 qo
 ok
 qo
@@ -38447,8 +38506,8 @@ qo
 qo
 qo
 qo
-qo
-qo
+ok
+ok
 ok
 qo
 qo
@@ -38458,12 +38517,12 @@ qo
 qo
 qo
 qo
+PH
 qo
 qo
 qo
 qo
-qo
-qo
+PH
 qo
 qo
 qo
@@ -38706,7 +38765,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 ok
 qo
@@ -38725,7 +38784,7 @@ qo
 qo
 qo
 qo
-qo
+PH
 YD
 qo
 qo
@@ -38963,8 +39022,8 @@ qo
 qo
 qo
 qo
-qo
-qo
+ok
+ok
 qo
 qo
 ok
@@ -38973,12 +39032,12 @@ qo
 qo
 qo
 qo
+iA
 qo
 qo
 qo
 qo
-qo
-qo
+PH
 qo
 qo
 qo
@@ -39222,7 +39281,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -39480,7 +39539,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 ok
 qo
@@ -39493,7 +39552,7 @@ qo
 qo
 qo
 qo
-qo
+PH
 qo
 qo
 qo
@@ -39738,21 +39797,21 @@ qo
 qo
 qo
 qo
+ok
 qo
 qo
 qo
 qo
 qo
 qo
+PH
 qo
 qo
 qo
 qo
 qo
 qo
-qo
-qo
-qo
+PH
 qo
 qo
 qo
@@ -39995,16 +40054,16 @@ qo
 qo
 qo
 qo
+ok
+ok
+ok
 qo
 qo
 qo
 qo
 qo
 qo
-qo
-qo
-qo
-qo
+PH
 qo
 qo
 qo
@@ -40254,7 +40313,8 @@ qo
 qo
 qo
 qo
-qo
+ok
+ok
 ok
 qo
 qo
@@ -40266,8 +40326,7 @@ qo
 qo
 qo
 qo
-qo
-qo
+iA
 qo
 qo
 qo
@@ -40513,16 +40572,16 @@ qo
 qo
 qo
 qo
+ok
+ok
+ok
 qo
 qo
 qo
 qo
 qo
 qo
-qo
-qo
-qo
-qo
+PH
 qo
 qo
 qo
@@ -40772,7 +40831,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 ok
 qo
 qo
@@ -41289,8 +41348,8 @@ qo
 qo
 qo
 qo
-qo
-qo
+ok
+ok
 qo
 qo
 qo
@@ -41547,9 +41606,9 @@ qo
 qo
 qo
 qo
-qo
-qo
-qo
+ok
+ok
+ok
 ok
 qo
 qo
@@ -41805,10 +41864,10 @@ qo
 qo
 qo
 qo
+ok
+ok
 qo
-qo
-qo
-qo
+ok
 qo
 qo
 qo
@@ -42065,7 +42124,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 ok
 qo
@@ -42578,7 +42637,7 @@ qo
 qo
 qo
 qo
-qo
+Rr
 qo
 ok
 qo
@@ -42837,7 +42896,7 @@ qo
 qo
 qo
 ok
-qo
+ok
 qo
 ok
 qo
@@ -43094,7 +43153,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -43609,7 +43668,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -44380,7 +44439,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -44895,7 +44954,7 @@ qo
 qo
 qo
 ok
-qo
+ok
 qo
 qo
 qo
@@ -45409,7 +45468,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 ok
@@ -45666,7 +45725,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -46181,7 +46240,7 @@ qo
 qo
 ok
 qo
-qo
+ok
 qo
 ok
 qo
@@ -46695,7 +46754,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 ok
@@ -46952,7 +47011,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 ok
 qo
 qo
@@ -47466,7 +47525,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -47980,7 +48039,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -48237,7 +48296,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -48751,7 +48810,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -49008,7 +49067,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -49779,7 +49838,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -50293,7 +50352,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -50807,7 +50866,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 dm
@@ -51321,7 +51380,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 ok
 qo
 jc
@@ -51578,7 +51637,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 jc
@@ -52092,7 +52151,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 ok
 dm
@@ -52864,7 +52923,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -53635,7 +53694,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 Xg
 Xg
@@ -54406,7 +54465,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 Hp
 PR
 YK
@@ -54663,7 +54722,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 Hp
 OQ
 YK
@@ -54920,7 +54979,7 @@ qo
 Op
 qo
 qo
-qo
+ok
 Hp
 RP
 AD
@@ -55177,7 +55236,7 @@ qo
 qo
 ok
 qo
-qo
+ok
 Xg
 pG
 ko
@@ -55434,7 +55493,7 @@ qo
 qo
 qo
 ok
-qo
+ok
 pI
 cx
 Dx
@@ -55691,7 +55750,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 Hp
 cx
 UX
@@ -55948,7 +56007,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 Hp
 cx
 UX
@@ -56205,7 +56264,7 @@ qo
 qo
 qo
 ok
-qo
+ok
 pI
 cx
 mW
@@ -56461,7 +56520,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 Xg
 Wq
@@ -56718,7 +56777,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 Hp
 RP
@@ -56975,7 +57034,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 Hp
 wx
@@ -57232,7 +57291,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 ok
 Hp
 TW
@@ -57489,7 +57548,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 Xg
 tn
@@ -58003,7 +58062,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 Xg
@@ -59032,7 +59091,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 ok
 As
@@ -59289,7 +59348,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 ok
 of
@@ -59546,7 +59605,7 @@ qo
 qo
 ok
 qo
-qo
+ok
 qo
 qo
 of
@@ -60059,7 +60118,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -60573,7 +60632,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -61087,7 +61146,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -61858,7 +61917,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 ok
 qo
 qo
@@ -62115,7 +62174,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -62372,8 +62431,8 @@ qo
 qo
 qo
 qo
-ok
 qo
+ok
 qo
 YD
 qo
@@ -62629,8 +62688,8 @@ qo
 qo
 qo
 qo
-qo
-qo
+ok
+ok
 qo
 qo
 qo
@@ -62886,7 +62945,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -63143,7 +63202,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 ok
 qo
 qo
@@ -63400,7 +63459,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 qo
 qo
@@ -63914,7 +63973,7 @@ qo
 qo
 qo
 ok
-qo
+ok
 qo
 qo
 qo
@@ -64171,7 +64230,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 SA
 vm
 ki
@@ -64942,7 +65001,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 vm
 jr
@@ -65199,7 +65258,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 ok
 vm
 as
@@ -65456,7 +65515,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 qo
 vm
 dr
@@ -66484,7 +66543,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 ok
 Qv
 dW
@@ -66741,8 +66800,8 @@ qo
 qo
 qo
 qo
-qo
-qo
+ok
+ok
 zO
 Sv
 uf
@@ -67256,7 +67315,7 @@ qo
 qo
 qo
 ok
-qo
+ok
 AT
 Sv
 eE
@@ -67513,13 +67572,13 @@ qo
 qo
 qo
 qo
-qo
+ok
 lc
 bz
 Pp
 sO
 FL
-Sv
+ws
 ub
 Bo
 Zt
@@ -67770,7 +67829,7 @@ qo
 qo
 qo
 qo
-qo
+ok
 wD
 Sv
 iT
