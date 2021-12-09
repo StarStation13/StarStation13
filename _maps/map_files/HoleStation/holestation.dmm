@@ -7802,13 +7802,14 @@
 /turf/open/floor/iron/white,
 /area/medical/medbay)
 "Pl" = (
-/obj/item/storage/backpack/duffelbag/med/surgery{
-	pixel_x = 3;
-	pixel_y = 4
-	},
 /obj/structure/table,
 /obj/structure/railing{
 	dir = 10
+	},
+/obj/item/defibrillator/loaded,
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_x = 3;
+	pixel_y = 4
 	},
 /turf/open/floor/iron/dark,
 /area/medical/medbay)
@@ -9936,7 +9937,15 @@
 	pixel_x = -6;
 	pixel_y = 8
 	},
-/obj/item/stack/sheet/mineral/plasma,
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = 8;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/dropper,
+/obj/item/stack/sheet/mineral/plasma{
+	pixel_y = 10
+	},
 /turf/open/floor/iron,
 /area/medical/medbay)
 "Zi" = (
