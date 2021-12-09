@@ -705,6 +705,12 @@
 /obj/machinery/light/built/directional/west,
 /turf/open/floor/wood,
 /area/maintenance/aft)
+"aVn" = (
+/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
+	dir = 10
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "aVJ" = (
 /obj/machinery/computer/cargo{
 	dir = 4
@@ -821,6 +827,12 @@
 	},
 /turf/open/floor/plating,
 /area/medical/surgery)
+"bgF" = (
+/obj/machinery/atmospherics/pipe/color_adapter{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "bhl" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
@@ -1404,9 +1416,8 @@
 /turf/open/floor/iron/cafeteria,
 /area/service/theater)
 "bQF" = (
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 1;
-	name = "Air to Pure"
+/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible{
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
@@ -7895,6 +7906,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/maintenance/disposal/incinerator)
+"kcb" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible,
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "kcV" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -9450,6 +9465,13 @@
 /obj/item/stack/tile/iron,
 /turf/open/floor/plating,
 /area/science/research)
+"mon" = (
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 4;
+	name = "Air to Pure"
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "moC" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Medical Maintenance";
@@ -9542,11 +9564,11 @@
 /turf/open/floor/plating,
 /area/maintenance/department/science)
 "mtT" = (
-/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
-	dir = 10
-	},
 /obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
 	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer1{
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
@@ -9634,6 +9656,15 @@
 	dir = 4
 	},
 /area/science/lab)
+"myL" = (
+/obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer1{
+	dir = 10
+	},
+/turf/open/floor/catwalk_floor/iron,
+/area/engineering/atmos)
 "mzd" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -9654,6 +9685,12 @@
 "mzf" = (
 /turf/closed/wall,
 /area/service/hydroponics/garden/abandoned)
+"mzM" = (
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "mzP" = (
 /turf/open/water/jungle,
 /area/lush_planet)
@@ -13876,6 +13913,9 @@
 /obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer1{
+	dir = 4
+	},
 /turf/open/floor/catwalk_floor/iron,
 /area/engineering/atmos)
 "rxA" = (
@@ -14541,6 +14581,12 @@
 /obj/effect/landmark/start/janitor,
 /turf/open/floor/iron/smooth_large,
 /area/service/janitor)
+"sqC" = (
+/obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
+	dir = 5
+	},
+/turf/open/floor/iron,
+/area/engineering/atmos)
 "sqN" = (
 /obj/machinery/atmospherics/components/unary/bluespace_sender,
 /turf/open/floor/iron,
@@ -17988,7 +18034,7 @@
 /area/commons/storage/tools)
 "vVV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/cyan/visible{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
@@ -60991,9 +61037,9 @@ fXe
 fXe
 niN
 jDN
-usr
-qls
-usr
+gES
+uIj
+sqC
 rmO
 usr
 bge
@@ -61248,9 +61294,9 @@ uwY
 uwY
 krC
 hSd
-usr
 qls
-usr
+bgF
+qls
 vrW
 wVu
 nXo
@@ -61505,9 +61551,9 @@ usr
 usr
 usr
 tUW
-gES
-uIj
-rdq
+qls
+bQF
+aVn
 weL
 rdq
 pxu
@@ -61764,7 +61810,7 @@ jqq
 eDo
 eOn
 mtT
-bQF
+usr
 vVV
 wVu
 nXo
@@ -62022,7 +62068,7 @@ iUQ
 qls
 rvZ
 usr
-usr
+mon
 cQB
 wsz
 vod
@@ -62277,9 +62323,9 @@ rdq
 hCb
 hCb
 oyx
-rvZ
-usr
-usr
+myL
+kcb
+mzM
 bge
 jEF
 aJQ
