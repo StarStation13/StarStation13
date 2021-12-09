@@ -700,15 +700,9 @@
 /turf/open/floor/circuit/green/telecomms/mainframe,
 /area/tcommsat/server)
 "dY" = (
-/obj/effect/turf_decal/siding/green{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/green/corner,
-/obj/effect/turf_decal/siding/green/corner{
-	dir = 8
-	},
-/turf/open/floor/iron/telecomms,
-/area/tcommsat/server)
+/obj/machinery/atmospherics/components/unary/passive_vent,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
 "ea" = (
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
@@ -2368,6 +2362,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/engineering/break_room)
+"mg" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/turf/closed/wall/r_wall,
+/area/science/research)
 "mh" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Cryopods"
@@ -4352,11 +4350,8 @@
 /obj/effect/turf_decal/siding/green{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/green/corner,
-/obj/effect/turf_decal/siding/green/corner{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/green,
 /turf/open/floor/iron/telecomms,
 /area/tcommsat/server)
 "vM" = (
@@ -4549,10 +4544,15 @@
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
 "wZ" = (
-/obj/machinery/telecomms/hub/preset,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/circuit/green/telecomms/mainframe,
+/obj/effect/turf_decal/siding/green{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/green{
+	dir = 4
+	},
+/turf/open/floor/iron/telecomms,
 /area/tcommsat/server)
 "xa" = (
 /obj/structure/toilet{
@@ -4676,11 +4676,8 @@
 /area/service/kitchen)
 "xW" = (
 /obj/effect/turf_decal/siding/white,
-/obj/effect/turf_decal/siding/green/corner{
+/obj/effect/turf_decal/siding/green{
 	dir = 1
-	},
-/obj/effect/turf_decal/siding/green/corner{
-	dir = 4
 	},
 /turf/open/floor/iron/telecomms,
 /area/tcommsat/server)
@@ -5204,6 +5201,9 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/engine_smes)
+"Aw" = (
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
 "AA" = (
 /turf/open/floor/iron/dark/side,
 /area/cargo/storage)
@@ -5295,7 +5295,6 @@
 /turf/open/floor/engine,
 /area/engineering/supermatter)
 "Bh" = (
-/obj/effect/turf_decal/siding/green,
 /obj/effect/turf_decal/siding/green/corner{
 	dir = 1
 	},
@@ -5305,6 +5304,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/turf_decal/siding/green/corner,
+/obj/effect/turf_decal/siding/green/corner{
+	dir = 8
+	},
 /turf/open/floor/iron/telecomms,
 /area/tcommsat/server)
 "Bl" = (
@@ -5524,6 +5527,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/wood,
 /area/service/chapel)
+"Cq" = (
+/obj/machinery/announcement_system,
+/turf/open/floor/circuit/green/telecomms/mainframe,
+/area/tcommsat/server)
 "Cr" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -6762,6 +6769,7 @@
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "Jx" = (
+/obj/effect/mapping_helpers/dead_body_placer,
 /turf/open/floor/iron/dark,
 /area/medical/morgue)
 "Jy" = (
@@ -7217,9 +7225,14 @@
 /area/maintenance/starboard/aft)
 "Mo" = (
 /obj/machinery/rnd/server,
-/obj/structure/lattice/catwalk,
 /obj/structure/window/reinforced/plasma/spawner/east,
-/turf/open/space/basic,
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	dir = 1
+	},
+/obj/structure/sign/warning/coldtemp{
+	pixel_x = -32
+	},
+/turf/open/floor/plating/airless,
 /area/science/research)
 "Mp" = (
 /obj/machinery/atmospherics/components/trinary/filter/flipped/critical{
@@ -7438,7 +7451,8 @@
 /area/medical/medbay)
 "Nt" = (
 /obj/structure/table/optable,
-/obj/machinery/airalarm/directional/north,
+/obj/machinery/defibrillator_mount/directional/north,
+/obj/item/defibrillator/loaded,
 /turf/open/floor/iron/dark,
 /area/medical/medbay)
 "Nu" = (
@@ -7464,6 +7478,7 @@
 /area/maintenance/starboard/aft)
 "Ny" = (
 /obj/machinery/computer/operating,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/medical/medbay)
 "Nz" = (
@@ -7519,11 +7534,14 @@
 /obj/effect/turf_decal/siding/purple/corner{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/green{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/turf_decal/siding/green/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/green/corner{
+	dir = 4
+	},
 /turf/open/floor/iron/telecomms,
 /area/tcommsat/server)
 "NQ" = (
@@ -7806,7 +7824,6 @@
 /obj/structure/railing{
 	dir = 10
 	},
-/obj/item/defibrillator/loaded,
 /obj/item/storage/backpack/duffelbag/med/surgery{
 	pixel_x = 3;
 	pixel_y = 4
@@ -8247,13 +8264,8 @@
 /turf/open/floor/plating,
 /area/cargo/storage)
 "Rz" = (
-/obj/effect/turf_decal/siding/green{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/green{
-	dir = 8
-	},
-/turf/open/floor/iron/telecomms,
+/obj/machinery/telecomms/hub/preset,
+/turf/open/floor/circuit/green/telecomms/mainframe,
 /area/tcommsat/server)
 "RA" = (
 /obj/machinery/conveyor{
@@ -9417,10 +9429,9 @@
 /area/cargo/storage)
 "WQ" = (
 /obj/machinery/rnd/server/master,
-/obj/structure/lattice/catwalk,
 /obj/structure/window/reinforced/plasma/spawner,
 /obj/structure/window/reinforced/plasma/spawner/east,
-/turf/open/space/basic,
+/turf/open/floor/plating/airless,
 /area/science/research)
 "WR" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -9911,13 +9922,10 @@
 /area/hallway/primary/central)
 "Ze" = (
 /obj/effect/turf_decal/siding/purple,
-/obj/effect/turf_decal/siding/green/corner{
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/green{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/green/corner{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/telecomms,
 /area/tcommsat/server)
 "Zf" = (
@@ -36184,8 +36192,8 @@ nZ
 nZ
 Ji
 Ji
-nZ
-HT
+dY
+mg
 Mo
 WQ
 fx
@@ -41604,7 +41612,7 @@ qH
 RV
 rl
 mG
-dY
+ps
 Rz
 Ze
 aN
@@ -42119,7 +42127,7 @@ is
 rl
 AY
 vK
-Rz
+Cq
 xW
 ZU
 jT
@@ -47492,7 +47500,7 @@ nZ
 nZ
 Ji
 Ji
-nZ
+Aw
 LC
 Ny
 PN
