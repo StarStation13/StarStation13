@@ -282,6 +282,12 @@
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
+"aog" = (
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "aoV" = (
 /obj/machinery/requests_console/directional/south{
 	announcementConsole = 1;
@@ -875,6 +881,10 @@
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/floor/grass,
 /area/medical/virology)
+"aZu" = (
+/obj/effect/spawner/structure/window/reinforced/tinted,
+/turf/open/floor/plating,
+/area/security/execution/transfer)
 "baS" = (
 /obj/machinery/atmospherics/pipe/smart/simple/violet/visible{
 	dir = 4
@@ -951,6 +961,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/dirt/jungle,
 /area/maintenance/department/medical/morgue)
+"bfs" = (
+/turf/open/floor/iron/dark,
+/area/security/execution/transfer)
 "bfZ" = (
 /obj/structure/fence/post{
 	dir = 1
@@ -2834,6 +2847,22 @@
 	dir = 8
 	},
 /area/cargo/office)
+"dnh" = (
+/obj/structure/filingcabinet,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/security/execution/transfer)
+"dnA" = (
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "dnY" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -2874,6 +2903,9 @@
 /area/medical/medbay/central)
 "dqp" = (
 /turf/open/floor/stone,
+/area/lush_planet)
+"dqH" = (
+/turf/open/floor/iron,
 /area/lush_planet)
 "dri" = (
 /obj/machinery/computer/turbine_computer{
@@ -4221,6 +4253,13 @@
 /obj/effect/turf_decal/siding/red,
 /turf/open/floor/iron,
 /area/security/checkpoint/medical)
+"eJi" = (
+/obj/machinery/door/airlock/security{
+	name = "Brig";
+	req_access_txt = "63"
+	},
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "eJz" = (
 /obj/structure/sign/departments/xenobio{
 	pixel_x = -32
@@ -4553,6 +4592,12 @@
 /obj/machinery/suit_storage_unit/hos,
 /turf/open/floor/iron/dark/textured_large,
 /area/command/heads_quarters/hos)
+"feK" = (
+/obj/structure/closet/secure_closet/brig/genpop,
+/obj/effect/turf_decal/bot_red,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark,
+/area/security/execution/transfer)
 "ffi" = (
 /obj/machinery/computer/scan_consolenew{
 	dir = 1
@@ -6170,6 +6215,17 @@
 /obj/structure/window/spawner/west,
 /turf/open/floor/iron/textured,
 /area/medical/exam_room)
+"gKG" = (
+/obj/structure/table,
+/obj/machinery/recharger,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "gLh" = (
 /turf/open/floor/iron/corner{
 	dir = 8
@@ -6957,6 +7013,17 @@
 	dir = 4
 	},
 /area/science/lab)
+"hEb" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Prison Wing";
+	req_access_txt = "2"
+	},
+/obj/effect/mapping_helpers/airlock_note_placer{
+	note_info = "<center><b>INTRUSTIONAL GUIDE TO PROCESSING NEW INMATES</center></b> <br> <br> To process inmates through this genpop system, please see the below described listas to proper processing procedures: <br> 1.Swipe new prisoner ID on a genpop locker to link them together. Store the inmate's equipment in this locker. <br> 2.Swipe your ID on the prisoner ID and assign a time for their sentencing. Attach ID to inmate. <br> 3.Process inmate through the labeled security gate, either willingly or by force. This will activate the timer on their card and start their sentencing. <br> 4.Once their sentence is over, their ID will allow them to pass through the gate once again and they will be able to freely collect their belongings. <br> 5.Escort the newly ex-inmate out through the front brig doors back out into the station.";
+	note_name = "Genpop - Inmate Processing and You"
+	},
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "hEo" = (
 /turf/open/floor/plating/beach/sand{
 	planetary_atmos = 1
@@ -9472,6 +9539,10 @@
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron,
 /area/science/mixing)
+"kki" = (
+/obj/effect/turf_decal/trimline/red,
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "kkF" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -10894,6 +10965,18 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/engine/co2,
 /area/engineering/atmos)
+"mbT" = (
+/obj/machinery/computer/secure_data{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "mcd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/storage/toolbox/mechanical,
@@ -10956,6 +11039,10 @@
 /obj/structure/flora/rock/pile/largejungle,
 /turf/open/water/jungle,
 /area/lush_planet)
+"mfo" = (
+/obj/effect/turf_decal/trimline/red/corner,
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "mfp" = (
 /obj/machinery/button/door/directional/west{
 	id = "Toilet";
@@ -11731,6 +11818,12 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"mUr" = (
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "mUx" = (
 /obj/structure/chair/comfy/black{
 	dir = 1
@@ -13790,6 +13883,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/medbay/central)
+"pct" = (
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "pcy" = (
 /obj/machinery/door/airlock/external{
 	name = "Labor Camp Shuttle Airlock";
@@ -14165,6 +14264,10 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"pyB" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/security/execution/transfer)
 "pyF" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
@@ -14702,6 +14805,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/science/xenobiology)
+"qal" = (
+/obj/machinery/prisongate,
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "qaJ" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -15536,6 +15643,16 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"qQJ" = (
+/obj/structure/table,
+/obj/item/storage/box/prisoner{
+	pixel_y = 8
+	},
+/obj/item/storage/box/prisoner{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/dark,
+/area/security/execution/transfer)
 "qRh" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/ordnance_mixing_input{
 	dir = 8
@@ -16301,6 +16418,18 @@
 /obj/item/holosign_creator/robot_seat/bar,
 /turf/open/floor/carpet,
 /area/service/bar)
+"rBS" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Convict - Material Storage";
+	req_access_txt = "2"
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/mapping_helpers/airlock_note_placer{
+	note_info = "<center><b>INTRUSTIONAL GUIDE TO PROCESSING NEW INMATES</center></b> <br> <br> To process inmates through this genpop system, please see the below described listas to proper processing procedures: <br> 1.Swipe new prisoner ID on a genpop locker to link them together. Store the inmate's equipment in this locker. <br> 2.Swipe your ID on the prisoner ID and assign a time for their sentencing. Attach ID to inmate. <br> 3.Process inmate through the labeled security gate, either willingly or by force. This will activate the timer on their card and start their sentencing. <br> 4.Once their sentence is over, their ID will allow them to pass through the gate once again and they will be able to freely collect their belongings. <br> 5.Escort the newly ex-inmate out through the front brig doors back out into the station.";
+	note_name = "Genpop - Inmate Processing and You"
+	},
+/turf/open/floor/iron/dark,
+/area/security/execution/transfer)
 "rCd" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 1
@@ -18136,6 +18265,11 @@
 /obj/item/pen,
 /turf/open/floor/wood,
 /area/medical/psychology)
+"tvq" = (
+/obj/structure/closet/secure_closet/brig/genpop,
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/iron/dark,
+/area/security/execution/transfer)
 "tvy" = (
 /obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/iron/white,
@@ -19547,6 +19681,12 @@
 	},
 /turf/open/floor/wood,
 /area/service/bar)
+"uJS" = (
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "uKn" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wood{
@@ -19678,6 +19818,12 @@
 /obj/structure/cable,
 /turf/open/floor/engine,
 /area/engineering/supermatter)
+"uQs" = (
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "uQO" = (
 /obj/structure/sign/departments/lawyer{
 	pixel_x = -32
@@ -19855,6 +20001,9 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/plating,
 /area/engineering/supermatter/room)
+"uZW" = (
+/turf/closed/wall,
+/area/security/execution/transfer)
 "vaE" = (
 /turf/open/floor/iron/white/smooth_corner{
 	dir = 4
@@ -19938,6 +20087,11 @@
 /obj/machinery/keycard_auth/directional/east,
 /turf/open/floor/carpet,
 /area/command/heads_quarters/hos)
+"vfZ" = (
+/obj/structure/closet/secure_closet/brig/genpop,
+/obj/effect/turf_decal/bot_red/right,
+/turf/open/floor/iron/dark,
+/area/security/execution/transfer)
 "vgq" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -20723,6 +20877,11 @@
 	},
 /turf/open/floor/iron/textured,
 /area/security/checkpoint/medical)
+"vNB" = (
+/obj/structure/closet/secure_closet/brig/genpop,
+/obj/effect/turf_decal/bot_red/left,
+/turf/open/floor/iron/dark,
+/area/security/execution/transfer)
 "vNJ" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 4
@@ -22367,6 +22526,10 @@
 /obj/machinery/vending/engivend,
 /turf/open/floor/iron/dark/textured_large,
 /area/engineering/main)
+"xqN" = (
+/obj/effect/turf_decal/trimline/red/warning,
+/turf/open/floor/iron,
+/area/security/execution/transfer)
 "xrg" = (
 /turf/open/floor/iron/chapel{
 	dir = 5
@@ -65559,16 +65722,16 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+uZW
+uZW
+uZW
+uZW
+uZW
+uZW
+pyB
+pyB
+pyB
+uZW
 iGv
 iGv
 iGv
@@ -65816,21 +65979,21 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+uZW
+vfZ
+vfZ
+vfZ
+qQJ
+uZW
+gKG
+mbT
+dnh
+uZW
+dqH
+dqH
+dqH
+dqH
+dqH
 iGv
 iGv
 iGv
@@ -66073,21 +66236,21 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+uZW
+bfs
+bfs
+bfs
+bfs
+aZu
+mfo
+pct
+aog
+hEb
+dqH
+dqH
+dqH
+dqH
+dqH
 iGv
 iGv
 iGv
@@ -66330,21 +66493,21 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+uZW
+feK
+tvq
+tvq
+bfs
+rBS
+xqN
+kki
+uQs
+pyB
+dqH
+dqH
+dqH
+dqH
+dqH
 iGv
 iGv
 iGv
@@ -66587,21 +66750,21 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+uZW
+bfs
+bfs
+bfs
+bfs
+aZu
+dnA
+mUr
+uJS
+qal
+dqH
+dqH
+dqH
+dqH
+dqH
 iGv
 iGv
 iGv
@@ -66844,21 +67007,21 @@ llV
 llV
 llV
 llV
-llV
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+uZW
+vNB
+vNB
+vNB
+bfs
+uZW
+pct
+pct
+pct
+uZW
+dqH
+dqH
+dqH
+dqH
+dqH
 iGv
 iGv
 iGv
@@ -67101,21 +67264,21 @@ dKx
 jJD
 jJD
 mjf
-llV
-llV
-llV
-llV
-llV
-pMG
-ofd
-uUw
-ofd
-pMG
-iGv
-iGv
-iGv
-iGv
-iGv
+uZW
+uZW
+uZW
+uZW
+uZW
+uZW
+eJi
+pyB
+eJi
+uZW
+dqH
+dqH
+dqH
+dqH
+dqH
 iGv
 iGv
 iGv
