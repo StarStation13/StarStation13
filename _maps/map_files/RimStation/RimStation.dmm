@@ -38,6 +38,17 @@
 	dir = 8
 	},
 /area/maintenance/radshelter/service)
+"adc" = (
+/obj/machinery/washing_machine,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/blue,
+/turf/open/floor/iron/cafeteria,
+/area/lush_planet)
 "adv" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/white/corner{
@@ -1290,6 +1301,11 @@
 "bpN" = (
 /turf/open/floor/iron/dark/textured,
 /area/commons/dorms)
+"bpW" = (
+/obj/structure/closet/crate/trashcart/laundry,
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/iron,
+/area/lush_planet)
 "bql" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/glass/beaker/large,
@@ -2636,6 +2652,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/medbay/central)
+"cVy" = (
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 8
+	},
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron,
+/area/lush_planet)
 "cVB" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
@@ -2903,6 +2926,19 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
+"djT" = (
+/obj/machinery/washing_machine,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 10
+	},
+/turf/open/floor/iron/cafeteria,
+/area/lush_planet)
 "dkp" = (
 /turf/open/floor/plating/dirt/jungle/dark,
 /area/lush_planet)
@@ -3013,6 +3049,11 @@
 /area/medical/medbay/central)
 "dqp" = (
 /turf/open/floor/stone,
+/area/lush_planet)
+"dqt" = (
+/turf/open/floor/iron/corner{
+	dir = 4
+	},
 /area/lush_planet)
 "dqH" = (
 /turf/open/floor/iron,
@@ -3389,6 +3430,17 @@
 	},
 /turf/open/floor/iron/textured,
 /area/science/xenobiology)
+"dMz" = (
+/turf/closed/wall/r_wall,
+/area/lush_planet)
+"dMF" = (
+/obj/structure/closet/crate/trashcart/laundry,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/iron,
+/area/lush_planet)
 "dMO" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -5527,6 +5579,15 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/iron/grimy,
 /area/commons/vacant_room/office)
+"fUo" = (
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 6
+	},
+/obj/structure/sign/poster/official/work_for_a_future{
+	pixel_x = -32
+	},
+/turf/open/floor/iron,
+/area/lush_planet)
 "fUu" = (
 /obj/machinery/computer/secure_data{
 	dir = 8
@@ -8132,6 +8193,9 @@
 	},
 /turf/open/floor/iron,
 /area/cargo/office)
+"izu" = (
+/turf/open/floor/iron/textured,
+/area/lush_planet)
 "izG" = (
 /turf/closed/wall,
 /area/maintenance/department/medical/morgue)
@@ -9549,6 +9613,11 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/security/office)
+"jYA" = (
+/turf/open/floor/iron/corner{
+	dir = 8
+	},
+/area/lush_planet)
 "jYK" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/nitrous_input{
 	dir = 8
@@ -9584,6 +9653,18 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/maintenance/disposal/incinerator)
+"kca" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/blue,
+/obj/structure/table,
+/obj/structure/bedsheetbin,
+/turf/open/floor/iron/cafeteria,
+/area/lush_planet)
 "kcV" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -10038,6 +10119,9 @@
 	},
 /turf/open/floor/wood,
 /area/medical/psychology)
+"kyd" = (
+/turf/open/floor/iron/corner,
+/area/lush_planet)
 "kyD" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 5
@@ -14889,6 +14973,11 @@
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron/dark/textured,
 /area/service/kitchen)
+"pNk" = (
+/turf/open/floor/iron/corner{
+	dir = 1
+	},
+/area/lush_planet)
 "pND" = (
 /obj/machinery/computer/operating{
 	dir = 8
@@ -15225,6 +15314,10 @@
 /obj/effect/turf_decal/tile/brown,
 /turf/open/floor/iron,
 /area/cargo/office)
+"qdn" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/lush_planet)
 "qdM" = (
 /obj/structure/chair/office,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -18913,6 +19006,12 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine/atmos)
+"tLv" = (
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/lush_planet)
 "tLD" = (
 /turf/open/floor/wood,
 /area/cargo/qm)
@@ -21462,6 +21561,15 @@
 /obj/item/electronics/airlock,
 /turf/open/floor/plating,
 /area/commons/storage/tools)
+"vVU" = (
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 10
+	},
+/obj/structure/sign/poster/official/obey{
+	pixel_x = 32
+	},
+/turf/open/floor/iron,
+/area/lush_planet)
 "vVV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/cyan/visible{
 	dir = 1
@@ -22726,6 +22834,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
+"xgh" = (
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/lush_planet)
 "xgM" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 8
@@ -64654,7 +64768,7 @@ ueS
 ueS
 ueS
 uZW
-iGv
+dLE
 iGv
 iGv
 iGv
@@ -64911,16 +65025,16 @@ hgY
 uZW
 xaR
 uZW
+bpW
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 laP
@@ -65168,16 +65282,16 @@ oSD
 etJ
 gki
 uZW
+dMF
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -65425,16 +65539,16 @@ dRt
 uZW
 uZW
 uZW
+djT
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -65682,16 +65796,16 @@ oSD
 qEQ
 gki
 uZW
+kca
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -65939,16 +66053,16 @@ kiD
 uZW
 oda
 uZW
+adc
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -66196,16 +66310,16 @@ uZW
 uZW
 uZW
 uZW
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+dLE
+qdn
+qdn
+dLE
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -66451,18 +66565,18 @@ mUr
 mUr
 mUr
 uZW
+xgh
+xgh
+fUo
+kyd
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+dLE
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -66708,18 +66822,18 @@ cNn
 cNn
 cNn
 hfR
+kyd
 dqH
+dqt
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+pNk
+dLE
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -66966,17 +67080,17 @@ cNn
 cNn
 pyB
 dqH
+izu
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+dLE
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -67222,18 +67336,18 @@ cNn
 cNn
 cNn
 ftB
+jYA
 dqH
+pNk
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+dqt
+dLE
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -67479,18 +67593,18 @@ bSI
 azL
 ulp
 uZW
+tLv
+cVy
+vVU
+jYA
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+dLE
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -67739,15 +67853,15 @@ uZW
 jRe
 jRe
 jRe
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+qdn
+qdn
+dLE
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -67999,12 +68113,12 @@ jRe
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -68256,12 +68370,12 @@ jRe
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -68513,12 +68627,12 @@ jRe
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -68770,12 +68884,12 @@ jRe
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -69027,12 +69141,12 @@ jRe
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -69284,12 +69398,12 @@ jRe
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 laP
@@ -69541,12 +69655,12 @@ jRe
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -69798,12 +69912,12 @@ jRe
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -70055,12 +70169,12 @@ jRe
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -70312,12 +70426,12 @@ fNC
 dqH
 dqH
 dqH
-dqH
-dqH
-dqH
-dqH
-dqH
-dqH
+iGv
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -70571,12 +70685,12 @@ ceN
 ceN
 ceN
 ceN
-dqH
-dqH
-dqH
-dqH
-iGv
-iGv
+dMz
+dMz
+dMz
+dMz
+dMz
+dMz
 iGv
 laP
 laP
