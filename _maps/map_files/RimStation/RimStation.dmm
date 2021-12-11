@@ -119,6 +119,19 @@
 "afN" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/department/medical/morgue)
+"afW" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/corner,
+/turf/open/floor/iron/large,
+/area/lush_planet)
 "agc" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
@@ -1939,6 +1952,9 @@
 	},
 /turf/open/floor/iron/dark,
 /area/maintenance/aft)
+"bYL" = (
+/turf/closed/wall/r_wall,
+/area/security/detectives_office)
 "bZq" = (
 /obj/structure/table_frame,
 /obj/item/stack/sheet/glass,
@@ -3431,7 +3447,8 @@
 /turf/open/floor/iron/textured,
 /area/science/xenobiology)
 "dMz" = (
-/turf/closed/wall/r_wall,
+/obj/structure/fence,
+/turf/open/floor/plating,
 /area/lush_planet)
 "dMF" = (
 /obj/structure/closet/crate/trashcart/laundry,
@@ -3608,6 +3625,12 @@
 /obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron/dark/textured_large,
 /area/engineering/lobby)
+"dXX" = (
+/obj/structure/fence/post{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/lush_planet)
 "dXY" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -4893,6 +4916,21 @@
 	dir = 6
 	},
 /area/science/xenobiology)
+"fkk" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/large,
+/area/lush_planet)
 "fkK" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 8
@@ -5459,6 +5497,22 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/wood/large,
 /area/commons/dorms)
+"fPo" = (
+/obj/structure/toilet{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner,
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/large,
+/area/lush_planet)
 "fPr" = (
 /turf/closed/wall/r_wall/rust,
 /area/science/mixing/chamber)
@@ -6377,6 +6431,12 @@
 	},
 /turf/open/floor/engine/n2,
 /area/engineering/atmos)
+"gGf" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/lush_planet)
 "gGO" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -6760,6 +6820,10 @@
 	},
 /turf/open/floor/iron/white/corner,
 /area/science/research)
+"hcI" = (
+/obj/structure/fence/post,
+/turf/open/floor/plating,
+/area/lush_planet)
 "hde" = (
 /turf/open/floor/iron/dark/textured_large,
 /area/medical/morgue)
@@ -9398,6 +9462,10 @@
 /obj/item/stack/sheet/glass/fifty,
 /turf/open/floor/iron/smooth_large,
 /area/engineering/atmos)
+"jNp" = (
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/lush_planet)
 "jND" = (
 /obj/machinery/vending/cigarette,
 /turf/open/floor/iron,
@@ -11459,6 +11527,10 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/main)
+"mhr" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/lush_planet)
 "mit" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
@@ -11899,6 +11971,12 @@
 	},
 /turf/open/floor/iron/white,
 /area/security/execution/education)
+"mHe" = (
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/grass/jungle,
+/area/lush_planet)
 "mHm" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/recharge_floor,
@@ -13591,6 +13669,12 @@
 	},
 /turf/open/floor/wood,
 /area/medical/psychology)
+"oqH" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_large,
+/area/lush_planet)
 "oro" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/brown{
@@ -14125,6 +14209,10 @@
 /obj/effect/landmark/start/chief_engineer,
 /turf/open/floor/wood,
 /area/engineering/lobby)
+"oRC" = (
+/obj/machinery/plate_press,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/lush_planet)
 "oRE" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -16545,6 +16633,13 @@
 	icon_state = "wood-broken"
 	},
 /area/security/checkpoint)
+"rmM" = (
+/obj/structure/closet/crate,
+/obj/item/stack/license_plates/empty/fifty,
+/obj/item/stack/license_plates/empty/fifty,
+/obj/item/stack/license_plates/empty/fifty,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/lush_planet)
 "rmO" = (
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
 	dir = 4
@@ -17587,6 +17682,20 @@
 	},
 /turf/open/floor/plating/dirt/jungle,
 /area/lush_planet)
+"sqj" = (
+/obj/structure/bed/pod,
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner,
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/large,
+/area/lush_planet)
 "sqx" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/landmark/start/janitor,
@@ -17838,13 +17947,13 @@
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 8
 	},
-/obj/effect/turf_decal/stripes{
-	dir = 4
-	},
 /obj/machinery/door/poddoor/shutters{
 	id = "servicecargodoor"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/hallway/secondary/service)
 "sCj" = (
@@ -19544,6 +19653,10 @@
 	dir = 4
 	},
 /obj/machinery/light/directional/south,
+/obj/item/paper{
+	info = "The permanent prison has been rated with a maximum occupancy of [8], In extreme circumstances (Double Bunking, Shift-Sleeping) - Nanotrasen reminds you the labour camp is a viable alternative for convicts undergoing temporary incarceration. Should [8] population in the permanent sector be exceeded, consult your superior for further instruction.";
+	name = "On Maximum Capacity"
+	},
 /turf/open/floor/iron,
 /area/security/execution/transfer)
 "umh" = (
@@ -21981,12 +22094,36 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"wrq" = (
+/obj/structure/bed/pod{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner,
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/large,
+/area/lush_planet)
 "wsz" = (
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible{
 	dir = 9
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"wsY" = (
+/obj/effect/turf_decal/trimline/red/filled/line,
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner,
+/obj/machinery/door/airlock/security/glass{
+	name = "Prison Dorm"
+	},
+/turf/open/floor/iron/textured_large,
+/area/lush_planet)
 "wti" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -23417,6 +23554,22 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
+/area/lush_planet)
+"xJq" = (
+/obj/structure/toilet{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner,
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/large,
 /area/lush_planet)
 "xJQ" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line,
@@ -64769,18 +64922,18 @@ ueS
 ueS
 uZW
 dLE
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+dLE
+dLE
+dLE
+dLE
+dLE
+dMz
+dMz
+hcI
+dMz
+dMz
+dLE
+vBq
 iGv
 laP
 iGv
@@ -65028,15 +65181,15 @@ uZW
 bpW
 dqH
 dqH
-dqH
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+oqH
+dLE
+dLE
+jNp
+jNp
+jNp
+jNp
+jNp
+gGf
 laP
 iGv
 laP
@@ -65285,15 +65438,15 @@ uZW
 dMF
 dqH
 dqH
-dqH
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+oqH
+oRC
+dLE
+dMz
+dMz
+dMz
+dLE
+jNp
+gGf
 iGv
 iGv
 iGv
@@ -65542,15 +65695,15 @@ uZW
 djT
 dqH
 dqH
-dqH
+oqH
+rmM
+mhr
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+dXX
 iGv
 laP
 iGv
@@ -65799,15 +65952,15 @@ uZW
 kca
 dqH
 dqH
-dqH
+oqH
+rmM
+mhr
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+gGf
 iGv
 laP
 iGv
@@ -66056,15 +66209,15 @@ uZW
 adc
 dqH
 dqH
-dqH
+oqH
+oRC
+dLE
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+dXX
+jNp
+gGf
 iGv
 laP
 iGv
@@ -66314,14 +66467,14 @@ dLE
 qdn
 qdn
 dLE
+dLE
+dLE
+dLE
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+dXX
 iGv
 iGv
 iGv
@@ -66570,15 +66723,15 @@ xgh
 fUo
 kyd
 dqH
+wsY
+afW
+wrq
 dLE
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+gGf
 iGv
 laP
 iGv
@@ -66828,14 +66981,14 @@ dqt
 dqH
 pNk
 dLE
+fkk
+xJq
+dLE
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+dXX
+jNp
+gGf
 iGv
 iGv
 iGv
@@ -67085,14 +67238,14 @@ dqH
 dqH
 dqH
 dLE
+dLE
+dLE
+dLE
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+dXX
 iGv
 laP
 iGv
@@ -67342,14 +67495,14 @@ pNk
 dqH
 dqt
 dLE
+afW
+fPo
+dLE
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+gGf
 iGv
 laP
 laP
@@ -67598,15 +67751,15 @@ cVy
 vVU
 jYA
 dqH
+wsY
+fkk
+sqj
 dLE
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+gGf
 iGv
 laP
 iGv
@@ -67856,14 +68009,14 @@ jRe
 qdn
 qdn
 dLE
+dLE
+dLE
+dLE
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+gGf
 iGv
 iGv
 laP
@@ -68118,9 +68271,9 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+gGf
 iGv
 laP
 laP
@@ -68375,9 +68528,9 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+dXX
 iGv
 laP
 iGv
@@ -68632,9 +68785,9 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
+dXX
+jNp
+gGf
 iGv
 laP
 laP
@@ -68889,9 +69042,9 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+gGf
 iGv
 laP
 iGv
@@ -69146,9 +69299,9 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+dXX
 iGv
 iGv
 iGv
@@ -69403,9 +69556,9 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
+dXX
+jNp
+gGf
 laP
 laP
 iGv
@@ -69660,9 +69813,9 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+gGf
 iGv
 laP
 xsp
@@ -69917,9 +70070,9 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
+gGf
+jNp
+dXX
 iGv
 iGv
 iGv
@@ -70169,14 +70322,14 @@ jRe
 dqH
 dqH
 dqH
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+dLE
+dMz
+dMz
+dMz
+dMz
+dLE
+jNp
+gGf
 iGv
 laP
 iGv
@@ -70426,14 +70579,14 @@ fNC
 dqH
 dqH
 dqH
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+dLE
+jNp
+jNp
+jNp
+jNp
+jNp
+jNp
+gGf
 iGv
 laP
 iGv
@@ -70683,15 +70836,15 @@ fNC
 dqH
 ceN
 ceN
+bYL
 ceN
-ceN
 dMz
 dMz
+hcI
 dMz
 dMz
-dMz
-dMz
-iGv
+dLE
+mHe
 laP
 laP
 cYp
