@@ -1482,10 +1482,12 @@
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
 "hV" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer5,
 /obj/structure/cable,
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/holopad,
+/turf/open/floor/iron,
+/area/security/brig)
 "hZ" = (
 /turf/open/floor/iron/dark/side{
 	dir = 8
@@ -2868,6 +2870,11 @@
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron,
 /area/hallway/primary/central)
+"oL" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer5,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
 "oM" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -3767,6 +3774,10 @@
 /obj/machinery/power/port_gen/pacman,
 /turf/open/floor/plating,
 /area/engineering/main)
+"sH" = (
+/obj/structure/closet/crate/solarpanel_small,
+/turf/open/floor/plating,
+/area/maintenance/port/aft)
 "sI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer5,
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -4197,6 +4208,7 @@
 /area/hallway/secondary/service)
 "uS" = (
 /obj/effect/turf_decal/siding/thinplating,
+/obj/machinery/holopad,
 /turf/open/floor/iron/smooth_edge{
 	dir = 1
 	},
@@ -4425,6 +4437,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
 	},
+/obj/machinery/holopad,
 /turf/open/floor/iron,
 /area/service/hydroponics)
 "wl" = (
@@ -7249,7 +7262,7 @@
 /turf/open/floor/plating/airless,
 /area/science/research)
 "Mp" = (
-/obj/machinery/vending/sustenance,
+/obj/machinery/holopad,
 /turf/open/floor/iron,
 /area/security/prison)
 "Mr" = (
@@ -7399,10 +7412,6 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/central)
-"Ne" = (
-/obj/structure/closet/crate/solarpanel_small,
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
 "Nf" = (
 /obj/structure/sign/poster/official/random{
 	pixel_x = 32
@@ -7544,6 +7553,10 @@
 /obj/structure/sign/departments/security,
 /turf/closed/wall,
 /area/hallway/secondary/exit/departure_lounge)
+"NM" = (
+/obj/machinery/vending/sustenance,
+/turf/open/floor/iron,
+/area/security/prison)
 "NO" = (
 /obj/effect/turf_decal/siding/white/corner,
 /obj/effect/turf_decal/siding/purple/corner{
@@ -7600,10 +7613,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/hallway/primary/central)
-"Oe" = (
-/obj/structure/closet/crate/solarpanel_small,
-/turf/open/floor/plating,
-/area/maintenance/port/aft)
 "Og" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/iron,
@@ -8160,6 +8169,10 @@
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron,
 /area/commons/dorms)
+"QY" = (
+/obj/structure/closet/crate/solarpanel_small,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
 "QZ" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -36243,7 +36256,7 @@ mY
 bZ
 FZ
 kn
-Mp
+NM
 ME
 ME
 ay
@@ -36744,7 +36757,7 @@ BH
 Zj
 tb
 JS
-JS
+hV
 JS
 KK
 JS
@@ -37012,7 +37025,7 @@ oc
 yB
 jW
 Wa
-Fq
+Mp
 lT
 UT
 aO
@@ -38056,7 +38069,7 @@ zO
 SF
 ku
 WW
-Oe
+sH
 jo
 re
 nZ
@@ -45766,7 +45779,7 @@ JB
 Sz
 Nx
 cT
-Ne
+QY
 PI
 bj
 nZ
@@ -46007,17 +46020,17 @@ TF
 JB
 AW
 iY
-hV
+oL
 Dy
-hV
+oL
 Dy
-hV
-hV
-hV
-hV
-hV
-hV
-hV
+oL
+oL
+oL
+oL
+oL
+oL
+oL
 Dy
 sI
 eG
