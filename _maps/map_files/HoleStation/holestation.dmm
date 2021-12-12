@@ -1329,7 +1329,7 @@
 /area/maintenance/port/aft)
 "hi" = (
 /obj/machinery/airalarm/engine{
-	dir = 4;
+	dir = 8;
 	pixel_x = -24
 	},
 /obj/effect/turf_decal/siding/green{
@@ -6995,6 +6995,9 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "security"
+	},
 /turf/open/floor/iron,
 /area/security/brig)
 "KL" = (
@@ -7652,7 +7655,7 @@
 	},
 /obj/structure/fans/tiny,
 /obj/machinery/conveyor{
-	dir = 4;
+	dir = 1;
 	id = "QMLoad2";
 	name = "on ramp"
 	},
@@ -9544,6 +9547,9 @@
 /obj/machinery/door/airlock/security/glass{
 	name = "Brig";
 	req_access_txt = "63"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "security"
 	},
 /turf/open/floor/iron,
 /area/security/brig)
