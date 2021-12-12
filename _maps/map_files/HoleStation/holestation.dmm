@@ -466,6 +466,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/service/chapel)
+"cP" = (
+/obj/structure/closet/crate/solarpanel_small,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
 "cT" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /turf/open/floor/plating,
@@ -2967,10 +2971,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/service/hydroponics)
-"pg" = (
-/obj/structure/closet/crate/solarpanel_small,
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
 "ph" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/reinforced,
@@ -6020,10 +6020,6 @@
 /obj/machinery/door/firedoor/heavy,
 /turf/open/floor/plating,
 /area/science/research/abandoned)
-"EO" = (
-/obj/structure/closet/crate/solarpanel_small,
-/turf/open/floor/plating,
-/area/maintenance/port/aft)
 "ES" = (
 /obj/machinery/modular_computer/console/preset/cargochat/security{
 	dir = 1
@@ -7257,12 +7253,9 @@
 /turf/open/floor/plating/airless,
 /area/science/research)
 "Mp" = (
-/obj/machinery/atmospherics/components/trinary/filter/flipped/critical{
-	dir = 8;
-	filter_type = "n2"
-	},
-/turf/open/floor/engine,
-/area/engineering/supermatter/room)
+/obj/structure/closet/crate/solarpanel_small,
+/turf/open/floor/plating,
+/area/maintenance/port/aft)
 "Mr" = (
 /obj/structure/rack,
 /obj/item/storage/box/bodybags{
@@ -38059,7 +38052,7 @@ zO
 SF
 ku
 WW
-EO
+Mp
 jo
 re
 nZ
@@ -41140,7 +41133,7 @@ Kr
 RO
 vV
 ed
-Mp
+jy
 Hb
 ck
 qK
@@ -45769,7 +45762,7 @@ JB
 Sz
 Nx
 cT
-pg
+cP
 PI
 bj
 nZ
