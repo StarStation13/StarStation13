@@ -861,6 +861,7 @@
 /area/engineering/atmos)
 "eG" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/orange/visible,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "eH" = (
@@ -888,6 +889,10 @@
 /obj/structure/cable/layer1,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
+"eO" = (
+/obj/structure/closet/crate/solarpanel_small,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
 "eR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet,
@@ -1482,8 +1487,9 @@
 /area/hallway/secondary/exit/departure_lounge)
 "hV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer5,
+/obj/structure/cable,
 /turf/open/floor/plating,
-/area/maintenance/port/aft)
+/area/maintenance/starboard/aft)
 "hZ" = (
 /turf/open/floor/iron/dark/side{
 	dir = 8
@@ -3736,6 +3742,7 @@
 "sw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/effect/landmark/blobstart,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "sy" = (
@@ -3770,6 +3777,7 @@
 	name = "Engine Room";
 	req_access_txt = "10"
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "sJ" = (
@@ -4169,6 +4177,7 @@
 "uO" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/machinery/meter,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "uP" = (
@@ -4573,6 +4582,7 @@
 /area/service/theater)
 "xd" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/orange/visible,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "xe" = (
@@ -5215,6 +5225,7 @@
 	name = "Engine Room";
 	req_access_txt = "10"
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "AC" = (
@@ -5741,6 +5752,7 @@
 "Dy" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer5,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "Dz" = (
@@ -6664,6 +6676,7 @@
 "IM" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer5,
 /obj/structure/grille,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "IN" = (
@@ -7643,6 +7656,7 @@
 "Os" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/machinery/meter,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "Ow" = (
@@ -8477,6 +8491,10 @@
 "Sr" = (
 /turf/closed/wall/r_wall,
 /area/engineering/gravity_generator)
+"Sy" = (
+/obj/structure/closet/crate/solarpanel_small,
+/turf/open/floor/plating,
+/area/maintenance/port/aft)
 "Sz" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
@@ -9401,6 +9419,7 @@
 "WI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/effect/landmark/blobstart,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "WJ" = (
@@ -37770,20 +37789,20 @@ Cs
 kM
 kM
 ay
-hV
-hV
-hV
-hV
-hV
+oD
+oD
+oD
+oD
+oD
 IM
-hV
-hV
-hV
+oD
+oD
+oD
 AB
 xd
 WI
 Os
-SF
+jK
 jo
 re
 nZ
@@ -38027,7 +38046,7 @@ ay
 ay
 ay
 ay
-hV
+oD
 SF
 Nc
 SF
@@ -38040,7 +38059,7 @@ zO
 SF
 ku
 WW
-SF
+Sy
 jo
 re
 nZ
@@ -45750,7 +45769,7 @@ JB
 Sz
 Nx
 cT
-Nx
+eO
 PI
 bj
 nZ
@@ -45991,23 +46010,23 @@ TF
 JB
 AW
 iY
-Gl
+hV
 Dy
-Gl
+hV
 Dy
-Gl
-Gl
-Gl
-Gl
-Gl
-Gl
-Gl
+hV
+hV
+hV
+hV
+hV
+hV
+hV
 Dy
 sI
 eG
 sw
 uO
-Nx
+yF
 PI
 bj
 nZ
@@ -46246,9 +46265,9 @@ cA
 zD
 AZ
 JB
-Nx
-Nx
-Nx
+yF
+yF
+yF
 Nx
 Nx
 iY
