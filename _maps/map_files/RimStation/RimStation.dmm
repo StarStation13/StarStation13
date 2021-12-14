@@ -2601,6 +2601,10 @@
 "czn" = (
 /turf/open/floor/carpet/blue,
 /area/hallway/secondary/service)
+"czw" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/hallway/secondary/exit/departure_lounge)
 "czK" = (
 /obj/machinery/atmospherics/components/binary/valve{
 	dir = 4;
@@ -6082,7 +6086,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plating,
-/area/lush_planet)
+/area/hallway/secondary/exit/departure_lounge)
 "fFA" = (
 /obj/structure/window/spawner/east,
 /obj/machinery/portable_atmospherics/canister/water_vapor,
@@ -6177,6 +6181,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/hydroponics)
+"fJT" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Holding Area";
+	req_access_txt = "2"
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "fKX" = (
 /obj/structure/table,
 /obj/machinery/syndicatebomb/training,
@@ -6448,6 +6459,9 @@
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/plating/grass/jungle,
 /area/lush_planet)
+"fUN" = (
+/turf/open/floor/plating,
+/area/hallway/secondary/exit/departure_lounge)
 "fVc" = (
 /obj/machinery/light/directional/east,
 /obj/structure/table,
@@ -8731,6 +8745,13 @@
 /obj/item/stack/pipe_cleaner_coil/random,
 /turf/open/floor/iron,
 /area/commons/storage/art)
+"hZC" = (
+/obj/structure/window/spawner/west,
+/obj/structure/chair/sofa/bench/left{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "hZI" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
@@ -14438,7 +14459,7 @@
 /area/science/research)
 "nlg" = (
 /turf/open/floor/iron,
-/area/lush_planet)
+/area/hallway/secondary/exit/departure_lounge)
 "nlD" = (
 /obj/machinery/modular_computer/console/preset/cargochat/service{
 	dir = 8
@@ -17758,6 +17779,9 @@
 	},
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/hop)
+"qrh" = (
+/turf/closed/wall,
+/area/hallway/secondary/exit/departure_lounge)
 "qrj" = (
 /obj/item/target,
 /obj/structure/window/reinforced/spawner/west,
@@ -18147,7 +18171,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plating,
-/area/lush_planet)
+/area/hallway/secondary/exit/departure_lounge)
 "qIV" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -20021,7 +20045,7 @@
 "sqF" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
-/area/lush_planet)
+/area/hallway/secondary/exit/departure_lounge)
 "sqN" = (
 /obj/machinery/atmospherics/components/unary/bluespace_sender,
 /turf/open/floor/iron,
@@ -21024,7 +21048,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/lush_planet)
+/area/hallway/secondary/exit/departure_lounge)
 "tme" = (
 /obj/structure/railing{
 	dir = 4
@@ -21851,6 +21875,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai_upload)
+"tXd" = (
+/obj/structure/window/spawner/east,
+/obj/structure/chair/sofa/bench/right{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "tXx" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 4
@@ -24442,7 +24473,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/lush_planet)
+/area/hallway/secondary/exit/departure_lounge)
 "vQH" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/radshelter/service)
@@ -25260,7 +25291,7 @@
 	name = "Escape Wing"
 	},
 /turf/open/floor/iron,
-/area/hallway/secondary/command)
+/area/hallway/secondary/exit/departure_lounge)
 "wDk" = (
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 8
@@ -25284,6 +25315,13 @@
 "wFr" = (
 /turf/closed/wall/r_wall,
 /area/security/execution/education)
+"wFt" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Command Lobby";
+	req_access_txt = "19"
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "wFC" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/sign/poster/official/random{
@@ -25565,6 +25603,13 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/lush_planet)
+"wOy" = (
+/obj/structure/window/spawner/west,
+/obj/structure/chair/sofa/bench/right{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "wPc" = (
 /obj/machinery/camera/emp_proof{
 	c_tag = "Engineering - Atmospherics Incinerator";
@@ -26439,6 +26484,13 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"xyh" = (
+/obj/structure/window/spawner/east,
+/obj/structure/chair/sofa/bench/left{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/exit/departure_lounge)
 "xyo" = (
 /obj/structure/table/wood,
 /obj/item/gavelblock,
@@ -64967,15 +65019,15 @@ iGv
 iGv
 iGv
 iGv
-dLE
-dLE
-dLE
-dLE
-dLE
-dLE
-dLE
-dLE
-dLE
+qrh
+qrh
+qrh
+qrh
+qrh
+qrh
+qrh
+qrh
+qrh
 iGv
 tTE
 koi
@@ -65224,7 +65276,7 @@ iGv
 iGv
 iGv
 iGv
-dLE
+qrh
 nlg
 nlg
 nlg
@@ -65232,7 +65284,7 @@ nlg
 nlg
 nlg
 nlg
-dLE
+qrh
 iGv
 tTE
 gEB
@@ -65478,10 +65530,10 @@ iGv
 iGv
 iGv
 iGv
-dLE
-tXM
-tXM
-dLE
+qrh
+czw
+czw
+qrh
 nlg
 nlg
 nlg
@@ -65489,7 +65541,7 @@ nlg
 nlg
 nlg
 nlg
-dLE
+qrh
 iGv
 tTE
 tTE
@@ -65736,8 +65788,8 @@ iGv
 iGv
 iGv
 fFz
-bRQ
-bRQ
+fUN
+fUN
 tlU
 nlg
 nlg
@@ -65746,7 +65798,7 @@ nlg
 nlg
 nlg
 nlg
-dLE
+qrh
 iGv
 iGv
 tTE
@@ -65992,19 +66044,19 @@ iGv
 iGv
 iGv
 iGv
-dLE
-tXM
-tXM
-dLE
-dLE
-tXM
-tXM
-tXM
-dLE
-nlg
-dLE
-dLE
-dLE
+qrh
+czw
+czw
+qrh
+qrh
+czw
+czw
+czw
+qrh
+fJT
+qrh
+qrh
+qrh
 iGv
 iGv
 iGv
@@ -66250,8 +66302,8 @@ iGv
 iGv
 mjC
 qIQ
-bRQ
-bRQ
+fUN
+fUN
 vQF
 nlg
 nlg
@@ -66261,14 +66313,14 @@ nlg
 nlg
 nlg
 nlg
-dLE
-dLE
-tXM
-tXM
-tXM
-tXM
-dLE
-dLE
+qrh
+qrh
+czw
+czw
+czw
+czw
+qrh
+qrh
 iGv
 lKZ
 dsw
@@ -66506,26 +66558,26 @@ iGv
 iGv
 iGv
 iGv
-dLE
-tXM
-tXM
-dLE
+qrh
+czw
+czw
+qrh
+nlg
+tXd
+xyh
+nlg
+nlg
+tXd
+xyh
+nlg
+qrh
 nlg
 nlg
 nlg
 nlg
 nlg
 nlg
-nlg
-nlg
-dLE
-nlg
-nlg
-nlg
-nlg
-nlg
-nlg
-rXA
+qrh
 lKZ
 rXA
 dsw
@@ -66766,14 +66818,14 @@ iGv
 iGv
 iGv
 iGv
-tXM
+czw
+nlg
+hZC
+wOy
 nlg
 nlg
-nlg
-nlg
-nlg
-nlg
-nlg
+hZC
+wOy
 nlg
 sqF
 nlg
@@ -67023,7 +67075,7 @@ iGv
 iGv
 iGv
 iGv
-tXM
+czw
 nlg
 nlg
 nlg
@@ -67039,7 +67091,7 @@ nlg
 nlg
 nlg
 nlg
-lKZ
+czw
 dsw
 dsw
 dsw
@@ -67280,14 +67332,14 @@ iGv
 iGv
 iGv
 iGv
-tXM
+czw
+nlg
+tXd
+xyh
 nlg
 nlg
-nlg
-nlg
-nlg
-nlg
-nlg
+tXd
+xyh
 nlg
 sqF
 nlg
@@ -67534,26 +67586,26 @@ iGv
 iGv
 iGv
 iGv
-dLE
-tXM
-tXM
-dLE
+qrh
+czw
+czw
+qrh
+nlg
+hZC
+wOy
+nlg
+nlg
+hZC
+wOy
+nlg
+qrh
 nlg
 nlg
 nlg
 nlg
 nlg
 nlg
-nlg
-nlg
-dLE
-nlg
-nlg
-nlg
-nlg
-nlg
-nlg
-rXA
+qrh
 lKZ
 rXA
 dsw
@@ -67792,8 +67844,8 @@ iGv
 iGv
 iGv
 qIQ
-bRQ
-bRQ
+fUN
+fUN
 vQF
 nlg
 nlg
@@ -67803,14 +67855,14 @@ nlg
 nlg
 nlg
 nlg
-dLE
-dLE
-tXM
-tXM
-tXM
-tXM
-dLE
-dLE
+qrh
+qrh
+czw
+czw
+czw
+czw
+qrh
+qrh
 iGv
 lKZ
 dsw
@@ -68048,19 +68100,19 @@ iGv
 iGv
 iGv
 iGv
-dLE
-tXM
-tXM
-dLE
-nlg
-nlg
-nlg
-nlg
-nlg
-nlg
-nlg
-dLE
-dLE
+qrh
+czw
+czw
+qrh
+qrh
+czw
+czw
+czw
+qrh
+wFt
+qrh
+qrh
+qrh
 iGv
 iGv
 iGv
@@ -68306,8 +68358,8 @@ iGv
 iGv
 iGv
 qIQ
-bRQ
-bRQ
+fUN
+fUN
 vQF
 nlg
 nlg
@@ -68316,7 +68368,7 @@ nlg
 nlg
 nlg
 nlg
-dLE
+qrh
 iGv
 iGv
 rTs
@@ -68562,10 +68614,10 @@ iGv
 iGv
 iGv
 iGv
-dLE
-tXM
-tXM
-dLE
+qrh
+czw
+czw
+qrh
 nlg
 nlg
 nlg
@@ -68573,7 +68625,7 @@ nlg
 nlg
 nlg
 nlg
-dLE
+qrh
 iGv
 rTs
 rTs
@@ -68822,15 +68874,15 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-dLE
+qrh
+nlg
+nlg
+nlg
+nlg
+nlg
+nlg
+nlg
+qrh
 iGv
 rTs
 jSu
@@ -69079,15 +69131,15 @@ iGv
 iGv
 iGv
 iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
-iGv
+qrh
+qrh
+qrh
+qrh
+qrh
+qrh
+qrh
+qrh
+qrh
 iGv
 rTs
 jKw
