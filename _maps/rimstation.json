@@ -2,7 +2,10 @@
 	"version": 1,
     "map_name": "Rim Station",
     "map_path": "map_files/RimStation",
-    "map_file": "RimStation.dmm",
+	"map_file": [
+		"RimStation.dmm",
+		"RimStationLower.dmm"
+	],
 	"space_ruin_levels": 0,
 	"space_empty_levels": 0,
     "shuttles": {
@@ -13,6 +16,15 @@
     },
 	"traits": [
 		{
+			"Down": -1,
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Lush Ruins": true,
+			"Baseturf": "/turf/open/chasm/jungle"
+		},
+		{
+			"Up": 1,
 			"Mining": true,
 			"Linkage": null,
 			"Gravity": true,
