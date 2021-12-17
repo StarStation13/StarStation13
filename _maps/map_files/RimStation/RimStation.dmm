@@ -367,15 +367,6 @@
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
-"aof" = (
-/obj/structure/window/reinforced/survival_pod{
-	dir = 1
-	},
-/obj/structure/window/reinforced/survival_pod{
-	dir = 8
-	},
-/turf/open/floor/fakespace,
-/area/hallway/secondary/command)
 "aog" = (
 /obj/structure/fence,
 /turf/open/floor/plating/asteroid,
@@ -500,12 +491,6 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/iron/dark/textured_large,
 /area/engineering/main)
-"avn" = (
-/obj/structure/window/reinforced/survival_pod{
-	dir = 9
-	},
-/turf/open/floor/fakespace,
-/area/hallway/secondary/command)
 "avL" = (
 /obj/effect/turf_decal/tile/brown/full,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -855,6 +840,15 @@
 /obj/structure/chair/stool/directional/east,
 /turf/open/floor/iron/checker,
 /area/service/kitchen)
+"aMc" = (
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 4
+	},
+/turf/open/water{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/hallway/secondary/command)
 "aMk" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -1125,12 +1119,6 @@
 /obj/effect/spawner/random/structure/barricade,
 /turf/open/floor/plating,
 /area/maintenance/aft)
-"bep" = (
-/obj/structure/window/reinforced/survival_pod{
-	dir = 5
-	},
-/turf/open/floor/fakespace,
-/area/hallway/secondary/command)
 "bes" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
@@ -1566,15 +1554,6 @@
 "bzn" = (
 /turf/open/floor/iron/cafeteria,
 /area/commons/toilet/auxiliary)
-"bAt" = (
-/obj/structure/window/reinforced/survival_pod{
-	dir = 1
-	},
-/obj/structure/window/reinforced/survival_pod{
-	dir = 4
-	},
-/turf/open/floor/fakespace,
-/area/hallway/secondary/command)
 "bAB" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -3086,6 +3065,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/aft)
+"cSz" = (
+/obj/effect/landmark/blobstart,
+/turf/open/floor/plating,
+/area/maintenance/department/cargo)
 "cSS" = (
 /obj/item/target/alien/anchored,
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -5900,6 +5883,18 @@
 	},
 /turf/open/floor/iron,
 /area/service/hydroponics/garden/abandoned)
+"fqd" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/command)
 "fqg" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/effect/turf_decal/siding/wood,
@@ -6336,6 +6331,20 @@
 	planetary_atmos = 0
 	},
 /area/service/hydroponics/garden/abandoned)
+"fMd" = (
+/obj/effect/turf_decal/tile/blue/anticorner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 5
+	},
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/open/floor/iron/corner{
+	dir = 8
+	},
+/area/hallway/secondary/command)
 "fMv" = (
 /obj/effect/turf_decal/siding/purple/corner,
 /turf/open/floor/iron/cafeteria,
@@ -6483,6 +6492,15 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine/atmos)
+"fRo" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/turf/open/water{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/hallway/secondary/command)
 "fRp" = (
 /obj/effect/turf_decal/siding/thinplating/light,
 /obj/effect/turf_decal/siding/thinplating/light{
@@ -7650,13 +7668,6 @@
 "gML" = (
 /turf/closed/wall,
 /area/security/checkpoint/escape)
-"gMU" = (
-/obj/structure/window/reinforced/survival_pod,
-/obj/structure/window/reinforced/survival_pod{
-	dir = 4
-	},
-/turf/open/floor/fakespace,
-/area/hallway/secondary/command)
 "gNR" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -8541,6 +8552,18 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/service/theater)
+"hGB" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 1
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/command)
 "hGF" = (
 /obj/machinery/rnd/destructive_analyzer,
 /turf/open/floor/iron/corner{
@@ -8575,6 +8598,20 @@
 "hHX" = (
 /turf/closed/wall,
 /area/command/heads_quarters/rd)
+"hIb" = (
+/obj/effect/turf_decal/tile/blue/anticorner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/floor/iron/corner{
+	dir = 4
+	},
+/area/hallway/secondary/command)
 "hIK" = (
 /obj/structure/railing,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
@@ -8782,6 +8819,13 @@
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood,
 /area/service/chapel)
+"hPH" = (
+/obj/structure/flora/rock/jungle,
+/turf/open/water{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/hallway/secondary/command)
 "hPO" = (
 /obj/structure/chair/pew/left{
 	dir = 8
@@ -9853,6 +9897,18 @@
 	},
 /turf/open/floor/iron,
 /area/cargo/office)
+"iPD" = (
+/obj/effect/turf_decal/tile/blue/anticorner,
+/obj/effect/turf_decal/siding/white{
+	dir = 6
+	},
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/open/floor/iron/corner{
+	dir = 1
+	},
+/area/hallway/secondary/command)
 "iPE" = (
 /obj/effect/turf_decal/trimline/neutral/warning,
 /turf/open/floor/iron,
@@ -11143,12 +11199,6 @@
 	},
 /turf/open/floor/engine/n2o,
 /area/engineering/atmos)
-"jYO" = (
-/obj/structure/window/reinforced/survival_pod{
-	dir = 1
-	},
-/turf/open/floor/fakespace,
-/area/hallway/secondary/command)
 "jZJ" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -11969,10 +12019,6 @@
 /obj/effect/spawner/random/engineering/tracking_beacon,
 /turf/open/floor/iron/white/smooth_corner,
 /area/medical/medbay/lobby)
-"kLZ" = (
-/obj/structure/window/reinforced/survival_pod,
-/turf/open/floor/fakespace,
-/area/hallway/secondary/command)
 "kMH" = (
 /obj/item/stack/sheet/iron/ten,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -12633,6 +12679,15 @@
 /turf/open/floor/plating/dirt/jungle,
 /area/lush_planet)
 "lzC" = (
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
@@ -13213,6 +13268,9 @@
 /turf/open/floor/engine/co2,
 /area/engineering/atmos)
 "mbI" = (
+/obj/effect/turf_decal/tile/blue/half,
+/obj/effect/turf_decal/siding/white,
+/obj/structure/railing,
 /turf/open/floor/iron/edge,
 /area/hallway/secondary/command)
 "mbT" = (
@@ -13794,6 +13852,15 @@
 	},
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/cmo)
+"mCV" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/turf/open/water{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/hallway/secondary/command)
 "mCY" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -14708,6 +14775,18 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/command/bridge)
+"njp" = (
+/obj/effect/turf_decal/tile/blue/anticorner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 9
+	},
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/floor/iron/corner,
+/area/hallway/secondary/command)
 "njT" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -14760,6 +14839,12 @@
 /obj/machinery/status_display/evac/directional/south,
 /turf/open/floor/iron/dark/textured,
 /area/hallway/secondary/service)
+"nmM" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/siding/white/corner,
+/obj/structure/railing/corner,
+/turf/open/floor/iron,
+/area/hallway/secondary/command)
 "nnH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -14894,6 +14979,13 @@
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/grimy,
 /area/service/chapel/office)
+"nvN" = (
+/obj/effect/turf_decal/siding/thinplating/corner,
+/turf/open/water{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/hallway/secondary/command)
 "nwd" = (
 /turf/open/floor/iron/white/side{
 	dir = 9
@@ -15943,6 +16035,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/textured_large,
 /area/lush_planet)
+"ovg" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/turf/open/water{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/hallway/secondary/command)
 "ovj" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 1
@@ -17512,24 +17613,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/service/hydroponics/garden/abandoned)
-"pSE" = (
-/obj/structure/window/reinforced/survival_pod{
-	dir = 10
-	},
-/turf/open/floor/fakespace,
-/area/hallway/secondary/command)
 "pTM" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
 /turf/open/floor/wood/large,
 /area/lush_planet)
-"pUu" = (
-/obj/structure/window/reinforced/survival_pod{
-	dir = 8
-	},
-/turf/open/floor/fakespace,
-/area/hallway/secondary/command)
 "pUA" = (
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 8
@@ -19170,12 +19259,6 @@
 /obj/structure/chair/stool/directional/west,
 /turf/open/floor/iron,
 /area/service/theater)
-"rkG" = (
-/obj/structure/window/reinforced/survival_pod{
-	dir = 6
-	},
-/turf/open/floor/fakespace,
-/area/hallway/secondary/command)
 "rlp" = (
 /turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
@@ -19208,13 +19291,6 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
-"rne" = (
-/obj/structure/window/reinforced/survival_pod,
-/obj/structure/window/reinforced/survival_pod{
-	dir = 8
-	},
-/turf/open/floor/fakespace,
-/area/hallway/secondary/command)
 "rnF" = (
 /turf/closed/wall/r_wall,
 /area/engineering/supermatter/room)
@@ -19755,6 +19831,18 @@
 "rLd" = (
 /turf/open/floor/iron,
 /area/engineering/lobby)
+"rLu" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/command)
 "rLw" = (
 /obj/structure/table/glass,
 /obj/item/storage/firstaid/fire{
@@ -20082,10 +20170,10 @@
 /turf/open/floor/engine/cult,
 /area/service/library)
 "saP" = (
-/obj/structure/window/reinforced/survival_pod{
-	dir = 4
+/turf/open/water{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
 	},
-/turf/open/floor/fakespace,
 /area/hallway/secondary/command)
 "saT" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -21473,6 +21561,15 @@
 /turf/open/floor/plating,
 /area/engineering/supermatter)
 "toJ" = (
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
 /turf/open/floor/iron/edge{
 	dir = 1
 	},
@@ -22639,6 +22736,15 @@
 /turf/open/floor/iron,
 /area/commons/dorms)
 "uoa" = (
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
@@ -25826,6 +25932,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/lush_planet)
+"wIN" = (
+/obj/effect/turf_decal/siding/thinplating,
+/turf/open/water{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/hallway/secondary/command)
 "wIO" = (
 /obj/effect/spawner/random/structure/bucket,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -25951,6 +26064,16 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/science/misc_lab)
+"wMs" = (
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 8
+	},
+/obj/structure/flora/junglebush,
+/turf/open/water{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/hallway/secondary/command)
 "wMv" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
@@ -26183,6 +26306,15 @@
 	},
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/captain)
+"wVz" = (
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 1
+	},
+/turf/open/water{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/hallway/secondary/command)
 "wVZ" = (
 /obj/machinery/status_display/evac/directional/north,
 /turf/open/floor/iron,
@@ -26700,8 +26832,9 @@
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/engineering/atmos)
 "xog" = (
-/turf/open/space/basic,
-/area/space)
+/obj/structure/fireaxecabinet/directional/east,
+/turf/open/floor/wood,
+/area/command/bridge)
 "xom" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -27019,9 +27152,20 @@
 /turf/open/floor/iron,
 /area/lush_planet)
 "xCt" = (
-/obj/structure/statue/diamond/captain,
+/obj/effect/turf_decal/trimline/neutral/filled,
+/obj/effect/turf_decal/trimline/neutral/filled/mid_joiner,
+/obj/effect/turf_decal/trimline/neutral/filled/mid_joiner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/mid_joiner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/mid_joiner{
+	dir = 8
+	},
+/obj/effect/spawner/random/decoration/showcase,
 /obj/machinery/light/floor,
-/turf/open/floor/iron,
+/turf/open/floor/iron/large,
 /area/hallway/secondary/command)
 "xCI" = (
 /obj/effect/turf_decal/tile/purple,
@@ -27122,7 +27266,11 @@
 /turf/open/floor/iron/white,
 /area/medical/exam_room)
 "xHA" = (
-/turf/open/floor/fakespace,
+/obj/structure/flora/rock/pile/largejungle,
+/turf/open/water{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
 /area/hallway/secondary/command)
 "xHJ" = (
 /obj/effect/turf_decal/siding/wood{
@@ -59350,11 +59498,11 @@ jlx
 dCd
 uPk
 nRg
-xog
-xog
-xog
-xog
-xog
+jcr
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -59607,12 +59755,12 @@ ieB
 tjt
 tjt
 tjt
-xog
-xog
-xog
-xog
-xog
-laP
+fYW
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -59864,12 +60012,12 @@ mzD
 mnM
 vRP
 dkX
-xog
-xog
-xog
-xog
-xog
-laP
+idG
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -60121,12 +60269,12 @@ ivI
 ivI
 jZJ
 qPG
-xog
-xog
-xog
-xog
-xog
-laP
+idG
+iGv
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -60378,11 +60526,11 @@ sHe
 ebl
 jJh
 meX
-xog
-xog
-xog
-xog
-xog
+idG
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -60635,11 +60783,11 @@ mcc
 scq
 wde
 cyU
-xog
-xog
-xog
-xog
-xog
+idG
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -60892,11 +61040,11 @@ oWQ
 oWQ
 oWQ
 idG
-xog
-xog
-xog
-xog
-xog
+idG
+iGv
+iGv
+iGv
+iGv
 iGv
 iGv
 iGv
@@ -66274,7 +66422,7 @@ hoE
 dsw
 dsw
 dsw
-dsw
+rcH
 dsw
 dsw
 dsw
@@ -66529,11 +66677,11 @@ rXA
 rXA
 orG
 dsw
-dsw
+nmM
 uoa
 uoa
 uoa
-dsw
+rLu
 dsw
 vPU
 rXA
@@ -66785,13 +66933,13 @@ rXA
 rXA
 dsw
 dsw
-dsw
-lnb
-aof
-pUu
-rne
-jqj
-dsw
+nmM
+iPD
+saP
+saP
+saP
+fMd
+rLu
 dsw
 dsw
 rXA
@@ -67041,15 +67189,15 @@ cce
 rXA
 pnS
 dsw
-dsw
-lnb
-aof
-avn
+nmM
+iPD
+saP
+saP
 xHA
-pSE
-rne
-jqj
-dsw
+saP
+saP
+fMd
+rLu
 dsw
 iPE
 dsw
@@ -67299,13 +67447,13 @@ fnA
 pnS
 dsw
 mbI
-aof
-avn
-xHA
-kAG
-xHA
-pSE
-rne
+saP
+saP
+nvN
+mCV
+aMc
+saP
+saP
 toJ
 dsw
 iPE
@@ -67554,17 +67702,17 @@ tPP
 cce
 lKZ
 pnS
-dsw
+rcH
 mbI
-jYO
+saP
 xHA
-kAG
+wIN
 xCt
-kAG
-xHA
-kLZ
+fRo
+saP
+saP
 toJ
-dsw
+rcH
 iPE
 dsw
 rcH
@@ -67813,13 +67961,13 @@ fnA
 pnS
 dsw
 mbI
-bAt
-bep
-xHA
-kAG
-xHA
-rkG
-gMU
+saP
+saP
+wMs
+ovg
+wVz
+hPH
+saP
 toJ
 dsw
 iPE
@@ -68069,15 +68217,15 @@ cce
 rXA
 pnS
 dsw
-dsw
-hLo
-bAt
-bep
-xHA
-rkG
-gMU
-fNJ
-dsw
+fqd
+hIb
+saP
+saP
+saP
+saP
+saP
+njp
+hGB
 dsw
 iPE
 dsw
@@ -68327,13 +68475,13 @@ rXA
 rXA
 dsw
 dsw
-dsw
-hLo
-bAt
+fqd
+hIb
 saP
-gMU
-fNJ
-dsw
+saP
+saP
+njp
+hGB
 dsw
 dsw
 rXA
@@ -68585,11 +68733,11 @@ rXA
 rXA
 orG
 dsw
-dsw
+fqd
 lzC
 lzC
 lzC
-dsw
+hGB
 dsw
 vPU
 rXA
@@ -68844,7 +68992,7 @@ fWn
 dsw
 dsw
 dsw
-dsw
+rcH
 dsw
 dsw
 dsw
@@ -69841,7 +69989,7 @@ sEY
 hwb
 qbs
 fgP
-teD
+xog
 ulo
 aqI
 iGv
@@ -78626,7 +78774,7 @@ ebd
 lWW
 lWW
 lWW
-lWW
+cSz
 lWW
 xGJ
 laP
