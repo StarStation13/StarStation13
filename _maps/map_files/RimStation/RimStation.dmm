@@ -2449,6 +2449,13 @@
 /obj/effect/landmark/start/station_engineer,
 /turf/open/floor/iron,
 /area/engineering/main)
+"cmX" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/ai_monitored/command/nuke_storage)
 "cnH" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
@@ -2738,12 +2745,6 @@
 	},
 /turf/open/floor/iron,
 /area/command/gateway)
-"cAu" = (
-/obj/effect/turf_decal/siding/blue{
-	dir = 6
-	},
-/turf/open/floor/iron/dark,
-/area/ai_monitored/command/nuke_storage)
 "cAQ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
@@ -6159,12 +6160,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
-"fBS" = (
-/obj/effect/turf_decal/siding/blue{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/ai_monitored/command/nuke_storage)
 "fCa" = (
 /obj/item/kirbyplants/random,
 /obj/effect/decal/cleanable/dirt,
@@ -9009,11 +9004,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/science/misc_lab)
-"hYZ" = (
-/obj/structure/closet/crate/silvercrate,
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron,
-/area/ai_monitored/command/nuke_storage)
 "hZa" = (
 /turf/closed/wall/r_wall,
 /area/security/prison)
@@ -10862,11 +10852,6 @@
 	},
 /turf/open/floor/wood,
 /area/command/heads_quarters/hos)
-"jKw" = (
-/obj/machinery/light/directional/north,
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron,
-/area/ai_monitored/command/nuke_storage)
 "jKx" = (
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/floor/plating/grass/jungle,
@@ -11069,11 +11054,6 @@
 /obj/machinery/door/window/northright,
 /turf/open/floor/iron/white,
 /area/security/office)
-"jSu" = (
-/obj/structure/closet/crate/goldcrate,
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron,
-/area/ai_monitored/command/nuke_storage)
 "jSK" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -12259,10 +12239,11 @@
 /turf/open/floor/iron/white,
 /area/medical/virology)
 "kYa" = (
-/obj/structure/filingcabinet,
-/obj/item/folder/documents,
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron,
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/openspace,
 /area/ai_monitored/command/nuke_storage)
 "kYx" = (
 /obj/effect/turf_decal/trimline/blue/corner{
@@ -12666,8 +12647,11 @@
 	},
 /area/hallway/secondary/command)
 "lvY" = (
-/obj/effect/turf_decal/bot_white/right,
-/turf/open/floor/iron,
+/obj/structure/closet/crate/goldcrate,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/catwalk_floor,
 /area/ai_monitored/command/nuke_storage)
 "lwv" = (
 /obj/effect/turf_decal/tile/red{
@@ -13534,12 +13518,6 @@
 	},
 /turf/open/floor/plating/dirt/jungle,
 /area/lush_planet)
-"mjO" = (
-/obj/machinery/nuclearbomb/selfdestruct,
-/obj/effect/landmark/event_spawn,
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/dark,
-/area/ai_monitored/command/nuke_storage)
 "mkp" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron,
@@ -14155,9 +14133,11 @@
 /turf/open/floor/engine/n2o,
 /area/engineering/atmos)
 "mKu" = (
-/obj/machinery/ore_silo,
-/obj/effect/turf_decal/bot_white/right,
-/turf/open/floor/iron,
+/obj/structure/closet/crate/silvercrate,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/catwalk_floor,
 /area/ai_monitored/command/nuke_storage)
 "mKy" = (
 /obj/structure/sink/kitchen{
@@ -15082,12 +15062,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/dirt/jungle,
 /area/lush_planet)
-"nxc" = (
-/obj/effect/turf_decal/siding/blue{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/ai_monitored/command/nuke_storage)
 "nxd" = (
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/iron,
@@ -17511,12 +17485,6 @@
 	icon_state = "wood-broken7"
 	},
 /area/maintenance/department/science)
-"pJu" = (
-/obj/effect/turf_decal/siding/blue{
-	dir = 5
-	},
-/turf/open/floor/iron/dark,
-/area/ai_monitored/command/nuke_storage)
 "pJR" = (
 /obj/structure/closet/secure_closet/detective,
 /obj/effect/turf_decal/siding/wood{
@@ -17719,6 +17687,9 @@
 	},
 /turf/open/floor/iron/white,
 /area/medical/virology)
+"pRE" = (
+/turf/open/floor/catwalk_floor,
+/area/ai_monitored/command/nuke_storage)
 "pSw" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
@@ -18570,12 +18541,6 @@
 /obj/machinery/keycard_auth/directional/west,
 /turf/open/floor/iron/smooth_large,
 /area/command/heads_quarters/ce)
-"qCk" = (
-/obj/effect/turf_decal/siding/blue{
-	dir = 9
-	},
-/turf/open/floor/iron/dark,
-/area/ai_monitored/command/nuke_storage)
 "qCI" = (
 /turf/closed/wall/r_wall,
 /area/engineering/main)
@@ -19362,12 +19327,6 @@
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron/white,
 /area/command/heads_quarters/rd)
-"rkb" = (
-/obj/effect/turf_decal/siding/blue{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/ai_monitored/command/nuke_storage)
 "rkc" = (
 /turf/open/floor/iron,
 /area/commons/dorms)
@@ -22759,11 +22718,11 @@
 /turf/closed/wall/r_wall,
 /area/command/gateway)
 "uib" = (
-/obj/machinery/computer/bank_machine{
-	dir = 8
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/corner{
+	dir = 1
 	},
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron,
+/turf/open/openspace,
 /area/ai_monitored/command/nuke_storage)
 "uij" = (
 /obj/effect/turf_decal/siding/wood{
@@ -22773,15 +22732,11 @@
 /turf/open/floor/wood,
 /area/security/prison)
 "uiR" = (
-/obj/structure/safe,
-/obj/item/clothing/head/bearpelt,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/gun/ballistic/revolver/russian,
-/obj/item/ammo_box/a357,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/badminka,
-/obj/effect/turf_decal/bot_white/left,
-/turf/open/floor/iron,
+/obj/machinery/computer/bank_machine,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor,
 /area/ai_monitored/command/nuke_storage)
 "ujb" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -23218,12 +23173,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/medical/morgue)
-"uxI" = (
-/obj/effect/turf_decal/siding/blue{
-	dir = 10
-	},
-/turf/open/floor/iron/dark,
-/area/ai_monitored/command/nuke_storage)
 "uyj" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/tank/air{
@@ -23867,8 +23816,11 @@
 /turf/open/floor/iron/smooth_large,
 /area/engineering/atmos)
 "uUo" = (
-/obj/effect/turf_decal/bot_white/left,
-/turf/open/floor/iron,
+/obj/machinery/light/directional/east,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor,
 /area/ai_monitored/command/nuke_storage)
 "uUw" = (
 /obj/machinery/conveyor{
@@ -26518,6 +26470,13 @@
 /obj/machinery/status_display/evac/directional/north,
 /turf/open/floor/iron,
 /area/hallway/secondary/service)
+"wWO" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/ai_monitored/command/nuke_storage)
 "wXn" = (
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -27176,7 +27135,11 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "xuu" = (
-/turf/open/floor/iron,
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/openspace,
 /area/ai_monitored/command/nuke_storage)
 "xuJ" = (
 /obj/machinery/light/directional/south,
@@ -27526,6 +27489,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/service/hydroponics/garden/abandoned)
+"xJW" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/hallway/secondary/command)
 "xKd" = (
 /turf/open/floor/wood,
 /area/service/bar)
@@ -27551,8 +27520,7 @@
 /turf/closed/wall,
 /area/maintenance/starboard/fore)
 "xLy" = (
-/obj/effect/turf_decal/siding/blue,
-/turf/open/floor/iron/dark,
+/turf/open/openspace,
 /area/ai_monitored/command/nuke_storage)
 "xLL" = (
 /obj/machinery/light/directional/east,
@@ -69439,7 +69407,7 @@ rTs
 rTs
 mKu
 lvY
-lvY
+wWO
 kYa
 rTs
 iGv
@@ -69693,10 +69661,10 @@ uDP
 aqI
 iGv
 rTs
-jSu
-qCk
-rkb
-uxI
+xLy
+xLy
+xLy
+xLy
 xuu
 rTs
 lKZ
@@ -69950,14 +69918,14 @@ cyu
 aqI
 iGv
 rTs
-jKw
-nxc
-mjO
+xLy
+xLy
+xLy
 xLy
 xuu
 gBw
 xli
-cZf
+dsw
 dsw
 dsw
 fWn
@@ -70207,14 +70175,14 @@ ulo
 aqI
 iGv
 rTs
-hYZ
-pJu
-fBS
-cAu
+xLy
+xLy
+xLy
+xLy
 xuu
 rTs
-lKZ
-lKZ
+rTs
+dsw
 dsw
 dsw
 fWn
@@ -70467,11 +70435,11 @@ rTs
 rTs
 uiR
 uUo
-uUo
+cmX
 uib
+pRE
 rTs
-iGv
-lKZ
+xJW
 doN
 dsw
 fWn
