@@ -706,6 +706,8 @@
 "dG" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
+/obj/machinery/suit_storage_unit/captain,
+/obj/structure/window/spawner/west,
 /turf/open/floor/iron,
 /area/command/bridge)
 "dI" = (
@@ -927,7 +929,7 @@
 /turf/open/floor/iron/dark,
 /area/service/bar)
 "eL" = (
-/obj/structure/closet/emcloset/anchored,
+/obj/machinery/recharge_station,
 /turf/open/floor/iron,
 /area/engineering/main)
 "eN" = (
@@ -1059,6 +1061,11 @@
 	},
 /turf/open/floor/engine,
 /area/engineering/supermatter)
+"fq" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/structure/window/spawner/east,
+/turf/open/floor/iron,
+/area/command/bridge)
 "ft" = (
 /turf/open/floor/iron/white,
 /area/hallway/primary/starboard)
@@ -1162,6 +1169,9 @@
 /area/engineering/main)
 "fW" = (
 /obj/machinery/computer/department_orders/engineering,
+/obj/effect/turf_decal/trimline/brown/filled/end{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/engineering/main)
 "fX" = (
@@ -1498,6 +1508,21 @@
 /obj/effect/turf_decal/tile/yellow/half,
 /turf/open/floor/iron/white/smooth_edge,
 /area/hallway/primary/starboard)
+"hL" = (
+/obj/machinery/modular_computer/console/preset/cargochat/science{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/cargo/storage)
+"hM" = (
+/obj/machinery/computer/department_orders/service{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/end{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/service/bar)
 "hN" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
 	dir = 9
@@ -1612,6 +1637,9 @@
 /area/engineering/main)
 "iB" = (
 /obj/machinery/modular_computer/console/preset/cargochat/engineering,
+/obj/effect/turf_decal/trimline/brown/filled/end{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/engineering/main)
 "iF" = (
@@ -2104,6 +2132,12 @@
 /obj/structure/cable,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
+"lc" = (
+/obj/machinery/computer/cargo{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/cargo/storage)
 "lf" = (
 /obj/machinery/airalarm/directional/west,
 /obj/structure/reagent_dispensers/beerkeg,
@@ -2732,6 +2766,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/obj/machinery/suit_storage_unit/security,
 /turf/open/floor/iron,
 /area/security/brig)
 "oi" = (
@@ -2886,6 +2921,10 @@
 /obj/machinery/computer/cargo,
 /turf/open/floor/iron,
 /area/cargo/office)
+"pc" = (
+/obj/machinery/suit_storage_unit/rd,
+/turf/open/floor/iron/white,
+/area/science)
 "pe" = (
 /obj/effect/turf_decal/tile/red/half{
 	dir = 8
@@ -3448,6 +3487,13 @@
 /obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron,
 /area/security/brig)
+"rR" = (
+/obj/machinery/modular_computer/console/preset/cargochat/service{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/filled/end,
+/turf/open/floor/iron,
+/area/service/bar)
 "rS" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
@@ -3847,6 +3893,7 @@
 /area/security/brig)
 "uc" = (
 /obj/machinery/airalarm/directional/west,
+/obj/machinery/recharge_station,
 /turf/open/floor/iron/white,
 /area/science)
 "uf" = (
@@ -4250,6 +4297,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/engineering/supermatter/room)
+"wn" = (
+/obj/machinery/suit_storage_unit/security,
+/turf/open/floor/iron,
+/area/security/brig)
 "ws" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/iron/grimy,
@@ -4370,9 +4421,13 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/security/detectives_office)
+"xc" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/service/janitor)
 "xf" = (
-/obj/machinery/suit_storage_unit/engine,
 /obj/effect/turf_decal/bot,
+/obj/machinery/suit_storage_unit/ce,
 /turf/open/floor/iron,
 /area/engineering/main)
 "xh" = (
@@ -4386,6 +4441,16 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
+"xk" = (
+/obj/effect/turf_decal/tile/red/half{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/security/brig)
 "xl" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -6327,7 +6392,12 @@
 /turf/open/floor/iron/white,
 /area/medical/medbay/lobby)
 "GJ" = (
-/obj/machinery/vending/cigarette,
+/obj/machinery/modular_computer/console/preset/cargochat/science{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/end{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/science)
 "GK" = (
@@ -8070,10 +8140,10 @@
 /turf/open/floor/iron/dark,
 /area/engineering/supermatter/room)
 "OS" = (
-/obj/machinery/computer/cargo/request,
 /obj/effect/turf_decal/trimline/brown/filled/end{
 	dir = 4
 	},
+/obj/machinery/computer/department_orders/medical,
 /turf/open/floor/iron/white,
 /area/medical/medbay/lobby)
 "OT" = (
@@ -8418,7 +8488,12 @@
 /turf/open/floor/iron/white,
 /area/medical/medbay/lobby)
 "QL" = (
-/obj/machinery/vending/coffee,
+/obj/machinery/computer/department_orders/science{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/filled/end{
+	dir = 8
+	},
 /turf/open/floor/iron/white,
 /area/science)
 "QM" = (
@@ -8599,6 +8674,10 @@
 "RG" = (
 /obj/structure/table,
 /obj/item/radio/intercom/directional/north,
+/obj/item/gun/syringe,
+/obj/item/reagent_containers/dropper{
+	pixel_y = -6
+	},
 /turf/open/floor/iron/white,
 /area/medical/medbay/lobby)
 "RH" = (
@@ -8612,12 +8691,8 @@
 /turf/open/floor/iron,
 /area/cargo/storage)
 "RJ" = (
-/obj/structure/table,
-/obj/item/gun/syringe,
-/obj/item/reagent_containers/dropper{
-	pixel_y = -6
-	},
 /obj/machinery/light/directional/north,
+/obj/machinery/vending/drugs,
 /turf/open/floor/iron/white,
 /area/medical/medbay/lobby)
 "RL" = (
@@ -8681,11 +8756,11 @@
 	},
 /area/science/lab)
 "Se" = (
-/obj/machinery/vending/drugs,
+/obj/machinery/vending/wardrobe/medi_wardrobe,
 /turf/open/floor/iron/white,
 /area/medical/medbay/lobby)
 "Sg" = (
-/obj/machinery/vending/wardrobe/medi_wardrobe,
+/obj/machinery/recharge_station,
 /turf/open/floor/iron/white,
 /area/medical/medbay/lobby)
 "Sh" = (
@@ -8693,7 +8768,7 @@
 /turf/closed/wall/r_wall,
 /area/engineering/supermatter)
 "Sj" = (
-/obj/structure/closet/wardrobe/pjs,
+/obj/machinery/suit_storage_unit/cmo,
 /turf/open/floor/iron/white,
 /area/medical/medbay/lobby)
 "Sk" = (
@@ -9160,6 +9235,13 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
+"Uw" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/recharge_station,
+/turf/open/floor/iron,
+/area/ai_monitored/command/storage/eva)
 "Ux" = (
 /obj/structure/table,
 /turf/open/floor/iron/white,
@@ -9242,6 +9324,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/freezer,
 /area/commons/toilet/locker)
 "UO" = (
@@ -9408,6 +9491,7 @@
 	dir = 4
 	},
 /obj/structure/extinguisher_cabinet/directional/east,
+/obj/machinery/recharge_station,
 /turf/open/floor/iron,
 /area/ai_monitored/command/storage/eva)
 "VA" = (
@@ -36417,7 +36501,7 @@ vv
 Zr
 Hb
 BT
-ZV
+hL
 Xi
 Xi
 Xi
@@ -36674,7 +36758,7 @@ ZV
 qY
 ZV
 ZV
-ZV
+lc
 Xi
 Eo
 FX
@@ -37971,7 +38055,7 @@ Xi
 Oy
 Pe
 Vb
-Pe
+xc
 UR
 LO
 qA
@@ -40511,7 +40595,7 @@ Ng
 Ng
 bH
 Ng
-Ng
+fq
 ZS
 zD
 zD
@@ -42091,8 +42175,8 @@ Xn
 Hr
 lx
 QV
-QV
-QV
+hM
+rR
 QV
 Yp
 SX
@@ -43110,7 +43194,7 @@ Ma
 Ot
 Qg
 Tr
-rV
+Uw
 rV
 lA
 UE
@@ -43605,7 +43689,7 @@ XK
 ce
 XK
 og
-XK
+wn
 qs
 XK
 XK
@@ -43868,7 +43952,7 @@ Bg
 uf
 Bg
 nb
-pi
+xk
 RY
 Xn
 Xz
@@ -50292,7 +50376,7 @@ Xw
 sB
 IY
 Tm
-Lz
+pc
 uc
 Lz
 hI
