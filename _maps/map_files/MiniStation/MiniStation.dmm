@@ -3066,11 +3066,10 @@
 /turf/open/floor/iron,
 /area/cargo/office)
 "qe" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
-	dir = 4
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden{
+	dir = 10
 	},
-/turf/open/floor/iron/white,
+/turf/closed/wall,
 /area/science)
 "qf" = (
 /obj/machinery/door/firedoor,
@@ -5648,14 +5647,8 @@
 /turf/closed/wall,
 /area/medical/surgery)
 "Dk" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
-	dir = 10
-	},
-/turf/open/floor/iron/white,
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
+/turf/closed/wall,
 /area/science)
 "Dm" = (
 /obj/machinery/hydroponics/constructable,
@@ -5674,11 +5667,17 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/science)
 "Do" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
 	},
 /turf/open/floor/iron/white,
 /area/science)
@@ -5691,6 +5690,9 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/north,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
 /turf/open/floor/iron,
 /area/science)
 "Ds" = (
@@ -49965,7 +49967,7 @@ Vl
 Vl
 Vl
 Cb
-Dk
+CS
 ct
 Ww
 Jq
@@ -50222,7 +50224,7 @@ Lz
 Lz
 Lz
 hI
-qe
+CU
 Lz
 QL
 Jq
@@ -50479,7 +50481,7 @@ xQ
 xQ
 Aa
 Ck
-qe
+CU
 Lz
 GJ
 Jq
@@ -51248,8 +51250,8 @@ Zy
 Xq
 Xq
 Xq
-Xq
-Xq
+qe
+Dk
 Dr
 Fi
 Xq
