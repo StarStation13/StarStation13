@@ -316,6 +316,7 @@
 /area/command/bridge)
 "by" = (
 /obj/structure/closet/l3closet/virology,
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron/white,
 /area/medical/virology)
 "bz" = (
@@ -546,6 +547,16 @@
 /obj/structure/closet/emcloset,
 /turf/open/floor/iron,
 /area/command/bridge)
+"cP" = (
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
+	},
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/cable,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/hallway/primary/aft)
 "cQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
 	dir = 8
@@ -589,6 +600,11 @@
 /obj/effect/turf_decal/tile/blue/half,
 /turf/open/floor/iron/edge,
 /area/command/bridge)
+"de" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/hallway/secondary/entry)
 "dh" = (
 /obj/effect/turf_decal/tile/blue/half,
 /turf/open/floor/iron/edge,
@@ -801,6 +817,7 @@
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "ek" = (
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron/dark/corner{
 	dir = 4
 	},
@@ -1053,6 +1070,7 @@
 /obj/machinery/computer/shuttle/mining{
 	dir = 8
 	},
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron,
 /area/cargo/miningdock)
 "fy" = (
@@ -1088,6 +1106,10 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
 /area/cargo/miningdock)
+"fH" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/iron,
+/area/service/hydroponics/garden)
 "fI" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Bridge";
@@ -1858,6 +1880,14 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
+"kh" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/iron,
+/area/engineering/main)
 "ki" = (
 /obj/structure/displaycase/captain,
 /turf/open/floor/iron,
@@ -2282,6 +2312,7 @@
 /obj/machinery/computer/secure_data{
 	dir = 8
 	},
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron,
 /area/command/heads_quarters/hop)
 "me" = (
@@ -3180,6 +3211,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
 "qC" = (
@@ -3271,6 +3303,7 @@
 /area/cargo/storage)
 "ra" = (
 /obj/machinery/smartfridge/extract/preloaded,
+/obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron/white,
 /area/science/xenobiology)
 "rc" = (
@@ -3734,6 +3767,7 @@
 "ty" = (
 /obj/structure/bed/roller,
 /obj/machinery/iv_drip,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/white,
 /area/medical/cryo)
 "tE" = (
@@ -3811,6 +3845,10 @@
 /obj/structure/table,
 /turf/open/floor/iron,
 /area/security/brig)
+"uc" = (
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/iron/white,
+/area/science)
 "uf" = (
 /obj/machinery/door_timer{
 	id = "Cell 1";
@@ -3834,6 +3872,7 @@
 "uh" = (
 /obj/item/radio/intercom/directional/north,
 /obj/machinery/computer/security/wooden_tv,
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron/grimy,
 /area/security/detectives_office)
 "ui" = (
@@ -4038,6 +4077,10 @@
 /obj/structure/kitchenspike,
 /turf/open/floor/iron/freezer,
 /area/service/bar)
+"vh" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron,
+/area/hallway/primary/starboard)
 "vi" = (
 /obj/machinery/mecha_part_fabricator,
 /turf/open/floor/iron,
@@ -4519,6 +4562,15 @@
 /obj/structure/grille,
 /turf/open/space/basic,
 /area/space/nearstation)
+"yd" = (
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/iron/edge{
+	dir = 1
+	},
+/area/hallway/primary/fore)
 "yg" = (
 /obj/machinery/atmospherics/components/binary/thermomachine/heater/on{
 	dir = 8
@@ -6162,6 +6214,10 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
+"FQ" = (
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/iron,
+/area/hallway/primary/aft)
 "FS" = (
 /turf/open/floor/engine,
 /area/engineering/supermatter)
@@ -6812,6 +6868,7 @@
 /area/hallway/secondary/exit/departure_lounge)
 "Jc" = (
 /obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/iron/dark/corner{
 	dir = 1
 	},
@@ -7521,6 +7578,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
 	dir = 4
 	},
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron,
 /area/cargo/office)
 "MD" = (
@@ -7778,6 +7836,12 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/primary/fore)
+"NL" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/hallway/primary/aft)
 "NO" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -7927,6 +7991,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ai_monitored/command/storage/eva)
+"Oy" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron,
+/area/service/janitor)
 "Oz" = (
 /obj/machinery/light/directional/south,
 /obj/structure/cable,
@@ -8048,6 +8116,7 @@
 /area/hallway/secondary/entry)
 "Ph" = (
 /obj/machinery/chem_dispenser,
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron/white,
 /area/medical/pharmacy)
 "Pi" = (
@@ -8652,6 +8721,7 @@
 /area/command/heads_quarters/hop)
 "Sp" = (
 /obj/structure/table,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/white/side{
 	dir = 5
 	},
@@ -9674,6 +9744,7 @@
 /obj/item/defibrillator/loaded{
 	pixel_y = 3
 	},
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron/white,
 /area/medical/storage)
 "Xb" = (
@@ -10020,6 +10091,7 @@
 /obj/machinery/shower{
 	dir = 8
 	},
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron/freezer,
 /area/commons/toilet/locker)
 "YM" = (
@@ -37644,7 +37716,7 @@ Te
 UT
 Xk
 UR
-XE
+de
 qA
 XE
 FP
@@ -37896,7 +37968,7 @@ Jh
 NO
 Mf
 Xi
-Pe
+Oy
 Pe
 Vb
 Pe
@@ -38952,7 +39024,7 @@ cZ
 cZ
 cZ
 cZ
-CN
+kh
 Ye
 We
 We
@@ -40958,7 +41030,7 @@ wM
 am
 dh
 fI
-gN
+yd
 ij
 jl
 YR
@@ -40995,10 +41067,10 @@ UY
 UY
 UY
 UY
+FQ
 UY
 UY
-UY
-YG
+cP
 oa
 YG
 cI
@@ -41255,9 +41327,9 @@ ay
 Xj
 Xj
 Xj
-Xj
-Xj
-Xj
+NL
+NL
+NL
 mt
 qj
 rp
@@ -46130,7 +46202,7 @@ XZ
 yA
 yA
 GG
-AR
+fH
 op
 Va
 en
@@ -46382,7 +46454,7 @@ TP
 VK
 Rt
 Rt
-yA
+vh
 GN
 yA
 Gx
@@ -50221,7 +50293,7 @@ sB
 IY
 Tm
 Lz
-Lz
+uc
 Lz
 hI
 CU
