@@ -104,6 +104,10 @@
 	dir = 1
 	},
 /area/command/bridge)
+"aq" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
+/turf/closed/wall/r_wall,
+/area/engineering/supermatter/room)
 "ar" = (
 /turf/open/floor/iron/white,
 /area/medical/storage)
@@ -1472,6 +1476,13 @@
 /obj/effect/turf_decal/tile/yellow/half,
 /turf/open/floor/iron/white/smooth_edge,
 /area/hallway/primary/starboard)
+"hN" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 9
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "hP" = (
 /turf/open/floor/iron/dark/side{
 	dir = 8
@@ -2830,6 +2841,13 @@
 	dir = 4
 	},
 /area/medical/medbay/lobby)
+"oY" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
 "oZ" = (
 /turf/closed/wall,
 /area/hallway/primary/fore)
@@ -3999,6 +4017,13 @@
 "vb" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/department/security)
+"vc" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/engineering/main)
 "vd" = (
 /obj/machinery/processor,
 /obj/machinery/light/small/directional/south,
@@ -4337,6 +4362,9 @@
 "xA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/engineering/main)
@@ -4836,7 +4864,7 @@
 /obj/item/stack/cable_coil,
 /obj/item/stack/cable_coil,
 /obj/machinery/camera/directional/north{
-	c_tag = "Dormitories"
+	c_tag = "Commons - Dorms"
 	},
 /turf/open/floor/iron,
 /area/commons/dorms)
@@ -5030,6 +5058,11 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/carpet,
 /area/commons/dorms)
+"AQ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "AR" = (
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
@@ -5893,7 +5926,7 @@
 /area/service/bar)
 "Ew" = (
 /obj/structure/lattice/catwalk,
-/obj/machinery/atmospherics/components/unary/passive_vent{
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
 	dir = 1
 	},
 /turf/open/space/basic,
@@ -6837,6 +6870,10 @@
 	},
 /turf/open/floor/plating,
 /area/science/xenobiology)
+"Jp" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/engineering/main)
 "Jq" = (
 /turf/closed/wall,
 /area/science/mixing/chamber)
@@ -7528,6 +7565,10 @@
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/open/floor/plating,
 /area/engineering/main)
+"MM" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/closed/wall/r_wall,
+/area/engineering/supermatter/room)
 "MO" = (
 /obj/machinery/conveyor_switch/oneway{
 	dir = 8;
@@ -8757,6 +8798,15 @@
 	},
 /turf/open/floor/plating,
 /area/science)
+"SW" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/engineering/main)
 "SX" = (
 /turf/closed/wall,
 /area/service/bar)
@@ -8947,6 +8997,15 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/white,
 /area/medical/medbay/lobby)
+"TY" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/engineering/main)
 "TZ" = (
 /obj/structure/cable/layer3,
 /turf/open/floor/iron/dark,
@@ -9763,6 +9822,12 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/service/bar)
+"XN" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall,
+/area/engineering/supermatter/room)
 "XP" = (
 /obj/machinery/atmospherics/pipe/smart/simple/general/visible{
 	dir = 9
@@ -10126,6 +10191,13 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/white,
 /area/medical/surgery)
+"ZC" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/engineering/supermatter/room)
 "ZE" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L4"
@@ -44021,16 +44093,16 @@ er
 jZ
 sU
 oB
-Ye
-We
-We
-We
-do
-do
-do
-do
-do
-gU
+TY
+Jp
+Jp
+Jp
+MM
+MM
+MM
+aq
+XN
+ZC
 gU
 gU
 do
@@ -44535,7 +44607,7 @@ pr
 rG
 UU
 SD
-MZ
+SW
 fV
 We
 We
@@ -44792,7 +44864,7 @@ ML
 NW
 yg
 Pz
-We
+hm
 ui
 We
 We
@@ -45049,7 +45121,7 @@ Vv
 Rl
 dV
 Vv
-ML
+vc
 Vv
 ML
 Vv
@@ -45304,10 +45376,10 @@ wx
 wx
 wx
 Fz
-cp
+oY
+AQ
+hN
 Zy
-ss
-ss
 ss
 ss
 ss
