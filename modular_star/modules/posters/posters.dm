@@ -37,14 +37,14 @@
 /obj/structure/sign/poster/retro/nanotrasen
 	name = "corporate pride"
 	desc = "A vintage NT poster - this specific one featuring an older variant of the logo, and four bars to it's top and bottom. No wonder that didn't catch on."
-	icon_state = "poster1_retro"
+	icon_state = "retro_nt"
 
 /obj/structure/sign/poster/retro/syndicate
 	name = "syndicate"
 	desc = "A retro Syndicate Poster, featuring the first revision of the collective banner. Why anyone preserved this is a mystery, but it's probably worth a lot now." //It isn't
-	icon_state = "poster2_retro"
+	icon_state = "retro_synd"
 
 /obj/structure/sign/poster/retro/scan
 	name = "scan"
 	desc = "A vintage poster advertising cloning scans as a readily available and reccomended option on Nanotrasen Stations. How times have changed."
-	icon_state = "poster3_retro"
+	icon_state = "clone_scans"
