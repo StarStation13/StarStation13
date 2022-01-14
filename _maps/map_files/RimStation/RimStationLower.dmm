@@ -10,6 +10,13 @@
 "abm" = (
 /turf/open/floor/plating,
 /area/lush_planet)
+"aFp" = (
+/turf/closed/wall/r_wall,
+/area/lush_planet)
+"bCR" = (
+/obj/structure/ladder,
+/turf/open/floor/iron,
+/area/lush_planet)
 "eGV" = (
 /obj/structure/safe,
 /obj/item/clothing/head/bearpelt,
@@ -18,13 +25,18 @@
 /obj/item/gun/ballistic/revolver/russian,
 /obj/item/ammo_box/a357,
 /obj/item/reagent_containers/food/drinks/bottle/vodka/badminka,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark/textured_large,
 /area/lush_planet)
 "eLt" = (
 /obj/machinery/atmospherics/pipe/multiz/supply/hidden/layer4{
 	dir = 8
 	},
 /turf/open/floor/plating,
+/area/lush_planet)
+"gns" = (
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
 /area/lush_planet)
 "hTz" = (
 /turf/open/floor/iron,
@@ -34,20 +46,28 @@
 /area/lush_planet)
 "lub" = (
 /obj/machinery/ore_silo,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark/textured_large,
 /area/lush_planet)
 "mdB" = (
 /obj/structure/filingcabinet,
 /obj/item/folder/documents,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark/textured_large,
+/area/lush_planet)
+"mvH" = (
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
 /area/lush_planet)
 "rFe" = (
 /obj/machinery/nuclearbomb/selfdestruct,
 /obj/effect/landmark/event_spawn,
-/turf/open/floor/iron,
+/turf/open/floor/iron/dark,
 /area/lush_planet)
 "skh" = (
 /turf/closed/wall,
+/area/lush_planet)
+"txe" = (
+/turf/open/floor/iron/dark/side,
 /area/lush_planet)
 "tHl" = (
 /obj/machinery/atmospherics/pipe/multiz/scrubbers/hidden/layer2{
@@ -57,6 +77,11 @@
 /area/lush_planet)
 "uMy" = (
 /turf/closed/mineral/random/jungle,
+/area/lush_planet)
+"wzB" = (
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
 /area/lush_planet)
 "xeH" = (
 /obj/structure/ladder,
@@ -40787,9 +40812,9 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
+aFp
+aFp
+aFp
 uMy
 uMy
 uMy
@@ -41043,12 +41068,12 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+aFp
+skh
 mdB
-uMy
-uMy
-uMy
+skh
+aFp
+aFp
 uMy
 uMy
 uMy
@@ -41299,13 +41324,13 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+aFp
+skh
 hTz
 hTz
 hTz
 hTz
-uMy
+aFp
 uMy
 uMy
 uMy
@@ -41555,14 +41580,14 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+aFp
+skh
 hTz
 hTz
+mvH
 hTz
 hTz
-hTz
-uMy
+aFp
 uMy
 uMy
 uMy
@@ -41812,14 +41837,14 @@ uMy
 uMy
 uMy
 uMy
-uMy
+aFp
 lub
 hTz
-hTz
+txe
 rFe
+gns
 hTz
-hTz
-uMy
+aFp
 uMy
 uMy
 uMy
@@ -42069,15 +42094,15 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+aFp
+skh
 hTz
 hTz
+wzB
 hTz
 hTz
-hTz
-uMy
-uMy
+skh
+aFp
 uMy
 uMy
 uMy
@@ -42327,14 +42352,14 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+aFp
+skh
 hTz
 hTz
 hTz
 hTz
-hTz
-uMy
+bCR
+aFp
 uMy
 uMy
 uMy
@@ -42585,13 +42610,13 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+aFp
+skh
 eGV
-uMy
-uMy
-uMy
-uMy
+skh
+aFp
+aFp
+aFp
 uMy
 uMy
 uMy
@@ -42843,9 +42868,9 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
+aFp
+aFp
+aFp
 uMy
 uMy
 uMy
