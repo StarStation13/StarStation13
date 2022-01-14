@@ -22,3 +22,8 @@
 
 /area/lush_planet/unexplored/danger //Megafauna can spawn out here
 	area_flags = VALID_TERRITORY | UNIQUE_AREA | CAVES_ALLOWED | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | MEGAFAUNA_SPAWN_ALLOWED | NO_ALERTS
+
+/area/lush_planet/underground
+	name = "The Underground"
+	sound_environment = SOUND_AREA_ASTEROID
+	outdoors = FALSE
