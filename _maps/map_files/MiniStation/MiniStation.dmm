@@ -1405,6 +1405,16 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/main)
+"hn" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/catwalk_floor/iron,
+/area/hallway/primary/central)
 "ho" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/armor/riot,
@@ -4342,6 +4352,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron,
 /area/engineering/main)
+"wi" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/hallway/primary/central)
 "wm" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/effect/turf_decal/bot,
@@ -5950,7 +5966,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
 	dir = 1
 	},
-/turf/open/floor/iron,
+/turf/open/floor/catwalk_floor/iron,
 /area/hallway/primary/central)
 "DL" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
@@ -8387,7 +8403,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
-/turf/open/floor/iron,
+/turf/open/floor/catwalk_floor/iron,
 /area/hallway/primary/central)
 "PL" = (
 /obj/structure/cable,
@@ -8799,6 +8815,13 @@
 "RY" = (
 /turf/closed/wall/r_wall,
 /area/security/brig)
+"RZ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron/textured_large,
+/area/hallway/primary/central)
 "Sa" = (
 /obj/structure/table,
 /obj/item/paper_bin/carbon{
@@ -40437,7 +40460,7 @@ Mf
 Ya
 Xi
 Xn
-Xz
+hn
 JN
 he
 IR
@@ -41461,11 +41484,11 @@ Mu
 Hv
 Qa
 Hv
+wi
+wi
 Hv
 Hv
-Hv
-Hv
-sb
+RZ
 ig
 WJ
 Xj
@@ -42493,7 +42516,7 @@ lI
 Jz
 Vy
 kH
-Xz
+hn
 Xn
 SX
 UZ
