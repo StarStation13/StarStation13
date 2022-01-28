@@ -1025,3 +1025,142 @@
   the-orange-cow:
   - qol: In game tips now properly recommend Left 4 Zed as a means of mutating plants.  Please,
       stop using unstable mutagen.
+2022-01-26:
+  ErdinyoBarboza:
+  - spellcheck: Gives mannitol an actual taste.
+  - expansion: Boritos Corn Chips can now be bought from Snack Vendors
+  - bugfix: Made the trash of Ready Donkmeal nicer
+  - bugfix: Updates food spawners to include Boritos, Semki's and Pistachios
+  Kokonut (Maxymax13):
+  - imageadd: Touches up the new toolboxes' appearance.
+  PositiveEntropy, Axietheaxolotl:
+  - imageadd: Resprites/Reshades the Head of Security's Trenchcoat!
+  - imageadd: Resprites commander caps into peaked caps! Flex your naval prowess with
+      them!
+  - imagedel: Removes the old captain parade tunic, replacing it with Captain's Parade
+      Jacket!
+  Riggle:
+  - admin: gamemode panel now correctly displays the time
+  SmoSmoSmoSmok:
+  - bugfix: Vending machine doesn't fall over if its weightless
+  Y0SH1M4S73R:
+  - expansion: Adds the MOD Action component for the circuit adapter module. When
+      the circuit adapter is selected, a radial menu opens, allowing the wearer to
+      trigger any of the installed Action components.
+  - qol: The circuit adapter module can be printed in the component printer.
+  - qol: The circuit adapter module can have its circuit removed. Because of this,
+      the module no longer starts with an unremovable circuit pre-installed.
+  - spellcheck: Renames the MOD component to the MOD circuit adapter core, as it is
+      no longer the only MODsuit-related circuit component.
+  - bugfix: The MOD circuit adapter core can now activate inactive MODsuits.
+  - qol: The MOD circuit adapter core's "Selected Module" port is now a string port
+      instead of an entity port.
+  - qol: The MOD circuit adapter core now has a "On Module Selected" output signal.
+  - bugfix: The BCI action component now properly typechecks if it was inserted into
+      a BCI.
+  coldud13:
+  - qol: Adds text to let players know that you can unscrew catwalk plating.
+  jjpark-kb:
+  - rscadd: spacevines now have a spawning animation
+  lewcc:
+  - refactor: Reworks some tool interactions to use specific tool procs
+  tralezab:
+  - bugfix: APOTHEOSIS! now forces you standing during your death animation, restoring
+      the old (not forced) standing when I originally added APOTHEOSIS!
+2022-01-27:
+  Fikou:
+  - balance: lowers kilo's bombcap multiplier
+  Iamgoofball:
+  - balance: Removes the fucking 20 second stunlock rng from tourettes because it's
+      fucking stupid and I just had the most agonizing thirty fucking minutes of my
+      goddamn life, holy shit, I hate this fucking mutation so goddamn much, who the
+      fuck thought 20 second hard stun was a genius idea for a random mutation, especially
+      the fact it gives absolutely zero indication that it's from the tourettes because
+      the stun has no message attached
+  Kylerace:
+  - bugfix: the fast mc tab refresh pref actually works
+  Melbert:
+  - admin: Comms console hacks by ninjas and traitors (the ones that spawn antags)
+      are now logged (find them in user logs and in the game log!).
+  Pickle-Coding:
+  - bugfix: Bluespace gas vendors no longer deletes the gases it doesn't transfer
+      when transferring gases.
+  SkeletalElite:
+  - bugfix: Kilo uses regular newscasters instead of security variants
+  Wallem:
+  - expansion: Monkeys can now protect their village from the rubber menace.
+  Zonespace27:
+  - bugfix: Heads of Personnel can now be midround thieves, as intended.
+  blessedmulligan:
+  - bugfix: You can now remove attachments from weapons without standing across the
+      room
+  magatsuchi:
+  - bugfix: restructures some code to make airlocks hackable again
+  - bugfix: blood barrage no longer has a seizure when you use it
+  neopythagorean:
+  - refactor: the telecommunications server monitor now uses tgui.
+  san7890:
+  - bugfix: Followers of Nar'Sie who hope to summon her can hopefully ascertain the
+      correct area to summon her, as the gambling and gaming dens have now been seperated.
+  - bugfix: Whenever radiation shelters are blueprinted and labelled as a "radiation
+      shelter", you can rest easy now that the blueprint has an actual name. It doesn't
+      matter on a day-to-day basis, but it looks a lot nicer for the people working
+      with the blueprints.
+  tastyfish:
+  - bugfix: Central Command has finally informed the Plexagon vendor that service
+      hallway access exists, allowing HoP's to grant it to ID cards.
+  tralezab:
+  - rscadd: Separatists now have an antagonist ui!
+  - balance: Antagonists cannot roll for thieves anymore, as you already have a larger
+      amount of impact on the round than thief would give you.
+  - admin: Admins no longer roll for thief while they sit around on centcom testing
+      things.
+2022-01-28:
+  JohnFulpWillard:
+  - admin: Tool usage is now (config-locked) logged!
+  Jolly-66:
+  - bugfix: DJ Space ruin no longer uses incorrect turfs.
+  Maxymax13:
+  - imageadd: resprites pills
+  Sheits:
+  - imageadd: Resprites the mega legion and all legion related mobs
+  Wallem:
+  - qol: Mailbags can be worn on cargo coat.
+  - imageadd: Mailbags have their own sprite instead of borrowing it from book bags.
+  Zonespace27:
+  - qol: You can now use autosurgeons on other people after a delay.
+  axietheaxolotl:
+  - imageadd: New sprites for the Parcel Parceaux, base Mime mask, Mime outfit and
+      skirt, and mime sexy outfit.
+  - imageadd: new sprites for lace-up shoes.
+  - code_imp: Mimes spawn with lace-ups instead of black shoes
+  castawaynont:
+  - balance: CentComm's Mark One SWAT suit's design has been reworked; it now lacks
+      spaceproofing, but it has become significantly faster to move in and retains
+      temperature-proofing. These adjustments have allowed CC to sell them for a lower
+      cost of 1400.
+  jjpark-kb:
+  - qol: safes now use balloon alerts for the hint
+  san7890:
+  - bugfix: Nanotrasen decided to redirect some of the plasma rivers on IceBox station
+      towards the labor camp, helping add another layer of security between the station
+      and those awful, awful prisoners.
+  - bugfix: Area definitions for the IceBox and Lavaland Labor Camps have been updated.
+      That means that gulag point-prisoners no longer have a safe haven inside the
+      security portion of IceBox's security wing.
+  - bugfix: The warden can no longer consider half of security to be their office
+      on KiloStation.
+  - rscadd: 'Introducing: The Lizard''s Gas! A brand new (gas) station for you to
+      go out and refuel your ships and your stomachs. It''s been a while since the
+      power''s been turned on, but everything is just the way it was left all those
+      years ago. Explore!'
+  - rscdel: gasthelizards.dmm has been deleted. you will never see gasthelizards.dmm
+      ever again.
+  - config: since gasthelizards.dmm is removed, the config has been updated as well.
+      make sure it's up-to-date now that we've gotten rid of the dang ol' thing and
+      replaced it with new hotness.
+  - bugfix: The IceBox Station Telecommunications Room now has a fire alarm.
+  - bugfix: Atmossians, no longer fret. You now own all of the walls in TramStation's
+      Incinerator Room.
+  - bugfix: The camera in the Ice Box Station Locker Room is no longer inside of a
+      door.
