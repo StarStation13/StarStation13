@@ -10,6 +10,12 @@
 "abm" = (
 /turf/open/floor/plating,
 /area/lush_planet/underground)
+"agI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "apj" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 8
@@ -38,6 +44,9 @@
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/command/nuke_storage)
+"djG" = (
+/turf/open/floor/iron/dark/textured_corner,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "eGV" = (
 /obj/structure/safe,
 /obj/item/clothing/head/bearpelt,
@@ -57,6 +66,26 @@
 	},
 /turf/open/floor/plating,
 /area/lush_planet/underground)
+"ffV" = (
+/obj/machinery/button/elevator{
+	id = "ailift";
+	pixel_x = -24
+	},
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"foj" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Artificial Intelligence Foyer - Teleporter";
+	req_access_txt = "17;65"
+	},
+/turf/open/floor/iron/dark/side,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"ftF" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "gju" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 4
@@ -68,6 +97,14 @@
 	dir = 1
 	},
 /area/ai_monitored/command/nuke_storage)
+"hjR" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"hMC" = (
+/obj/machinery/bluespace_beacon,
+/turf/open/floor/iron/dark/textured_large,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "hTz" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -80,14 +117,33 @@
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/command/nuke_storage)
+"ixi" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "teledoor";
+	name = "Teleport Access"
+	},
+/turf/open/floor/iron/dark/side,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"jzj" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "laP" = (
 /turf/open/floor/plating/dirt/jungle,
 /area/lush_planet/underground)
 "lub" = (
 /obj/machinery/ore_silo,
 /obj/effect/turf_decal/siding/blue,
+/obj/machinery/camera/motion/directional/north{
+	c_tag = "Vault - Basement Floor"
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ai_monitored/command/nuke_storage)
+"lzG" = (
+/turf/closed/wall,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "lAh" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/window/reinforced/spawner/north,
@@ -97,6 +153,12 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/grass,
 /area/ai_monitored/command/nuke_storage)
+"lBm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "lOs" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner,
 /turf/open/floor/iron,
@@ -124,6 +186,40 @@
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/command/nuke_storage)
+"mTV" = (
+/obj/machinery/button/door/directional/north{
+	id = "teledoor";
+	name = "Teleporter Shutters Control";
+	req_access_txt = "17;65"
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"nhZ" = (
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"nIf" = (
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"onD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"ooL" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"oYE" = (
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 8
+	},
+/area/ai_monitored/turret_protected/aisat/foyer)
+"pUj" = (
+/turf/open/floor/plating/elevatorshaft,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "qju" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/effect/turf_decal/siding/thinplating{
@@ -132,14 +228,37 @@
 /obj/structure/flora/junglebush/b,
 /turf/open/floor/grass,
 /area/ai_monitored/command/nuke_storage)
+"rzY" = (
+/obj/machinery/button/elevator{
+	id = "ailift";
+	pixel_x = 24
+	},
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "rFe" = (
 /obj/machinery/nuclearbomb/selfdestruct,
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/iron/dark,
 /area/ai_monitored/command/nuke_storage)
+"rPW" = (
+/obj/machinery/button/elevator{
+	id = "ailift";
+	pixel_y = 24
+	},
+/obj/effect/spawner/random/engineering/tracking_beacon,
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "skh" = (
 /turf/closed/wall,
 /area/ai_monitored/command/nuke_storage)
+"snH" = (
+/obj/machinery/computer/teleporter{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/aisat/foyer)
 "txe" = (
 /turf/open/floor/iron/dark/side,
 /area/ai_monitored/command/nuke_storage)
@@ -152,6 +271,17 @@
 "uMy" = (
 /turf/closed/mineral/random/jungle,
 /area/lush_planet/underground)
+"uSB" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"vzm" = (
+/obj/machinery/button/elevator{
+	id = "ailift";
+	pixel_y = -24
+	},
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "vAy" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/effect/turf_decal/siding/thinplating{
@@ -161,6 +291,10 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass,
 /area/ai_monitored/command/nuke_storage)
+"vKf" = (
+/obj/machinery/teleport/station,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "wzB" = (
 /turf/open/floor/iron/dark/side{
 	dir = 8
@@ -173,6 +307,12 @@
 "xps" = (
 /turf/open/floor/iron,
 /area/ai_monitored/command/nuke_storage)
+"xEO" = (
+/obj/machinery/teleport/hub,
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/aisat/foyer)
 "xUs" = (
 /turf/closed/wall,
 /area/lush_planet/underground)
@@ -38614,11 +38754,11 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+lzG
+lzG
+lzG
+lzG
+lzG
 uMy
 uMy
 uMy
@@ -38870,17 +39010,17 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+lzG
+lzG
+nhZ
+nhZ
+nhZ
+lzG
+lzG
 uMy
 uMy
 xUs
-laP
+uMy
 uMy
 laP
 laP
@@ -39126,11 +39266,15 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+lzG
+lzG
+nhZ
+nhZ
+rzY
+nhZ
+nhZ
+lzG
+lzG
 uMy
 uMy
 uMy
@@ -39138,10 +39282,6 @@ uMy
 uMy
 uMy
 laP
-uMy
-uMy
-uMy
-uMy
 laP
 laP
 laP
@@ -39382,23 +39522,23 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+lzG
+lzG
+nhZ
+uSB
+onD
+lzG
+onD
+ooL
+nhZ
+lzG
+lzG
+lzG
+lzG
+lzG
+lzG
 laP
-uMy
-uMy
-uMy
-uMy
+laP
 uMy
 uMy
 uMy
@@ -39639,23 +39779,23 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+lzG
+nhZ
+nhZ
+hjR
+pUj
+pUj
+pUj
+lBm
+nhZ
+nhZ
+foj
+djG
+nIf
+snH
+lzG
 laP
 laP
-uMy
-uMy
-uMy
-uMy
 uMy
 uMy
 uMy
@@ -39896,22 +40036,22 @@ laP
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+nhZ
+nhZ
+vzm
+lzG
+pUj
+pUj
+pUj
+lzG
+rPW
+nhZ
+lzG
+mTV
+hMC
+vKf
+lzG
 laP
-uMy
-uMy
-uMy
-uMy
 uMy
 uMy
 uMy
@@ -40153,22 +40293,22 @@ laP
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+lzG
+nhZ
+nhZ
+hjR
+pUj
+pUj
+pUj
+lBm
+nhZ
+nhZ
+ixi
+oYE
+nIf
+xEO
+lzG
 laP
-uMy
-uMy
-uMy
-uMy
 uMy
 uMy
 uMy
@@ -40410,22 +40550,22 @@ laP
 laP
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+lzG
+lzG
+nhZ
+ftF
+agI
+lzG
+agI
+jzj
+nhZ
+lzG
+lzG
+lzG
+lzG
+lzG
+lzG
 laP
-laP
-uMy
-uMy
-uMy
-uMy
 uMy
 uMy
 uMy
@@ -40668,21 +40808,21 @@ laP
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+lzG
+lzG
+nhZ
+nhZ
+ffV
+nhZ
+nhZ
+lzG
+lzG
+laP
 uMy
 uMy
 uMy
 laP
 laP
-uMy
-uMy
-uMy
-uMy
-uMy
 uMy
 uMy
 uMy
@@ -40926,19 +41066,19 @@ laP
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+lzG
+lzG
+nhZ
+nhZ
+nhZ
+lzG
+lzG
 laP
 laP
-uMy
-uMy
-uMy
-uMy
+laP
+laP
+laP
+laP
 uMy
 uMy
 uMy
@@ -41184,11 +41324,11 @@ laP
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+lzG
+lzG
+lzG
+lzG
+lzG
 laP
 laP
 uMy
