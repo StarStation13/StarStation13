@@ -1,35 +1,39 @@
 {
 	"version": 1,
-    "map_name": "Rim Station",
-    "map_path": "map_files/RimStation",
+	"map_name": "Rim Station",
+	"map_path": "map_files/RimStation",
 	"map_file": [
-		"RimStation.dmm",
-		"RimStationLower.dmm"
+		"RimStationLower.dmm",
+		"RimStation.dmm"
 	],
 	"space_ruin_levels": 0,
 	"space_empty_levels": 0,
-    "shuttles": {
-	    "emergency": "emergency_kilo",
-	    "ferry": "ferry_kilo",
+	"shuttles": {
 		"cargo": "cargo_box",
-	    "whiteship": "whiteship_kilo"
-    },
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_box",
+		"emergency": "emergency_box"
+	},
 	"traits": [
+		{
+			"Up": 1,
+			"Mining": true,
+			"Station": false,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/chasm/jungle"
+		},
 		{
 			"Down": -1,
 			"Mining": true,
 			"Linkage": null,
 			"Gravity": true,
-			"Lush Ruins": true,
-			"Baseturf": "/turf/open/chasm/jungle"
-		},
-		{
-			"Up": 1,
-			"Mining": true,
-			"Linkage": null,
-			"Gravity": true,
-			"Lush Ruins": true,
 			"Baseturf": "/turf/open/chasm/jungle"
 		}
-	]
+	],
+	"job_changes": {
+		"cook": {
+			"additional_cqc_areas": ["/area/service/kitchen/diner"]
+		}
+	}
 }
