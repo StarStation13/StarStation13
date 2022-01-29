@@ -16,18 +16,67 @@
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"ahx" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/ai)
 "apj" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 8
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/command/nuke_storage)
+"aCH" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/iron/grimy,
+/area/ai_monitored/turret_protected/ai)
+"aJd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
 "aNl" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 1
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/command/nuke_storage)
+"aUD" = (
+/obj/machinery/door/airlock/hatch{
+	name = "MiniSat Antechamber";
+	req_one_access_txt = "65"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "ai-passthrough"
+	},
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat_interior)
+"aVG" = (
+/turf/open/floor/iron/grimy,
+/area/ai_monitored/turret_protected/ai)
+"baS" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/aisat/hallway)
+"bzF" = (
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 1
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron,
+/area/ai_monitored/command/nuke_storage)
+"bAS" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/service)
 "bCR" = (
 /obj/structure/ladder,
 /obj/effect/turf_decal/stripes/line{
@@ -35,6 +84,19 @@
 	},
 /turf/open/floor/plating,
 /area/ai_monitored/command/nuke_storage)
+"bDd" = (
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/floor/grass,
+/area/ai_monitored/turret_protected/ai)
+"bSJ" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/ai)
 "bUi" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -44,9 +106,82 @@
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/command/nuke_storage)
+"cdl" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/west,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/service)
+"cns" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/atmos)
+"cNE" = (
+/obj/machinery/computer/station_alert,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/service)
+"cON" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/hallway)
+"dba" = (
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/service)
 "djG" = (
 /turf/open/floor/iron/dark/textured_corner,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"dxn" = (
+/obj/machinery/camera/directional/south{
+	c_tag = "Satellite Observation";
+	name = "satellite camera";
+	network = list("minisat")
+	},
+/turf/open/floor/iron/grimy,
+/area/ai_monitored/turret_protected/ai)
+"dCw" = (
+/obj/machinery/door/airlock/hatch{
+	name = "MiniSat Service";
+	req_one_access_txt = "65"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "ai-passthrough"
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat_interior)
+"dNu" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/ai)
+"eir" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"ewC" = (
+/obj/machinery/turretid{
+	control_area = "/area/ai_monitored/turret_protected/aisat/hallway";
+	name = "Chamber Hallway Turret Control";
+	pixel_y = 27;
+	req_access = null;
+	req_access_txt = "65"
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat_interior)
 "eGV" = (
 /obj/structure/safe,
 /obj/item/clothing/head/bearpelt,
@@ -66,6 +201,14 @@
 	},
 /turf/open/floor/plating,
 /area/lush_planet/underground)
+"fbR" = (
+/obj/machinery/camera/directional/west{
+	c_tag = "Satellite Foyer - West";
+	name = "satellite camera";
+	network = list("minisat")
+	},
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "ffV" = (
 /obj/machinery/button/elevator{
 	id = "ailift";
@@ -80,12 +223,48 @@
 	},
 /turf/open/floor/iron/dark/side,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"fqy" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat_interior)
 "ftF" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"fvt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/atmos)
+"fBy" = (
+/obj/structure/filingcabinet,
+/obj/item/folder/documents,
+/turf/open/floor/catwalk_floor/iron,
+/area/ai_monitored/command/nuke_storage)
+"gaG" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "AI Core shutters";
+	name = "AI Core Shutter"
+	},
+/obj/machinery/door/window/brigdoor/westleft{
+	req_access_txt = "16"
+	},
+/obj/machinery/turretid{
+	icon_state = "control_stun";
+	name = "AI Chamber turret control";
+	pixel_x = 3;
+	pixel_y = 28
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/ai)
+"geY" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/ai)
 "gju" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 4
@@ -97,14 +276,140 @@
 	dir = 1
 	},
 /area/ai_monitored/command/nuke_storage)
+"gpi" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/ai)
+"grz" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/grimy,
+/area/ai_monitored/turret_protected/ai)
+"gtz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/service)
+"gzO" = (
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ai_monitored/turret_protected/aisat_interior)
+"gAS" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/grimy,
+/area/ai_monitored/turret_protected/ai)
+"gGn" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat_interior)
+"gGq" = (
+/obj/machinery/flasher/directional/north{
+	id = "AI";
+	name = "Moth Fufillment Device"
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
+"gLV" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/ai)
+"gVw" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "AI Core shutters";
+	name = "AI Core Shutter"
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/ai)
 "hjR" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
-"hMC" = (
-/obj/machinery/bluespace_beacon,
-/turf/open/floor/iron/dark/textured_large,
+"hkb" = (
+/obj/structure/cable,
+/turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"hoA" = (
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/flora/junglebush/c,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/floor/grass,
+/area/ai_monitored/turret_protected/ai)
+"hwo" = (
+/obj/machinery/porta_turret/ai{
+	dir = 4;
+	installation = /obj/item/gun/energy/e_gun
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/aisat/hallway)
+"hBB" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/service)
+"hEz" = (
+/obj/effect/landmark/start/ai/secondary,
+/obj/item/radio/intercom/directional/north{
+	freerange = 1;
+	listening = 0;
+	name = "Custom Channel";
+	pixel_x = 8
+	},
+/obj/item/radio/intercom/directional/east{
+	freerange = 1;
+	listening = 0;
+	name = "Common Channel"
+	},
+/obj/item/radio/intercom/directional/south{
+	freerange = 1;
+	frequency = 1447;
+	listening = 0;
+	name = "Private Channel";
+	pixel_x = 8
+	},
+/obj/machinery/door/window{
+	atom_integrity = 300;
+	base_state = "leftsecure";
+	dir = 8;
+	icon_state = "leftsecure";
+	layer = 4.1;
+	name = "Tertiary AI Core Access";
+	pixel_x = -3;
+	req_access_txt = "16"
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
+"hMC" = (
+/obj/machinery/teleport/station,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"hQt" = (
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/maint)
 "hTz" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -117,6 +422,16 @@
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/command/nuke_storage)
+"igh" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
+"iuP" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat_interior)
 "ixi" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "teledoor";
@@ -124,15 +439,161 @@
 	},
 /turf/open/floor/iron/dark/side,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"iBF" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/power/smes{
+	charge = 5e+006;
+	name = "ai power storage unit"
+	},
+/obj/structure/cable,
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/service)
+"iVA" = (
+/obj/machinery/door/airlock/hatch{
+	name = "MiniSat Chamber Hallway";
+	req_one_access_txt = "65"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "ai-passthrough"
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat_interior)
+"iXZ" = (
+/obj/effect/landmark/start/ai/secondary,
+/obj/item/radio/intercom/directional/north{
+	freerange = 1;
+	listening = 0;
+	name = "Custom Channel";
+	pixel_x = -8
+	},
+/obj/item/radio/intercom/directional/west{
+	freerange = 1;
+	listening = 0;
+	name = "Common Channel"
+	},
+/obj/item/radio/intercom/directional/south{
+	freerange = 1;
+	frequency = 1447;
+	listening = 0;
+	name = "Private Channel";
+	pixel_x = -8
+	},
+/obj/machinery/door/window{
+	atom_integrity = 300;
+	base_state = "rightsecure";
+	dir = 4;
+	icon_state = "rightsecure";
+	layer = 4.1;
+	name = "Secondary AI Core Access";
+	pixel_x = 4;
+	req_access_txt = "16"
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
+"jvP" = (
+/obj/machinery/porta_turret/ai,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
+"jyE" = (
+/obj/machinery/power/smes{
+	charge = 5e+006;
+	name = "ai power storage unit"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
+/obj/machinery/camera/directional/north{
+	c_tag = "MiniSat AI Chamber North";
+	network = list("aicore")
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/ai)
 "jzj" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"jIa" = (
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/service)
+"jSY" = (
+/obj/machinery/porta_turret/ai,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
+"kgc" = (
+/mob/living/simple_animal/bot/secbot/pingsky,
+/obj/machinery/holopad/secure,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat_interior)
+"kgw" = (
+/turf/closed/wall,
+/area/ai_monitored/turret_protected/aisat/atmos)
+"khP" = (
+/obj/machinery/door/airlock/hatch{
+	name = "MiniSat Atmospherics";
+	req_one_access_txt = "65"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "ai-passthrough"
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat_interior)
+"kjK" = (
+/turf/closed/wall,
+/area/ai_monitored/turret_protected/aisat/maint)
+"knw" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat_interior)
+"krE" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/maint)
+"ktV" = (
+/obj/machinery/porta_turret/ai,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
+"kEQ" = (
+/obj/machinery/holopad/secure,
+/turf/open/floor/iron/grimy,
+/area/ai_monitored/turret_protected/ai)
+"kFf" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
+"kPR" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/atmos)
 "laP" = (
 /turf/open/floor/plating/dirt/jungle,
 /area/lush_planet/underground)
+"lcM" = (
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/aisat/hallway)
+"liA" = (
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/ai)
 "lub" = (
 /obj/machinery/ore_silo,
 /obj/effect/turf_decal/siding/blue,
@@ -159,18 +620,84 @@
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"lHU" = (
+/obj/item/radio/intercom/directional/west{
+	freerange = 1;
+	listening = 0;
+	name = "Common Channel";
+	pixel_y = 4
+	},
+/obj/item/radio/intercom/directional/north{
+	freerange = 1;
+	listening = 0;
+	name = "Custom Channel"
+	},
+/obj/item/radio/intercom/directional/east{
+	freerange = 1;
+	listening = 0;
+	name = "Common Channel";
+	pixel_y = 4
+	},
+/obj/effect/landmark/start/ai,
+/obj/machinery/button/door/directional/north{
+	id = "AI Core shutters";
+	name = "AI Core Shutters Toggle";
+	pixel_x = 24;
+	req_access_txt = "16"
+	},
+/obj/machinery/button/door/directional/north{
+	id = "AI Chamber entrance shutters";
+	name = "AI Chamber Lockdown";
+	pixel_x = -24;
+	req_access_txt = "16"
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
+"lNI" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/atmos)
 "lOs" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner,
 /turf/open/floor/iron,
 /area/ai_monitored/command/nuke_storage)
-"mdB" = (
-/obj/structure/filingcabinet,
-/obj/item/folder/documents,
-/obj/effect/turf_decal/siding/blue{
-	dir = 4
+"lYA" = (
+/obj/machinery/door/airlock/hatch{
+	name = "MiniSat Antechamber";
+	req_one_access_txt = "65"
 	},
-/turf/open/floor/iron/dark/textured_large,
-/area/ai_monitored/command/nuke_storage)
+/obj/structure/cable,
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/aisat/foyer)
+"lZV" = (
+/turf/closed/wall,
+/area/ai_monitored/turret_protected/aisat_interior)
+"mci" = (
+/obj/machinery/teleport/hub,
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 1
+	},
+/area/ai_monitored/turret_protected/aisat/foyer)
+"mdB" = (
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/aisat/maint)
+"msD" = (
+/obj/structure/table,
+/turf/open/floor/iron/grimy,
+/area/ai_monitored/turret_protected/ai)
+"mta" = (
+/obj/machinery/porta_turret/ai,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
 "mvH" = (
 /turf/open/floor/iron/dark/side{
 	dir = 4
@@ -194,11 +721,60 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"ndd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/atmos)
 "nhZ" = (
 /turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
-"nIf" = (
+"nzw" = (
+/turf/closed/wall,
+/area/ai_monitored/turret_protected/aisat/service)
+"nFJ" = (
+/obj/machinery/camera/directional/west{
+	c_tag = "Satellite - Foyer Connector";
+	name = "satellite camera";
+	network = list("minisat")
+	},
 /turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat_interior)
+"nIf" = (
+/obj/machinery/computer/teleporter{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_corner{
+	dir = 4
+	},
+/area/ai_monitored/turret_protected/aisat/foyer)
+"nXT" = (
+/obj/machinery/camera/directional/south{
+	c_tag = "Satellite Antechamber";
+	name = "satellite camera";
+	network = list("minisat")
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat_interior)
+"nYJ" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/atmos)
+"obr" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/camera/directional/east{
+	c_tag = "MiniSat Atmospherics";
+	network = list("minisat");
+	start_active = 1
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/atmos)
+"okp" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
 "onD" = (
 /obj/effect/turf_decal/stripes/line{
@@ -212,14 +788,102 @@
 	},
 /turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"oGw" = (
+/turf/open/floor/iron/dark/textured_large,
+/area/ai_monitored/turret_protected/aisat/hallway)
+"oHv" = (
+/obj/machinery/camera/directional/south{
+	c_tag = "AI Chamber Core";
+	name = "core camera";
+	network = list("aicore")
+	},
+/obj/machinery/holopad/secure,
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/ai)
+"oKb" = (
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat_interior)
+"oKk" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "MiniSat Maintenance";
+	req_access_txt = "65"
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/maint)
+"oYA" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "MiniSat Maintenance";
+	req_access_txt = "65"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/maint)
 "oYE" = (
 /turf/open/floor/iron/dark/textured_corner{
 	dir = 8
 	},
 /area/ai_monitored/turret_protected/aisat/foyer)
+"oYJ" = (
+/obj/structure/table,
+/obj/machinery/computer/security/telescreen/minisat,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/grimy,
+/area/ai_monitored/turret_protected/ai)
+"pbH" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "AI Core shutters";
+	name = "AI Core Shutter"
+	},
+/obj/machinery/door/window/brigdoor/eastleft{
+	req_access_txt = "16"
+	},
+/obj/machinery/requests_console/directional/south{
+	department = "AI";
+	departmentType = 5;
+	name = "AI Requests Console"
+	},
+/obj/machinery/light_switch/directional/north{
+	pixel_x = 8
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/ai)
+"pnO" = (
+/obj/machinery/ai_slipper{
+	uses = 10
+	},
+/obj/structure/cable,
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/service)
+"pxk" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "AI Core";
+	req_access_txt = "65"
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/grimy,
+/area/ai_monitored/turret_protected/ai)
+"pGN" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"pQN" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
 "pUj" = (
 /turf/open/floor/plating/elevatorshaft,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"pYu" = (
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/ai)
 "qju" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/effect/turf_decal/siding/thinplating{
@@ -228,6 +892,29 @@
 /obj/structure/flora/junglebush/b,
 /turf/open/floor/grass,
 /area/ai_monitored/command/nuke_storage)
+"quM" = (
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/aisat/hallway)
+"qJG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/atmos)
+"ryV" = (
+/obj/structure/flora/junglebush/b,
+/obj/structure/window/reinforced/spawner/east,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/machinery/camera/motion/directional/south{
+	c_tag = "MiniSat AI Chamber West";
+	network = list("aicore")
+	},
+/turf/open/floor/grass,
+/area/ai_monitored/turret_protected/ai)
 "rzY" = (
 /obj/machinery/button/elevator{
 	id = "ailift";
@@ -249,16 +936,38 @@
 /turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
 "skh" = (
-/turf/closed/wall,
+/turf/closed/wall/r_wall,
 /area/ai_monitored/command/nuke_storage)
-"snH" = (
-/obj/machinery/computer/teleporter{
-	dir = 1
+"sIJ" = (
+/obj/machinery/porta_turret/ai{
+	dir = 4;
+	installation = /obj/item/gun/energy/e_gun
 	},
-/turf/open/floor/iron/dark/textured_corner{
-	dir = 4
+/obj/machinery/camera/motion/directional/west{
+	c_tag = "MiniSat Core Hallway";
+	network = list("aicore")
 	},
-/area/ai_monitored/turret_protected/aisat/foyer)
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/aisat/hallway)
+"tcs" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/grimy,
+/area/ai_monitored/turret_protected/ai)
+"tfH" = (
+/obj/machinery/turretid{
+	control_area = "/area/ai_monitored/turret_protected/aisat_interior";
+	name = "Antechamber Turret Control";
+	pixel_y = 28;
+	req_access_txt = "65"
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat_interior)
+"tqQ" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured_large,
+/area/ai_monitored/turret_protected/aisat/hallway)
 "txe" = (
 /turf/open/floor/iron/dark/side,
 /area/ai_monitored/command/nuke_storage)
@@ -268,18 +977,61 @@
 	},
 /turf/open/floor/plating,
 /area/lush_planet/underground)
+"ueX" = (
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/aisat/hallway)
+"uqd" = (
+/turf/closed/wall,
+/area/ai_monitored/turret_protected/aisat/hallway)
+"uyZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
+"uCx" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/aisat/hallway)
+"uFK" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/maint)
 "uMy" = (
 /turf/closed/mineral/random/jungle,
 /area/lush_planet/underground)
+"uNo" = (
+/obj/machinery/camera/directional/east{
+	c_tag = "Satellite Foyer - East";
+	name = "satellite camera";
+	network = list("minisat")
+	},
+/turf/open/floor/iron,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "uSB" = (
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"vgp" = (
+/obj/machinery/computer/monitor,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/service)
+"vhr" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
 "vzm" = (
 /obj/machinery/button/elevator{
 	id = "ailift";
 	pixel_y = -24
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
 "vAy" = (
@@ -291,31 +1043,92 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass,
 /area/ai_monitored/command/nuke_storage)
-"vKf" = (
-/obj/machinery/teleport/station,
-/turf/open/floor/iron/dark,
-/area/ai_monitored/turret_protected/aisat/foyer)
+"vNW" = (
+/turf/closed/wall,
+/area/ai_monitored/turret_protected/ai)
+"wfA" = (
+/obj/structure/window/reinforced/spawner/west,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/pointybush,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/machinery/camera/motion/directional/south{
+	c_tag = "MiniSat AI Chamber East";
+	dir = 5;
+	network = list("aicore")
+	},
+/turf/open/floor/grass,
+/area/ai_monitored/turret_protected/ai)
+"wry" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/grimy,
+/area/ai_monitored/turret_protected/ai)
+"wuW" = (
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/camera/directional/west{
+	c_tag = "MiniSat Service";
+	network = list("minisat");
+	start_active = 1
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/service)
 "wzB" = (
 /turf/open/floor/iron/dark/side{
 	dir = 8
 	},
 /area/ai_monitored/command/nuke_storage)
+"wJf" = (
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ai_monitored/turret_protected/aisat/hallway)
 "xeH" = (
 /obj/structure/ladder,
 /turf/open/floor/plating,
 /area/lush_planet/underground)
+"xlD" = (
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/atmos)
 "xps" = (
 /turf/open/floor/iron,
 /area/ai_monitored/command/nuke_storage)
 "xEO" = (
-/obj/machinery/teleport/hub,
-/turf/open/floor/iron/dark/textured_corner{
+/turf/closed/wall/r_wall,
+/area/ai_monitored/turret_protected/aisat/foyer)
+"xHC" = (
+/obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/area/ai_monitored/turret_protected/aisat/foyer)
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
+"xKo" = (
+/obj/machinery/door/airlock/hatch{
+	name = "MiniSat Chamber Observation";
+	req_one_access_txt = "65"
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/hallway)
+"xMA" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ai_monitored/turret_protected/aisat/atmos)
 "xUs" = (
 /turf/closed/wall,
 /area/lush_planet/underground)
+"ycC" = (
+/obj/machinery/porta_turret/ai,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/ai)
 "yhA" = (
 /turf/open/floor/catwalk_floor/iron,
 /area/ai_monitored/command/nuke_storage)
@@ -37707,10 +38520,10 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
+kjK
+kjK
+kjK
+kjK
 uMy
 uMy
 uMy
@@ -37945,6 +38758,17 @@ uMy
 uMy
 uMy
 uMy
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
 uMy
 uMy
 uMy
@@ -37953,22 +38777,11 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+kjK
+hQt
+hQt
+kjK
+kjK
 uMy
 uMy
 uMy
@@ -38201,34 +39014,34 @@ uMy
 uMy
 uMy
 uMy
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+vNW
+vNW
 uMy
 uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+kjK
+hQt
+hQt
+hQt
+kjK
+nzw
+nzw
+nzw
 uMy
 uMy
 uMy
@@ -38457,36 +39270,36 @@ uMy
 uMy
 uMy
 uMy
+pYu
+pYu
+pYu
+vNW
+vNW
+vNW
+vNW
+pYu
+pYu
+pYu
+vNW
+vNW
+pYu
+pYu
+liA
+vNW
+vNW
 uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+kjK
+hQt
+hQt
+kjK
+kjK
+wuW
+dba
+nzw
+nzw
 uMy
 uMy
 uMy
@@ -38714,36 +39527,36 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+pYu
+pYu
+vNW
+vNW
+pYu
+pYu
+pYu
+pYu
+iXZ
+pYu
+pYu
+pYu
+pYu
+pYu
+liA
+liA
+vNW
+kjK
+kjK
+kjK
+kjK
+kjK
+krE
+krE
+oYA
+cdl
+bAS
+bAS
+gtz
+nzw
 uMy
 uMy
 uMy
@@ -38971,36 +39784,36 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+pYu
+pYu
+vNW
+pYu
+pYu
+jSY
+liA
+liA
+liA
+liA
+hoA
+ryV
+pYu
+pYu
+liA
+liA
+liA
+oKk
+hQt
+hQt
+krE
+krE
+uFK
+hQt
+kjK
+vgp
+pnO
+jIa
+iBF
+nzw
 laP
 uMy
 uMy
@@ -39013,7 +39826,7 @@ uMy
 lzG
 lzG
 nhZ
-nhZ
+fbR
 nhZ
 lzG
 lzG
@@ -39228,38 +40041,38 @@ uMy
 uMy
 uMy
 uMy
+pYu
+pYu
+vNW
+pYu
+geY
+liA
+liA
+liA
+ahx
+liA
+liA
+liA
+ktV
+pYu
+liA
+liA
+liA
+kjK
+kjK
+kjK
+oYA
+kjK
+kjK
+kjK
+kjK
+cNE
+bAS
+jIa
+hBB
+nzw
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-laP
-laP
 uMy
 uMy
 uMy
@@ -39268,11 +40081,11 @@ uMy
 uMy
 lzG
 lzG
-nhZ
+eir
 nhZ
 rzY
 nhZ
-nhZ
+okp
 lzG
 lzG
 uMy
@@ -39485,43 +40298,43 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-laP
-laP
-uMy
-uMy
-uMy
-uMy
+pYu
+pYu
+pYu
+pYu
+liA
+kFf
+vhr
+liA
+liA
+kFf
+vhr
+liA
+liA
+bSJ
+tcs
+tcs
+wry
+uqd
+sIJ
+ueX
+lcM
+uCx
+quM
+hwo
+lZV
+lZV
+dCw
+lZV
+lZV
+lZV
+lZV
+fqy
+fqy
+lZV
+fqy
+fqy
+lZV
 lzG
 lzG
 nhZ
@@ -39532,11 +40345,11 @@ onD
 ooL
 nhZ
 lzG
-lzG
-lzG
-lzG
-lzG
-lzG
+xEO
+xEO
+xEO
+xEO
+uMy
 laP
 laP
 uMy
@@ -39742,43 +40555,43 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-laP
-laP
-uMy
-uMy
-uMy
-uMy
+pYu
+pYu
+pYu
+gpi
+liA
+xHC
+vNW
+vNW
+gaG
+vNW
+pQN
+liA
+liA
+bSJ
+aVG
+aVG
+dxn
+uqd
+cON
+cON
+cON
+cON
+cON
+cON
+lZV
+oKb
+gGn
+oKb
+nXT
+lZV
+tfH
+oKb
+oKb
+nFJ
+oKb
+oKb
+oKb
 lzG
 nhZ
 nhZ
@@ -39792,8 +40605,8 @@ nhZ
 foj
 djG
 nIf
-snH
-lzG
+xEO
+uMy
 laP
 laP
 uMy
@@ -39999,45 +40812,45 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-laP
-laP
-uMy
-uMy
-uMy
-nhZ
-nhZ
+pYu
+pYu
+pYu
+jyE
+ahx
+xHC
+vNW
+lHU
+oHv
+gVw
+jvP
+ahx
+liA
+pxk
+aVG
+kEQ
+aVG
+xKo
+wJf
+wJf
+tqQ
+oGw
+wJf
+wJf
+iVA
+oKb
+kgc
+knw
+gGn
+aUD
+gGn
+gzO
+gzO
+gGn
+gzO
+gzO
+gGn
+lYA
+hkb
 vzm
 lzG
 pUj
@@ -40046,11 +40859,11 @@ pUj
 lzG
 rPW
 nhZ
-lzG
+xEO
 mTV
 hMC
-vKf
-lzG
+xEO
+uMy
 laP
 uMy
 uMy
@@ -40256,46 +41069,46 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-laP
-uMy
-uMy
-uMy
+pYu
+pYu
+pYu
+gLV
+dNu
+aJd
+vNW
+vNW
+pbH
+vNW
+gGq
+liA
+liA
+bSJ
+msD
+aCH
+aVG
+uqd
+cON
+cON
+cON
+cON
+cON
+cON
+lZV
+ewC
+gGn
+oKb
+oKb
+lZV
+oKb
+oKb
+oKb
+iuP
+oKb
+oKb
+oKb
 lzG
 nhZ
-nhZ
+hkb
 hjR
 pUj
 pUj
@@ -40305,9 +41118,9 @@ nhZ
 nhZ
 ixi
 oYE
-nIf
+mci
 xEO
-lzG
+uMy
 laP
 uMy
 uMy
@@ -40513,46 +41326,46 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-laP
-laP
-uMy
-uMy
+pYu
+pYu
+pYu
+pYu
+liA
+uyZ
+igh
+liA
+liA
+uyZ
+igh
+liA
+liA
+bSJ
+oYJ
+gAS
+grz
+uqd
+hwo
+ueX
+baS
+lcM
+ueX
+hwo
+lZV
+lZV
+khP
+lZV
+lZV
+lZV
+lZV
+fqy
+fqy
+lZV
+fqy
+fqy
+lZV
 lzG
 lzG
-nhZ
+pGN
 ftF
 agI
 lzG
@@ -40560,11 +41373,11 @@ agI
 jzj
 nhZ
 lzG
-lzG
-lzG
-lzG
-lzG
-lzG
+xEO
+xEO
+xEO
+xEO
+uMy
 laP
 uMy
 uMy
@@ -40770,36 +41583,36 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+pYu
+pYu
+vNW
+pYu
+geY
+liA
+liA
+liA
+ahx
+liA
+liA
+liA
+mta
+pYu
+liA
+liA
+liA
+kjK
+kjK
+kjK
+kjK
+oYA
+kjK
+kjK
+kjK
+cns
+nYJ
+xlD
+ndd
+kgw
 uMy
 uMy
 uMy
@@ -40810,11 +41623,11 @@ uMy
 uMy
 lzG
 lzG
-nhZ
+eir
 nhZ
 ffV
 nhZ
-nhZ
+okp
 lzG
 lzG
 laP
@@ -41027,36 +41840,36 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-skh
-skh
-skh
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+pYu
+pYu
+vNW
+pYu
+pYu
+ycC
+liA
+liA
+liA
+liA
+bDd
+wfA
+pYu
+pYu
+liA
+liA
+liA
+oKk
+hQt
+hQt
+hQt
+krE
+krE
+hQt
+kjK
+xMA
+lNI
+xlD
+fvt
+kgw
 uMy
 uMy
 uMy
@@ -41069,7 +41882,7 @@ uMy
 lzG
 lzG
 nhZ
-nhZ
+uNo
 nhZ
 lzG
 lzG
@@ -41284,36 +42097,36 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-skh
+pYu
+pYu
+vNW
+vNW
+pYu
+pYu
+pYu
+pYu
+hEz
+pYu
+pYu
+pYu
+pYu
+pYu
+liA
+liA
 skh
 mdB
-skh
-skh
-skh
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+mdB
+mdB
+mdB
+mdB
+krE
+krE
+oYA
+kPR
+nYJ
+xlD
+ndd
+kgw
 uMy
 uMy
 uMy
@@ -41541,36 +42354,36 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+pYu
+pYu
+pYu
+vNW
+vNW
+vNW
+vNW
+pYu
+pYu
+pYu
+vNW
+vNW
+pYu
+pYu
+liA
 skh
 skh
 hTz
-aNl
+bzF
 apj
 qju
-skh
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+mdB
+hQt
+hQt
+kjK
+kjK
+obr
+qJG
+kgw
+kgw
 uMy
 uMy
 uMy
@@ -41799,19 +42612,19 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
 skh
 skh
 hTz
@@ -41819,14 +42632,14 @@ aNl
 mvH
 xps
 vAy
-skh
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+mdB
+hQt
+hQt
+hQt
+kjK
+kgw
+kgw
+kgw
 uMy
 uMy
 uMy
@@ -42057,17 +42870,17 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
+pYu
 uMy
 skh
 lub
@@ -42076,11 +42889,11 @@ txe
 rFe
 gns
 lAh
-skh
-uMy
-uMy
-uMy
-uMy
+mdB
+hQt
+hQt
+kjK
+kjK
 uMy
 uMy
 uMy
@@ -42332,11 +43145,11 @@ mJZ
 gju
 wzB
 xps
-yhA
-skh
-skh
-uMy
-uMy
+fBy
+mdB
+mdB
+kjK
+kjK
 uMy
 uMy
 uMy
