@@ -115,6 +115,8 @@
 /// log emotes
 /datum/config_entry/flag/log_emote
 
+/datum/config_entry/flag/lobby_camera // Toggle Lobby Camera - STAR EDIT ADDITION
+
 /// log economy actions
 /datum/config_entry/flag/log_econ
 
