@@ -238,19 +238,17 @@
 /turf/open/floor/wood,
 /area/hallway/secondary/exit/departure_lounge)
 "cb" = (
-/obj/structure/closet,
-/obj/item/tank/jetpack/void,
-/obj/item/clothing/head/helmet/space/nasavoid/old,
-/obj/item/clothing/suit/space/nasavoid,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
-/obj/machinery/light/small/directional/west,
+/obj/machinery/light/directional/west,
+/obj/structure/table,
+/obj/item/shovel,
 /turf/open/floor/iron,
-/area/space)
+/area/cargo/miningdock)
 "ci" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -425,10 +423,19 @@
 "dX" = (
 /turf/open/floor/plating,
 /area/engineering/atmos)
+"ea" = (
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 2"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
 "ed" = (
 /mob/living/simple_animal/sloth/citrus,
 /turf/open/floor/iron,
-/area/space)
+/area/cargo/miningdock)
 "ee" = (
 /obj/machinery/light/directional/south,
 /obj/structure/table,
@@ -453,7 +460,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/cargo/miningdock)
 "er" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
@@ -569,6 +576,15 @@
 /obj/structure/girder,
 /turf/open/floor/plating,
 /area/maintenance/department/medical)
+"fK" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/machinery/door/airlock/external{
+	name = "Mining Dock Airlock"
+	},
+/turf/open/floor/plating,
+/area/cargo/miningdock)
 "fO" = (
 /obj/structure/chair{
 	dir = 1
@@ -612,6 +628,17 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2,
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"gp" = (
+/obj/docking_port/stationary{
+	dwidth = 3;
+	height = 5;
+	id = "mining_home";
+	name = "mining shuttle bay";
+	roundstart_template = /datum/map_template/shuttle/mining/box;
+	width = 7
+	},
+/turf/open/space/basic,
+/area/space)
 "gt" = (
 /obj/effect/spawner/random/engineering/atmospherics_portable,
 /turf/open/floor/plating,
@@ -624,6 +651,14 @@
 	dir = 4
 	},
 /area/space)
+"gT" = (
+/obj/machinery/door/airlock/external{
+	name = "Supply Dock Airlock";
+	req_access_txt = "31"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/cargo/storage)
 "gW" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 1
@@ -649,6 +684,15 @@
 /obj/structure/closet/crate/hydroponics,
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
+"hi" = (
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod One"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
 "hx" = (
 /obj/structure/table/glass,
 /obj/item/storage/firstaid/brute{
@@ -683,6 +727,19 @@
 	dir = 1
 	},
 /area/commons/toilet/restrooms)
+"hJ" = (
+/obj/machinery/door/airlock/mining/glass{
+	name = "Cargo Bay";
+	req_one_access_txt = "31;48"
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/cargo/miningdock)
 "hR" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -755,6 +812,9 @@
 /obj/structure/closet/firecloset,
 /turf/open/floor/plating,
 /area/maintenance/port/central)
+"io" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
 "ip" = (
 /obj/machinery/processor,
 /turf/open/floor/iron/cafeteria,
@@ -862,6 +922,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/engineering/storage/tech)
+"jr" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/cargo/sorting)
 "ju" = (
 /turf/open/floor/iron/white/corner{
 	dir = 8
@@ -916,6 +980,9 @@
 	},
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
+"jZ" = (
+/turf/closed/wall,
+/area/cargo/miningdock)
 "ka" = (
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron,
@@ -1238,13 +1305,6 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/atmos)
-"mW" = (
-/obj/machinery/conveyor_switch/oneway{
-	id = "beta";
-	pixel_x = 9
-	},
-/turf/open/floor/iron,
-/area/space)
 "mX" = (
 /obj/item/pickaxe,
 /turf/open/floor/iron,
@@ -1274,6 +1334,9 @@
 "nm" = (
 /turf/closed/mineral/silver,
 /area/space)
+"np" = (
+/turf/open/floor/plating,
+/area/cargo/miningdock)
 "nw" = (
 /obj/machinery/door/airlock/external{
 	name = "Arrival Shuttle Airlock"
@@ -1316,6 +1379,16 @@
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/engine/n2,
 /area/engineering/atmos)
+"nU" = (
+/obj/machinery/door/airlock/external{
+	name = "Mining Dock Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/cargo/miningdock)
 "nV" = (
 /turf/open/floor/iron/cafeteria,
 /area/space)
@@ -1377,6 +1450,9 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/engineering/storage/tech)
+"oS" = (
+/turf/closed/wall,
+/area/cargo/sorting)
 "oU" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/techstorage/security_all,
@@ -1449,6 +1525,13 @@
 /obj/effect/turf_decal/tile/blue/half,
 /turf/open/floor/iron/dark/smooth_edge,
 /area/medical/pharmacy)
+"pH" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 4"
+	},
+/turf/open/floor/plating,
+/area/space)
 "pI" = (
 /obj/structure/chair/sofa/left{
 	dir = 1
@@ -1461,6 +1544,13 @@
 /obj/item/clothing/mask/breath/medical,
 /turf/open/floor/iron/white,
 /area/space)
+"pY" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/cargo/storage)
 "qc" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -1505,6 +1595,14 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
+"qF" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/mining/glass{
+	name = "Mining Office";
+	req_one_access_txt = "31;48"
+	},
+/turf/open/floor/iron,
+/area/cargo/miningdock)
 "qI" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -1609,6 +1707,10 @@
 	},
 /turf/open/floor/plating,
 /area/medical/pharmacy)
+"rU" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/cargo/storage)
 "rW" = (
 /turf/closed/mineral/iron,
 /area/space)
@@ -1642,11 +1744,16 @@
 /turf/open/floor/iron/white,
 /area/space)
 "sg" = (
-/obj/machinery/conveyor{
-	id = "beta"
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
 	},
-/turf/open/floor/plating,
-/area/space)
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/machinery/computer/security/mining,
+/turf/open/floor/iron,
+/area/cargo/miningdock)
 "sm" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -1805,13 +1912,6 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/command/bridge)
-"tO" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/brown,
-/turf/open/floor/iron,
-/area/space)
 "tR" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L8"
@@ -1836,11 +1936,33 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
+"ui" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 2
+	},
+/obj/structure/disposaloutlet{
+	dir = 4
+	},
+/obj/structure/window/spawner/west,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "garbage"
+	},
+/turf/open/floor/iron,
+/area/cargo/sorting)
 "un" = (
 /obj/machinery/smartfridge/chemistry/preloaded,
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/medical/pharmacy)
+"us" = (
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 1";
+	space_dir = null
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/space)
 "uC" = (
 /turf/closed/wall,
 /area/command/bridge)
@@ -2002,6 +2124,16 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine/atmos)
+"vR" = (
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 1";
+	space_dir = null
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
 "vU" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -2041,6 +2173,17 @@
 /obj/structure/chair/stool/directional/west,
 /turf/open/floor/plating,
 /area/maintenance/solars/port/aft)
+"wb" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 1;
+	height = 4;
+	name = "escape pod loader";
+	roundstart_template = /datum/map_template/shuttle/escape_pod/default;
+	width = 3
+	},
+/turf/open/space/basic,
+/area/space)
 "wc" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -2102,6 +2245,14 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/wood,
 /area/hallway/secondary/exit/departure_lounge)
+"wF" = (
+/obj/machinery/recycler,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "garbage"
+	},
+/turf/open/floor/iron,
+/area/cargo/sorting)
 "wK" = (
 /obj/machinery/pipedispenser,
 /obj/effect/turf_decal/stripes/line{
@@ -2109,6 +2260,20 @@
 	},
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"wL" = (
+/obj/machinery/disposal/delivery_chute{
+	dir = 8
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/structure/plasticflaps,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "packageSort2"
+	},
+/turf/open/floor/iron,
+/area/cargo/sorting)
 "wP" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/mineral/silver{
@@ -2214,6 +2379,17 @@
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/iron,
 /area/space)
+"xK" = (
+/obj/docking_port/stationary{
+	dir = 2;
+	dwidth = 11;
+	height = 22;
+	id = "whiteship_home";
+	name = "SS13: Auxiliary Dock, Station-Port";
+	width = 35
+	},
+/turf/open/space/basic,
+/area/space)
 "xO" = (
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Atmospherics";
@@ -2224,7 +2400,6 @@
 /turf/open/floor/catwalk_floor/iron,
 /area/engineering/atmos)
 "xQ" = (
-/obj/structure/closet,
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -2232,12 +2407,10 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
-/obj/item/clothing/mask/breath,
-/obj/item/tank/internals/oxygen,
-/obj/item/tank/internals/oxygen,
 /obj/machinery/light_switch/directional/south,
+/obj/structure/table,
 /turf/open/floor/iron,
-/area/space)
+/area/cargo/miningdock)
 "xT" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
@@ -2294,6 +2467,13 @@
 	},
 /turf/open/floor/iron,
 /area/security/checkpoint/escape)
+"yd" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 3"
+	},
+/turf/open/floor/plating,
+/area/space)
 "ye" = (
 /obj/structure/table,
 /obj/item/tank/internals/emergency_oxygen,
@@ -2336,11 +2516,31 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"yB" = (
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod Two"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
 "yJ" = (
 /obj/structure/table,
 /obj/item/lighter,
 /turf/open/floor/iron,
 /area/command/bridge)
+"yT" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 2;
+	height = 11;
+	id = "ferry_home";
+	name = "port bay 2";
+	width = 5
+	},
+/turf/open/space/basic,
+/area/space)
 "yW" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/structure/window/reinforced/spawner,
@@ -2356,10 +2556,22 @@
 /obj/structure/closet/emcloset/anchored,
 /turf/open/floor/plating,
 /area/space)
+"za" = (
+/turf/open/floor/iron,
+/area/cargo/sorting)
 "zn" = (
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
+"zp" = (
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 6"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
 "zq" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/engineering{
@@ -2382,6 +2594,9 @@
 /obj/structure/closet/crate,
 /turf/open/floor/plating,
 /area/space)
+"zu" = (
+/turf/open/floor/plating,
+/area/cargo/storage)
 "zv" = (
 /obj/machinery/firealarm/directional/west,
 /obj/structure/closet/wardrobe/pjs,
@@ -2425,6 +2640,10 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"zX" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/cargo/miningdock)
 "zY" = (
 /obj/structure/table,
 /obj/item/tank/internals/oxygen,
@@ -2577,6 +2796,15 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"Bv" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 4"
+	},
+/turf/open/floor/plating,
+/area/space)
 "Bz" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
 	dir = 1
@@ -2650,6 +2878,9 @@
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/open/floor/plating,
 /area/maintenance/department/bridge)
+"Cw" = (
+/turf/open/floor/catwalk_floor/iron,
+/area/cargo/miningdock)
 "Cx" = (
 /obj/machinery/door/airlock/external{
 	name = "Engineering External Airlock";
@@ -2752,6 +2983,15 @@
 /obj/item/coin,
 /turf/open/floor/iron,
 /area/command/bridge)
+"DT" = (
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 5"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
 "Ea" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -2874,6 +3114,19 @@
 /obj/item/pen,
 /turf/open/floor/iron,
 /area/command/bridge)
+"FK" = (
+/obj/machinery/door/airlock/mining/glass{
+	name = "Cargo Bay";
+	req_one_access_txt = "31;48"
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/cargo/storage)
 "FQ" = (
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/iron,
@@ -2885,6 +3138,20 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron,
 /area/space)
+"Gc" = (
+/obj/machinery/door/airlock/mining/glass{
+	name = "Mailing Sorting Office";
+	req_access_txt = "50"
+	},
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/cargo/sorting)
 "Gg" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
@@ -2910,6 +3177,13 @@
 /obj/structure/window/spawner/west,
 /turf/open/floor/iron/dark/smooth_edge,
 /area/medical/pharmacy)
+"Gu" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "garbage"
+	},
+/turf/open/floor/iron,
+/area/cargo/sorting)
 "Gw" = (
 /obj/machinery/portable_atmospherics/canister/plasma,
 /obj/machinery/light/small/directional/east,
@@ -2928,10 +3202,14 @@
 	},
 /turf/open/floor/iron/white/smooth_corner,
 /area/medical/pharmacy)
+"GB" = (
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 2"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating,
+/area/space)
 "GD" = (
-/obj/structure/rack,
-/obj/item/pickaxe,
-/obj/item/pickaxe,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
@@ -2941,8 +3219,9 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/miner,
 /turf/open/floor/iron,
-/area/space)
+/area/cargo/miningdock)
 "GF" = (
 /obj/structure/table,
 /obj/item/cultivator{
@@ -2953,6 +3232,15 @@
 /obj/item/shovel/spade,
 /turf/open/floor/iron,
 /area/service/hydroponics/garden)
+"GH" = (
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 5"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
 "GK" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -2967,6 +3255,14 @@
 /obj/machinery/light_switch/directional/south,
 /turf/open/floor/iron,
 /area/space)
+"GO" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown,
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron,
+/area/cargo/miningdock)
 "GP" = (
 /obj/machinery/chem_master,
 /obj/item/reagent_containers/glass/beaker,
@@ -3026,6 +3322,12 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/iron,
 /area/security/checkpoint/escape)
+"HI" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/cargo/miningdock)
 "HU" = (
 /obj/machinery/air_sensor/atmos/nitrogen_tank,
 /turf/open/floor/engine/n2,
@@ -3153,6 +3455,14 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"IO" = (
+/obj/docking_port/stationary/random{
+	dir = 8;
+	id = "pod_lavaland";
+	name = "lavaland"
+	},
+/turf/open/space/basic,
+/area/space)
 "IT" = (
 /obj/structure/chair{
 	dir = 1
@@ -3202,17 +3512,12 @@
 /turf/open/floor/plating,
 /area/maintenance/department/medical)
 "Jg" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "beta"
-	},
-/obj/structure/plasticflaps,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/brown,
 /turf/open/floor/iron,
-/area/space)
+/area/cargo/miningdock)
 "Jh" = (
 /obj/machinery/power/smes/engineering{
 	charge = 0
@@ -3428,8 +3733,22 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/miner,
 /turf/open/floor/iron,
-/area/space)
+/area/cargo/miningdock)
+"LP" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "packageSort2"
+	},
+/obj/structure/disposaloutlet{
+	dir = 4
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 2
+	},
+/turf/open/floor/iron,
+/area/cargo/sorting)
 "LT" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Holding Area";
@@ -3449,6 +3768,10 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"LY" = (
+/obj/machinery/computer/cargo,
+/turf/open/floor/iron,
+/area/cargo/storage)
 "Mb" = (
 /obj/structure/cable,
 /obj/structure/lattice/catwalk,
@@ -3464,6 +3787,22 @@
 /obj/item/clothing/mask/breath,
 /turf/open/floor/plating,
 /area/maintenance/port/central)
+"Mo" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/iron,
+/area/cargo/sorting)
+"Mr" = (
+/obj/machinery/door/airlock/external{
+	name = "Supply Dock Airlock";
+	req_access_txt = "31"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/cargo/storage)
 "MA" = (
 /obj/structure/chair{
 	dir = 1
@@ -3489,12 +3828,16 @@
 /turf/open/floor/iron/white,
 /area/space)
 "Ng" = (
-/obj/machinery/conveyor{
-	dir = 10;
-	id = "beta"
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
 	},
-/turf/open/floor/plating,
-/area/space)
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/machinery/mineral/equipment_vendor,
+/turf/open/floor/iron,
+/area/cargo/miningdock)
 "Nk" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -3504,6 +3847,15 @@
 "Nt" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
+/area/space)
+"NB" = (
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod Two"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
 /area/space)
 "ND" = (
 /obj/machinery/light/small/directional/south,
@@ -3570,19 +3922,17 @@
 /turf/open/floor/iron/white,
 /area/space)
 "Oo" = (
-/obj/structure/rack,
-/obj/item/storage/bag/ore,
-/obj/item/storage/bag/ore,
-/obj/item/mining_scanner,
-/obj/item/mining_scanner,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/iron,
-/area/space)
+/area/cargo/miningdock)
 "Oq" = (
 /obj/structure/mirror/directional/west,
 /turf/open/floor/iron/white,
@@ -3631,6 +3981,19 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"OX" = (
+/obj/structure/window/spawner/west,
+/obj/machinery/conveyor_switch/oneway{
+	dir = 8;
+	id = "garbage";
+	name = "disposal conveyor"
+	},
+/obj/structure/disposalpipe/sorting/mail/flip{
+	dir = 4;
+	sortType = 1
+	},
+/turf/open/floor/iron,
+/area/cargo/sorting)
 "Pb" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
@@ -3638,12 +4001,30 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+/obj/structure/closet/secure_closet/miner,
 /turf/open/floor/iron,
+/area/cargo/miningdock)
+"Pd" = (
+/obj/docking_port/stationary{
+	dwidth = 5;
+	height = 7;
+	id = "supply_home";
+	name = "Cargo Bay";
+	width = 12
+	},
+/turf/open/space/basic,
 /area/space)
 "Pf" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"Ph" = (
+/obj/machinery/door/airlock/mining/glass{
+	name = "Mailing Sorting Office";
+	req_access_txt = "50"
+	},
+/turf/open/floor/iron,
+/area/cargo/sorting)
 "Po" = (
 /obj/structure/table/optable{
 	name = "Robotics Operating Table"
@@ -3667,17 +4048,15 @@
 /turf/closed/wall,
 /area/engineering/atmos)
 "PG" = (
-/obj/machinery/mineral/unloading_machine{
-	dir = 4
-	},
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
+/obj/machinery/computer/shuttle/mining,
 /turf/open/floor/iron,
-/area/space)
+/area/cargo/miningdock)
 "PI" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
@@ -3688,6 +4067,24 @@
 "Qd" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron,
+/area/space)
+"Qj" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 3"
+	},
+/turf/open/floor/plating,
+/area/space)
+"Qk" = (
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 6"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
 /area/space)
 "Qm" = (
 /obj/structure/closet/wardrobe/black,
@@ -3725,6 +4122,13 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/white,
 /area/space)
+"Qx" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "packageSort2"
+	},
+/turf/open/floor/iron,
+/area/cargo/sorting)
 "QC" = (
 /turf/closed/wall,
 /area/hallway/secondary/entry)
@@ -3739,11 +4143,12 @@
 /turf/open/floor/iron,
 /area/space)
 "QL" = (
-/obj/machinery/mineral/processing_unit{
-	dir = 1
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
 	},
-/turf/open/floor/plating,
-/area/space)
+/obj/effect/turf_decal/tile/brown,
+/turf/open/floor/iron,
+/area/cargo/miningdock)
 "QM" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -3795,6 +4200,12 @@
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/open/floor/plating,
 /area/space)
+"RI" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/cargo/sorting)
 "RL" = (
 /obj/structure/chair/office/light,
 /turf/open/floor/iron/white/textured,
@@ -3806,9 +4217,8 @@
 /turf/open/floor/iron,
 /area/engineering/atmos)
 "RY" = (
-/obj/machinery/mineral/processing_unit_console,
-/turf/closed/wall,
-/area/space)
+/turf/open/floor/iron,
+/area/cargo/miningdock)
 "RZ" = (
 /obj/structure/table/reinforced/rglass,
 /obj/structure/sign/warning/chemdiamond{
@@ -4008,6 +4418,11 @@
 "UA" = (
 /turf/open/floor/plating,
 /area/maintenance/port/central)
+"UI" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/mineral/ore_redemption,
+/turf/open/floor/plating,
+/area/cargo/miningdock)
 "UK" = (
 /obj/machinery/light/small/directional/west,
 /obj/effect/turf_decal/tile/green{
@@ -4067,6 +4482,9 @@
 /obj/machinery/meter,
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"VV" = (
+/turf/closed/wall,
+/area/cargo/storage)
 "VY" = (
 /obj/structure/closet/crate/secure/engineering{
 	name = "plasma tank crate";
@@ -4076,6 +4494,15 @@
 /obj/item/tank/internals/plasma/full,
 /obj/item/tank/internals/plasma/full,
 /obj/item/tank/internals/plasma/full,
+/turf/open/floor/plating,
+/area/space)
+"Wb" = (
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod One"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/space)
 "Wh" = (
@@ -4149,6 +4576,9 @@
 	},
 /turf/open/floor/iron,
 /area/medical/medbay)
+"Xo" = (
+/turf/open/floor/iron,
+/area/cargo/storage)
 "Xp" = (
 /turf/open/floor/iron/white/corner,
 /area/space)
@@ -4371,8 +4801,15 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
+/obj/structure/rack,
+/obj/item/storage/bag/ore,
+/obj/item/storage/bag/ore,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/mining_scanner,
+/obj/item/mining_scanner,
 /turf/open/floor/iron,
-/area/space)
+/area/cargo/miningdock)
 "ZQ" = (
 /obj/machinery/firealarm/directional/west,
 /obj/effect/turf_decal/tile/yellow{
@@ -4383,6 +4820,13 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"ZW" = (
+/obj/machinery/conveyor_switch/oneway{
+	id = "packageSort2"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron,
+/area/cargo/sorting)
 
 (1,1,1) = {"
 pk
@@ -18897,6 +19341,7 @@ pk
 pk
 pk
 pk
+IO
 pk
 pk
 pk
@@ -18912,8 +19357,7 @@ pk
 pk
 pk
 pk
-pk
-pk
+IO
 pk
 pk
 pk
@@ -19666,6 +20110,11 @@ pk
 pk
 pk
 pk
+io
+pk
+pk
+pk
+io
 pk
 pk
 pk
@@ -19677,16 +20126,11 @@ pk
 pk
 pk
 pk
+io
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+io
 pk
 pk
 pk
@@ -19923,6 +20367,11 @@ pk
 pk
 pk
 pk
+tF
+pk
+wb
+pk
+tF
 pk
 pk
 pk
@@ -19934,16 +20383,11 @@ pk
 pk
 pk
 pk
+tF
 pk
+wb
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tF
 pk
 pk
 pk
@@ -20180,6 +20624,11 @@ pk
 pk
 pk
 pk
+tF
+tF
+NB
+tF
+tF
 pk
 pk
 pk
@@ -20191,16 +20640,11 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tF
+tF
+Wb
+tF
+tF
 pk
 pk
 pk
@@ -20437,6 +20881,11 @@ pk
 pk
 pk
 pk
+tF
+ry
+ry
+yZ
+tF
 pk
 pk
 pk
@@ -20448,16 +20897,11 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tF
+yZ
+ry
+ry
+tF
 pk
 pk
 pk
@@ -20694,6 +21138,11 @@ pk
 pk
 pk
 pk
+tF
+tF
+yB
+tF
+tF
 pk
 pk
 pk
@@ -20705,16 +21154,11 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tF
+tF
+hi
+tF
+tF
 pk
 pk
 pk
@@ -20950,6 +21394,12 @@ pk
 pk
 pk
 pk
+uG
+uG
+uG
+ph
+ph
+tF
 pk
 pk
 pk
@@ -20961,18 +21411,12 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tF
+ph
+ph
+uG
+uG
+uG
 pk
 pk
 pk
@@ -21207,6 +21651,12 @@ pk
 pk
 pk
 pk
+us
+ry
+vR
+ph
+ph
+tF
 pk
 pk
 pk
@@ -21218,19 +21668,13 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tF
+ph
+ph
+pH
+ry
+Bv
+xK
 pk
 pk
 pk
@@ -21464,6 +21908,12 @@ pk
 pk
 pk
 pk
+uG
+uG
+uG
+ph
+ph
+uG
 pk
 pk
 pk
@@ -21475,18 +21925,12 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+uG
+ph
+ph
+uG
+uG
+uG
 pk
 pk
 pk
@@ -21722,6 +22166,11 @@ pk
 pk
 pk
 pk
+uG
+ph
+ph
+ph
+uG
 pk
 pk
 pk
@@ -21733,16 +22182,11 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+uG
+ph
+ph
+ph
+uG
 pk
 pk
 pk
@@ -21979,6 +22423,11 @@ pk
 pk
 pk
 pk
+uG
+ph
+ph
+ph
+uG
 pk
 pk
 pk
@@ -21990,16 +22439,11 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+uG
+ph
+ph
+ph
+uG
 pk
 pk
 pk
@@ -22236,6 +22680,11 @@ pk
 pk
 pk
 pk
+uG
+ph
+ph
+ph
+tF
 pk
 pk
 pk
@@ -22247,16 +22696,11 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tF
+ph
+ph
+ph
+uG
 pk
 pk
 pk
@@ -22493,6 +22937,11 @@ pk
 pk
 pk
 pk
+uG
+ph
+ph
+ph
+tF
 pk
 pk
 pk
@@ -22504,16 +22953,11 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tF
+ph
+ph
+ph
+uG
 pk
 pk
 pk
@@ -22749,6 +23193,12 @@ pk
 pk
 pk
 pk
+uG
+uG
+uG
+ph
+ph
+uG
 pk
 pk
 pk
@@ -22760,18 +23210,12 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+uG
+ph
+ph
+uG
+uG
+uG
 pk
 pk
 pk
@@ -23006,6 +23450,12 @@ pk
 pk
 pk
 pk
+GB
+ry
+ea
+ph
+ph
+uG
 pk
 pk
 pk
@@ -23014,21 +23464,15 @@ pk
 pk
 pk
 pk
+yT
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+uG
+ph
+ph
+yd
+ry
+Qj
 pk
 pk
 pk
@@ -23263,29 +23707,29 @@ pk
 pk
 pk
 pk
+uG
+uG
+uG
+ph
+ph
+uG
+pk
+uG
+GH
+uG
 pk
 pk
 pk
+uG
+zp
+uG
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+uG
+ph
+ph
+uG
+uG
+uG
 pk
 pk
 pk
@@ -23521,27 +23965,27 @@ pk
 pk
 pk
 pk
+tF
+ph
+ph
+ph
+tF
+pk
+uG
+ry
+uG
 pk
 pk
 pk
+uG
+ry
+uG
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tF
+ph
+ph
+ph
+tF
 pk
 pk
 pk
@@ -23778,27 +24222,27 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tF
+ph
+ph
+ph
+tF
+tF
+uG
+DT
+uG
+uG
+tF
+uG
+uG
+Qk
+uG
+tF
+tF
+ph
+ph
+ph
+tF
 pk
 pk
 pk
@@ -24035,27 +24479,27 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tF
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+tF
 pk
 pk
 pk
@@ -24292,27 +24736,27 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
-pk
+tF
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+ph
+tF
 pk
 pk
 pk
@@ -24550,6 +24994,8 @@ Jy
 BI
 Jy
 Jy
+Ux
+Ux
 tF
 tF
 tF
@@ -24565,10 +25011,8 @@ tF
 tF
 tF
 tF
-tF
-tF
-tF
-tF
+Ux
+Ux
 tF
 pk
 pk
@@ -24813,6 +25257,7 @@ ph
 dz
 ph
 ph
+Ux
 ph
 ph
 ph
@@ -24822,8 +25267,7 @@ ph
 ph
 ph
 ph
-ph
-ph
+Ux
 ph
 ph
 tF
@@ -25070,7 +25514,7 @@ ph
 ph
 ph
 ph
-ph
+Ux
 ph
 ph
 ph
@@ -25080,7 +25524,7 @@ Qd
 ph
 ph
 ph
-ph
+Ux
 ph
 ph
 tF
@@ -28657,11 +29101,11 @@ pk
 pk
 pk
 pk
-fU
-fU
-eH
-fU
-fU
+oS
+oS
+jr
+oS
+oS
 ph
 ph
 ph
@@ -28914,11 +29358,11 @@ pk
 pk
 pk
 pk
-eT
-pk
-pk
-pk
-tF
+oS
+LP
+ZW
+Mo
+oS
 Ux
 Ux
 el
@@ -29171,11 +29615,11 @@ pk
 pk
 pk
 pk
-eT
-pk
-pk
-pk
-tF
+oS
+Qx
+za
+za
+oS
 ph
 ph
 el
@@ -29428,11 +29872,11 @@ pk
 pk
 pk
 pk
-eT
-pk
-pk
-pk
-tF
+oS
+Qx
+za
+za
+oS
 ph
 ph
 el
@@ -29684,12 +30128,12 @@ pk
 pk
 pk
 pk
-pk
-eT
-pk
-pk
-pk
-tF
+oS
+oS
+wL
+za
+za
+Ph
 ph
 ph
 el
@@ -29941,12 +30385,12 @@ pk
 pk
 pk
 pk
-pk
-iI
-eT
-eT
-eT
-tF
+oS
+ui
+OX
+za
+za
+oS
 dc
 ph
 el
@@ -30198,12 +30642,12 @@ pk
 pk
 pk
 pk
-pk
-eT
-pk
-pk
-pk
-tF
+oS
+Gu
+RI
+za
+za
+oS
 TY
 ph
 tF
@@ -30455,12 +30899,12 @@ pk
 pk
 pk
 pk
-pk
-eT
-pk
-pk
-pk
-tF
+oS
+wF
+RI
+za
+za
+oS
 ph
 ph
 tF
@@ -30712,12 +31156,12 @@ pk
 pk
 pk
 pk
-pk
-eT
-pk
-pk
-pk
-uG
+oS
+Gu
+RI
+za
+za
+jr
 ph
 ph
 tF
@@ -30969,12 +31413,12 @@ pk
 pk
 pk
 pk
-tF
-tF
-tF
-tF
-uG
-tF
+oS
+oS
+Gc
+oS
+oS
+oS
 ph
 ph
 tF
@@ -31226,12 +31670,12 @@ pk
 pk
 pk
 pk
-uG
+zX
 GD
 Oo
 cb
 xQ
-tF
+jZ
 ph
 ph
 tF
@@ -31483,12 +31927,12 @@ pk
 pk
 pk
 pk
-uG
+zX
 Pb
-ph
-ph
-tO
-tF
+RY
+RY
+Jg
+zX
 ph
 ph
 uG
@@ -31738,14 +32182,14 @@ pk
 pk
 pk
 pk
-uG
-uG
-uG
+zX
+zX
+zX
 LA
 ed
-ph
-tO
-uG
+RY
+Jg
+jZ
 ph
 ph
 uG
@@ -31994,15 +32438,15 @@ pk
 pk
 pk
 pk
-pk
-ry
-ry
-ry
+gp
+nU
+np
+fK
 eq
-ph
-ph
-tO
-Ux
+Cw
+Cw
+Jg
+qF
 ph
 ph
 uG
@@ -32252,14 +32696,14 @@ pk
 pk
 pk
 pk
-uG
-uG
-uG
+zX
+zX
+zX
 ZP
-mW
-ir
-tO
-uG
+RY
+RY
+Jg
+jZ
 ph
 ph
 uG
@@ -32511,12 +32955,12 @@ pk
 pk
 pk
 pk
-uG
+zX
 PG
-rv
+HI
 RY
 Jg
-tF
+UI
 ph
 ph
 uG
@@ -32768,12 +33212,12 @@ pk
 pk
 pk
 pk
-uG
+zX
 sg
-sg
+GO
 QL
 Ng
-tF
+jZ
 ph
 ph
 tF
@@ -33025,12 +33469,12 @@ pk
 pk
 pk
 pk
-tF
-tF
-tF
-tF
-uG
-tF
+jZ
+jZ
+jZ
+hJ
+jZ
+jZ
 ph
 ph
 tF
@@ -33283,11 +33727,11 @@ pk
 pk
 pk
 pk
-eT
-pk
-pk
-pk
-uG
+VV
+Xo
+Xo
+pY
+VV
 ph
 ph
 tF
@@ -33538,13 +33982,13 @@ pk
 pk
 pk
 pk
-pk
-pk
-eT
-pk
-pk
-pk
-tF
+rU
+rU
+rU
+Xo
+Xo
+pY
+VV
 dc
 ph
 tF
@@ -33794,14 +34238,14 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-eT
-pk
-pk
-pk
-tF
+Pd
+gT
+zu
+Mr
+Xo
+Xo
+pY
+VV
 ph
 ph
 tF
@@ -34052,13 +34496,13 @@ pk
 pk
 pk
 pk
-pk
-pk
-eT
-pk
-pk
-pk
-tF
+rU
+rU
+rU
+LY
+Xo
+pY
+FK
 ph
 ph
 tF
@@ -34309,13 +34753,13 @@ pk
 pk
 pk
 pk
-pk
-pk
-eT
-pk
-pk
-pk
-tF
+gT
+zu
+Mr
+Xo
+Xo
+pY
+VV
 ph
 ph
 tF
@@ -34566,13 +35010,13 @@ pk
 pk
 pk
 pk
-pk
-pk
-eT
-pk
-pk
-pk
-tF
+rU
+rU
+rU
+Xo
+Xo
+pY
+VV
 ph
 ph
 tF
@@ -34825,11 +35269,11 @@ pk
 pk
 pk
 pk
-eT
-pk
-pk
-pk
-tF
+VV
+Xo
+Xo
+pY
+VV
 ph
 ph
 tF
