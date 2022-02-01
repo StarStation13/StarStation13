@@ -34,6 +34,7 @@
 
 ///CUSTOM POSTERS///
 
+//Retro
 /obj/structure/sign/poster/retro/nanotrasen
 	name = "corporate pride"
 	desc = "A vintage NT poster - this specific one featuring an older variant of the logo, and four bars to it's top and bottom. No wonder that didn't catch on."
@@ -48,3 +49,19 @@
 	name = "scan"
 	desc = "A vintage poster advertising cloning scans as a readily available and reccomended option on Nanotrasen Stations. How times have changed."
 	icon_state = "clone_scans"
+
+/obj/structure/sign/poster/retro/telecrystal
+	name = "telecrystal"
+	desc = "A vintage poster, purporting Nanotrasen's research into refining bluespace crystals into \"Telecrystals\". No way this ended badly."
+	icon_state = "telecrystal"
+
+//Contraband
+/obj/structure/sign/poster/contraband/shipstation
+	name = "Flight Services - Enlist"
+	desc = "This poster depicts the long deprecated 'Ship' class 'station' in it's hayday. Surprisingly, the poster seems to be Nanotrasen official; though with how hush they've been on the topic..."
+	icon_state = "shipstation" //This map may as well be carved into my skin at this point
+
+/obj/structure/sign/poster/contraband/operative_duffy
+	name = "CASH REWARD"
+	desc = "This poster depicts a gas mask, with details on how to 'forward information' on the whereabouts of whoever it means... though it doesn't specify to who."
+	icon_state = "op_duffy"
