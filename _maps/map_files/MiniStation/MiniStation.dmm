@@ -1410,6 +1410,10 @@
 /obj/machinery/newscaster/security_unit/directional/north,
 /turf/open/floor/iron,
 /area/security/brig)
+"hl" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/science/lab)
 "hm" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
 	dir = 4
@@ -3615,6 +3619,12 @@
 /obj/effect/turf_decal/tile/purple/half{
 	dir = 8
 	},
+/obj/machinery/requests_console/directional/west{
+	department = "Science";
+	departmentType = 2;
+	name = "Science Requests Console";
+	receive_ore_updates = 1
+	},
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 8
 	},
@@ -4605,12 +4615,6 @@
 /turf/open/floor/iron,
 /area/engineering/main)
 "xB" = (
-/obj/machinery/requests_console/directional/west{
-	department = "Science";
-	departmentType = 2;
-	name = "Science Requests Console";
-	receive_ore_updates = 1
-	},
 /obj/structure/table,
 /obj/item/reagent_containers/glass/beaker/large{
 	pixel_x = -3;
@@ -4978,7 +4982,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/modular_computer/console/preset/civilian{
+/obj/machinery/computer/rdconsole{
 	dir = 4
 	},
 /turf/open/floor/iron,
@@ -47239,8 +47243,8 @@ Vl
 ZO
 ZO
 eT
-ZO
-ZO
+hl
+hl
 ZO
 uT
 CR
