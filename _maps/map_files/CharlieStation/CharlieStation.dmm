@@ -234,7 +234,7 @@
 /area/hallway/primary/port)
 "bg" = (
 /turf/open/floor/plating,
-/area/maintenance/aft/secondary)
+/area/maintenance/starboard/aft)
 "bh" = (
 /turf/open/floor/iron,
 /area/security/office)
@@ -873,6 +873,12 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"eP" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/hallway/primary/starboard)
 "eT" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -1153,6 +1159,13 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"gq" = (
+/obj/machinery/firealarm/directional/west,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/hallway/primary/starboard)
 "gs" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/solars/port/aft)
@@ -1195,7 +1208,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/maintenance/starboard/secondary)
+/area/maintenance/starboard/central)
 "gT" = (
 /obj/machinery/door/airlock/external{
 	name = "Supply Dock Airlock";
@@ -2456,6 +2469,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/hallway/primary/starboard)
 "oA" = (
@@ -2564,8 +2578,9 @@
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = "12"
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
-/area/maintenance/starboard/secondary)
+/area/maintenance/starboard/central)
 "oZ" = (
 /obj/effect/spawner/structure/window/reinforced/tinted,
 /turf/open/floor/plating,
@@ -2865,7 +2880,7 @@
 "qV" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/maintenance/aft/secondary)
+/area/maintenance/starboard/aft)
 "qX" = (
 /obj/structure/sign/poster/contraband/donut_corp,
 /turf/closed/wall,
@@ -3025,7 +3040,7 @@
 /area/ai_monitored/turret_protected/aisat/hallway)
 "rX" = (
 /turf/closed/wall,
-/area/maintenance/aft/secondary)
+/area/maintenance/starboard/aft)
 "rZ" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -3116,7 +3131,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/maintenance/aft/secondary)
+/area/maintenance/starboard/aft)
 "sC" = (
 /obj/structure/chair/stool/directional/west,
 /obj/structure/cable,
@@ -3148,6 +3163,7 @@
 /obj/machinery/light/directional/west,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/hallway/primary/starboard)
 "sH" = (
@@ -3963,8 +3979,9 @@
 /turf/open/floor/iron,
 /area/cargo/sorting)
 "wP" = (
+/obj/structure/cable,
 /turf/open/floor/plating,
-/area/maintenance/starboard/secondary)
+/area/maintenance/starboard/central)
 "wQ" = (
 /obj/machinery/firealarm/directional/west,
 /obj/machinery/computer/rdconsole{
@@ -4304,6 +4321,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/science/research)
+"yI" = (
+/obj/machinery/light/directional/west,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/hallway/primary/starboard)
 "yJ" = (
 /obj/structure/table,
 /obj/item/lighter,
@@ -4368,6 +4392,9 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron/cafeteria,
 /area/science/research)
+"zl" = (
+/turf/open/floor/plating,
+/area/maintenance/starboard/central)
 "zn" = (
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron,
@@ -4512,7 +4539,7 @@
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plating,
-/area/maintenance/starboard/secondary)
+/area/maintenance/starboard/central)
 "zX" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -5029,7 +5056,7 @@
 /area/hallway/secondary/exit/departure_lounge)
 "Dn" = (
 /turf/closed/wall,
-/area/maintenance/starboard/secondary)
+/area/maintenance/starboard/central)
 "Do" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
 	dir = 4
@@ -5634,6 +5661,14 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/engineering/atmos)
+"GM" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/hallway/primary/starboard)
 "GN" = (
 /obj/structure/cable,
 /obj/machinery/light/directional/north,
@@ -6261,8 +6296,10 @@
 /area/science/research)
 "JU" = (
 /obj/effect/spawner/random/maintenance,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
 /turf/open/floor/plating,
-/area/maintenance/starboard/secondary)
+/area/maintenance/starboard/central)
 "Ka" = (
 /obj/structure/table/optable{
 	name = "Robotics Operating Table"
@@ -6714,7 +6751,7 @@
 /obj/machinery/light/small/directional/south,
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/plating,
-/area/maintenance/starboard/secondary)
+/area/maintenance/starboard/central)
 "NG" = (
 /obj/machinery/pipedispenser/disposal,
 /obj/effect/turf_decal/stripes/corner{
@@ -6922,7 +6959,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/maintenance/starboard/secondary)
+/area/maintenance/starboard/central)
 "OU" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -8089,7 +8126,7 @@
 "Wf" = (
 /obj/structure/closet/emcloset/anchored,
 /turf/open/floor/plating,
-/area/maintenance/starboard/secondary)
+/area/maintenance/starboard/central)
 "Wg" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
 	dir = 4
@@ -8456,7 +8493,7 @@
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/maintenance/aft/secondary)
+/area/maintenance/starboard/aft)
 "YO" = (
 /obj/machinery/light/directional/east,
 /obj/structure/showcase/mecha/ripley,
@@ -46833,9 +46870,9 @@ pk
 Dn
 JU
 wP
-wP
+zl
 zW
-wP
+zl
 OT
 Lu
 pk
@@ -47346,14 +47383,14 @@ Bd
 Bf
 lx
 Bd
-Bd
-Bd
+eP
+eP
 sG
-ul
-nq
-Bd
-Bf
-Bd
+GM
+gq
+eP
+yI
+eP
 ox
 Kd
 eT
