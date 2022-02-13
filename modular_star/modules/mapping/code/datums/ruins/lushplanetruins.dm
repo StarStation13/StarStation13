@@ -9,3 +9,10 @@
 	description = "What a... place."
 	suffix = "concord.dmm"
 	allow_duplicates = FALSE
+
+/datum/map_template/ruin/lushplanet/heyheypeople
+	name = "Surgical Theatre Pod"
+	id = "heyheypeople"
+	description = "A pod, meant for surgery.. what's with the pizza?"
+	suffix = "heyheypeople.dmm"
+	allow_duplicates = FALSE
