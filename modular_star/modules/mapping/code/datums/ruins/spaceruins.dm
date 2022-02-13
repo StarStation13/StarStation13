@@ -12,3 +12,21 @@
 	suffix = "tinybox.dmm"
 	name = "Nanotrasen Wreckage" //Basically almost every codebase I've played on :honk:
 	description = "Some scattered metal and wood debris of some station gone horribly awry."
+
+/datum/map_template/ruin/space/star/codealpha
+	id = "codealpha"
+	suffix = "codealpha.dmm"
+	name = "Vintage Wreckage"
+	description = "WHAT THE FUCK IS A RATVAR"
+
+/datum/map_template/ruin/space/star/wreckedfriendship
+	id = "wreckedfriendship"
+	suffix = "wreckedfriendship.dmm"
+	name = "NTSS Friendship"
+	description = "Oops!"
+
+/datum/map_template/ruin/space/star/wreckedhomestead
+	id = "wreckedhomestead"
+	suffix = "wreckedhomestead.dmm"
+	name = "NTSS Homestead"
+	description = "Ided please restart"
