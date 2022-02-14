@@ -127,7 +127,7 @@
 	if(!("inventory" in icon_states))
 		user.balloon_alert(user, "missing inventory icon state!")
 		return
-	if(icon_states.len > 3)
+	if(icon_states.len > 2)
 		user.balloon_alert(user, "too many icon states!")
 		return
 	var/clothing_name = tgui_input_text(user, "Enter a name for your clothing:", "Pattern Design", max_length = MAX_NAME_LEN)
