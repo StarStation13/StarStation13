@@ -327,6 +327,11 @@
 				ROLE_TRAITOR,
 				ROLE_WIZARD,
 			),
+			//STAR EDIT BEGIN
+			"Star-Specific Bans" = list(
+				BAN_CLOTHING,
+			),
+			//STAR EDIT END
 		)
 		for(var/department in long_job_lists)
 			output += "<div class='column'><label class='rolegroup long [ckey(department)]'>[tgui_fancy ? "<input type='checkbox' name='[department]' class='hidden' onClick='header_click_all_checkboxes(this)'>" : ""][department]</label><div class='content'>"
