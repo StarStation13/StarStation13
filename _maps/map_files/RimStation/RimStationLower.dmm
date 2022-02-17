@@ -8,6 +8,7 @@
 /turf/open/floor/plating,
 /area/lush_planet/underground)
 "abm" = (
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/lush_planet/underground)
 "acJ" = (
@@ -70,6 +71,13 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/aisat/hallway)
+"bzh" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/maintenance/department/security)
 "bzF" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 1
@@ -124,6 +132,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/aisat/atmos)
+"cLO" = (
+/obj/machinery/atmospherics/pipe/multiz/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/security)
 "cNE" = (
 /obj/machinery/computer/station_alert,
 /obj/effect/turf_decal/tile/blue{
@@ -168,6 +182,21 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/aisat_interior)
+"dJw" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/maintenance/department/security)
+"dLy" = (
+/obj/machinery/atmospherics/pipe/multiz/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/plating,
+/area/maintenance/department/security)
 "dNu" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
@@ -259,6 +288,10 @@
 /obj/item/folder/documents,
 /turf/open/floor/catwalk_floor/iron,
 /area/ai_monitored/command/nuke_storage)
+"fUa" = (
+/obj/structure/cable/multilayer/multiz,
+/turf/open/floor/plating,
+/area/maintenance/department/security)
 "gaG" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "AI Core shutters";
@@ -601,6 +634,14 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai)
+"kuO" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/door/airlock/maintenance/external{
+	req_access_txt = "12"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/department/security)
 "kEQ" = (
 /obj/machinery/holopad/secure,
 /turf/open/floor/iron/grimy,
@@ -759,6 +800,18 @@
 	},
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/aisat/atmos)
+"nfH" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/door/airlock/maintenance/external{
+	req_access_txt = "12"
+	},
+/turf/open/floor/plating,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "nhZ" = (
 /turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
@@ -781,6 +834,9 @@
 	dir = 4
 	},
 /area/ai_monitored/turret_protected/aisat/foyer)
+"nRu" = (
+/turf/closed/wall/rust,
+/area/maintenance/department/security)
 "nXT" = (
 /obj/machinery/camera/directional/south{
 	c_tag = "Satellite Antechamber";
@@ -935,6 +991,9 @@
 	},
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/aisat/atmos)
+"ryE" = (
+/turf/closed/wall,
+/area/maintenance/department/security)
 "ryV" = (
 /obj/structure/flora/junglebush/b,
 /obj/structure/window/reinforced/spawner/east,
@@ -967,9 +1026,18 @@
 /obj/effect/spawner/random/engineering/tracking_beacon,
 /turf/open/floor/iron,
 /area/ai_monitored/turret_protected/aisat/foyer)
+"shc" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/department/security)
 "skh" = (
 /turf/closed/wall/r_wall,
 /area/ai_monitored/command/nuke_storage)
+"sHD" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/maintenance/department/security)
 "sIJ" = (
 /obj/machinery/porta_turret/ai{
 	dir = 4;
@@ -1123,6 +1191,11 @@
 /obj/structure/ladder,
 /turf/open/floor/plating,
 /area/lush_planet/underground)
+"xjD" = (
+/obj/structure/ladder,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/maintenance/department/security)
 "xlD" = (
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/aisat/atmos)
@@ -32678,9 +32751,9 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
+laP
+laP
+laP
 uMy
 uMy
 uMy
@@ -32935,9 +33008,9 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
+laP
+laP
+laP
 uMy
 uMy
 uMy
@@ -33190,9 +33263,9 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
+laP
+laP
+laP
 uMy
 uMy
 uMy
@@ -33447,13 +33520,13 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+laP
+nRu
+ryE
+nRu
+nRu
+nRu
+nRu
 uMy
 uMy
 uMy
@@ -33704,13 +33777,13 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+acJ
+kuO
+sHD
+shc
+shc
+xjD
+ryE
 uMy
 uMy
 uMy
@@ -33961,13 +34034,13 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+acJ
+ryE
+dJw
+bzh
+fUa
+nRu
+ryE
 uMy
 uMy
 uMy
@@ -34217,13 +34290,13 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+acJ
+acJ
+ryE
+dLy
+cLO
+nRu
+ryE
 uMy
 uMy
 uMy
@@ -34474,12 +34547,12 @@ uMy
 uMy
 uMy
 uMy
+acJ
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+nRu
+nRu
+ryE
+ryE
 uMy
 uMy
 uMy
@@ -34731,7 +34804,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -34988,7 +35061,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -35245,7 +35318,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -35501,8 +35574,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+acJ
+acJ
 uMy
 uMy
 uMy
@@ -35758,7 +35831,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -36015,7 +36088,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -36272,7 +36345,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -36529,7 +36602,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -36786,7 +36859,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -37042,8 +37115,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+acJ
+acJ
 uMy
 uMy
 uMy
@@ -37299,7 +37372,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -37556,7 +37629,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -37813,7 +37886,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -38069,8 +38142,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+acJ
+acJ
 uMy
 uMy
 uMy
@@ -38326,7 +38399,7 @@ xUs
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -38583,7 +38656,7 @@ aag
 ebm
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -38840,7 +38913,7 @@ aah
 gyZ
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -39094,10 +39167,10 @@ uMy
 uMy
 xUs
 ffd
+laP
+laP
 acJ
 acJ
-uMy
-uMy
 uMy
 uMy
 uMy
@@ -39351,7 +39424,7 @@ uMy
 uMy
 uMy
 abm
-laP
+acJ
 acJ
 acJ
 uMy
@@ -40126,7 +40199,7 @@ uMy
 uMy
 uMy
 uMy
-laP
+acJ
 laP
 laP
 laP
@@ -40383,7 +40456,7 @@ xEO
 xEO
 uMy
 laP
-laP
+acJ
 uMy
 uMy
 uMy
@@ -40639,8 +40712,8 @@ djG
 nIf
 xEO
 uMy
-laP
-laP
+acJ
+acJ
 uMy
 uMy
 uMy
@@ -40896,7 +40969,7 @@ mTV
 hMC
 xEO
 uMy
-laP
+acJ
 uMy
 uMy
 uMy
@@ -41153,7 +41226,7 @@ oYE
 mci
 xEO
 uMy
-laP
+acJ
 uMy
 uMy
 uMy
@@ -41410,7 +41483,7 @@ xEO
 xEO
 xEO
 uMy
-laP
+acJ
 uMy
 uMy
 uMy
@@ -41666,8 +41739,8 @@ laP
 uMy
 uMy
 uMy
-laP
-laP
+acJ
+acJ
 uMy
 uMy
 uMy
@@ -41923,7 +41996,7 @@ laP
 laP
 laP
 laP
-laP
+acJ
 uMy
 uMy
 uMy
@@ -42172,7 +42245,7 @@ uMy
 lzG
 lzG
 lzG
-lzG
+nfH
 lzG
 laP
 laP
@@ -42180,7 +42253,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -42429,15 +42502,15 @@ uMy
 uMy
 uMy
 uMy
-uMy
 laP
 laP
+laP
 uMy
 uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -42694,7 +42767,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -42951,7 +43024,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -43208,7 +43281,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -43465,7 +43538,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -43722,7 +43795,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -43979,7 +44052,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -44236,8 +44309,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+acJ
+acJ
 uMy
 uMy
 uMy
@@ -44494,7 +44567,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -44751,7 +44824,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -45008,7 +45081,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -45265,8 +45338,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+acJ
+laP
 uMy
 uMy
 uMy
@@ -45522,8 +45595,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+acJ
+laP
 uMy
 uMy
 uMy
@@ -45762,9 +45835,9 @@ uMy
 uMy
 uMy
 uMy
-uMy
 laP
 laP
+laP
 uMy
 uMy
 uMy
@@ -45779,8 +45852,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+acJ
+laP
 uMy
 uMy
 uMy
@@ -46021,6 +46094,7 @@ uMy
 uMy
 laP
 laP
+laP
 uMy
 uMy
 uMy
@@ -46035,9 +46109,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
+acJ
+laP
 uMy
 uMy
 uMy
@@ -46277,6 +46350,7 @@ uMy
 uMy
 laP
 laP
+laP
 uMy
 uMy
 uMy
@@ -46292,9 +46366,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
+acJ
+acJ
 uMy
 uMy
 uMy
@@ -46533,6 +46606,7 @@ uMy
 xUs
 laP
 laP
+laP
 uMy
 uMy
 uMy
@@ -46550,8 +46624,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -46788,6 +46861,8 @@ uMy
 uMy
 uMy
 aag
+ebm
+laP
 laP
 uMy
 uMy
@@ -46806,9 +46881,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -47045,6 +47118,7 @@ uMy
 uMy
 uMy
 aah
+gyZ
 laP
 uMy
 uMy
@@ -47064,9 +47138,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
+acJ
+laP
 uMy
 uMy
 uMy
@@ -47303,6 +47376,7 @@ uMy
 uMy
 xeH
 laP
+laP
 uMy
 uMy
 uMy
@@ -47321,9 +47395,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
+acJ
+acJ
 uMy
 uMy
 uMy
@@ -47580,7 +47653,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -47837,7 +47910,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -48094,7 +48167,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -48351,7 +48424,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -48608,8 +48681,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+acJ
+acJ
 uMy
 uMy
 uMy
@@ -48866,7 +48939,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -49123,7 +49196,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -49380,8 +49453,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+acJ
+laP
 uMy
 uMy
 uMy
@@ -49637,8 +49710,8 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
+acJ
+laP
 uMy
 uMy
 uMy
@@ -49894,7 +49967,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -50151,7 +50224,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -50408,7 +50481,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -50665,7 +50738,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -50922,7 +50995,7 @@ uMy
 uMy
 uMy
 uMy
-uMy
+acJ
 uMy
 uMy
 uMy
@@ -51178,10 +51251,10 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
+laP
+acJ
+acJ
+acJ
 uMy
 uMy
 uMy
@@ -51434,12 +51507,12 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+laP
+laP
+jlm
+gLC
+acJ
+laP
 uMy
 uMy
 uMy
@@ -51692,12 +51765,12 @@ uMy
 uMy
 uMy
 uMy
-uMy
-uMy
-uMy
-uMy
-uMy
-uMy
+xUs
+eLt
+tHl
+ffd
+xeH
+xUs
 uMy
 uMy
 uMy
