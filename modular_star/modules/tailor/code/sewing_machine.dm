@@ -24,6 +24,17 @@
 
 /obj/machinery/sewing_machine/attack_hand(mob/living/user, list/modifiers)
 	. = ..()
+	if(LAZYACCESS(modifiers, RIGHT_CLICK))
+		user.balloon_alert(user, "unjamming machine")
+		if(do_after(user, 2 SECONDS, src))
+			user.balloon_alert(user, "machine unjammed")
+			operating = FALSE
+			cloth_to_use.forceMove(get_turf(src))
+			pattern_kit_to_use.forceMove(get_turf(src))
+			cloth_to_use = null
+			pattern_kit_to_use = null
+			return
+		return
 	if(!cloth_to_use || !pattern_kit_to_use)
 		user.balloon_alert(user, "no cloth or pattern!")
 		return
@@ -34,6 +45,9 @@
 	playsound(src, 'modular_star/modules/tailor/sound/sewing_machine.ogg', 100)
 	user.balloon_alert(user, "sewing started")
 	if(do_after(user, 8 SECONDS, src))
+		if(!operating || !pattern_kit_to_use || !cloth_to_use)
+			user.balloon_alert(user, "cancelled!")
+			return
 		pattern_kit_to_use.forceMove(get_turf(src))
 		cloth_to_use.use(1)
 		if(QDELETED(cloth_to_use))
@@ -69,7 +83,8 @@
 			"Jumpsuit" = ITEM_SLOT_ICLOTHING
 		)
 		var/path_to_use = clothing_map[pattern_kit_to_use.clothing_datum.slot]
-		var/obj/item/clothing/clothing_made = new path_to_use
+		var/obj/item/clothing/clothing_made = new path_to_use(get_turf(src))
+		clothing_made.item_flags &= ~ABSTRACT
 		clothing_made.name = pattern_kit_to_use.clothing_datum.name
 		clothing_made.desc = pattern_kit_to_use.clothing_datum.desc
 		clothing_made.icon = new /icon(file("data/clothing_icons/[pattern_kit_to_use.clothing_datum.id].dmi"))
@@ -78,6 +93,8 @@
 			var/icon/stupid_fucking_jumpsuit_icon_bug = icon()
 			stupid_fucking_jumpsuit_icon_bug.Insert(onmob_icon, "inventory") // fixes a bug with jumpsuits
 			clothing_made.worn_icon = stupid_fucking_jumpsuit_icon_bug
+			var/obj/item/clothing/under/clothing_under = clothing_made
+			clothing_under.fitted = NO_FEMALE_UNIFORM // fixes a bug where women all wear the exact same clothing with jumpsuits
 		else
 			clothing_made.worn_icon = new /icon(file("data/clothing_icons/[pattern_kit_to_use.clothing_datum.id].dmi"))
 		clothing_made.icon_state = "inventory"
@@ -85,4 +102,4 @@
 		clothing_made.slot_flags = slot_match[pattern_kit_to_use.clothing_datum.slot]
 		clothing_made.forceMove(get_turf(src))
 		pattern_kit_to_use = null
-		operating = FALSE
+	operating = FALSE
