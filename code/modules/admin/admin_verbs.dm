@@ -20,7 +20,8 @@ GLOBAL_PROTECT(admin_verbs_default)
 	/client/proc/tag_datum_mapview,
 	/client/proc/debugstatpanel,
 	/client/proc/fix_air, /*resets air in designated radius to its default atmos composition*/
-	/client/proc/requests
+	/client/proc/requests, //STAR EDIT ADDITION - I HATE MODULARITY I HATE MODULARITY (Added one comma)
+	/client/proc/clothing_approval_queue, // STAR EDIT ADDITION - CLOTHING QUEUE
 	)
 GLOBAL_LIST_INIT(admin_verbs_admin, world.AVerbsAdmin())
 GLOBAL_PROTECT(admin_verbs_admin)
