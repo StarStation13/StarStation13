@@ -1,10 +1,14 @@
 /obj/item/clothing/shoes/antigrav_boots
 	icon = 'modular_star/modules/NewHeadItems/icons/obj/clothing/shoes.dmi'
 	worn_icon = 'modular_star/modules/NewHeadItems/icons/mob/clothing/feet.dmi'
-	desc = "The QM's 'special' boots. Control Click to toggle anti-gravity functions."
+	desc = "The Quartermasters's 'special' boots. Control Click to toggle anti-gravity functions."
 	name = "anti-gravity boots"
 	icon_state = "antigrav"
+
 	var/enabled_antigravity = FALSE
+
+	examinepp_req_jobs = list(JOB_QUARTERMASTER)
+	examinepp_desc_job = "These are unwieldy, but will allow someone to effective ignore leg injury and pull freight at high speeds when paired with a jetpack."
 
 /obj/item/clothing/shoes/antigrav_boots/equipped(mob/user, slot)
 	. = ..()
