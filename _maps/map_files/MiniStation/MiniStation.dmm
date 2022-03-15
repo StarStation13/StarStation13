@@ -266,19 +266,13 @@
 /turf/open/floor/iron/dark,
 /area/tcommsat/server)
 "bn" = (
-/obj/item/storage/firstaid/o2{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/firstaid/o2,
-/obj/item/storage/firstaid/regular{
-	pixel_x = -3;
-	pixel_y = -3
-	},
 /obj/structure/table,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/item/storage/medkit/regular,
+/obj/item/storage/medkit/regular,
+/obj/item/storage/medkit/regular,
 /turf/open/floor/iron/white,
 /area/medical/storage)
 "bo" = (
@@ -1556,6 +1550,9 @@
 /area/maintenance/department/engine)
 "hI" = (
 /obj/effect/landmark/start/scientist,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/science)
 "hJ" = (
@@ -2261,16 +2258,10 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/security/armory)
 "lr" = (
-/obj/item/storage/firstaid/brute{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid/regular{
-	pixel_x = -3;
-	pixel_y = -3
-	},
 /obj/structure/table,
+/obj/item/storage/medkit/toxin,
+/obj/item/storage/medkit/toxin,
+/obj/item/storage/medkit/toxin,
 /turf/open/floor/iron/white,
 /area/medical/storage)
 "lu" = (
@@ -4198,7 +4189,6 @@
 /area/science/lab)
 "uJ" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/firstaid/regular,
 /turf/open/floor/iron,
 /area/command/bridge)
 "uK" = (
@@ -5015,6 +5005,12 @@
 	},
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
+"yU" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+	},
+/turf/open/floor/iron/white,
+/area/science)
 "yX" = (
 /obj/structure/table,
 /obj/item/storage/belt/medical{
@@ -5556,16 +5552,19 @@
 	},
 /area/hallway/primary/central)
 "BE" = (
-/obj/item/storage/firstaid/fire{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/regular{
-	pixel_x = -3;
-	pixel_y = -3
-	},
 /obj/structure/table,
+/obj/item/storage/medkit/brute{
+	pixel_y = 10
+	},
+/obj/item/storage/medkit/brute{
+	pixel_y = 10
+	},
+/obj/item/storage/medkit/brute{
+	pixel_y = 10
+	},
+/obj/item/storage/medkit/fire,
+/obj/item/storage/medkit/fire,
+/obj/item/storage/medkit/fire,
 /turf/open/floor/iron/white,
 /area/medical/storage)
 "BF" = (
@@ -5710,6 +5709,9 @@
 /area/service/bar)
 "Ck" = (
 /obj/structure/cable,
+/obj/machinery/atmospherics/components/binary/tank_compressor{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/science)
 "Cl" = (
@@ -6075,9 +6077,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/machinery/doppler_array/research/science{
-	dir = 4
-	},
 /obj/machinery/computer/security/telescreen/ordnance{
 	dir = 8;
 	pixel_x = 30
@@ -6403,14 +6402,17 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/machinery/research/anomaly_refinery,
 /turf/open/floor/iron,
 /area/science)
 "Fl" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/machinery/research/explosive_compressor,
 /obj/item/radio/intercom/directional/south,
+/obj/machinery/doppler_array{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/science)
 "Fm" = (
@@ -6953,7 +6955,6 @@
 	pixel_y = -4
 	},
 /obj/item/book/manual/wiki/ordnance,
-/obj/item/storage/firstaid/toxin,
 /obj/item/assembly/prox_sensor{
 	pixel_x = 9;
 	pixel_y = -4
@@ -51238,7 +51239,7 @@ Tm
 He
 ge
 Ad
-Lz
+yU
 Dn
 Lz
 GU

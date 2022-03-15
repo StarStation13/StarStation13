@@ -4,10 +4,6 @@
 /area/mine/explored)
 "ac" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/firstaid/regular{
-	pixel_x = -4;
-	pixel_y = 8
-	},
 /obj/item/storage/toolbox/emergency{
 	pixel_x = 1;
 	pixel_y = -3
@@ -2605,13 +2601,6 @@
 /obj/structure/cable/multilayer/connected,
 /turf/open/floor/engine,
 /area/engineering/supermatter)
-"na" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/machinery/doppler_array/research/science{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/science/research/abandoned)
 "nc" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -3755,7 +3744,6 @@
 /area/service/theater)
 "so" = (
 /obj/structure/table,
-/obj/item/storage/firstaid/regular,
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron,
 /area/commons/dorms)
@@ -7413,18 +7401,6 @@
 /obj/structure/rack,
 /obj/item/storage/box/bodybags{
 	pixel_y = 5
-	},
-/obj/item/storage/firstaid/regular{
-	empty = 1;
-	name = "First-Aid (empty)"
-	},
-/obj/item/storage/firstaid/regular{
-	empty = 1;
-	name = "First-Aid (empty)"
-	},
-/obj/item/storage/firstaid/regular{
-	empty = 1;
-	name = "First-Aid (empty)"
 	},
 /obj/item/stack/package_wrap,
 /obj/item/healthanalyzer,
@@ -31478,7 +31454,7 @@ qs
 qs
 qs
 Vu
-na
+qS
 UI
 vx
 Kg
