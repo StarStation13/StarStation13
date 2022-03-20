@@ -1352,17 +1352,10 @@
 /area/hallway/primary/port)
 "hx" = (
 /obj/structure/table/glass,
-/obj/item/storage/firstaid/brute{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid/toxin{
-	pixel_x = -3;
-	pixel_y = -1
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/structure/cable,
+/obj/item/storage/medkit,
+/obj/item/storage/medkit,
 /turf/open/floor/iron/white,
 /area/medical/medbay)
 "hB" = (
@@ -8739,15 +8732,6 @@
 /area/engineering/main)
 "Yr" = (
 /obj/structure/table/glass,
-/obj/item/storage/firstaid/fire{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/o2{
-	pixel_x = -3;
-	pixel_y = -3
-	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
@@ -8756,6 +8740,15 @@
 	},
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
+/obj/item/storage/medkit/brute{
+	pixel_y = 10
+	},
+/obj/item/storage/medkit/fire{
+	pixel_y = 2
+	},
+/obj/item/storage/medkit/toxin{
+	pixel_y = -5
+	},
 /turf/open/floor/iron/white,
 /area/medical/medbay)
 "Yu" = (
