@@ -1470,6 +1470,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
+/obj/machinery/computer/security,
 /turf/open/floor/iron,
 /area/command/bridge)
 "id" = (
@@ -1782,6 +1783,18 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/engineering/main)
+"jS" = (
+/obj/docking_port/stationary{
+	dir = 2;
+	dwidth = 3;
+	height = 9;
+	id = "arrivals_stationary";
+	name = "arrivals";
+	roundstart_template = /datum/map_template/shuttle/arrival/rim;
+	width = 10
+	},
+/turf/open/space/basic,
+/area/space)
 "jW" = (
 /obj/effect/turf_decal/tile/red,
 /obj/item/kirbyplants/random,
@@ -2893,6 +2906,11 @@
 	},
 /turf/open/floor/carpet/red,
 /area/commons/vacant_room/office)
+"qg" = (
+/obj/structure/lattice,
+/obj/effect/spawner/random/structure/grille,
+/turf/open/space/basic,
+/area/space/nearstation)
 "qj" = (
 /turf/closed/wall/r_wall,
 /area/engineering/main)
@@ -2917,6 +2935,13 @@
 /obj/structure/chair/stool/directional/north,
 /turf/open/floor/iron/white,
 /area/science/research)
+"qq" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/machinery/computer/atmos_alert,
+/turf/open/floor/iron,
+/area/command/bridge)
 "qv" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
@@ -3008,6 +3033,14 @@
 /obj/structure/chair/office/light,
 /turf/open/floor/iron/dark,
 /area/medical/pharmacy)
+"qU" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/computer/med_data,
+/turf/open/floor/iron,
+/area/command/bridge)
 "qV" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -3337,6 +3370,10 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
+"sM" = (
+/obj/machinery/computer/aifixer,
+/turf/open/floor/iron,
+/area/command/bridge)
 "sP" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L9"
@@ -5681,6 +5718,10 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/hallway/primary/port)
+"FD" = (
+/obj/machinery/computer/cargo,
+/turf/open/floor/iron,
+/area/command/bridge)
 "FE" = (
 /obj/structure/table,
 /obj/item/toy/cards/deck,
@@ -5846,6 +5887,14 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/ai_upload)
+"Gz" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/computer/monitor,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/command/bridge)
 "GA" = (
 /obj/structure/table/glass,
 /obj/machinery/reagentgrinder{
@@ -6910,6 +6959,16 @@
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
 /area/space/nearstation)
+"Mc" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/machinery/computer/secure_data,
+/turf/open/floor/iron,
+/area/command/bridge)
 "Mk" = (
 /obj/structure/rack,
 /obj/item/clothing/mask/breath,
@@ -8979,6 +9038,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+/obj/machinery/computer/crew,
 /turf/open/floor/iron,
 /area/command/bridge)
 "ZH" = (
@@ -40794,7 +40854,7 @@ uC
 rJ
 ia
 As
-ia
+Mc
 fO
 uC
 uC
@@ -41304,7 +41364,7 @@ pk
 pk
 pk
 pr
-Nk
+qq
 xt
 xt
 AT
@@ -41561,7 +41621,7 @@ pk
 pk
 pk
 pr
-xt
+sM
 bp
 xt
 zU
@@ -41856,7 +41916,7 @@ yX
 nw
 AJ
 mr
-pk
+jS
 pk
 pk
 pk
@@ -42075,7 +42135,7 @@ pk
 pk
 pk
 pr
-xt
+FD
 FE
 xt
 so
@@ -42332,7 +42392,7 @@ pk
 pk
 pk
 pr
-uH
+Gz
 xt
 xt
 HY
@@ -42848,7 +42908,7 @@ pk
 uC
 uC
 Xt
-ZG
+qU
 cR
 ZG
 IT
@@ -44134,7 +44194,7 @@ pk
 pk
 pk
 pk
-ON
+qg
 pk
 pk
 pk
@@ -44391,7 +44451,7 @@ pk
 pk
 pk
 pk
-ON
+qg
 pk
 pk
 pk
@@ -44648,7 +44708,7 @@ pk
 pk
 pk
 pk
-ON
+qg
 pk
 pk
 pk
@@ -47212,7 +47272,7 @@ pk
 pk
 pk
 pk
-ON
+qg
 pk
 pk
 pk
@@ -47469,7 +47529,7 @@ pk
 pk
 pk
 pk
-ON
+qg
 ON
 ON
 ON
@@ -47726,7 +47786,7 @@ pk
 pk
 pk
 pk
-ON
+qg
 pk
 pk
 ON
@@ -47983,7 +48043,7 @@ pk
 pk
 pk
 pk
-ON
+qg
 pk
 pk
 pk
@@ -52609,13 +52669,13 @@ pk
 pk
 pk
 pk
-pk
+qg
 pk
 US
 US
 US
 pk
-pk
+qg
 pk
 pk
 ge
@@ -52866,13 +52926,13 @@ pk
 pk
 pk
 pk
+qg
+qg
 pk
 pk
 pk
-pk
-pk
-pk
-pk
+qg
+qg
 pk
 pk
 pk
@@ -53124,11 +53184,11 @@ pk
 pk
 pk
 pk
-pk
-pk
-pk
-pk
-pk
+qg
+qg
+qg
+qg
+qg
 pk
 pk
 pk
