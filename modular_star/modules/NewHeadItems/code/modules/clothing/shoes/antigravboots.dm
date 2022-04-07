@@ -1,3 +1,4 @@
+// These need a refactor or to be axed tbh. - @unit0016, 4/7/22
 /obj/item/clothing/shoes/antigrav_boots
 	icon = 'modular_star/modules/NewHeadItems/icons/obj/clothing/shoes.dmi'
 	worn_icon = 'modular_star/modules/NewHeadItems/icons/mob/clothing/feet.dmi'
