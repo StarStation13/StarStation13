@@ -464,6 +464,10 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/plating,
 /area/maintenance/aft/greater)
+"cd" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/openspace,
+/area/space/nearstation)
 "ce" = (
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible{
 	dir = 4
@@ -742,6 +746,13 @@
 /obj/machinery/status_display/evac/directional/south,
 /turf/open/floor/iron/dark,
 /area/engineering/supermatter/room)
+"dr" = (
+/obj/structure/marker_beacon/burgundy,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/space/nearstation)
 "dt" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -982,6 +993,11 @@
 /area/engineering/break_room)
 "ei" = (
 /turf/open/floor/engine/hull/reinforced,
+/area/space/nearstation)
+"ej" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/airless,
 /area/space/nearstation)
 "ek" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2192,6 +2208,11 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass,
 /area/service/library)
+"iH" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/burgundy,
+/turf/open/space/openspace,
+/area/space/nearstation)
 "iI" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -2225,6 +2246,13 @@
 /obj/machinery/power/apc/auto_name/directional/west,
 /turf/open/floor/plating,
 /area/maintenance/aft/lesser)
+"iP" = (
+/obj/structure/marker_beacon/burgundy,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/space/nearstation)
 "iQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -3846,6 +3874,13 @@
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron,
 /area/service/hydroponics)
+"pg" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/space/nearstation)
 "ph" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/reinforced,
@@ -7230,6 +7265,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
+"CD" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium/airless,
+/area/space/nearstation)
 "CF" = (
 /obj/machinery/telecomms/processor/preset_one/birdstation,
 /obj/effect/turf_decal/siding/green{
@@ -7498,6 +7538,13 @@
 /obj/machinery/firealarm/directional/north,
 /turf/open/openspace,
 /area/maintenance/central/lesser)
+"DD" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/space/nearstation)
 "DE" = (
 /obj/effect/spawner/random/structure/girder,
 /turf/open/floor/plating,
@@ -8894,6 +8941,13 @@
 /obj/item/clothing/glasses/welding,
 /turf/open/floor/iron,
 /area/science/lower)
+"Jq" = (
+/obj/structure/marker_beacon/burgundy,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/space/nearstation)
 "Jr" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 10
@@ -12217,6 +12271,13 @@
 	},
 /turf/open/floor/iron,
 /area/cargo/storage)
+"WG" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/airless,
+/area/space/nearstation)
 "WH" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -103963,7 +104024,7 @@ Mv
 Mv
 Mv
 Mv
-Mv
+iH
 wZ
 wZ
 wZ
@@ -104220,7 +104281,7 @@ Mv
 Mv
 Mv
 Mv
-Mv
+cd
 WO
 oa
 aa
@@ -104477,7 +104538,7 @@ Mv
 Mv
 Mv
 Mv
-Mv
+iH
 wZ
 wZ
 wZ
@@ -108072,9 +108133,9 @@ Ud
 Ud
 Ud
 ei
-ZO
-NL
-ei
+Jq
+pg
+dx
 Ud
 Ud
 Ud
@@ -108111,7 +108172,7 @@ ut
 LW
 LW
 LW
-Ud
+dr
 ei
 Mv
 Mv
@@ -108368,7 +108429,7 @@ yk
 rt
 MK
 iM
-Ud
+pQ
 ei
 Mv
 Mv
@@ -110126,7 +110187,7 @@ xS
 VE
 MH
 VE
-kX
+dr
 kX
 yN
 NL
@@ -110383,7 +110444,7 @@ vC
 nj
 tf
 lk
-NL
+CD
 NL
 NL
 NL
@@ -110640,7 +110701,7 @@ wi
 VE
 fo
 VE
-aL
+dx
 aL
 Jr
 NL
@@ -112698,9 +112759,9 @@ Ud
 Ud
 Ud
 ei
-ZO
-NL
-ei
+iP
+WG
+dr
 Ud
 ei
 Mv
@@ -114276,7 +114337,7 @@ ei
 ei
 kX
 ei
-kX
+iP
 od
 od
 od
@@ -114533,7 +114594,7 @@ NL
 NL
 NL
 NL
-NL
+DD
 dj
 jp
 gP
@@ -114790,7 +114851,7 @@ aL
 aL
 aL
 aL
-aL
+Jq
 od
 lX
 he
@@ -115293,7 +115354,7 @@ vg
 SE
 SE
 SE
-kX
+Bd
 kX
 kX
 ei
@@ -115550,7 +115611,7 @@ vT
 OS
 vT
 GO
-NL
+ej
 NL
 NL
 ct
@@ -115807,7 +115868,7 @@ ru
 pu
 VT
 SE
-aL
+yn
 aL
 aL
 ei
