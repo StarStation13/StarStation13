@@ -7,5 +7,6 @@
 		/obj/item/sequence_scanner/interdyne = 10,
 		/obj/effect/spawner/random/medical/surgery_tool_alien = 1,
 		/obj/effect/spawner/random/exotic/syndie = 10,
-		/obj/effect/spawner/random/exotic/antag_gear_weak = 2
+		/obj/effect/spawner/random/exotic/antag_gear_weak = 2,
+		/obj/item/aicard/interdyne = 1
 	)
