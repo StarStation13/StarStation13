@@ -162,6 +162,14 @@
 	},
 /turf/open/floor/iron/dark,
 /area/science/research)
+"aF" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/openspace,
+/area/maintenance/port/greater)
 "aH" = (
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /obj/machinery/atmospherics/pipe/bridge_pipe/green/visible{
@@ -1899,6 +1907,18 @@
 /obj/structure/falsewall,
 /turf/open/floor/plating,
 /area/maintenance/starboard/greater)
+"hu" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/security/prison/upper)
 "hv" = (
 /obj/machinery/computer/communications{
 	dir = 1
@@ -3814,17 +3834,15 @@
 	},
 /turf/open/floor/iron/dark,
 /area/service/cafeteria)
-"oR" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+"oS" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8
 	},
-/obj/structure/railing/corner{
+/obj/structure/railing{
 	dir = 4
 	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/floor/plating,
+/turf/open/openspace,
 /area/security/prison/upper)
 "oU" = (
 /turf/closed/wall,
@@ -6996,6 +7014,11 @@
 	dir = 4
 	},
 /area/engineering/gravity_generator)
+"Bx" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/security/brig/upper)
 "By" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -7094,15 +7117,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/engineering/main)
-"BR" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/security/prison/upper)
 "BT" = (
 /turf/open/floor/glass/reinforced,
 /area/engineering/supermatter)
@@ -7664,6 +7678,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/security/office)
 "DW" = (
@@ -7822,6 +7837,12 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/plating,
 /area/engineering/atmos)
+"EA" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/r_wall,
+/area/science/research)
 "EC" = (
 /obj/machinery/door/airlock/command/glass,
 /obj/effect/mapping_helpers/airlock/access/all/science/rd,
@@ -7935,7 +7956,12 @@
 /turf/open/floor/glass/reinforced,
 /area/command/bridge)
 "EX" = (
-/obj/machinery/airalarm/directional/west,
+/obj/machinery/computer/med_data{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/red{
+	dir = 1
+	},
 /turf/open/floor/glass,
 /area/security/brig/upper)
 "EY" = (
@@ -8593,6 +8619,11 @@
 /turf/open/floor/iron,
 /area/commons/dorms)
 "Hx" = (
+/obj/effect/landmark/start/detective,
+/obj/structure/chair/office,
+/obj/effect/turf_decal/siding/red{
+	dir = 5
+	},
 /turf/open/floor/glass,
 /area/security/brig/upper)
 "Hy" = (
@@ -8657,16 +8688,6 @@
 "HL" = (
 /turf/closed/wall/r_wall,
 /area/medical/morgue)
-"HQ" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/openspace,
-/area/security/prison/upper)
 "HR" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/structure/bed,
@@ -8707,6 +8728,12 @@
 /turf/open/floor/iron/showroomfloor,
 /area/service/kitchen/coldroom)
 "Ib" = (
+/obj/item/toy/figure/detective,
+/obj/item/detective_scanner,
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/security/brig/upper)
 "Ic" = (
@@ -9168,6 +9195,12 @@
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/iron/showroomfloor,
 /area/service/kitchen/coldroom)
+"Ke" = (
+/obj/structure/closet/secure_closet/detective,
+/obj/item/skillchip/job/detective,
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/glass,
+/area/security/brig/upper)
 "Kf" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/west,
@@ -9189,6 +9222,9 @@
 /area/maintenance/department/science)
 "Kj" = (
 /obj/machinery/light/dim/directional/south,
+/obj/effect/turf_decal/siding/red{
+	dir = 4
+	},
 /turf/open/floor/glass,
 /area/security/brig/upper)
 "Kk" = (
@@ -10288,6 +10324,18 @@
 /obj/machinery/meter,
 /turf/closed/wall/r_wall,
 /area/engineering/supermatter)
+"OY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/security/prison/upper)
 "OZ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
@@ -10568,9 +10616,6 @@
 	},
 /obj/structure/railing{
 	dir = 1
-	},
-/obj/structure/chair{
-	dir = 4
 	},
 /turf/open/floor/plating,
 /area/security/prison/upper)
@@ -12114,6 +12159,13 @@
 /obj/structure/closet/emcloset/anchored,
 /turf/open/floor/plating,
 /area/maintenance/starboard/greater)
+"VU" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/security/brig/upper)
 "VV" = (
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 8
@@ -12228,14 +12280,6 @@
 	},
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
-"Wq" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/openspace,
-/area/maintenance/port/greater)
 "Wr" = (
 /obj/structure/railing{
 	dir = 8
@@ -12594,12 +12638,6 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron,
 /area/engineering/gravity_generator)
-"XG" = (
-/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden{
-	dir = 4
-	},
-/turf/closed/wall/r_wall,
-/area/science/research)
 "XH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/misc/asteroid/airless,
@@ -12671,7 +12709,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/obj/item/skillchip/job/detective,
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/security/office)
 "XX" = (
@@ -104346,8 +104384,8 @@ lJ
 WH
 WH
 WH
-Wq
-Wq
+aF
+aF
 Wr
 We
 We
@@ -104360,8 +104398,8 @@ Dm
 Iz
 Iz
 PE
-PE
-PE
+Bx
+Bx
 PE
 PE
 Mv
@@ -104603,7 +104641,7 @@ HT
 HT
 HT
 HT
-XG
+EA
 HT
 HT
 HT
@@ -104619,7 +104657,7 @@ ZD
 GD
 fY
 EX
-Hx
+Ke
 KQ
 KQ
 KQ
@@ -105132,7 +105170,7 @@ kh
 EN
 sA
 CJ
-Ib
+VU
 Ib
 PL
 Wo
@@ -105140,7 +105178,7 @@ JI
 JI
 JI
 JI
-Qb
+OY
 LQ
 RD
 Fb
@@ -105381,7 +105419,7 @@ Pt
 HT
 qf
 Ly
-EK
+yS
 DV
 vj
 hj
@@ -105397,7 +105435,7 @@ JI
 JI
 JI
 JI
-BR
+Qb
 LQ
 RD
 Fb
@@ -105650,11 +105688,11 @@ pB
 do
 PL
 tD
-HQ
-HQ
-HQ
-HQ
-oR
+oS
+oS
+oS
+oS
+hu
 LQ
 RD
 Fb
@@ -105911,7 +105949,7 @@ JI
 JI
 JI
 JI
-BR
+Qb
 LQ
 RD
 Fb
