@@ -4,8 +4,8 @@
 /obj/effect/spawner/random/relic/interdyne
 	name = "interdyne relic spawner"
 	loot = list(
-		/obj/item/sequence_scanner/interdyne,
-		/obj/effect/spawner/random/medical/surgery_tool_alien,
-		/obj/effect/spawner/random/exotic/syndie,
-		/obj/effect/spawner/random/exotic/antag_gear_weak
+		/obj/item/sequence_scanner/interdyne = 10,
+		/obj/effect/spawner/random/medical/surgery_tool_alien = 1,
+		/obj/effect/spawner/random/exotic/syndie = 10,
+		/obj/effect/spawner/random/exotic/antag_gear_weak = 2
 	)
