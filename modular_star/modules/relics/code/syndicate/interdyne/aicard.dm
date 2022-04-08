@@ -19,7 +19,7 @@
 		return
 	bigshot = TRUE
 
-/obj/item/aicard/interdyne/proc/make_poor_ai_malf(atom/target, mob/living/user, params)
+/obj/item/aicard/interdyne/proc/make_poor_ai_malf()
 	if(AI) // WE LOVE SANITY CHECKS
 		if(AI.malf_picker || bigshot == TRUE)
 			return
