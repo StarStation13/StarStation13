@@ -8,6 +8,7 @@
 	back = /obj/item/storage/backpack/fireproof
 	head = /obj/item/clothing/head/hos/beret/syndicate
 	ears = /obj/item/radio/headset/interdyne
+	eyes = /obj/item/clothing/glasses/hud/security/chameleon
 	l_pocket = /obj/item/sequence_scanner/interdyne
 	r_pocket = /obj/item/aicard/interdyne
 	id = /obj/item/card/id/advanced/chameleon
