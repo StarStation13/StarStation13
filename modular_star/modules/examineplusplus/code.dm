@@ -34,8 +34,10 @@
 		if(user.mind) //Sanity check
 			var/datum/mind/dork = user.mind
 			for(var/exppantag in examinepp_req_antags)
-				if(dork.special_role == exppantag || examinepp_antag_allow_skillchip == TRUE && HAS_TRAIT(user, TRAIT_DETECTIVE))
-					. += "Your <span class='red'>status as a [dork.special_role ? dork.special_role : "Detective"]</span> has given you insight here:<br> [examinepp_desc_antag]"
+				if(dork.special_role == exppantag)
+					. += "Your <span class='red'>status as a [dork.special_role]</span> has given you insight here:<br> [examinepp_desc_antag]"
+				else if(examinepp_antag_allow_skillchip == TRUE && HAS_TRAIT(user, TRAIT_DETECTIVE)) // WHY THE FUCK DO SKILLCHIPS APPLY THE TRAIT THREE TIMES WHAT THE FUCK
+					. += "Your <span class='red'>suite of innate detective skills</span> have given you insight here:<br> [examinepp_desc_antag]"
 	if(examinepp_desc_faction)
 		for(var/guilds in examinepp_req_factions)
 			if(guilds in user.faction)
