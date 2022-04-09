@@ -133,14 +133,6 @@ SUBSYSTEM_DEF(mapping)
 		for (var/ice_z in ice_ruins_underground)
 			spawn_rivers(ice_z, 4, level_trait(ice_z, ZTRAIT_BASETURF), /area/icemoon/underground/unexplored/rivers)
 
-//STAR EDIT BEGIN//
-	var/list/lushplanet_ruins = levels_by_trait(ZTRAIT_LUSHPLANET_RUINS)
-	if (lushplanet_ruins.len)
-		seedRuins(lushplanet_ruins, CONFIG_GET(number/lushplanet_budget), list(/area/lush_planet/unexplored), themed_ruins[ZTRAIT_LUSHPLANET_RUINS])
-		for (var/lush_z in lushplanet_ruins)
-			spawn_rivers(lushplanet_ruins)
-//STAR EDIT END//
-
 	// Generate deep space ruins
 	var/list/space_ruins = levels_by_trait(ZTRAIT_SPACE_RUINS)
 	if (space_ruins.len)
