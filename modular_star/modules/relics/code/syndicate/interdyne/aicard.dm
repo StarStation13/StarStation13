@@ -16,8 +16,7 @@
 	. = ..()
 	if(AI)
 		make_poor_ai_malf()
-		return
-	bigshot = FALSE
+
 
 /obj/item/aicard/interdyne/proc/make_poor_ai_malf()
 	if(AI) // WE LOVE SANITY CHECKS
@@ -29,3 +28,5 @@
 				AI.mind.add_antag_datum(/datum/antagonist/malf_ai)
 				if(prob(10))
 					priority_announce("Attention crew of [GLOB.station_name]. We have reason to beleive[scramble_message_replace_chars("eEEeEbeleivebeleivebeleive", 70)]", "Priority Artificial Intelligence Status Report", ANNOUNCER_AIMALF) // All luck inevitably runs out, cowboy
+					return
+		bigshot = FALSE
