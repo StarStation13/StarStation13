@@ -19,3 +19,12 @@
 	skillchips = list(/obj/item/skillchip/disk_verifier, /obj/item/skillchip/job/detective)
 
 	id_trim = /datum/id_trim/syndicom/crew
+
+/datum/outfit/interdyne/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	. = ..()
+	var/obj/item/card/id/card = H.wear_id //Because this is admin outfit menu only, we want to update the ID automatically
+	card.registered_name = H.real_name
+	if(H.age)
+		card.registered_age = H.age
+	card.update_label()
+	card.update_icon()
