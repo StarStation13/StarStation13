@@ -10,7 +10,7 @@ SUBSYSTEM_DEF(lobby_eye)
 	///how many tiles into invalid areas can we go
 	var/invalid_reset = 5
 	///the areas that are considered invalid
-	var/static/list/invalid_areas = list(/area/space, /area/icemoon, /area/lush_planet, /area/mine/explored, /area/mine/unexplored, /area/lavaland)
+	var/static/list/invalid_areas = list(/area/space, /area/icemoon, /area/mine/explored, /area/mine/unexplored, /area/lavaland)
 	///how fast the camera will "move"
 	var/moving_speed = 2
 	///the screen that will fade in and out
