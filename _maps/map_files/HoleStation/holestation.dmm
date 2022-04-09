@@ -656,6 +656,12 @@
 	},
 /turf/open/floor/engine/hull,
 /area/space/nearstation)
+"cQ" = (
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/engineering/atmos)
 "cT" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /turf/open/floor/plating,
@@ -1799,7 +1805,9 @@
 /turf/open/floor/iron/showroomfloor,
 /area/science/lower)
 "gU" = (
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
+	dir = 9
+	},
 /turf/open/floor/plating,
 /area/engineering/atmos)
 "gV" = (
@@ -2275,6 +2283,12 @@
 /obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/iron,
 /area/engineering/break_room)
+"iE" = (
+/obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/engineering/atmos)
 "iF" = (
 /obj/structure/bookcase/random/religion,
 /turf/open/floor/wood,
@@ -6636,6 +6650,12 @@
 	},
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
+"zg" = (
+/obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/engineering/atmos)
 "zh" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass,
@@ -13021,12 +13041,8 @@
 /turf/open/floor/plating,
 /area/maintenance/aft/greater)
 "Xq" = (
-/mob/living/simple_animal/bot/medbot{
-	auto_patrol = 1;
-	desc = "A little medical robot, officially part of the Nanotrasen medical inspectorate. He looks somewhat underwhelmed.";
-	name = "Inspector Johnson"
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/mob/living/simple_animal/bot/medbot/stationary,
 /turf/open/floor/iron,
 /area/hallway/primary/central)
 "Xr" = (
@@ -46812,9 +46828,9 @@ xE
 dI
 Kp
 Vj
-ni
-ni
-ni
+cQ
+oX
+iE
 yu
 Gs
 pW
@@ -47070,8 +47086,8 @@ JO
 CY
 Ym
 gU
-oX
-JX
+ce
+zg
 JX
 JX
 un
