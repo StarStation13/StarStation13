@@ -11,7 +11,7 @@
 	eyes = /obj/item/clothing/glasses/hud/security/chameleon
 	l_pocket = /obj/item/sequence_scanner/interdyne
 	r_pocket = /obj/item/aicard/interdyne
-	id = /obj/item/card/id/advanced/chameleon
+	id = /obj/item/card/id/advanced/black/syndicate_command
 	belt = /obj/item/gun/ballistic/automatic/pistol
 	backpack_contents = list(/obj/item/storage/box/survival/syndie=1,\
 		/obj/item/knife/combat/survival)
