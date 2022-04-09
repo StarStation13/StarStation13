@@ -14,11 +14,6 @@
 
 /obj/item/aicard/interdyne/pre_attack(atom/target, mob/living/user, params)
 	. = ..()
-	if(AI)
-		make_poor_ai_malf()
-
-
-/obj/item/aicard/interdyne/proc/make_poor_ai_malf()
 	if(AI) // WE LOVE SANITY CHECKS
 		if(AI.malf_picker || bigshot == FALSE)
 			return
