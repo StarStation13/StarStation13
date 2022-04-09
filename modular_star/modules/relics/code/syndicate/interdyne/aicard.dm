@@ -9,19 +9,19 @@
 	machine. This is a very rare and powerful AI-transport device, and while it'd be a dream for most operations, it has a rather huge flaw. \
 	These overwatch cards, should they fail to convert the first AI stored on them, will permanently lock off the function. However, particularly \
 	lucky agents may find it possible to chain-convert multiple AIs with a single card, if the odds land in their favor."
-	// Did you take the deal and fail?
-	var/bigshot = FALSE
+	// Do we still have a charge left?
+	var/bigshot = TRUE
 
 /obj/item/aicard/interdyne/pre_attack(atom/target, mob/living/user, params)
 	. = ..()
 	if(AI)
 		make_poor_ai_malf()
 		return
-	bigshot = TRUE
+	bigshot = FALSE
 
 /obj/item/aicard/interdyne/proc/make_poor_ai_malf()
 	if(AI) // WE LOVE SANITY CHECKS
-		if(AI.malf_picker || bigshot == TRUE)
+		if(AI.malf_picker || bigshot == FALSE)
 			return
 		if(prob(1))
 			if(AI.mind)
