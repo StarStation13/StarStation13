@@ -9,7 +9,3 @@
 /datum/map_template/shuttle/mining/holestation
 	suffix = "holestation"
 	name = "mining shuttle (Holestation)"
-
-/datum/map_template/shuttle/arrival/rim
-	suffix = "rimstation"
-	name = "arrival shuttle (Rimstation)"
