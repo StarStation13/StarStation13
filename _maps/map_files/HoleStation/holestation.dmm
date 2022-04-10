@@ -41,10 +41,6 @@
 /obj/effect/landmark/start/cyborg,
 /turf/open/floor/catwalk_floor/iron,
 /area/ai_monitored/turret_protected/ai_upload)
-"af" = (
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
 "ag" = (
 /obj/machinery/modular_computer/console/preset/command,
 /obj/effect/turf_decal/siding/thinplating,
@@ -408,6 +404,14 @@
 "bD" = (
 /turf/closed/wall,
 /area/command/bridge)
+"bF" = (
+/obj/effect/turf_decal/siding/yellow{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/maintenance/space_hut/observatory)
 "bG" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -711,6 +715,10 @@
 "cX" = (
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
+"cY" = (
+/obj/effect/landmark/carpspawn,
+/turf/open/space/basic,
+/area/space)
 "cZ" = (
 /obj/machinery/door/window/right/directional/west,
 /turf/open/floor/wood,
@@ -729,10 +737,6 @@
 	},
 /turf/open/floor/iron,
 /area/science/research/abandoned)
-"dd" = (
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/carpet,
-/area/maintenance/port/aft)
 "de" = (
 /obj/structure/window/reinforced/spawner,
 /obj/machinery/shower{
@@ -985,10 +989,6 @@
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
-"dV" = (
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/plating,
-/area/maintenance/aft/lesser)
 "dW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/dim/directional/south,
@@ -1374,10 +1374,6 @@
 /obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
-"ff" = (
-/obj/effect/landmark/carpspawn,
-/turf/open/space/basic,
-/area/space)
 "fg" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -2148,14 +2144,6 @@
 /obj/structure/lattice,
 /turf/open/space/basic,
 /area/space/nearstation)
-"hP" = (
-/obj/effect/turf_decal/siding/yellow{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/plating,
-/area/maintenance/space_hut/observatory)
 "hQ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/layer_manifold/supply/visible,
@@ -2790,10 +2778,6 @@
 "kh" = (
 /turf/open/floor/iron,
 /area/security/office)
-"ki" = (
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/glass,
-/area/maintenance/aft/greater)
 "kj" = (
 /obj/machinery/vending/tool,
 /obj/effect/turf_decal/bot,
@@ -4121,6 +4105,10 @@
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron,
 /area/hallway/primary/central)
+"oJ" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/maintenance/central/lesser)
 "oK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
@@ -5198,10 +5186,6 @@
 /obj/effect/spawner/random/structure/crate_loot,
 /turf/open/floor/plating,
 /area/maintenance/central/lesser)
-"sE" = (
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/plating,
-/area/maintenance/central/lesser)
 "sG" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -5599,13 +5583,6 @@
 /obj/structure/table,
 /turf/open/floor/iron/cafeteria,
 /area/security/prison)
-"ue" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/landmark/event_spawn,
-/turf/open/floor/iron,
-/area/hallway/primary/central)
 "ug" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/window/reinforced/spawner/west,
@@ -5710,7 +5687,7 @@
 /area/engineering/supermatter/room)
 "uE" = (
 /obj/structure/sign/warning/electricshock,
-/turf/open/floor/plating/airless,
+/turf/closed/wall,
 /area/engineering/supermatter/room)
 "uF" = (
 /obj/machinery/recycler,
@@ -6077,10 +6054,6 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
 /area/service/hydroponics)
-"vR" = (
-/obj/effect/landmark/carpspawn,
-/turf/open/space/openspace,
-/area/space)
 "vS" = (
 /obj/effect/turf_decal/trimline/neutral/corner{
 	dir = 4
@@ -8346,6 +8319,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer5,
 /turf/open/floor/plating,
 /area/engineering/atmos)
+"DT" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
 "DU" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/orange/visible{
 	dir = 4
@@ -8694,6 +8671,10 @@
 /obj/structure/lattice/catwalk,
 /turf/open/openspace,
 /area/maintenance/central/lesser)
+"Fg" = (
+/obj/effect/landmark/carpspawn,
+/turf/open/space/openspace,
+/area/space)
 "Fk" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -10975,6 +10956,10 @@
 "Oc" = (
 /turf/closed/wall/r_wall,
 /area/space/nearstation)
+"Od" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/glass,
+/area/maintenance/aft/greater)
 "Og" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/machinery/camera/autoname/directional/north,
@@ -11053,6 +11038,13 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/catwalk_floor,
 /area/ai_monitored/turret_protected/ai)
+"Ou" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/event_spawn,
+/turf/open/floor/iron,
+/area/hallway/primary/central)
 "Ow" = (
 /turf/open/openspace,
 /area/science/research)
@@ -12202,6 +12194,10 @@
 /obj/machinery/status_display/evac/directional/north,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
+"Si" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/carpet,
+/area/maintenance/port/aft)
 "Sk" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -14398,6 +14394,10 @@
 	},
 /turf/open/floor/iron/dark/smooth_edge,
 /area/tcommsat/server)
+"ZW" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/maintenance/aft/lesser)
 "ZX" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -36919,7 +36919,7 @@ nZ
 nZ
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -37657,7 +37657,7 @@ nZ
 nZ
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -38727,7 +38727,7 @@ nZ
 nZ
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -39445,7 +39445,7 @@ nZ
 nZ
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -39766,7 +39766,7 @@ nZ
 nZ
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -41299,7 +41299,7 @@ xa
 ay
 os
 jc
-dd
+Si
 dK
 hh
 SI
@@ -43051,7 +43051,7 @@ Mj
 ix
 jg
 jB
-ue
+Ou
 Zj
 Zj
 Zj
@@ -43075,7 +43075,7 @@ Zj
 Zj
 Zj
 ng
-ue
+Ou
 Dv
 ay
 ay
@@ -43367,7 +43367,7 @@ nZ
 yh
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -44321,7 +44321,7 @@ nZ
 nZ
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -48432,7 +48432,7 @@ nZ
 nZ
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -49021,7 +49021,7 @@ nZ
 yh
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -49219,7 +49219,7 @@ am
 iB
 kO
 kD
-ue
+Ou
 Zj
 Zj
 Zj
@@ -49243,7 +49243,7 @@ Zj
 Zj
 Zj
 ng
-ue
+Ou
 Zj
 xE
 xE
@@ -51325,7 +51325,7 @@ uF
 JB
 Pa
 Nx
-af
+DT
 Ro
 Ro
 Ro
@@ -51522,7 +51522,7 @@ nZ
 nZ
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -52360,7 +52360,7 @@ nZ
 nZ
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -53077,7 +53077,7 @@ nZ
 nZ
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -53122,7 +53122,7 @@ nZ
 nZ
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -54397,7 +54397,7 @@ nZ
 nZ
 nZ
 nZ
-ff
+cY
 nZ
 nZ
 nZ
@@ -101933,7 +101933,7 @@ Mv
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
@@ -102688,7 +102688,7 @@ Mv
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
@@ -103491,7 +103491,7 @@ Mv
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
@@ -104529,7 +104529,7 @@ Mv
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
@@ -106007,7 +106007,7 @@ Mv
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
@@ -106849,7 +106849,7 @@ ei
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
@@ -107865,7 +107865,7 @@ Ae
 Ae
 Ae
 ip
-ki
+Od
 co
 ip
 tZ
@@ -109935,7 +109935,7 @@ Mv
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
@@ -110404,7 +110404,7 @@ Mv
 Mv
 Mv
 HA
-sE
+oJ
 dB
 dB
 QU
@@ -112170,7 +112170,7 @@ Mv
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
@@ -113532,7 +113532,7 @@ Mv
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
@@ -113983,7 +113983,7 @@ wd
 bq
 LN
 ev
-hP
+bF
 gJ
 gJ
 gJ
@@ -116088,7 +116088,7 @@ Jq
 od
 lX
 he
-dV
+ZW
 Rs
 Wz
 he
@@ -116799,7 +116799,7 @@ Mv
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
@@ -118667,7 +118667,7 @@ Mv
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
@@ -118906,7 +118906,7 @@ Mv
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
@@ -119648,7 +119648,7 @@ Mv
 Mv
 Mv
 Mv
-vR
+Fg
 Mv
 Mv
 Mv
