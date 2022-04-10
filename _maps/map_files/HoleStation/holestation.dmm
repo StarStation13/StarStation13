@@ -206,13 +206,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/command/bridge)
-"aK" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/landmark/event_spawn,
-/turf/open/floor/iron,
-/area/hallway/primary/central)
 "aL" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 8
@@ -411,10 +404,6 @@
 "bD" = (
 /turf/closed/wall,
 /area/command/bridge)
-"bF" = (
-/obj/effect/landmark/carpspawn,
-/turf/open/space/basic,
-/area/space)
 "bG" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -634,6 +623,14 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/command/bridge)
+"cF" = (
+/obj/effect/turf_decal/siding/yellow{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/maintenance/space_hut/observatory)
 "cG" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/plating,
@@ -826,6 +823,10 @@
 	icon_state = "wood-broken6"
 	},
 /area/maintenance/port/aft)
+"du" = (
+/obj/effect/landmark/carpspawn,
+/turf/open/space/openspace,
+/area/space)
 "dv" = (
 /turf/closed/wall/r_wall,
 /area/service/library)
@@ -988,14 +989,6 @@
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
-"dV" = (
-/obj/effect/turf_decal/siding/yellow{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/plating,
-/area/maintenance/space_hut/observatory)
 "dW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/dim/directional/south,
@@ -2934,6 +2927,10 @@
 "kD" = (
 /turf/closed/wall,
 /area/maintenance/starboard/fore)
+"kE" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/maintenance/aft/lesser)
 "kF" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -3214,6 +3211,13 @@
 /obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/iron,
 /area/hallway/primary/central)
+"lC" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/event_spawn,
+/turf/open/floor/iron,
+/area/hallway/primary/central)
 "lD" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 9
@@ -3334,10 +3338,6 @@
 	},
 /turf/open/floor/engine/hull,
 /area/space/nearstation)
-"lW" = (
-/obj/effect/landmark/carpspawn,
-/turf/open/space/openspace,
-/area/space)
 "lX" = (
 /obj/structure/closet/emcloset/anchored,
 /turf/open/floor/plating,
@@ -3470,6 +3470,10 @@
 	},
 /turf/open/floor/engine/n2,
 /area/engineering/atmos)
+"mr" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
 "ms" = (
 /obj/machinery/camera/autoname/directional/east,
 /turf/open/floor/plating,
@@ -3572,6 +3576,10 @@
 /obj/structure/tank_dispenser,
 /turf/open/floor/plating,
 /area/engineering/engine_smes)
+"mL" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/maintenance/central/lesser)
 "mN" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -3766,10 +3774,6 @@
 	},
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/ai)
-"nu" = (
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/plating,
-/area/maintenance/central/lesser)
 "nw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4511,6 +4515,10 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/iron/showroomfloor,
 /area/commons/toilet/restrooms)
+"qh" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/carpet,
+/area/maintenance/port/aft)
 "qj" = (
 /obj/effect/landmark/start/librarian,
 /turf/open/floor/wood,
@@ -6524,6 +6532,10 @@
 	icon_state = "wood-broken2"
 	},
 /area/maintenance/central/lesser)
+"xC" = (
+/obj/effect/landmark/carpspawn,
+/turf/open/space/basic,
+/area/space)
 "xD" = (
 /obj/machinery/light/dim/directional/north,
 /obj/structure/chair/office,
@@ -8524,6 +8536,10 @@
 	},
 /turf/closed/wall/r_wall,
 /area/science/research)
+"EB" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/glass,
+/area/maintenance/aft/greater)
 "EC" = (
 /obj/machinery/door/airlock/command/glass,
 /obj/effect/mapping_helpers/airlock/access/all/science/rd,
@@ -11504,10 +11520,6 @@
 /obj/effect/turf_decal/bot/left,
 /turf/open/floor/iron,
 /area/engineering/atmos)
-"PT" = (
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/carpet,
-/area/maintenance/port/aft)
 "PU" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron,
@@ -12259,10 +12271,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/service/library)
-"SB" = (
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/plating,
-/area/maintenance/aft/lesser)
 "SC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
@@ -12710,10 +12718,6 @@
 	dir = 1
 	},
 /area/cargo/miningdock)
-"Uc" = (
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/glass,
-/area/maintenance/aft/greater)
 "Ud" = (
 /turf/open/floor/engine/hull,
 /area/space/nearstation)
@@ -14155,10 +14159,6 @@
 	dir = 4
 	},
 /area/ai_monitored/turret_protected/ai_upload)
-"YZ" = (
-/obj/effect/landmark/xeno_spawn,
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
 "Za" = (
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/engine,
@@ -36919,7 +36919,7 @@ nZ
 nZ
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -37657,7 +37657,7 @@ nZ
 nZ
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -38727,7 +38727,7 @@ nZ
 nZ
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -39445,7 +39445,7 @@ nZ
 nZ
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -39766,7 +39766,7 @@ nZ
 nZ
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -41299,7 +41299,7 @@ xa
 ay
 os
 jc
-PT
+qh
 dK
 hh
 SI
@@ -43051,7 +43051,7 @@ Mj
 ix
 jg
 jB
-aK
+lC
 Zj
 Zj
 Zj
@@ -43075,7 +43075,7 @@ Zj
 Zj
 Zj
 ng
-aK
+lC
 Dv
 ay
 ay
@@ -43367,7 +43367,7 @@ nZ
 yh
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -44321,7 +44321,7 @@ nZ
 nZ
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -48432,7 +48432,7 @@ nZ
 nZ
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -49021,7 +49021,7 @@ nZ
 yh
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -49219,7 +49219,7 @@ am
 iB
 kO
 kD
-aK
+lC
 Zj
 Zj
 Zj
@@ -49243,7 +49243,7 @@ Zj
 Zj
 Zj
 ng
-aK
+lC
 Zj
 xE
 xE
@@ -51325,7 +51325,7 @@ uF
 JB
 Pa
 Nx
-YZ
+mr
 Ro
 Ro
 Ro
@@ -51522,7 +51522,7 @@ nZ
 nZ
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -52360,7 +52360,7 @@ nZ
 nZ
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -53077,7 +53077,7 @@ nZ
 nZ
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -53122,7 +53122,7 @@ nZ
 nZ
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -54397,7 +54397,7 @@ nZ
 nZ
 nZ
 nZ
-bF
+xC
 nZ
 nZ
 nZ
@@ -101933,7 +101933,7 @@ Mv
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
@@ -102688,7 +102688,7 @@ Mv
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
@@ -103491,7 +103491,7 @@ Mv
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
@@ -104529,7 +104529,7 @@ Mv
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
@@ -106007,7 +106007,7 @@ Mv
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
@@ -106849,7 +106849,7 @@ ei
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
@@ -107865,7 +107865,7 @@ Ae
 Ae
 Ae
 ip
-Uc
+EB
 co
 ip
 tZ
@@ -109935,7 +109935,7 @@ Mv
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
@@ -110404,7 +110404,7 @@ Mv
 Mv
 Mv
 HA
-nu
+mL
 dB
 dB
 QU
@@ -112170,7 +112170,7 @@ Mv
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
@@ -113532,7 +113532,7 @@ Mv
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
@@ -113983,7 +113983,7 @@ wd
 bq
 LN
 ev
-dV
+cF
 gJ
 gJ
 gJ
@@ -116088,7 +116088,7 @@ Jq
 od
 lX
 he
-SB
+kE
 Rs
 Wz
 he
@@ -116799,7 +116799,7 @@ Mv
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
@@ -118667,7 +118667,7 @@ Mv
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
@@ -118906,7 +118906,7 @@ Mv
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
@@ -119648,7 +119648,7 @@ Mv
 Mv
 Mv
 Mv
-lW
+du
 Mv
 Mv
 Mv
