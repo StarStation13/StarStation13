@@ -41,6 +41,10 @@
 /obj/effect/landmark/start/cyborg,
 /turf/open/floor/catwalk_floor/iron,
 /area/ai_monitored/turret_protected/ai_upload)
+"af" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/maintenance/starboard/aft)
 "ag" = (
 /obj/machinery/modular_computer/console/preset/command,
 /obj/effect/turf_decal/siding/thinplating,
@@ -725,6 +729,10 @@
 	},
 /turf/open/floor/iron,
 /area/science/research/abandoned)
+"dd" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/carpet,
+/area/maintenance/port/aft)
 "de" = (
 /obj/structure/window/reinforced/spawner,
 /obj/machinery/shower{
@@ -977,6 +985,10 @@
 /obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
+"dV" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/maintenance/aft/lesser)
 "dW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/dim/directional/south,
@@ -1362,6 +1374,10 @@
 /obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
+"ff" = (
+/obj/effect/landmark/carpspawn,
+/turf/open/space/basic,
+/area/space)
 "fg" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -2118,13 +2134,6 @@
 /obj/effect/turf_decal/trimline/red,
 /turf/open/floor/engine/hull,
 /area/space/nearstation)
-"hK" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/landmark/event_spawn,
-/turf/open/floor/iron,
-/area/hallway/primary/central)
 "hN" = (
 /obj/machinery/door/firedoor,
 /obj/structure/lattice/catwalk,
@@ -2139,6 +2148,14 @@
 /obj/structure/lattice,
 /turf/open/space/basic,
 /area/space/nearstation)
+"hP" = (
+/obj/effect/turf_decal/siding/yellow{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/maintenance/space_hut/observatory)
 "hQ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/layer_manifold/supply/visible,
@@ -2605,10 +2622,6 @@
 	},
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
-"jA" = (
-/obj/effect/landmark/carpspawn,
-/turf/open/space/openspace,
-/area/space)
 "jB" = (
 /turf/closed/wall,
 /area/maintenance/port/fore)
@@ -2777,6 +2790,10 @@
 "kh" = (
 /turf/open/floor/iron,
 /area/security/office)
+"ki" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/glass,
+/area/maintenance/aft/greater)
 "kj" = (
 /obj/machinery/vending/tool,
 /obj/effect/turf_decal/bot,
@@ -5181,6 +5198,10 @@
 /obj/effect/spawner/random/structure/crate_loot,
 /turf/open/floor/plating,
 /area/maintenance/central/lesser)
+"sE" = (
+/obj/effect/landmark/xeno_spawn,
+/turf/open/floor/plating,
+/area/maintenance/central/lesser)
 "sG" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -5578,6 +5599,13 @@
 /obj/structure/table,
 /turf/open/floor/iron/cafeteria,
 /area/security/prison)
+"ue" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/event_spawn,
+/turf/open/floor/iron,
+/area/hallway/primary/central)
 "ug" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/window/reinforced/spawner/west,
@@ -6049,6 +6077,10 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
 /area/service/hydroponics)
+"vR" = (
+/obj/effect/landmark/carpspawn,
+/turf/open/space/openspace,
+/area/space)
 "vS" = (
 /obj/effect/turf_decal/trimline/neutral/corner{
 	dir = 4
@@ -9745,10 +9777,6 @@
 /obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/iron,
 /area/hallway/secondary/entry)
-"IY" = (
-/obj/effect/landmark/carpspawn,
-/turf/open/space/basic,
-/area/space)
 "IZ" = (
 /obj/effect/spawner/random/structure/crate_loot,
 /turf/open/floor/plating,
@@ -36891,7 +36919,7 @@ nZ
 nZ
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -37629,7 +37657,7 @@ nZ
 nZ
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -38699,7 +38727,7 @@ nZ
 nZ
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -39417,7 +39445,7 @@ nZ
 nZ
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -39738,7 +39766,7 @@ nZ
 nZ
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -41271,7 +41299,7 @@ xa
 ay
 os
 jc
-jc
+dd
 dK
 hh
 SI
@@ -43023,7 +43051,7 @@ Mj
 ix
 jg
 jB
-hK
+ue
 Zj
 Zj
 Zj
@@ -43047,7 +43075,7 @@ Zj
 Zj
 Zj
 ng
-hK
+ue
 Dv
 ay
 ay
@@ -43339,7 +43367,7 @@ nZ
 yh
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -44293,7 +44321,7 @@ nZ
 nZ
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -48404,7 +48432,7 @@ nZ
 nZ
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -48993,7 +49021,7 @@ nZ
 yh
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -49191,7 +49219,7 @@ am
 iB
 kO
 kD
-hK
+ue
 Zj
 Zj
 Zj
@@ -49215,7 +49243,7 @@ Zj
 Zj
 Zj
 ng
-hK
+ue
 Zj
 xE
 xE
@@ -51297,7 +51325,7 @@ uF
 JB
 Pa
 Nx
-Nx
+af
 Ro
 Ro
 Ro
@@ -51494,7 +51522,7 @@ nZ
 nZ
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -52332,7 +52360,7 @@ nZ
 nZ
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -53049,7 +53077,7 @@ nZ
 nZ
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -53094,7 +53122,7 @@ nZ
 nZ
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -54369,7 +54397,7 @@ nZ
 nZ
 nZ
 nZ
-IY
+ff
 nZ
 nZ
 nZ
@@ -101905,7 +101933,7 @@ Mv
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
@@ -102660,7 +102688,7 @@ Mv
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
@@ -103463,7 +103491,7 @@ Mv
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
@@ -104501,7 +104529,7 @@ Mv
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
@@ -105979,7 +106007,7 @@ Mv
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
@@ -106821,7 +106849,7 @@ ei
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
@@ -107837,7 +107865,7 @@ Ae
 Ae
 Ae
 ip
-co
+ki
 co
 ip
 tZ
@@ -109907,7 +109935,7 @@ Mv
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
@@ -110376,7 +110404,7 @@ Mv
 Mv
 Mv
 HA
-Ra
+sE
 dB
 dB
 QU
@@ -112142,7 +112170,7 @@ Mv
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
@@ -113504,7 +113532,7 @@ Mv
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
@@ -113955,7 +113983,7 @@ wd
 bq
 LN
 ev
-ev
+hP
 gJ
 gJ
 gJ
@@ -116060,7 +116088,7 @@ Jq
 od
 lX
 he
-Rs
+dV
 Rs
 Wz
 he
@@ -116771,7 +116799,7 @@ Mv
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
@@ -118639,7 +118667,7 @@ Mv
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
@@ -118878,7 +118906,7 @@ Mv
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
@@ -119620,7 +119648,7 @@ Mv
 Mv
 Mv
 Mv
-jA
+vR
 Mv
 Mv
 Mv
