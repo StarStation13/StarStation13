@@ -1346,6 +1346,7 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
+/obj/structure/sign/poster/contraband/random/directional/north,
 /turf/open/floor/iron/smooth,
 /area/construction/mining/aux_base)
 "eQ" = (
@@ -1992,6 +1993,7 @@
 	},
 /obj/item/pinpointer/nuke,
 /obj/item/disk/nuclear,
+/obj/structure/sign/poster/retro/random/directional/south,
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
 "gS" = (
@@ -2731,6 +2733,7 @@
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/bed/dogbed/ian,
 /mob/living/simple_animal/pet/dog/corgi/ian,
+/obj/structure/sign/poster/official/random/directional/north,
 /turf/open/floor/grass,
 /area/command/heads_quarters/hop)
 "js" = (
@@ -4764,6 +4767,10 @@
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/carpet,
 /area/maintenance/port/aft)
+"qi" = (
+/obj/structure/sign/poster/official/random/directional/east,
+/turf/open/floor/plating,
+/area/security/prison/upper)
 "qj" = (
 /obj/effect/landmark/start/librarian,
 /turf/open/floor/wood,
@@ -8532,6 +8539,10 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
 /area/cargo/storage)
+"Dd" = (
+/obj/structure/sign/poster/contraband/random/directional/west,
+/turf/open/floor/plating,
+/area/maintenance/starboard/greater)
 "Df" = (
 /obj/effect/spawner/random/structure/chair_maintenance{
 	dir = 4
@@ -8937,6 +8948,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
+/obj/structure/sign/poster/official/random/directional/south,
 /turf/open/floor/iron/recharge_floor,
 /area/science/research)
 "Ev" = (
@@ -10483,6 +10495,11 @@
 	},
 /turf/open/floor/catwalk_floor,
 /area/maintenance/central/lesser)
+"JQ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/poster/contraband/random/directional/east,
+/turf/open/floor/glass,
+/area/ai_monitored/command/nuke_storage)
 "JR" = (
 /obj/machinery/door/airlock/security/glass,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -10540,6 +10557,7 @@
 /obj/structure/closet/secure_closet/detective,
 /obj/item/skillchip/job/detective,
 /obj/machinery/airalarm/directional/west,
+/obj/structure/sign/poster/official/random/directional/south,
 /turf/open/floor/glass,
 /area/security/brig/upper)
 "Kf" = (
@@ -10552,6 +10570,7 @@
 /area/science/research/abandoned)
 "Kh" = (
 /obj/machinery/modular_computer/console/preset/civilian,
+/obj/structure/sign/poster/contraband/random/directional/north,
 /turf/open/floor/wood,
 /area/maintenance/aft/greater)
 "Ki" = (
@@ -10805,6 +10824,11 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/hallway/secondary/exit)
+"Ln" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/sign/poster/random/directional/east,
+/turf/open/floor/iron/dark,
+/area/service/cafeteria)
 "Lo" = (
 /obj/structure/bodycontainer/morgue,
 /obj/machinery/firealarm/directional/west,
@@ -12387,6 +12411,7 @@
 /area/maintenance/central/lesser)
 "QV" = (
 /obj/machinery/mecha_part_fabricator,
+/obj/structure/sign/poster/official/random/directional/east,
 /turf/open/floor/mineral/plastitanium,
 /area/science/research)
 "QY" = (
@@ -12854,6 +12879,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/service/library)
+"SB" = (
+/obj/structure/sign/poster/contraband/random/directional/west,
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/maintenance/port/aft)
 "SC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
@@ -41736,7 +41767,7 @@ FI
 ay
 Zf
 SJ
-gZ
+SB
 gZ
 fV
 dt
@@ -107782,7 +107813,7 @@ JI
 JI
 JI
 Qb
-LQ
+qi
 RD
 Fb
 Fb
@@ -108770,7 +108801,7 @@ hg
 xu
 Wl
 kT
-kT
+Ln
 kT
 vI
 WH
@@ -111078,7 +111109,7 @@ nb
 wB
 wB
 xx
-kw
+JQ
 kw
 mc
 Sp
@@ -117276,7 +117307,7 @@ AX
 pu
 IA
 vT
-vg
+Dd
 vg
 SE
 SE
