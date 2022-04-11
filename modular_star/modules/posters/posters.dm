@@ -27,6 +27,8 @@
 	never_random = TRUE //Haha /tg/ you are ruining my posters
 	random_basetype = /obj/structure/sign/poster/retro
 
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/retro/random)
+
 ///CUSTOM POSTERS///
 
 //Retro
