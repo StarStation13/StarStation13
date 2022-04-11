@@ -27,7 +27,7 @@
 	never_random = TRUE //Haha /tg/ you are ruining my posters
 	random_basetype = /obj/structure/sign/poster/retro
 
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/retro/random)
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/retro/random, 32)
 
 ///CUSTOM POSTERS///
 
@@ -62,3 +62,15 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/retro/random)
 	name = "CASH REWARD"
 	desc = "This poster depicts a gas mask, with details on how to 'forward information' on the whereabouts of whoever it means... though it doesn't specify to who."
 	icon_state = "op_duffy"
+
+/obj/structure/sign/poster/contraband/martyr
+	name = "Martyr"
+	desc = "This poster depicts a shaded silhouette of what seems to be a modified engineering cyborg of some sort. It has only one word - 'Martyr'."
+	icon_state = "martyr"
+
+/obj/structure/sign/poster/contraband/savetheoceans
+	name = "Save The Ocean(s)"
+	desc = "This poster would look like a nice underwater shot, from a distance - closer inspection reveals it's rather a colored word collage made to look like a photo, filled with sentences like \
+	'On Friday, August 27th, march to your local Donk 'N Go and demand better!', 'Mother Nature will FIGHT BACK', 'Save the Sharks', and, humorously, a whole bunch about this poster being 'brought \
+	to you by the Animal Rights Consortium and the SYNDICATE'... That's got to be embarassing for the latter, especially since their logo's front and center."
+	icon_state = "arc_ocean" // 2562 for reference, current year + 540. Yes I had to look it up, shut up
