@@ -106,6 +106,10 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/command/heads_quarters/hop)
+"as" = (
+/obj/effect/turf_decal/sand,
+/turf/open/floor/iron,
+/area/mine/explored)
 "au" = (
 /turf/closed/wall,
 /area/command/heads_quarters/hop)
@@ -1688,6 +1692,10 @@
 "fR" = (
 /turf/closed/wall/r_wall/rust,
 /area/science/research/abandoned)
+"fS" = (
+/obj/structure/door_assembly/door_assembly_min,
+/turf/open/misc/asteroid,
+/area/mine/abandoned)
 "fT" = (
 /turf/closed/wall/rock/porous,
 /area/mine/explored)
@@ -2945,6 +2953,9 @@
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron,
 /area/hallway/primary/central)
+"jO" = (
+/turf/closed/wall/mineral/titanium/survival,
+/area/mine/explored)
 "jP" = (
 /obj/item/kirbyplants/random,
 /obj/machinery/light/small/directional/north,
@@ -3636,6 +3647,10 @@
 	},
 /turf/open/floor/engine/hull,
 /area/space/nearstation)
+"lW" = (
+/obj/structure/chair/comfy/shuttle/tactical,
+/turf/open/floor/mineral/plastitanium,
+/area/mine/explored)
 "lX" = (
 /obj/structure/closet/emcloset/anchored,
 /turf/open/floor/plating,
@@ -3893,6 +3908,12 @@
 "mO" = (
 /turf/closed/wall,
 /area/engineering/atmos)
+"mP" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 8
+	},
+/turf/open/misc/asteroid,
+/area/mine/explored)
 "mQ" = (
 /obj/machinery/light/floor,
 /turf/open/floor/engine/o2,
@@ -4047,6 +4068,12 @@
 /obj/effect/turf_decal/loading_area,
 /turf/open/floor/iron,
 /area/hallway/primary/central)
+"nq" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 10
+	},
+/turf/open/misc/asteroid,
+/area/mine/explored)
 "nr" = (
 /obj/structure/sign/poster/official/random{
 	pixel_y = 32
@@ -7443,6 +7470,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden/layer5,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
+"yP" = (
+/obj/structure/girder,
+/obj/effect/turf_decal/sand/plating,
+/turf/open/misc/asteroid,
+/area/mine/explored)
 "yQ" = (
 /obj/structure/cable,
 /obj/structure/railing{
@@ -8247,6 +8279,10 @@
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/iron/corner,
 /area/service/theater)
+"Bs" = (
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating,
+/area/mine/explored)
 "Bt" = (
 /obj/effect/turf_decal/trimline/white/warning,
 /obj/effect/turf_decal/trimline/white/mid_joiner,
@@ -11228,6 +11264,9 @@
 "LC" = (
 /turf/closed/wall/r_wall,
 /area/medical/medbay)
+"LD" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/mine/explored)
 "LE" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable,
@@ -11650,6 +11689,12 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/plating,
 /area/medical/medbay)
+"Nj" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/mine/explored)
 "Nk" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -11892,6 +11937,9 @@
 "NV" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/science/research/abandoned)
+"NW" = (
+/turf/open/floor/mineral/plastitanium,
+/area/mine/explored)
 "NX" = (
 /obj/structure/reagent_dispensers/cooking_oil,
 /obj/effect/turf_decal/delivery,
@@ -13466,6 +13514,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/entry)
+"Te" = (
+/obj/effect/spawner/structure/window/survival_pod,
+/turf/open/floor/plating,
+/area/mine/explored)
 "Tf" = (
 /obj/machinery/light/dim/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -102306,7 +102358,7 @@ ab
 ab
 ab
 bR
-jA
+ab
 ab
 ab
 Mv
@@ -102563,7 +102615,7 @@ xG
 xG
 ab
 ZQ
-ab
+jA
 Fg
 ab
 Mv
@@ -103077,7 +103129,7 @@ YG
 xG
 FB
 Fg
-ab
+jA
 ab
 jA
 ab
@@ -125942,7 +125994,7 @@ oQ
 oQ
 oQ
 oQ
-oQ
+jA
 zz
 zz
 zz
@@ -126456,7 +126508,7 @@ zz
 zz
 oQ
 oQ
-oQ
+jA
 oQ
 oQ
 oQ
@@ -126951,8 +127003,8 @@ oQ
 oQ
 oQ
 oQ
-et
-et
+oQ
+oQ
 gx
 xJ
 uD
@@ -127209,7 +127261,7 @@ oQ
 et
 et
 et
-oN
+gx
 gx
 gx
 bI
@@ -129794,8 +129846,8 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
+yP
+LD
 oQ
 oQ
 oQ
@@ -130039,7 +130091,7 @@ oQ
 et
 et
 Kv
-oN
+fS
 et
 oQ
 oQ
@@ -130051,10 +130103,10 @@ oQ
 oQ
 oQ
 oQ
+Fg
+Fg
 oQ
-oQ
-oQ
-oQ
+LD
 oQ
 oQ
 oQ
@@ -130309,10 +130361,10 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
-oQ
-oQ
+Fg
+Bs
+LD
+LD
 oQ
 oQ
 oQ
@@ -130565,12 +130617,12 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
+Bs
+Bs
+as
+as
+LD
+LD
 oQ
 oQ
 oQ
@@ -130820,15 +130872,15 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
+Fg
+Bs
+Bs
+as
+as
+as
+as
+LD
+LD
 oQ
 oQ
 oQ
@@ -131079,14 +131131,14 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
+LD
+LD
+as
+as
+as
+as
+LD
+LD
 oQ
 oQ
 oQ
@@ -131337,13 +131389,13 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
+LD
+LD
+as
+as
+as
+as
+Bs
 oQ
 oQ
 oQ
@@ -131595,13 +131647,13 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
+LD
+LD
+as
+as
+Bs
+Fg
+Bs
 oQ
 oQ
 oQ
@@ -131853,10 +131905,10 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
-oQ
-oQ
+LD
+LD
+Bs
+Bs
 oQ
 oQ
 oQ
@@ -132111,8 +132163,8 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
+LD
+Fg
 oQ
 oQ
 oQ
@@ -133639,11 +133691,11 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
-oQ
-oQ
-oQ
+jO
+jO
+jO
+jO
+jO
 oQ
 oQ
 oQ
@@ -133897,12 +133949,12 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
+Nj
+mP
+nq
+jO
+jO
+Te
 oQ
 oQ
 oQ
@@ -134153,14 +134205,14 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
+Fg
+NW
+NW
+Bs
+NW
+Fg
+Te
+Te
 oQ
 oQ
 oQ
@@ -134411,10 +134463,10 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
-oQ
-oQ
+Bs
+lW
+NW
+Fg
 oQ
 oQ
 oQ
@@ -134667,13 +134719,13 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
-oQ
+jO
+jO
+Bs
+NW
+Fg
+Fg
+Fg
 oQ
 oQ
 oQ
@@ -134925,8 +134977,8 @@ oQ
 oQ
 oQ
 oQ
-oQ
-oQ
+jO
+jO
 oQ
 oQ
 oQ
