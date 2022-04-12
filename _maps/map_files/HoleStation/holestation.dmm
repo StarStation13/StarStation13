@@ -140,7 +140,7 @@
 /area/commons/toilet/restrooms)
 "aC" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 10
+	dir = 6
 	},
 /turf/open/floor/glass/reinforced,
 /area/command/bridge)
@@ -412,10 +412,6 @@
 	dir = 1
 	},
 /area/engineering/engine_smes)
-"bB" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark,
-/turf/open/floor/glass/reinforced,
-/area/command/bridge)
 "bC" = (
 /turf/closed/wall/r_wall,
 /area/service/bar)
@@ -1186,10 +1182,10 @@
 /turf/open/floor/iron/showroomfloor,
 /area/science/research/abandoned)
 "et" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 5
-	},
-/turf/open/floor/glass/reinforced,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark,
 /area/command/bridge)
 "ev" = (
 /obj/effect/turf_decal/siding/yellow{
@@ -1214,7 +1210,7 @@
 /area/hallway/primary/central)
 "ey" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 6
+	dir = 5
 	},
 /turf/open/floor/glass/reinforced,
 /area/command/bridge)
@@ -1877,10 +1873,10 @@
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "gF" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/turf/open/floor/glass/reinforced,
 /area/command/bridge)
 "gG" = (
 /obj/structure/railing{
@@ -13370,6 +13366,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
 /area/engineering/gravity_generator)
+"Us" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/glass/reinforced,
+/area/command/bridge)
 "Ut" = (
 /obj/structure/cable,
 /obj/effect/landmark/start/cook,
@@ -46275,7 +46275,7 @@ fA
 ac
 ax
 mv
-gF
+et
 gC
 MN
 bD
@@ -46532,8 +46532,8 @@ fA
 ag
 oQ
 cs
-aC
 gF
+et
 ij
 ka
 lZ
@@ -46789,7 +46789,7 @@ fA
 ah
 aI
 EW
-bB
+Us
 gH
 ik
 kb
@@ -47044,10 +47044,10 @@ nZ
 nZ
 fA
 aj
-et
-cw
 ey
-gF
+cw
+aC
+et
 ij
 ka
 lZ
@@ -47303,7 +47303,7 @@ fA
 al
 aJ
 cE
-gF
+et
 gO
 MN
 kf
