@@ -201,12 +201,16 @@
 
 #define ADMIN_POPUP_LAYER 1
 
+///Layer for screentips
+#define SCREENTIP_LAYER 4
+
 //STAR EDIT: Lobby Cam
 ///Plane of the "splash" icon used that shows on the lobby screen. Nothing should ever be above this. (Except the logo)
 #define BLACK_FADE 9997
 #define SPLASHSCREEN_PLANE 9998 //Previous value: 9999
 #define STAR_LOGO 9999 //I said "no porting" but I stopped caring
 //STAR EDIT END - Ported from Skyrat
+///Layer for screentips
 
 #define LOBBY_BACKGROUND_LAYER 3
 #define LOBBY_BUTTON_LAYER 4
