@@ -10682,6 +10682,9 @@
 	c_tag = "MiniSat AI Chamber South";
 	network = list("aicore")
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/ai)
 "Gs" = (
@@ -10800,11 +10803,8 @@
 /turf/open/floor/plating,
 /area/maintenance/port/central)
 "GL" = (
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
 /obj/effect/landmark/start/chemist,
+/obj/effect/turf_decal/tile/yellow/opposingcorners,
 /turf/open/floor/iron,
 /area/medical/medbay)
 "GM" = (
@@ -11498,11 +11498,8 @@
 /turf/closed/wall,
 /area/engineering/main)
 "IV" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red,
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/iron/showroomfloor,
 /area/service/kitchen/coldroom)
 "IW" = (
@@ -12929,6 +12926,7 @@
 	req_access_txt = "65"
 	},
 /obj/machinery/ai_slipper,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/ai)
 "ND" = (
@@ -14937,6 +14935,9 @@
 /obj/machinery/turretid{
 	pixel_y = 24
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/ai)
 "TA" = (
@@ -15755,10 +15756,7 @@
 	},
 /area/engineering/main)
 "Wc" = (
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
+/obj/effect/turf_decal/tile/yellow/opposingcorners,
 /turf/open/floor/iron,
 /area/medical/medbay)
 "Wd" = (
