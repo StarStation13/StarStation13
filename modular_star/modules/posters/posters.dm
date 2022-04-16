@@ -74,3 +74,9 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/retro/random, 32)
 	'On Friday, August 27th, march to your local Donk 'N Go and demand better!', 'Mother Nature will FIGHT BACK', 'Save the Sharks', and, humorously, a whole bunch about this poster being 'brought \
 	to you by the Animal Rights Consortium and the SYNDICATE'... That's got to be embarassing for the latter, especially since their logo's front and center."
 	icon_state = "arc_ocean" // 2562 for reference, current year + 540. Yes I had to look it up, shut up
+
+/obj/structure/sign/poster/contraband/hate
+	name = "blue gaze"
+	desc = "No labels, no company, no barcode. Nothing but that... gaze."
+	icon_state = "hate"
+	never_random = TRUE
