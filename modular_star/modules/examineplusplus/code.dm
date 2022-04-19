@@ -3,18 +3,35 @@
 //Each object can have special descriptions dependent on job, antag status, faction, mindshield, etc etc.
 
 /obj/
+	//String of text anyone will see when examining the object closely.
 	var/examinepp_desc = ""
-	//JOB CHECK AND DESCRIPTION
-	var/list/examinepp_req_jobs = "" //USE THEIR DEFINES HERE (EG, JOB_ASSISTANT, JOB_SECURITY_OFFICER)
+
+	//JOB CHECK AND RELATED//
+
+	//Jobs required to see the text defined in examinepp_desc_job. Use their defines here (JOB_ASSISTANT)
+	var/list/examinepp_req_jobs = null
+	//The description printed when examining the object with the job defined in examinepp_req_jobs.
 	var/examinepp_desc_job = ""
-	//MINDSHIELD DESCRIPTION
+
+	//MINDSHIELD CHECK AND RELATED//
+
+	//The description printed when examining the object with a mindshield implant.
 	var/examinepp_desc_mindshield
-	//ANTAG CHECK AND DESCRIPTION
-	var/list/examinepp_req_antags = ""
+
+	//ANTAG/ROLE CHECK AND RELATED//
+
+	//Antags required to see the text defined in examinepp_desc_antag. Use their defines here (ROLE_TRAITOR)
+	var/list/examinepp_req_antags = null
+	//The text printed when examining the object with the role defined in examinepp_req_antags.
 	var/examinepp_desc_antag = ""
-	var/examinepp_antag_allow_skillchip = TRUE //if TRUE, anyone with a detective skillchip can bypass the antag check to scrutizine the item
-	//FACTION CHECK AND DESCRIPTION
-	var/list/examinepp_req_factions = ""
+	//If TRUE, the antag description will be printed if the observer has the detective skillchip.
+	var/examinepp_antag_allow_skillchip = TRUE
+
+	//FACTION CHECK AND RELATED//
+
+	//Factions required to see the text defined in examinepp_desc_faction. Preferably use their defines, but strings are accepted into the list too.
+	var/list/examinepp_req_factions = null
+	//The text printed when examining the object with the faction(s) defined in examinepp_req_factions.
 	var/examinepp_desc_faction = ""
 
 /obj/examine_more(mob/user) //We handle each check individually, so we can have different descriptions for each.
