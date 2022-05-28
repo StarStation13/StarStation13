@@ -126,8 +126,6 @@
 #define GHOST_PLANE 80
 #define POINT_PLANE 90
 
-#define RAD_TEXT_PLANE 90
-
 //---------- LIGHTING -------------
 ///Normal 1 per turf dynamic lighting underlays
 #define LIGHTING_PLANE 100
@@ -161,6 +159,9 @@
 
 ///---------------- MISC -----------------------
 
+///Pipecrawling images
+#define PIPECRAWL_IMAGES_PLANE 180
+
 ///AI Camera Static
 #define CAMERA_STATIC_PLANE 200
 
@@ -185,11 +186,6 @@
 /// Plane for balloon text (text that fades up)
 #define BALLOON_CHAT_PLANE 502
 
-//-------------------- Rendering ---------------------
-#define RENDER_PLANE_GAME 990
-#define RENDER_PLANE_NON_GAME 995
-#define RENDER_PLANE_MASTER 999
-
 //-------------------- HUD ---------------------
 //HUD layer defines
 #define HUD_PLANE 1000
@@ -204,12 +200,16 @@
 ///Layer for screentips
 #define SCREENTIP_LAYER 4
 
-//STAR EDIT: Lobby Cam
-///Plane of the "splash" icon used that shows on the lobby screen. Nothing should ever be above this. (Except the logo)
-#define BLACK_FADE 9997
-#define SPLASHSCREEN_PLANE 9998 //Previous value: 9999
-#define STAR_LOGO 9999 //I said "no porting" but I stopped caring
-//STAR EDIT END - Ported from Skyrat
+///Plane of the "splash" icon used that shows on the lobby screen. only render plate planes should be above this
+#define BLACK_FADE 9899 // STAR ADD
+#define SPLASHSCREEN_PLANE 9900
+#define STAR_LOGO 9991 //STAR ADD
+
+//-------------------- Rendering ---------------------
+#define RENDER_PLANE_GAME 9990
+#define RENDER_PLANE_NON_GAME 9995
+#define RENDER_PLANE_MASTER 9999
+//----------------------------------------------------
 
 #define LOBBY_BACKGROUND_LAYER 3
 #define LOBBY_BUTTON_LAYER 4
