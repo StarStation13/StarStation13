@@ -1690,11 +1690,10 @@
 /turf/open/floor/catwalk_floor,
 /area/star/xcc_docking)
 "fd" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/machinery/pattern_table,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue,
-/obj/machinery/pattern_table,
 /turf/open/floor/iron/showroomfloor,
 /area/station/commons/dorms)
 "fe" = (
@@ -5849,29 +5848,18 @@
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "rA" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
 /obj/structure/window/spawner/west,
-/obj/effect/turf_decal/siding/blue{
-	dir = 8
-	},
 /obj/structure/table,
 /obj/machinery/sewing_machine{
 	pixel_y = 8
 	},
 /obj/item/stack/sheet/cloth/ten,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 8
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/station/commons/dorms)
 "rC" = (
@@ -14568,17 +14556,16 @@
 /turf/open/floor/plating,
 /area/star/bubble_wreck)
 "Sk" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue,
 /obj/structure/window/spawner/west,
-/obj/effect/turf_decal/siding/blue{
-	dir = 10
-	},
 /obj/structure/table,
 /obj/structure/bedsheetbin,
 /obj/effect/spawner/random/clothing/kittyears_or_rabbitears,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/blue{
+	dir = 10
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/station/commons/dorms)
 "Sl" = (
@@ -14812,11 +14799,10 @@
 /area/station/engineering/atmos)
 "SZ" = (
 /obj/machinery/washing_machine,
-/obj/effect/turf_decal/tile/blue{
+/obj/machinery/firealarm/directional/east,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue,
-/obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron/showroomfloor,
 /area/station/commons/dorms)
 "Ta" = (
@@ -14983,10 +14969,9 @@
 /turf/open/floor/catwalk_floor,
 /area/station/maintenance/central/lesser)
 "Tw" = (
-/obj/effect/turf_decal/tile/blue{
+/obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/siding/blue,
 /turf/open/floor/iron/showroomfloor,
 /area/station/commons/dorms)
