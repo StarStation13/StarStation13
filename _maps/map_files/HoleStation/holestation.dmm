@@ -7072,10 +7072,8 @@
 /area/station/command/gateway)
 "vz" = (
 /obj/structure/table/wood/fancy,
-/obj/item/book/granter/spell/smoke/lesser{
-	pixel_y = 4
-	},
 /obj/effect/turf_decal/siding/wood,
+/obj/item/book/granter/action/spell/smoke/lesser,
 /turf/open/floor/wood,
 /area/station/service/chapel)
 "vA" = (
@@ -14921,7 +14919,6 @@
 /turf/open/floor/plating,
 /area/station/maintenance/aft/greater)
 "Tu" = (
-/obj/machinery/gravity_generator/main/station,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -14931,6 +14928,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/gravity_generator/main,
 /turf/open/floor/iron/dark,
 /area/station/engineering/gravity_generator)
 "Tv" = (
